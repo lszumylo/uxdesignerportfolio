@@ -34,8 +34,6 @@ padding-top: 30px;
   height: 560px;
   }
 
-
-
   .description {
     position: relative;
     font-family: 'Taviraj', serif;
@@ -84,14 +82,12 @@ text-align: center;
   width: 720px;
 }
 
-
   .yellow-container1 {
     position: relative;
     background-color: #f2d597;
     width: 100%;
     height: 560px;
     top: -32px;
-
   }
 
 .food-mockup {
@@ -103,8 +99,8 @@ text-align: center;
 }
 
   .description2 {
-    position: absolute;
-    font-family: 'Taviraj', serif;
+  position: absolute;
+  font-family: 'Taviraj', serif;
   font-size: 35px;
   font-weight: bold;
   color: #000000;
@@ -122,7 +118,6 @@ top: 280px;
 left: 290px;
 
 }
-
 
     .button-paycrave {
        position: absolute;
@@ -142,11 +137,6 @@ left: 290px;
          cursor: pointer;
     }
 
-    .paycrave-yellow {
-
-    }
-
-
 
     .fa {
       padding: 10px;
@@ -157,6 +147,7 @@ left: 290px;
       margin: 20px 20px;
       border-radius: 50%
     }
+
     .fa:hover {
       opacity: 0.7;
     }
@@ -169,3 +160,117 @@ left: 290px;
     .fa-linkedin {
       color: black;
     }
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+{
+
+   .body {
+  font-size: 13px;
+}
+
+.job {
+
+font-size: 16px;
+padding-top: 10px;
+}
+
+.me {
+  font-size: 20px;
+}
+
+.town {
+font-size: 16px;
+padding-bottom: 10px;
+}
+
+.scubagirl {
+height: 250px;
+width: 100%;
+}
+
+.description {
+    font-size: 17px;
+    top: 12px;
+    left: 71px;
+}
+
+.sentence {
+    font-size: 13px;
+    top: 523px;
+    left: 5px;
+    }
+
+.button-scuba {
+  top: 559px;
+  left: 97px;
+  padding: 6px 8px;
+  font-size: 15px;
+}
+
+.pink-container {
+  height: 394px;
+}
+.food-mockup {
+  height: 44%;
+  width: 100%;
+  left: 0px;
+}
+
+.yellow-container1 {
+  height: 150px;
+  top: 221px;
+}
+
+.food-mockup {
+  height: 178%;
+  width: 100%;
+  left: 0px;
+  top: -253px;
+}
+
+.description2 {
+  font-size: 17px;
+  top: 24px;
+  left: 120px;
+}
+
+.sentence1 {
+  font-size: 13px;
+  top: 56px;
+  left: 77px;
+}
+
+.button-paycrave {
+  top: 90px;
+  left: 97px;
+  padding: 6px 8px;
+  font-size: 15px;
+}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* ipad portrait Styles */
+
+.body {
+  font-size: 17px;
+}
+
+.town {
+  font-size: 30px;
+  text-align: center;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+}

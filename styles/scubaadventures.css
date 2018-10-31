@@ -1433,3 +1433,732 @@ i {
 .fa-linkedin {
   color: black;
 }
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+{
+  .project-title {
+    font-size: 25px;
+  }
+
+.project-summary {
+  text-align: left;
+  font-size: 16px;
+}
+
+.problem {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sample {
+  text-align: left;
+  font-size: 16px;
+}
+
+.solution {
+  font-size:18px;
+  font-weight: bold;
+}
+
+.explanation {
+  text-align: left;
+ font-size: 16px;
+}
+
+
+.newspaper {
+  display: none
+}
+
+.flex-container {
+  display: none
+}
+
+
+.research {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-surveys {
+  font-size: 18px;
+}
+
+.result {
+  font-size: 16px;
+  text-align: left;
+}
+
+.analysis {
+  font-size: 18px;
+}
+
+.mass-diving {
+  margin-right: 6px;
+}
+
+.padi-diving {
+  margin-left: 30px;
+}
+
+.dive-on-it {
+  margin-left: 17px;
+  top:-9px;
+}
+
+.user-stories {
+  font-size: 18px;
+}
+
+.crossover-stories {
+  font-size: 16px;
+  text-align: left;
+}
+
+.column {
+  width: 100%;
+  height: 707px;
+  text-align: left;
+  }
+
+.as-user {
+  text-align: center;
+}
+
+.desires {
+  text-align: left;
+}
+
+.column {
+  height: 770px;
+}
+
+
+.as-owner {
+  text-align: center;
+}
+
+
+.our-users {
+  font-size: 18px;
+}
+
+.george-clark {
+width: 100%;
+height: 322px;
+margin-top: -38px;
+  }
+
+.quote {
+  margin-left: 4px;
+}
+
+.man {
+margin-top: 14px;
+font-size: 16px;
+}
+
+.financial {
+  font-size: 14px;
+}
+
+.goals {
+  margin-top: -76px;
+  margin-left: 6px;
+  font-size: 14px;
+  }
+
+.skills {
+  text-align: left;
+  padding: 10px;
+  margin: 5px;
+
+}
+
+.vacation {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+.included {
+  text-align: left;
+  margin-top: 10px;
+  padding: 15px;
+}
+.nice {
+  margin-top: 20px;
+  text-align: left;
+  padding: 15px;
+}
+
+.frustrations {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.response {
+  text-align:left;
+  padding: 15px;
+}
+
+.detail {
+  text-align: left;
+  padding: 15px;
+}
+
+.blurry {
+  text-align: left;
+  padding: 15px;
+}
+
+.marilyn-herbert {
+  width: 100%;
+  margin-top: -50px
+  }
+
+.quote1 {
+  margin-left: 3px;
+}
+
+.woman {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.dentist {
+  margin-top: -22px;
+  font-size: 14px;
+}
+
+.goals1 {
+  margin-top: -80px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.family {
+  text-align: left;
+  padding: 15px;
+}
+
+.traveling {
+  text-align: left;
+  padding: 15px;
+  margin-top:-5px;
+  }
+
+.share {
+  text-align: left;
+  padding: 15px;
+  margin-top: 4px;
+}
+
+.learning {
+  text-align: left;
+  padding: 15px;
+  margin-top: -2px;
+}
+
+.frustrations1 {
+  font-size: 14px;
+  margin-left: 3px;
+}
+
+.rates {
+  text-align: left;
+  padding: 15px;
+  margin-left: 16px;
+}
+
+.price {
+  text-align: left;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.guarantee {
+  text-align: left;
+  padding: 15px;
+  margin-left: 9px;
+  margin-top: -3px;
+}
+.confirm {
+  text-align: left;
+  padding: 15px;
+  margin-left: 8px;
+  margin-top: 1px;
+}
+
+.daniel-kuhn {
+  width: 100%;
+  margin-top: -22px;
+}
+
+.quote2 {
+  margin-left: 5px;
+}
+
+.student {
+  font-size: 16px;
+  margin-top: 19px;
+}
+
+.college {
+  font-size: 14px;
+  margin-top:-22px;
+}
+
+.goals2 {
+  margin-left: 6px;
+  font-size: 14px;
+  margin-top: 23px;
+}
+
+.inexpensive {
+  margin-right: 5px;
+  text-align: left;
+  padding: 10px;
+}
+
+.accomodation {
+  margin-right: 5px;
+  padding: 10px;
+}
+
+.leave {
+  margin-right: 5px;
+  text-align: left;
+  padding: 10px;
+}
+
+.types {
+  margin-right: 5px;
+  text-align: left;
+  padding: 10px;
+}
+
+.frustrations2 {
+  margin-left: 1px;
+  font-size: 14px;
+  }
+
+.flight {
+  margin-left: 16px;
+  padding: 10px;
+}
+
+.price {
+  margin-left: 15px;
+  padding: 10px;
+}
+.fee {
+  margin-left: 15px;
+  padding: 10px;
+}
+
+.user-flow-container {
+  padding: 0px 0px;
+}
+
+.Architecture {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.userflow {
+  display: none;
+}
+
+.flows {
+  display: none;
+}
+
+.multi {
+  display: none;
+  }
+
+
+.cave {
+  display: none;
+}
+
+.dive-photos {
+  display: none;
+
+}
+
+.newsletter {
+display: none;
+}
+
+.rep {
+  display: none;
+}
+
+.wireframe {
+  font-size: 18px;
+}
+
+.screen {
+  font-size: 16px;
+  text-align: left;
+}
+
+.wireframe-slides {
+  width: 100%;
+}
+
+.user-testing {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.test {
+  width: 250px;
+  font-size: 16px;
+  text-align: left;
+}
+
+
+.results-summary {
+  font-size: 18px;
+  text-align: center;
+  }
+
+.question1 {
+  text-align: left;
+  font-size: 16px;
+  width: 229px;
+}
+
+.question2 {
+  text-align: left;
+  font-size: 16px;
+  width: 229px;
+}
+
+.question3 {
+  text-align: left;
+  font-size: 16px;
+  width: 229px;
+}
+
+
+.problem1 {
+  font-size: 18px;
+  width: 250px;
+  text-align: center;
+  }
+
+.problem1-explanation {
+  font-size: 16px;
+  text-align: left;
+  width: 250px;
+}
+
+.problem2 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.problem2-explanation {
+  font-size: 16px;
+  text-align: left;
+  width: 250px;
+}
+
+.results {
+  font-size: 16px;
+  text-align: center;
+  font-weight:bold;
+  }
+
+.results-explanation {
+  font-size: 16px;
+  text-align: left;
+  width: 250px;
+}
+
+.thoughts {
+  font-size: 18px;
+  text-align: center;
+}
+
+.thoughts-explanation {
+  font-size: 16px;
+  text-align: left;
+  width: 250px;
+}
+
+.high-fid-wireframe {
+  font-size: 18px;
+  text-align: center;
+  }
+
+.high-fid-explanation {
+  font-size: 16px;
+  text-align: left;
+  width: 250px;
+}
+
+.button {
+  height: 58px;
+  width: 50px;
+}
+
+.high-fid-wireframe-slides {
+  width: 100%;
+}
+
+.brand-identity-container {
+  margin-top: -26px;
+  padding: 0px;
+}
+
+
+.brand-identity {
+  font-size: 18px;
+  }
+
+.logo-sketch {
+  font-size: 18px;
+  text-align: center;
+}
+
+.logo-explanation {
+  width: 252px;
+  text-align: left;
+  font-size: 16px;
+}
+
+
+.image-logo-1 {
+  width: 282px;
+  height: 433px;
+  }
+
+.image-logo-2 {
+  width: 285px;
+  height: 475px;
+}
+
+.image-logo-3 {
+  width: 283px;
+  height: 425px;
+}
+
+.style-guide-container {
+  padding: 5px;
+}
+
+.style-guide {
+  font-size: 18px;
+}
+
+.color-palette {
+  font-size: 17px;
+}
+
+.style-guide-explanation {
+  font-size: 16px;
+  text-align: left;
+}
+
+.typography {
+  font-size: 17px;
+}
+
+.typography-explanation {
+  font-size: 16px
+  text-align: left;
+  width: 275px;
+}
+
+.style-image {
+  width: 260px;
+  height: 550px;
+  padding-bottom: 12px;
+}
+
+.design-mockup-container {
+  padding: 0px;
+  padding-top: 1px;
+  padding-bottom: 0px;
+  margin:0px;
+}
+
+.design-mockup {
+  font-size: 18px;
+  text-align: center;
+}
+
+.design-explanation {
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 20px;
+  width: 250px;
+}
+
+.design-home {
+  width: 260px;
+  height: 550px;
+  }
+
+
+.design-destination {
+  width: 260px;
+  height: 470px;
+}
+
+.design-testimonial {
+  width: 261px;
+  height: 600px;
+}
+
+.preferance-testing-container {
+  padding: 1px 0px;
+}
+
+.preferance-testing {
+  font-size: 18px;
+}
+
+.preferance-testing-explanation {
+  width: 276px;
+}
+
+
+.pref-test-1 {
+  font-size: 18px;
+}
+
+.pref-1-explanation {
+  font-size: 15px;
+  text-align: left;
+  padding-bottom: 40px;
+  width: 278px;
+}
+
+.pref-test-a {
+  width: 95%;
+}
+
+.pref-test-d {
+  width: 95%;
+}
+
+.pref-test-2 {
+  font-size: 18px;
+}
+
+.pref-2-explanation {
+  font-size: 16px;
+  padding-bottom: 35px;
+  text-align: left;
+  width: 285px;
+}
+
+.pref-test-a1 {
+  width: 95%;
+}
+
+.pref-test-c {
+  width: 95%;
+}
+
+.pref-test-3 {
+  font-size: 18px;
+}
+
+.pref-3-explanation {
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 30px;
+  width: 279px;
+
+}
+
+.pref-test-a2 {
+  width: 95%;
+}
+
+.pref-test-b {
+  width: 95%;
+}
+
+.end-result {
+  font-size: 18px;
+}
+
+.final {
+ width:  95%;
+ }
+
+.conclusion-container {
+  padding 0px 0px;
+  }
+
+
+.conclusion {
+  font-size: 18px;
+}
+
+.what-worked {
+  font-size: 18px;
+}
+
+.worked-explanation {
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 6px;
+  width: 250px;
+}
+
+.project-concerns {
+  font-size: 18px;
+}
+
+.project-explanation {
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 1px;
+  width: 252px;
+}
+
+.surprised {
+  font-size: 18px;
+  }
+
+.surprised-explanation {
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 5px;
+  width: 250px;
+}
+
+.better-me {
+  font-size: 18px;
+}
+
+.better-me-explanation {
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 10px;
+  width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}

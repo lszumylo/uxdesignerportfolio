@@ -168,6 +168,41 @@ button {
   color: black;
 }
 
-.fa-linkedin {
+.fa-linkedin
   color: black;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* ipad portrait Styles */
+
+.connect {
+  padding-left: 42px;
+}
+
+.phone-icon {
+  left: 191px;
+}
+
+.call {
+  left-padding: 224px;
+}
+
+.number {
+  padding-left: 118px;
+}
+
+.letter {
+  left: 372px;
+  }
+
+.message {
+  left: 449px;
+}
+
+
+
+
+
+
+
 }

@@ -149,7 +149,7 @@ padding-bottom: 5px;
 
 .map-explanation {
   font-family: 'Taviraj',sans-serif;
-  font-style: 16px;
+  font-size: 16px;
   font-style: normal;
   color: #000000;
 }
@@ -231,7 +231,7 @@ padding-bottom: 5px;
 
 .screens {
   font-family: 'Taviraj',sans-serif;
-  font-style: 16px;
+  font-size: 16px;
   font-style: normal;
   color: #000000;
 }
@@ -1546,4 +1546,245 @@ i {
 
 .fa-linkedin {
   color: black;
+}
+
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+
+{
+
+.project-name {
+  font-size: 25px;
+}
+
+.project-summary-1 {
+  text-align: left;
+  font-size: 16px;
+}
+
+.the-problem {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.the-issue {
+  font-size: 16px;
+  text-align: left;
+  width: 271px;
+}
+
+.the-solution {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.solution-explained {
+  text-align: left;
+  width: 285px;
+}
+
+.newspaper1 {
+  display: none;
+}
+
+.research1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user-stories1 {
+  font-size: 18px;
+  padding: 4px;
+}
+
+.stories {
+  font-size: 16px;
+  text-align: left;
+  width: 285px;
+}
+
+.have {
+  text-align: left;
+}
+
+.Architecture1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.site-map {
+  font-size: 18px;
+  padding: 6px;
+}
+
+.mobile-user-flow {
+  font-size: 18px;
+}
+
+.mobile-flow {
+  font-family: 'Taviraj',sans-serif;
+  text-align: left;
+}
+
+.signup {
+  display: none;
+}
+
+.lunch {
+  display: none;
+}
+
+.dinner {
+  display: none;
+}
+
+
+.map-explanation {
+  font-size: 16px;
+  text-align: left;
+}
+
+.map-image {
+  width: 100%;
+  height: 0%;
+}
+
+.wireframes {
+  font-size: 18px;
+  }
+
+.screens {
+  font-size: 16px;
+  text-align: left;
+  width: 285px;
+}
+
+.sketch-truck {
+  width: 100%;
+  height: 0%;
+}
+
+.sketch-purchase {
+  width: 100%;
+  height: 0%;
+}
+
+h2 {
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Work-Sans',sans-serif;
+  font-weight: normal;
+}
+
+.column {
+  height: 170px;
+}
+
+
+
+.user-testing-mobile {
+  font-size: 18px;
+}
+
+.results-summary-mobile {
+  font-size: 18px;
+}
+
+.question-1 {
+  text-align: left;
+}
+
+.question-2 {
+  text-align: left;
+}
+
+.question-3 {
+  text-align: left;
+}
+
+.problem-1 {
+  font-size: 18px
+}
+
+.problem-2 {
+  font-size: 18px;
+}
+
+.problem-3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.results-mobile {
+  font-size: 18px;
+  width: 287px;
+}
+
+
+.thoughts1 {
+  font-size: 18px;
+}
+
+
+.mobile-high-fid-wireframe {
+  font-size: 18px;
+}
+
+.mobile-high-fid-explanation {
+  font-size: 16px;
+  text-align: left;
+  width: 277px;
+}
+
+
+
+.brand-identity {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.mobile-style-guide {
+  font-size: 18px;
+}
+
+.mobile-design-mockup {
+  font-size: 18px;
+}
+
+
+.mobile-design-explanation {
+  text-align: left;
+}
+
+.mobile-style-image {
+  margin-left: -48px;
+  padding-top: 2px;
+  width: 120%;
+  height: 0%;
+}
+
+.mobile-conclusion {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.mobile-what-worked {
+  font-size: 18px;
+}
+
+
+.mobile-project-concerns {
+  font-size: 18px;
+}
+
+
+
+.mobile-better-me {
+  font-size: 18px;
+}
+
 }
