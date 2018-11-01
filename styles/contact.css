@@ -176,7 +176,8 @@ button {
 /* ipad portrait Styles */
 
 .connect {
-  padding-left: 42px;
+  padding-left: 5px;
+  text-align: left;
 }
 
 .phone-icon {
@@ -199,8 +200,16 @@ button {
   left: 449px;
 }
 
+.form {
+  width: 550px;
+  height: 500px;
+  padding: 1em;
+}
 
-
+input, textarea {
+  width: 505px;
+  padding-left: 10px;
+}
 
 
 

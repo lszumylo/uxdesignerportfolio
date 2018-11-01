@@ -1409,9 +1409,6 @@ i {
     -webkit-transform: rotate(-45deg);
 }
 
-
-
-
 .fa {
   padding: 10px;
   font-size: 20px;
@@ -1761,6 +1758,7 @@ font-size: 16px;
 
 .user-flow-container {
   padding: 0px 0px;
+  display: none;
 }
 
 .Architecture {
@@ -1770,6 +1768,7 @@ font-size: 16px;
 
 .userflow {
   display: none;
+
 }
 
 .flows {
@@ -2003,19 +2002,22 @@ display: none;
 }
 
 .design-home {
-  width: 260px;
-  height: 550px;
+  width: 90%;
+  height: 0%;
+  padding: 10px%;
   }
 
 
 .design-destination {
-  width: 260px;
-  height: 470px;
+  width: 90%;
+  height: 0%;
+  padding: 10px%;
 }
 
 .design-testimonial {
-  width: 261px;
-  height: 600px;
+  width: 90%;
+  height: 0%;
+  padding: 10px%;
 }
 
 .preferance-testing-container {
@@ -2043,11 +2045,15 @@ display: none;
 }
 
 .pref-test-a {
-  width: 95%;
+  width: 90%;
+  height: 0%;
+  padding: 10px%;
 }
 
 .pref-test-d {
-  width: 95%;
+  width: 90%;
+  height: 0%;
+  padding: 10px%;
 }
 
 .pref-test-2 {
@@ -2062,11 +2068,15 @@ display: none;
 }
 
 .pref-test-a1 {
-  width: 95%;
+  width: 90%;
+  height: 0%;
+  padding: 10px%;
 }
 
 .pref-test-c {
-  width: 95%;
+  width: 90%;
+  height: 0%;
+  padding: 10px%;
 }
 
 .pref-test-3 {
@@ -2082,11 +2092,15 @@ display: none;
 }
 
 .pref-test-a2 {
-  width: 95%;
+  width: 90%;
+  height: 0%;
+  padding: 10px%;
 }
 
 .pref-test-b {
-  width: 95%;
+  width: 90%;
+  height: 0%;
+  padding: 10px%;
 }
 
 .end-result {
@@ -2094,7 +2108,9 @@ display: none;
 }
 
 .final {
- width:  95%;
+  width: 90%;
+  height: 0%;
+  padding: 10px%;
  }
 
 .conclusion-container {
@@ -2149,6 +2165,81 @@ display: none;
   padding-bottom: 10px;
   width: 250px;
 }
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* ipad portrait Styles */
+
+.project-summary {
+  text-align: left;
+  font-size: 17px;
+  width: 645px;
+}
+
+.sample {
+  font-size: 17px;
+  text-align: left;
+}
+
+.explanation {
+  font-size: 17px;
+  text-align: left;
+}
+
+.result {
+  font-size: 17px;
+  text-align: left;
+  width: 626px;
+}
+
+.flex-container > div {
+  width: 155px;
+  margin: 18px;
+}
+
+.swo {
+font-size: 17px;
+text-align: left;
+width: 610px;
+}
+
+.mass-diving {
+  margin-right: 183px;
+  top: -30px;
+}
+
+.padi-diving {
+  margin-left: 169px;
+  top: 0px;
+}
+
+.dive-on-it {
+  margin-left: -66px;
+  top: -147px;
+}
+
+.as-user {
+  text-align: left;
+}
+
+.desires {
+  text-align: left;
+}
+
+.column {
+  height: 520px;
+}
+
+
+.as-owner {
+  text-align: center;
+}
+
+
+.our-users {
+  font-size: 18px;
+}
 
 
 
@@ -2161,4 +2252,455 @@ display: none;
 
 
 
+
+
+
+
+
+
+
+
+.george-clark {
+  right: -37px;
+  margin-top: 10px;
+}
+
+.man {
+  margin-top: -350px;
+  left: 150px;
+}
+
+
+.financial {
+  left: 146px;
+  top: 2px;
+}
+
+.quote {
+  left: -59px;
+  }
+
+.goals {
+  margin-top: 198px;
+  margin-left: 75px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.skills {
+  margin-top: 18px;
+  margin-right: 82px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.vacation {
+  margin-left: -26px;
+  margin-top: 20px;
+  font-size: 17px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.included {
+  margin-left: 75px;
+  margin-top: 10px;
+  font-size: 17px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.nice {
+  margin-left: -25px;
+  margin-top: 10px;
+  font-size: 17px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.frustrations {
+  margin-top: 30px;
+  margin-left: 93px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.response {
+  margin-left: -87px;
+  font-size: 17px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.detail {
+ margin-left: -42px;
+ font-size: 17px;
+ font-size: 17px;
+ text-align: center;
+ }
+
+.blurry {
+  right: 51px;
+  font-size: 17px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.marilyn-herbert {
+  left: 391px;
+  margin-top: 21px;
+}
+
+.quote1 {
+  left: 307px;
+}
+
+.woman {
+  right: 136px;
+  top: 140px;
+}
+
+.dentist {
+  right: 139px;
+  top: 138px;
+}
+
+.goals1 {
+  left: -257px;
+  margin-top: 306px;
+  text-align: center;
+}
+
+.family {
+  right: -83px;
+  font-size: 17px;
+  font-size: 17px;
+  text-align: left;
+}
+
+.traveling {
+  right: -80px;
+  font-size: 17px;
+  text-align: left;
+}
+
+.share {
+  font-size: 17px;
+  text-align: left;
+  left: 80px;
+}
+
+.learning {
+  font-size: 17px;
+  text-align: left;
+  left: 80px;
+}
+
+.frustrations1 {
+  text-align: center;
+  right: 264px;
+}
+
+.rates {
+  font-size: 17px;
+  text-align: left;
+  right: 462px;
+}
+
+.price {
+  font-size: 17px;
+  text-align: left;
+  right: 462px;
+}
+.guarantee {
+  font-size: 17px;
+  text-align: left;
+  right: 338px;
+}
+
+.confirm {
+  font-size: 17px;
+  text-align: left;
+  right: 462px;
+}
+
+.daniel-kuhn {
+  right: -35px;
+}
+
+.quote2 {
+  right: 82px;
+}
+
+.student {
+  left: 134px;
+}
+
+.college {
+  right: -132px;
+}
+
+.goals2 {
+  left: -257px;
+  margin-top: 306px;
+  text-align: center;
+}
+
+.inexpensive {
+  font-size: 17px;
+  text-align: left;
+  left: 85px;
+
+}
+
+.accomodation {
+  font-size: 17px;
+  text-align: left;
+  left: 85px;
+}
+
+.leave {
+  font-size: 17px;
+  text-align: left;
+  left: 85px;
+}
+
+.types {
+  font-size: 17px;
+  text-align: left;
+  left: 85px;
+}
+
+.frustrations2 {
+  text-align: center;
+  right: 264px;
+}
+
+.flight {
+  font-size: 17px;
+  text-align: left;
+  right: 460px;
+}
+
+.price {
+  font-size: 17px;
+  text-align: left;
+  right: 460px
+}
+
+.fee {
+  font-size: 17px;
+  text-align: left;
+  right: 460px
+}
+
+.flows {
+  text-align: left;
+  font-size: 17px;
+}
+
+.multi {
+  width: 100%;
+  height: 0%;
+}
+
+.cave {
+  width: 100%;
+  height: 0%;
+}
+
+.dive-photos {
+  width: 100%;
+  height: 0%;
+}
+
+.newsletter {
+  width: 90%;
+  height: 0%;
+}
+
+.rep {
+  width: 100%;
+  height: 0%;
+}
+
+.screen {
+  font-size: 17px;
+  text-align: left;
+}
+
+.wireframe-slides {
+  width: 90%;
+}
+
+.test {
+  font-size: 17px;
+  text-align: left;
+}
+
+.question1 {
+  font-size: 17px;
+  text-align: center;
+}
+
+.question2 {
+  font-size: 17px;
+  text-align: center;
+}
+
+.question3 {
+  font-size: 17px;
+  text-align: center;
+}
+
+.problem1-explanation {
+  font-size: 17px;
+  text-align: left;
+}
+
+.problem2-explanation {
+  font-size: 17px;
+  text-align: left;
+}
+
+.results-explanation {
+  font-size: 17px;
+  text-align: left;
+}
+
+.thoughts-explanation {
+  font-size: 17px;
+  text-align: left;
+}
+
+.high-fid-explanation {
+  font-size: 17px;
+  text-align: left;
+}
+
+.high-fid-wireframe-slides {
+  width: 90%;
+  }
+
+.logo-explanation {
+font-size: 17px;
+text-align: left;
+}
+
+.style-guide-explanation {
+  font-size: 17px;
+  text-align: left;
+}
+
+.typography-explanation {
+  font-size: 17px;
+  text-align: left;
+}
+
+.design-explanation {
+  font-size: 17px;
+  text-align: center;
+}
+
+.design-home {
+  width: 80%;
+  height: 0%;
+  padding: 10px;
+}
+
+.design-destination {
+  width: 80%;
+  height: 0%;
+  padding: 10px;
+}
+
+.design-testimonial {
+  width: 80%;
+  height: 0%;
+  padding: 10px;
+}
+
+.preferance-testing-explanation {
+  font-size: 17px;
+  text-align: left;
+  width: 592px;
+}
+
+.pref-1-explanation {
+  font-size: 17px;
+  text-align: center;
+}
+
+.pref-test-a {
+  width: 80%;
+  height: 0%;
+  padding: 10px;
+}
+
+.pref-test-d {
+  width: 80%;
+  height: 0%;
+  padding: 10px;
+}
+
+.pref-2-explanation {
+  font-size: 17px;
+  text-align: center;
+}
+
+.pref-test-a1 {
+  width: 80%;
+  height: 0%;
+  padding: 10px;
+}
+
+.pref-test-c {
+  width: 80%;
+  height: 0%;
+  padding: 10px;
+}
+
+.pref-3-explanation {
+  font-size: 17px;
+  text-align: center;
+}
+
+.pref-test-a2 {
+  width: 80%;
+  height: 0%;
+  padding: 10px;
+}
+
+
+.pref-test-b {
+  width: 80%;
+  height: 0%;
+  padding: 10px;
+}
+
+.final {
+  width: 80%;
+  height: 0%;
+  padding: 10px
+}
+
+.worked-explanation{
+  font-size: 17px;
+  text-align: left;
+}
+
+.project-explanation {
+  font-size: 17px;
+  text-align: left;
+}
+
+.surprised-explanation {
+  font-size: 17px;
+  text-align: left;
+}
+
+.better-me-explanation {
+  font-size: 17px;
+  text-align: left;
+}
 }
