@@ -28,7 +28,7 @@ font-family: Taviraj, serif;
   position: relative;
   height: 110px;
   width: 115px;
-  left: 350px;
+  left: 228px;
   top: 90px;
 }
 
@@ -50,8 +50,8 @@ font-family: Taviraj, serif;
   position: relative;
   height: 110px;
   width: 115px;
-  left: 850px;
-  top: -89px;
+  left: 730px;
+  top: -119px;
 }
 
 
@@ -61,7 +61,7 @@ font-family: Taviraj, serif;
   color: #F06261;
   position: relative;
   left: 555px;
-  top:-177px;
+  top:-212px;
 }
 
 .leave-a-message {
@@ -169,4 +169,13 @@ button {
 
 .fa-linkedin
   color: black;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+{
+
+
+
+
 }
