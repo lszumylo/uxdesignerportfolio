@@ -28,7 +28,7 @@ font-family: Taviraj, serif;
   position: relative;
   height: 110px;
   width: 115px;
-  left: 228px;
+  left: 290px;
   top: 90px;
 }
 
@@ -50,7 +50,7 @@ font-family: Taviraj, serif;
   position: relative;
   height: 110px;
   width: 115px;
-  left: 730px;
+  left: 785px;
   top: -119px;
 }
 
@@ -175,7 +175,7 @@ button {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px)
 {
 
-
-
-
+body {
+  background-color: red;
+}
 }
