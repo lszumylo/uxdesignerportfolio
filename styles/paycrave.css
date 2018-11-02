@@ -52,7 +52,7 @@
   color: #000000;
   font-size: 16px;
   font-weight: normal;
-  text-align: center;
+  text-align:left;
 }
 
 .the-solution {
@@ -67,7 +67,7 @@
 font-family: 'Taviraj',serif;
 font-size: 16px;
 font-weight: normal;
-text-align: center;
+text-align: left;
 color: #000000;
 }
 
@@ -96,7 +96,7 @@ padding: 15px;
   font-family: 'Taviraj',serif;
   font-size: 16px;
   font-weight: normal;
-  text-align: center;
+  text-align: left;
   color: #000000;
   }
 
@@ -187,6 +187,7 @@ padding-bottom: 5px;
   font-size: 16px;
   color: #000000;
   padding: 20px;
+  text-align: left;
 }
 
 
@@ -234,6 +235,7 @@ padding-bottom: 5px;
   font-size: 16px;
   font-style: normal;
   color: #000000;
+  text-align: left;
 }
 
 .sketch-truck {
@@ -1358,7 +1360,10 @@ margin-top: 18px;
 .mobile-brand-identity-container {
   background-color: #ffffff;
   color: #000000;
+}
 
+.mobile-high-fid-explanation {
+  text-align: left;
 }
 
 .brand-identity {
@@ -1424,7 +1429,7 @@ padding-bottom: 5px;
   font-style: normal;
   font-size: 16px;
   color: #000000;
-  text-align: center;
+  text-align: left;
   padding-bottom: 30px;
 }
 

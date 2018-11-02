@@ -30,7 +30,7 @@
 
 .project-summary {
   font-family: 'Taviraj',serif;
-  text-align: center;
+  text-align: left;
   font-size: 16px;
   color: #000000;
 }
@@ -53,7 +53,7 @@
   color: #000000;
   font-size: 16px;
   font-weight: normal;
-  text-align: center;
+  text-align: left;
 }
 
 .solution {
@@ -68,7 +68,7 @@
 font-family: 'Taviraj';
 font-size: 16px;
 font-weight: normal;
-text-align: center;
+text-align: left;
 color: #000000;
 }
 
@@ -110,10 +110,10 @@ padding-bottom: 5px;
   }
 
 
-.results {
+.result {
 font-family: 'Taviraj', serif;
 font-size: 16px;
-text-align: center;
+text-align: left;
 color: #000000;
 }
 
@@ -210,7 +210,7 @@ color: #000000;
   width: 100%;
   font-family: 'Taviraj', serif;
   font-size: 16px;
-  text-align: center;
+  text-align: left;
   padding: 10px;
   color: #000000;
   }
@@ -312,93 +312,44 @@ color: #000000;
 .goals {
   position: relative;
   margin-top: -35px;
-  margin-left: 240px;
+  margin-left: 530px;
   font-family: 'Taviraj', serif;
   font-size: 16px;
   font-weight: normal;
+  text-align: left;
   color: #F06261;
 }
 
 .skills {
   position: relative;
   margin-top: 20px;
-  margin-right: 435px;
-  text-align: center;
+  margin-right: 340px;
+  text-align: left;
   font-family: 'Taviraj', serif;
   font-size: 16px;
   font-weight: normal;
   color: #000000;
   }
 
-.vacation {
-  position: relative;
-  margin-right: 495px;
-  margin-top: 10px;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
-  text-align: center;
-  color: #000000;
-}
-
-.included {
-  position: relative;
-  margin-right: 400px;
-  margin-top: 10px;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
-  color: #000000;
-}
-
-
-.nice {
-  position: relative;
-  margin-right: 495px;
-  margin-top: 10px;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
-  color: #000000;
-}
-
 .frustrations {
   position: relative;
   margin-top: 30px;
-  margin-left: 265px;
+  margin-right: 340px;
   font-family: 'Taviraj', serif;
   font-size: 16px;
   font-weight: normal;
+  text-align: left;
   color: #F06261;
 }
 
 .response {
   position: relative;
-  margin-right: 550px;
+  margin-right: 340px;
   margin-top: 10px;
   font-family: 'Taviraj', serif;
   font-size: 16px;
   font-weight: normal;
-  color: #000000;
-}
-
-.detail {
-  position: relative;
-  margin-right: 505px;
-  margin-top: 10px;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
-  color: #000000;
-}
-
-.blurry {
-  position: relative;
-  margin-right: 514px;
-  margin-top: 10px;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
+  text-align: left;
   color: #000000;
 }
 
@@ -445,27 +396,18 @@ color: #000000;
 .goals1 {
   position: relative;
   margin-top: -35px;
-  margin-left: 240px;
+  margin-left: 529px;
   font-family: 'Taviraj', serif;
   font-size: 16px;
   font-weight: normal;
+  text-align: left;
   color: #F06261;
 }
 
 .family {
   position: relative;
   margin-top: 20px;
-  margin-right: 395px;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
-  color: #000000;
-}
-
-.traveling {
-  position: relative;
-  margin-right: 325px;
-  margin-top: 20px;
+  margin-right: 340px;
   font-family: 'Taviraj', serif;
   font-size: 16px;
   font-weight: normal;
@@ -473,81 +415,26 @@ color: #000000;
   color: #000000;
 }
 
-
-.share {
-  position: relative;
-  margin-right: 388px;
-  margin-top: 20px;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
-  text-align: center;
-  color: #000000;
-}
-
-.learning {
-  position: relative;
-  margin-right: 482px;
-  margin-top: 20px;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
-  text-align: center;
-  color: #000000;
-}
-
-
 .frustrations1 {
   position: relative;
   margin-top: 20px;
-  margin-left: 265px;
+  margin-left: 525px;
   font-family: 'Taviraj', serif;
   font-size: 16px;
   font-weight: normal;
+  text-align: left;
   color: #F06261;
 }
 
 .rates {
 position: relative;
-margin-left: 545px;
+margin-left: 525px;
 margin-top: 20px;
 font-family: 'Taviraj', serif;
 font-size: 16px;
 font-weight: normal;
 text-align: left;
 color: #000000;
-}
-
-.price {
-  position: relative;
-  margin-left: 545px;
-  margin-top: 20px;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
-  text-align: left;
-  color: #000000;
-}
-
-.guarantee {
-  position: relative;
-  margin-left: 420px;
-  margin-top: 20px;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
-  color: #000000;
-}
-
-.confirm {
-  position: relative;
-  margin-left: 540px;
-  margin-top: 20px;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
-  text-align: left;
-  color: #000000;
 }
 
 .daniel-container {
@@ -593,69 +480,39 @@ color: #000000;
 .goals2 {
   position: relative;
   margin-top: 35px;
-  margin-left: 240px;
+  margin-left: 525px;
   font-family: 'Taviraj', serif;
   font-size: 16px;
   font-weight: normal;
+  text-align: left;
   color: #F06261;
 }
 
 .inexpensive {
   position: relative;
   margin-top: 20px;
-  margin-right: 480px;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
-  color: #000000;
-}
-
-.accomodation {
-  position: relative;
-  margin-right: 322px;
-  margin-top: 20px;
+  margin-right: 345px;
   font-family: 'Taviraj', serif;
   font-size: 16px;
   font-weight: normal;
   text-align: left;
-  color: #000000;
-}
-
-.leave {
-  position: relative;
-  margin-right: 455px;
-  margin-top: 20px;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
-  text-align: center;
-  color: #000000;
-}
-
-.types {
-  position: relative;
-  margin-right: 485px;
-  margin-top: 20px;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
-  text-align: center;
   color: #000000;
 }
 
 .frustrations2 {
   position: relative;
   margin-top: 20px;
-  margin-left: 265px;
+  margin-left: 525px;
   font-family: 'Taviraj', serif;
   font-size: 16px;
   font-weight: normal;
+  text-align: left;
   color: #F06261;
 }
 
 .flight {
   position: relative;
-  margin-left: 545px;
+  margin-left: 525px;
   margin-top: 20px;
   font-family: 'Taviraj', serif;
   font-size: 16px;
@@ -664,27 +521,6 @@ color: #000000;
   color: #000000;
 }
 
-.price {
-  position: relative;
-  margin-left: 545px;
-  margin-top: 20px;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
-  text-align: left;
-  color: #000000;
-}
-
-.fee {
-  position: relative;
-  margin-left: 540px;
-  margin-top: 20px;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
-  text-align: left;
-  color: #000000;
-}
 
 .user-flow-container {
   background-color: #ffffff;
