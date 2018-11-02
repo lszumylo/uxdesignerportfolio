@@ -1,6 +1,6 @@
 .connect {
   color: white;
-  background-color: #F06261;
+    background-color: #F06261;
   font-family: 'work sans', serif;
    font-size: 50px;
    font-weight: normal;
@@ -13,9 +13,9 @@
 
 
 .design {
-  color: white;
-  background-color: #F06261;
-  font-family: Taviraj, serif;
+color: white;
+background-color: #F06261;
+font-family: Taviraj, serif;
  font-size: 20px;
  font-weight: normal;
  text-align: center;
@@ -88,7 +88,6 @@ form {
   padding: 1em;
   border: 2px solid #31a2ac;
   border-radius: 1em;
-
 }
 
  div + div {
@@ -170,48 +169,4 @@ button {
 
 .fa-linkedin
   color: black;
-}
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-/* ipad portrait Styles */
-
-.connect {
-  padding-left: 5px;
-  text-align: left;
-}
-
-.phone-icon {
-  left: 191px;
-}
-
-.call {
-  left-padding: 224px;
-}
-
-.number {
-  padding-left: 118px;
-}
-
-.letter {
-  left: 372px;
-  }
-
-.message {
-  left: 449px;
-}
-
-.form {
-  width: 550px;
-  height: 500px;
-  padding: 1em;
-}
-
-input, textarea {
-  width: 505px;
-  padding-left: 10px;
-}
-
-
-
-
 }

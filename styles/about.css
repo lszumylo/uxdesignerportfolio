@@ -98,18 +98,3 @@ body {
   width: 300px;
 }
 }
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-/* ipad portrait Styles */
-
-
-.img-circle-me {
-  width: 190px;
-  margin-left: 113px;
-}
-
-.Hello {
-  padding-right: 194px;
-  font-weight: bold;
-}
-}
