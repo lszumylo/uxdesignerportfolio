@@ -1402,8 +1402,8 @@ font-size: 16px;
 }
 
 .goals {
-  margin-top: -76px;
-  margin-left: 6px;
+  margin-top: -47px;
+  margin-left: -71px;
   font-size: 14px;
   }
 
@@ -1433,12 +1433,14 @@ font-size: 16px;
 
 .frustrations {
   font-size: 14px;
-  margin-left: 10px;
+  margin-left: -67px;
+  top: -37px;
 }
 
 .response {
   text-align:left;
-  padding: 15px;
+  padding: 24px;
+  top: -39px;
 }
 
 .detail {
@@ -1471,62 +1473,29 @@ font-size: 16px;
 }
 
 .goals1 {
-  margin-top: -80px;
-  margin-left: 5px;
+  margin-top: -59px;
+  margin-left: 27px;
   font-size: 14px;
+  top: 21px;
 }
 
 .family {
   text-align: left;
   padding: 15px;
-}
-
-.traveling {
-  text-align: left;
-  padding: 15px;
-  margin-top:-5px;
-  }
-
-.share {
-  text-align: left;
-  padding: 15px;
-  margin-top: 4px;
-}
-
-.learning {
-  text-align: left;
-  padding: 15px;
-  margin-top: -2px;
+  left: 11px;
 }
 
 .frustrations1 {
   font-size: 14px;
-  margin-left: 3px;
+  margin-left: 28px;
+  top: -27px;
 }
 
 .rates {
   text-align: left;
   padding: 15px;
-  margin-left: 16px;
-}
-
-.price {
-  text-align: left;
-  padding: 15px;
-  margin-top: 15px;
-}
-
-.guarantee {
-  text-align: left;
-  padding: 15px;
-  margin-left: 9px;
-  margin-top: -3px;
-}
-.confirm {
-  text-align: left;
-  padding: 15px;
-  margin-left: 8px;
-  margin-top: 1px;
+  margin-left: 13px;
+  top: -35px;
 }
 
 .daniel-kuhn {
@@ -1549,9 +1518,9 @@ font-size: 16px;
 }
 
 .goals2 {
-  margin-left: 6px;
+  margin-left: 31px;
   font-size: 14px;
-  margin-top: 23px;
+  margin-top: -36px;
 }
 
 .inexpensive {
@@ -1560,39 +1529,13 @@ font-size: 16px;
   padding: 10px;
 }
 
-.accomodation {
-  margin-right: 5px;
-  padding: 10px;
-}
-
-.leave {
-  margin-right: 5px;
-  text-align: left;
-  padding: 10px;
-}
-
-.types {
-  margin-right: 5px;
-  text-align: left;
-  padding: 10px;
-}
-
 .frustrations2 {
-  margin-left: 1px;
+  margin-left: 26px;
   font-size: 14px;
   }
 
 .flight {
   margin-left: 16px;
-  padding: 10px;
-}
-
-.price {
-  margin-left: 15px;
-  padding: 10px;
-}
-.fee {
-  margin-left: 15px;
   padding: 10px;
 }
 
