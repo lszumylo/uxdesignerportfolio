@@ -1384,7 +1384,7 @@ i {
 
 .george-clark {
 width: 100%;
-height: 322px;
+height: 0%;
 margin-top: -38px;
   }
 
@@ -1414,44 +1414,12 @@ font-size: 16px;
 
 }
 
-.vacation {
-  text-align: left;
-  margin: 10px;
-  padding: 10px;
-}
-
-.included {
-  text-align: left;
-  margin-top: 10px;
-  padding: 15px;
-}
-.nice {
-  margin-top: 20px;
-  text-align: left;
-  padding: 15px;
-}
-
 .frustrations {
   font-size: 14px;
   margin-left: -67px;
   top: -37px;
 }
 
-.response {
-  text-align:left;
-  padding: 24px;
-  top: -39px;
-}
-
-.detail {
-  text-align: left;
-  padding: 15px;
-}
-
-.blurry {
-  text-align: left;
-  padding: 15px;
-}
 
 .marilyn-herbert {
   width: 100%;
@@ -1474,7 +1442,7 @@ font-size: 16px;
 
 .goals1 {
   margin-top: -59px;
-  margin-left: 27px;
+  margin-left: 46px;
   font-size: 14px;
   top: 21px;
 }
@@ -1487,14 +1455,14 @@ font-size: 16px;
 
 .frustrations1 {
   font-size: 14px;
-  margin-left: 28px;
+  margin-left: 47px;
   top: -27px;
 }
 
 .rates {
   text-align: left;
   padding: 15px;
-  margin-left: 13px;
+  margin-left: 32px;
   top: -35px;
 }
 
@@ -1509,7 +1477,7 @@ font-size: 16px;
 
 .student {
   font-size: 16px;
-  margin-top: 19px;
+  margin-top: 47px;
 }
 
 .college {
@@ -1518,25 +1486,25 @@ font-size: 16px;
 }
 
 .goals2 {
-  margin-left: 31px;
+  margin-left: 53px;
   font-size: 14px;
   margin-top: -36px;
 }
 
 .inexpensive {
-  margin-right: 5px;
+  margin-right: 23px;
   text-align: left;
-  padding: 10px;
+  padding: 0px;
 }
 
 .frustrations2 {
-  margin-left: 26px;
+  margin-left: 52px;
   font-size: 14px;
   }
 
 .flight {
-  margin-left: 16px;
-  padding: 10px;
+  margin-left: 51px;
+  padding: 0px;
 }
 
 .user-flow-container {
