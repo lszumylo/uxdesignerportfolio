@@ -189,6 +189,48 @@ button {
   padding-left: 27px;
 }
 
+.phone-icon {
+  left: 24px;
+  top: 38;
+  }
+
+.call {
+  font-size: 16px;
+  padding-left: 128px;
+  top: -57;
+}
+
+.number {
+  font-size: 16px;
+  padding-left: 128px;
+  top: -58px;
+  }
+
+  .letter {
+    height: 80px;
+    width: 82px;
+    left: 4px;
+    top: -29px;
+  }
+
+.message {
+  font-size: 16px;
+  left: 130px;
+  top: -105px;
+}
+
+.leave-a-message {
+  font-size: 16px;
+  padding-bottom: 19px;
+  padding-left: 30px;
+}
+
+form {
+  width: 80%;
+  height: 425px;
+  font-size: 16px;
+  }
+
 
 
 }
