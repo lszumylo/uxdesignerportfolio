@@ -1273,7 +1273,7 @@ i {
 {
 
 .body {
-  overflow:hidden;
+  overflow: hidden;
   }
 
   .project-title {
@@ -1296,7 +1296,7 @@ i {
 }
 
 .solution {
-  font-size:18px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -1372,7 +1372,6 @@ i {
 .column {
   height: 770px;
 }
-
 
 .as-owner {
   text-align: center;
@@ -1492,7 +1491,7 @@ font-size: 16px;
 }
 
 .goals2 {
-  margin-left: 53px;
+  margin-left: 37px;
   font-size: 14px;
   margin-top: -36px;
 }
@@ -1501,6 +1500,7 @@ font-size: 16px;
   margin-right: 0px;
   text-align: left;
   padding: 0px;
+  left: -4px;
 }
 
 .frustrations2 {
@@ -1601,7 +1601,6 @@ display: none;
   font-size: 16px;
   width: 229px;
 }
-
 
 .problem1 {
   font-size: 18px;
