@@ -1386,6 +1386,7 @@ i {
 width: 100%;
 height: 0%;
 margin-top: -38px;
+margin-right: 0px;
   }
 
 .quote {
@@ -1409,8 +1410,8 @@ font-size: 16px;
 
 .skills {
   text-align: left;
-  left: 44px;
-
+  left: 35px;
+  margin-right: 0px;
 }
 
 .frustrations {
@@ -1421,13 +1422,13 @@ font-size: 16px;
 
 .response {
     right: -19px;
+    margin-right: 0px;
   }
-
-
 
 .marilyn-herbert {
   width: 100%;
   margin-top: -50px
+  margin-right:0px;
   }
 
 .quote1 {
@@ -1455,6 +1456,7 @@ font-size: 16px;
   text-align: left;
   padding: 15px;
   left: 11px;
+  margin-right: 0px;
 }
 
 .frustrations1 {
