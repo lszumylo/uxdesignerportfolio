@@ -1403,7 +1403,7 @@ font-size: 16px;
 
 .goals {
   margin-top: -47px;
-  margin-left: -71px;
+  margin-left: 28px;
   font-size: 14px;
   }
 
@@ -1416,9 +1416,16 @@ font-size: 16px;
 
 .frustrations {
   font-size: 14px;
-  margin-left: -67px;
+  margin-left: 26px;
   top: -37px;
 }
+
+.response {
+
+    margin-right: 340px;
+    margin-top: -9px;
+  }
+
 
 
 .marilyn-herbert {
