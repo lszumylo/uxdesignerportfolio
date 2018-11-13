@@ -269,7 +269,13 @@ color: #000000;
   color: #0AC6E7;
 }
 
+.g-clark {
+  width: 90%;
+  }
+
+
 .george-container {
+  display: none;
   width: 100%;
   margin: auto;
   padding-top: 50px;
@@ -277,6 +283,7 @@ color: #000000;
 }
 
 .george-clark {
+  display: none;
   position: relative;
   width: 300px;
   height: 300px;
@@ -285,6 +292,7 @@ color: #000000;
   }
 
 .quote {
+  display: none;
   position: relative;
   margin-left: -70px;
   font-family: 'Taviraj',serif;
@@ -294,6 +302,7 @@ color: #000000;
 }
 
 .man {
+  display: none;
   position: relative;
   margin-top: -350px;
   font-family: 'Taviraj', serif;
@@ -302,6 +311,7 @@ color: #000000;
 }
 
 .financial {
+  display: none;
   position: relative;
   margin-top: -22px;
   font-family: 'Taviraj',serif;
@@ -310,6 +320,7 @@ color: #000000;
 }
 
 .goals {
+  display: none;
   position: relative;
   margin-top: -35px;
   padding-left: 90px;
@@ -321,6 +332,7 @@ color: #000000;
 }
 
 .skills {
+  display: none;
   position: relative;
   margin-top: 20px;
   margin-right: 340px;
@@ -332,6 +344,7 @@ color: #000000;
   }
 
 .frustrations {
+  display: none;
   position: relative;
   margin-top: 30px;
   padding-left: 91px;
@@ -343,6 +356,7 @@ color: #000000;
 }
 
 .response {
+  display: none;
   position: relative;
   margin-right: 340px;
   margin-top: 10px;
@@ -353,7 +367,13 @@ color: #000000;
   color: #000000;
 }
 
+.MHerbert {
+  width: 90%;
+}
+
+
 .marilyn-container {
+  display: none;
   width: 100%;
   margin: auto;
   padding-top: 50px;
@@ -361,6 +381,7 @@ color: #000000;
 }
 
 .marilyn-herbert {
+  display: none;
   position: relative;
   width:320px;
   height: 395px;
@@ -369,6 +390,7 @@ color: #000000;
 }
 
 .quote1 {
+  display: none;
   position: relative;
   margin-left: -70px;
   font-family: 'Taviraj',serif;
@@ -378,6 +400,7 @@ color: #000000;
 }
 
 .woman {
+  display: none;
   position: relative;
   margin-top: -450px;
   font-family: 'Taviraj', serif;
@@ -386,6 +409,7 @@ color: #000000;
 }
 
 .dentist {
+  display: none;
   position: relative;
   margin-top: -22px;
   font-family: 'Taviraj',serif;
@@ -394,6 +418,7 @@ color: #000000;
 }
 
 .goals1 {
+  display: none;
   position: relative;
   margin-top: -35px;
   margin-left: 529px;
@@ -405,6 +430,7 @@ color: #000000;
 }
 
 .family {
+  display: none;
   position: relative;
   margin-top: 20px;
   margin-right: 340px;
@@ -416,6 +442,7 @@ color: #000000;
 }
 
 .frustrations1 {
+  display: none;
   position: relative;
   margin-top: 20px;
   margin-left: 525px;
@@ -427,6 +454,7 @@ color: #000000;
 }
 
 .rates {
+  display: none;
 position: relative;
 margin-left: 525px;
 margin-top: 20px;
@@ -437,7 +465,13 @@ text-align: left;
 color: #000000;
 }
 
+
+.DKuhn {
+  width: 90%;
+}
+
 .daniel-container {
+  display: none;
   width: 100%;
   margin: auto;
   padding-top: 50px;
@@ -445,6 +479,7 @@ color: #000000;
 }
 
 .daniel-kuhn {
+  display: none;
   position: relative;
   width:275px;
   height: 300px;
@@ -453,6 +488,7 @@ color: #000000;
 }
 
 .quote2 {
+  display: none;
 position: relative;
 margin-left: -70px;
 font-family: 'Taviraj',serif;
@@ -462,6 +498,7 @@ color: #000000;
 }
 
 .student {
+  display: none;
   position: relative;
   margin-top: -350px;
   font-family: 'Taviraj', serif;
@@ -470,6 +507,7 @@ color: #000000;
 }
 
 .college {
+  display: none;
   position: relative;
   margin-top: -22px;
   font-family: 'Taviraj',serif;
@@ -478,6 +516,7 @@ color: #000000;
 }
 
 .goals2 {
+  display: none;
   position: relative;
   margin-top: 35px;
   margin-left: 525px;
@@ -489,6 +528,7 @@ color: #000000;
 }
 
 .inexpensive {
+  display: none;
   position: relative;
   margin-top: 20px;
   margin-right: 345px;
@@ -500,6 +540,7 @@ color: #000000;
 }
 
 .frustrations2 {
+  display: none;
   position: relative;
   margin-top: 20px;
   margin-left: 525px;
@@ -511,6 +552,7 @@ color: #000000;
 }
 
 .flight {
+  display: none;
   position: relative;
   margin-left: 525px;
   margin-top: 20px;
@@ -1382,6 +1424,7 @@ i {
 }
 
 .george-clark {
+  display: none;
 width: 100%;
 height: 0%;
 margin-top: -38px;
@@ -1389,62 +1432,74 @@ margin-right: 0px;
   }
 
 .quote {
+  display: none;
   margin-left: 4px;
 }
 
 .man {
+  display: none;
 margin-top: 14px;
 font-size: 16px;
 }
 
 .financial {
+  display: none;
   font-size: 14px;
 }
 
 .goals {
+  display: none;
   margin-top: -47px;
   margin-left: 34px;
   font-size: 14px;
   }
 
 .skills {
+  display: none;
   text-align: left;
   left: 35px;
   margin-right: 0px;
 }
 
 .frustrations {
+  display: none;
   font-size: 14px;
   margin-left: 31px;
   top: -37px;
 }
 
 .response {
+  display: none;
     right: -19px;
     margin-right: 0px;
   }
 
 .marilyn-herbert {
+  display: none;
   width: 100%;
   margin-top: -50px;
   margin-right:0px;
   }
 
 .quote1 {
+  display: none;
   margin-left: 3px;
 }
 
 .woman {
+  display: none;
   font-size: 16px;
   margin-top: 20px;
 }
 
 .dentist {
+  display: none;
   margin-top: -22px;
   font-size: 14px;
 }
 
 .goals1 {
+  display: none;
   margin-top: -59px;
   margin-left: 46px;
   font-size: 14px;
@@ -1452,6 +1507,7 @@ font-size: 16px;
 }
 
 .family {
+  display: none;
   text-align: left;
   padding: 15px;
   left: 11px;
@@ -1459,12 +1515,14 @@ font-size: 16px;
 }
 
 .frustrations1 {
+  display: none;
   font-size: 14px;
   margin-left: 47px;
   top: -27px;
 }
 
 .rates {
+  display: none;
   text-align: left;
   padding: 15px;
   margin-left: 32px;
@@ -1472,31 +1530,37 @@ font-size: 16px;
 }
 
 .daniel-kuhn {
+  display: none;
   width: 100%;
   margin-top: -22px;
 }
 
 .quote2 {
+  display: none;
   margin-left: 5px;
 }
 
 .student {
+  display: none;
   font-size: 16px;
   margin-top: 47px;
 }
 
 .college {
+  display: none;
   font-size: 14px;
   margin-top:-22px;
 }
 
 .goals2 {
+  display: none;
   margin-left: 37px;
   font-size: 14px;
   margin-top: -36px;
 }
 
 .inexpensive {
+  display: none;
   margin-right: 0px;
   text-align: left;
   padding: 0px;
@@ -1504,11 +1568,13 @@ font-size: 16px;
 }
 
 .frustrations2 {
+  display: none;
   margin-left: 52px;
   font-size: 14px;
   }
 
 .flight {
+  display: none;
   margin-left: 51px;
   padding: 0px;
 }
@@ -1870,7 +1936,7 @@ display: none;
  }
 
 .conclusion-container {
-  padding 0px 0px;
+padding 0px 0px;
   }
 
 
