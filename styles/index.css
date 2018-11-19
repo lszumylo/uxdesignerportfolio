@@ -35,8 +35,8 @@ padding-top: 30px;
   }
 
   .description {
-    position: relative;
-    font-family: 'Taviraj', serif;
+  position: relative;
+  font-family: 'Taviraj', serif;
   font-size: 35px;
   font-weight: bold;
   color: #000000;
@@ -45,14 +45,13 @@ padding-top: 30px;
 }
 
 .sentence {
-  position: absolute;
+position: absolute;
 font-family: 'Taviraj', serif;
 font-size: 20px;
 font-weight: normal;
 color: #000000 ;
 top: 660px;
-left: 821px;
-text-align: center;
+left: 950px;
 }
 
 
@@ -109,7 +108,7 @@ text-align: center;
     }
 
 .sentence1 {
-  position: absolute;
+position: absolute;
 font-family: 'Taviraj', serif;
 font-size: 20px;
 font-weight: normal;
@@ -199,12 +198,12 @@ width: 100%;
 .sentence {
     font-size: 13px;
     top: 523px;
-    left: 5px;
+    left: 47px;
     }
 
 .button-scuba {
   top: 559px;
-  left: 97px;
+  left: 118px;
   padding: 6px 8px;
   font-size: 15px;
 }
@@ -233,18 +232,18 @@ width: 100%;
 .description2 {
   font-size: 17px;
   top: 24px;
-  left: 120px;
+  left: 147px;
 }
 
 .sentence1 {
   font-size: 13px;
   top: 56px;
-  left: 77px;
+  left: 96px;
 }
 
 .button-paycrave {
   top: 90px;
-  left: 97px;
+  left: 114px;
   padding: 6px 8px;
   font-size: 15px;
 }
