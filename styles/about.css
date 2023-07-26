@@ -3,37 +3,22 @@ p {
   font-family:'Taviraj', serif;
   color: #000000;
   font-weight: normal;
-  font-size: 16px;
+  font-size 16px;
   width: 650px;
   margin: auto;
 }
 
 
+      <img class="about-container__image" src="/images/Bio Image/Profile image.jpg" alt="Headshot" width="400" height="400">
+
+
 body {
   margin: auto;
   font-family: 'Taviraj', serif;
-  font-size: 16px;
+  font-size 16px;
 }
 
 
-.img-circle-me {
-  float: left;
-  width: 180px;
-  border-radius:50%;
-  margin-left: 450px;
-
-}
-
-.Hello {
-    color: #31A2AC;
-  font-weight: bold;
-  font-size: 25px;
-  font-family: 'Taviraj', serif;
-  text-align: center;
-  padding-right: 600px;
-
-
-}
 
 <!--navigation-->
 
@@ -48,7 +33,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size 17px;
 }
 
 
@@ -61,18 +46,18 @@ body {
 
 .fa {
   padding: 10px;
-  font-size: 20px;
+  font-size 20px;
   width: 10px
   text-align: center;
   text-decoration: none;
   margin: 20px 20px;
   border-radius: 50%
 }
-.fa:hover {
+.fa: hover {
   opacity: 0.7;
 }
 
-.fa-twitter {
+.fa-Twitter {
   color: black;
 }
 
@@ -83,18 +68,9 @@ body {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px)
 {
 
-  .img-circle-me {
-    width: 130px;
-    margin-left: 20px;
-  }
-
-.Hello {
-  font-size: 17px;
-  padding-right: 12px;
-}
 
  P {
-  font-size: 15px;
+  font-size 15px;
   width: 300px;
 }
 }
