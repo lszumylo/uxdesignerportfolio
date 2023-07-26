@@ -1,24 +1,33 @@
-
+/* General styles for paragraphs */
 p {
-  font-family:'Taviraj', serif;
+  font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
-  font-size 16px;
-  width: 650px;
-  margin: auto;
+  font-size: 16px;
+  margin: 0; /* Remove margin to avoid extra space */
 }
 
-  body {
+/* General styles for the body */
+body {
   margin: auto;
   font-family: 'Taviraj', serif;
-  font-size 16px;
+  font-size: 16px;
 }
 
-.img class="about-container__image" src="uxdesignerportfolio/images/Bio Photo.jpg" alt="Headshot" width="400" height="400"
+/* Styles for the image with the class "about-container__image" */
+.about-container__image {
+  width: 200px; /* Adjust the image width as needed */
+  height: auto; /* Automatically adjust height based on width */
+  float: left; /* Add float to make the image inline with the text */
+  margin-right: 20px; /* Add some space between the image and text */
+}
 
+/* Styles for the heading */
+.page-header__title {
+  margin-top: 0; /* Remove default top margin for the heading */
+}
 
-<!--navigation-->
-
+/* Styles for the navigation */
 .topnav {
   overflow: hidden;
   background-color: #ffffff;
@@ -30,31 +39,29 @@ p {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size 17px;
+  font-size: 17px;
 }
-
 
 .topnav a.active {
   background-color: white;
   color: #DE5752;
 }
 
-
-
+/* Styles for Font Awesome icons */
 .fa {
   padding: 10px;
-  font-size 20px;
-  width: 10px
+  font-size: 20px;
   text-align: center;
   text-decoration: none;
   margin: 20px 20px;
-  border-radius: 50%
+  border-radius: 50%;
 }
-.fa: hover {
+
+.fa:hover {
   opacity: 0.7;
 }
 
-.fa-Twitter {
+.fa-twitter {
   color: black;
 }
 
@@ -62,12 +69,14 @@ p {
   color: black;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
-{
+/* Media query for smaller devices */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  p {
+    font-size: 15px;
+    width: 300px;
+  }
+}
 
 
- P {
-  font-size 15px;
-  width: 300px;
-}
-}
+
+
