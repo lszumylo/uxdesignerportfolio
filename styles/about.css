@@ -9,11 +9,12 @@ p {
 }
 
   body {
-  margin: left;
+  margin: auto;
   font-family: 'Taviraj', serif;
   font-size 16px;
 }
 
+.img class="about-container__image" src="uxdesignerportfolio/images/Bio Photo.jpg" alt="Headshot" width="400" height="400">
 
 
 <!--navigation-->
