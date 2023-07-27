@@ -82,12 +82,16 @@ body {
     margin-right: 0; /* Remove right margin for proper mobile display */
   }
 
+  .about-container__text {
+    /* Adjust styles for the text container to allow proper stacking on smaller devices */
+    float: none; /* Remove float for proper mobile display */
+    margin-left: 0; /* Remove left margin for proper mobile display */
+  }
+
   .topnav a {
     float: none; /* Remove float for proper mobile display */
     display: block; /* Display navigation links as block elements for proper mobile display */
     text-align: left; /* Align navigation links to the left for proper mobile display */
   }
 }
-
-
 
