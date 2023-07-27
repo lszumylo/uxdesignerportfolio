@@ -70,13 +70,24 @@ body {
 }
 
 /* Media query for smaller devices */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   p {
-    font-size: 15px;
-    width: 300px;
+    font-size: 14px; /* Reduce font size for smaller devices */
+    /* You may adjust other styles as needed for better mobile display */
+  }
+
+  .about-container__image {
+    width: 100%; /* Make the image width 100% for better mobile responsiveness */
+    float: none; /* Remove float for proper mobile display */
+    margin-right: 0; /* Remove right margin for proper mobile display */
+  }
+
+  .topnav a {
+    float: none; /* Remove float for proper mobile display */
+    display: block; /* Display navigation links as block elements for proper mobile display */
+    text-align: left; /* Align navigation links to the left for proper mobile display */
   }
 }
-
 
 
 
