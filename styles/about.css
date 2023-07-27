@@ -16,15 +16,15 @@ body {
 
 /* Styles for the image with the class "about-container__image" */
 .about-container__image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto 20px;
+  max-width: 100%; /* Limit the maximum width of the image to its container */
+  height: auto; /* Automatically adjust height based on width */
+  display: block; /* Ensure the image takes up the full width of its container */
+  margin: 0 auto 20px; /* Center the image horizontally and add space below */
 }
 
 /* Styles for the heading */
 .page-header__title {
-  margin-top: 0;
+  margin-top: 0; /* Remove default top margin for the heading */
 }
 
 /* Styles for the navigation */
@@ -76,12 +76,6 @@ body {
     /* You may adjust other styles as needed for better mobile display */
   }
 
-  .about-container__image {
-    width: 100%; /* Make the image width 100% for better mobile responsiveness */
-    float: none; /* Remove float for proper mobile display */
-    margin-right: 0; /* Remove right margin for proper mobile display */
-  }
-
   .about-container__text {
     /* Adjust styles for the text container to allow proper stacking on smaller devices */
     float: none; /* Remove float for proper mobile display */
@@ -94,9 +88,3 @@ body {
     text-align: left; /* Align navigation links to the left for proper mobile display */
   }
 }
-
-
-
-
-
-
