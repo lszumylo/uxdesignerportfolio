@@ -24,26 +24,7 @@ font-family: Taviraj, serif;
  margin: auto;
 }
 
-.phone-icon {
-  position: relative;
-  height: 110px;
-  width: 115px;
-  left: 290px;
-  top: 90px;
-}
 
-.call {
-  font-family: Taviraj, serif;
-  font-size: 18px;
-  color: #F06261;
-  position: relative;
-  padding-left: 15px;
-}
-
-.number {
-    font-size: 18px;
-    position: relative;
-    padding-left: 15px;
 }
 
 .letter {
@@ -149,6 +130,277 @@ button {
 }
 
 
+
+/* Your existing CSS styles above */
+
+/* Add the styling for the form container */
+.form-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1em;
+  border: 2px solid #31a2ac;
+  border-radius: 1em;
+  color: #000080;
+  font-family: 'Taviraj', serif;
+  font-size: 18px;
+  background-color: #f2f2f2;
+  display: flex; /* Add flex display to align items vertically */
+  flex-direction: column; /* Align items in a column */
+}
+
+.form-container label {
+  display: inline-block;
+  width: 150px; /* Increased width for better alignment with longer label text */
+  text-align: left;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container select,
+.form-container textarea {
+  font: 1em 'Taviraj', serif;
+  width: 100%; /* Use full width of the container */
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 2px solid #31a2ac;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.form-container input:focus, .form-container textarea:focus {
+  border-color: #000;
+}
+
+.form-container textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+
+.form-container .button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-container .button button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Your existing CSS styles below */
+/* ... */
+
+
+/* Your existing CSS styles above */
+
+/* Styles for .connect, .design, .letter, .message, .leave-a-message */
+.connect {
+  color: white;
+  background-color: #F06261;
+  font-family: 'work sans', serif;
+  font-size: 50px;
+  font-weight: normal;
+  text-align: left;
+  padding-top: 35px;
+  text-decoration: none;
+  margin: auto;
+  padding-left: 200px;
+}
+
+.design {
+  color: white;
+  background-color: #F06261;
+  font-family: Taviraj, serif;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 35px;
+  text-decoration: none;
+  margin: auto;
+}
+
+.letter {
+  position: relative;
+  height: 110px;
+  width: 115px;
+  left: 785px;
+  top: -119px;
+}
+
+.message {
+  font-family: Taviraj, serif;
+  font-size: 18px;
+  color: #F06261;
+  position: relative;
+  left: 555px;
+  top: -212px;
+}
+
+.leave-a-message {
+  font-family: Taviraj, serif;
+  font-size: 22px;
+  color: #F06261;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* Styles for form and its elements */
+form {
+  margin: 0 auto;
+  width: 900px;
+  height: 500px;
+  color: #000080;
+  font-family: 'Taviraj', serif;
+  font-size: 18px;
+  padding: 1em;
+  border: 2px solid #31a2ac;
+  border-radius: 1em;
+}
+
+div + div {
+  margin-top: 2em;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+}
+
+input,
+textarea {
+  font: 1em 'Taviraj', serif;
+  width: 864px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 2px solid #31a2ac;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+
+button {
+  padding: 10px 90px; /* Adjust padding to center the button */
+  color: #000080;
+  height: 50px;
+  width: 200px;
+  font-size: 16px;
+  margin: 0.5em;
+  border: none;
+}
+
+/* Styles for .fa icons */
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 20px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  color: black;
+}
+
+.fa-linkedin {
+  color: black;
+}
+
+/* Styles for .form-container */
+.form-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1em;
+  border: 2px solid #31a2ac;
+  border-radius: 1em;
+  color: #000080;
+  font-family: 'Taviraj', serif;
+  font-size: 18px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container select,
+.form-container textarea {
+  font: 1em 'Taviraj', serif;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 2px solid #31a2ac;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.form-container input:focus,
+.form-container textarea:focus {
+  border-color: #000;
+}
+
+.form-container textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+
+.form-container .button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-container .button button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Your existing CSS styles below */
+/* ... */
+
+/* Media queries and remaining styles below */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* ... */
+}
+
+
+
+
+
+
+
+
+
 .fa {
   padding: 10px;
   font-size: 20px;
@@ -170,6 +422,11 @@ button {
 .fa-linkedin {
   color: black;
 }
+
+
+
+
+
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px)
@@ -234,74 +491,8 @@ form {
 input, textarea {
   width: 221px;
 
-
 }
 
 
 
-
-  /* Your existing CSS styles here */
-/* ... */
-
-/* Add the styling for the form container */
-.form-container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 1em;
-  border: 2px solid #31a2ac;
-  border-radius: 1em;
-  color: #000080;
-  font-family: 'Taviraj', serif;
-  font-size: 18px;
-  background-color: #f2f2f2;
-  display: flex; /* Add flex display to align items vertically */
-  flex-direction: column; /* Align items in a column */
-}
-
-.form-container label {
-  display: inline-block;
-  width: 100px;
-  text-align: left;
-}
-
-.form-container input[type="text"],
-.form-container input[type="email"],
-.form-container select,
-.form-container textarea {
-  font: 1em 'Taviraj', serif;
-  width: 864px;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  border: 2px solid #31a2ac;
-  margin-bottom: 10px;
-  padding: 10px;
-}
-
-.form-container input:focus, .form-container textarea:focus {
-  border-color: #000;
-}
-
-.form-container textarea {
-  vertical-align: top;
-  height: 5em;
-  resize: vertical;
-}
-
-.form-container .button {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.form-container .button button {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 3px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-/* Your existing CSS styles here */
-/* ... */
-
+  
