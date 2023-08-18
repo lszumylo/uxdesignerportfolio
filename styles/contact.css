@@ -84,7 +84,7 @@ label {
 
 input, textarea {
   /* To make sure that all text fields have the same font settings
-     By default, textareas have a monospace font */
+     By default, text areas have a monospace font */
   font: 1em 'Taviraj', serif;
 
 
@@ -376,7 +376,7 @@ button {
 }
 
 .form-container .button button {
-  background-color: #007bff;
+  background-color: #000080;
   color: #fff;
   padding: 10px 20px;
   border: none;
