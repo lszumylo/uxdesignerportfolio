@@ -1,6 +1,6 @@
 .connect {
   color: white;
-    background-color: #F06261;
+    background-color: #000080;
   font-family: 'work sans', serif;
    font-size: 50px;
    font-weight: normal;
@@ -14,7 +14,7 @@
 
 .design {
 color: white;
-background-color: #F06261;
+background-color: #000080;
 font-family: Taviraj, serif;
  font-size: 20px;
  font-weight: normal;
@@ -39,7 +39,7 @@ font-family: Taviraj, serif;
 .message {
   font-family: Taviraj, serif;
   font-size: 18px;
-  color: #F06261;
+  color: ##000080;
   position: relative;
   left: 555px;
   top:-212px;
@@ -48,7 +48,7 @@ font-family: Taviraj, serif;
 .leave-a-message {
   font-family: Taviraj, serif;
   font-size: 22px;
-  color: #F06261;
+  color: #000080;
   text-align: center;
   padding-bottom: 10px;
 }
@@ -117,7 +117,7 @@ textarea {
 button {
   /* To position the buttons to the same position of the text fields */
   padding-center: 90px; /* same size as the label elements */
-  color: #F06261;
+  color: #000080;
   height: 50px;
   width: 200px;
   font-size: 16px;
@@ -201,7 +201,7 @@ button {
 /* Styles for .connect, .design, .letter, .message, .leave-a-message */
 .connect {
   color: white;
-  background-color: #F06261;
+  background-color: #000080;
   font-family: 'work sans', serif;
   font-size: 50px;
   font-weight: normal;
@@ -214,7 +214,7 @@ button {
 
 .design {
   color: white;
-  background-color: #F06261;
+  background-color: #000080;
   font-family: Taviraj, serif;
   font-size: 20px;
   font-weight: normal;
@@ -235,7 +235,7 @@ button {
 .message {
   font-family: Taviraj, serif;
   font-size: 18px;
-  color: #F06261;
+  color: #000080;
   position: relative;
   left: 555px;
   top: -212px;
@@ -244,7 +244,7 @@ button {
 .leave-a-message {
   font-family: Taviraj, serif;
   font-size: 22px;
-  color: #F06261;
+  color: #000080;
   text-align: center;
   padding-bottom: 10px;
 }
