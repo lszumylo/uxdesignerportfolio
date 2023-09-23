@@ -1,7 +1,7 @@
 
 .job {
-color: white;
-background-color: #31A2AC;
+color: #232323;
+background-color: white;
 width: auto;
 font-size: 30px;
 font-weight: normal;
@@ -10,8 +10,8 @@ padding-top: 30px;
 }
 
 .me {
-  color: #000080;
-  background-color: #31A2AC;
+  color: #FF6162;
+  background-color: white;
   width: auto;
   font-size: 65px;
   font-weight: bold;
@@ -19,8 +19,8 @@ padding-top: 30px;
   }
 
 .town {
-  color: white;
-  background-color: #31A2AC;
+  color: #232323;
+  background-color: white;
   width: auto;
   font-size: 25px;
   font-weight: normal;
