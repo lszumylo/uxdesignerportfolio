@@ -1,4 +1,75 @@
 
+/* Apply styles to the navigation bar */
+.navbar {
+  background-color: #434F5B; /* Navy Blue */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px; /* Adjust the height as needed */
+}
+
+/* Style for the logo image */
+.logo {
+  width: 30px;
+  margin-right: 10px; /* Adjust the spacing between the logo and links */
+}
+
+/* Style for the navigation links */
+.nav-link {
+  color: #FAFAFA; /* White */
+  text-decoration: none;
+  margin: 0 10px; /* Adjust the spacing between the links */
+}
+
+/* Style for the selected link */
+.nav-link.selected {
+  color: #FF6162; /* Red when selected */
+}
+
+/* Style for the hamburger menu icon */
+.menu-icon {
+  display: none; /* Initially hide the hamburger menu icon */
+  cursor: pointer;
+}
+
+/* Style for the mobile menu */
+.mobile-menu {
+  display: none; /* Initially hide the mobile menu */
+  flex-direction: column;
+  background-color: #434F5B; /* Navy Blue */
+  position: absolute;
+  top: 60px; /* Height of the navbar */
+  right: 0;
+  width: 100%;
+}
+
+/* Style for the links in the mobile menu */
+.mobile-menu .nav-link {
+  color: #FAFAFA; /* White */
+  padding: 10px;
+  text-align: center;
+}
+
+/* Media query for screens smaller than 768px (tablets and mobiles) */
+@media (max-width: 768px) {
+  /* Hide the regular navigation links */
+  .nav-link {
+    display: none;
+  }
+
+  /* Show the hamburger menu icon and the mobile menu */
+  .menu-icon {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: flex;
+  }
+}
+
+
+
+
 .job {
 color: #232323;
 background-color: white;
