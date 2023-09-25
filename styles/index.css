@@ -2,7 +2,6 @@
 .navbar {
   background-color: #434F5B; /* Navy Blue */
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 60px; /* Adjust the height as needed */
   padding: 0 20px; /* Add margins to both sides of the page */
@@ -11,20 +10,22 @@
 /* Style for the logo image */
 .logo {
   width: 30px; /* Adjust the logo width as needed */
+  margin-left: auto; /* Horizontally center the logo */
+  margin-right: auto; /* Horizontally center the logo */
 }
 
 /* Style for the navigation links on the left */
 .nav-links-left {
   display: flex;
   align-items: center;
-  gap: 20px; /* Adjust the spacing between links on the left */
+  gap: 10px; /* Adjust the spacing between links on the left */
 }
 
 /* Style for the navigation links on the right */
 .nav-links-right {
   display: flex;
   align-items: center;
-  gap: 20px; /* Adjust the spacing between links on the right */
+  gap: 10px; /* Adjust the spacing between links on the right */
 }
 
 /* Style for the navigation links */
@@ -56,6 +57,7 @@
     display: flex;
   }
 }
+
 
 .job {
 color: #232323;
