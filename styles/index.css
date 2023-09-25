@@ -1,4 +1,3 @@
-
 /* Apply styles to the navigation bar */
 .navbar {
   background-color: #434F5B; /* Navy Blue */
@@ -6,48 +5,39 @@
   justify-content: space-between;
   align-items: center;
   height: 60px; /* Adjust the height as needed */
+  padding: 0 20px; /* Add margins to both sides of the page */
 }
 
 /* Style for the logo image */
 .logo {
-  width: 30px;
-  margin-right: 20px; /* Adjust the spacing between the logo and links */
+  width: 30px; /* Adjust the logo width as needed */
+}
+
+/* Style for the navigation links on the left */
+.nav-links-left {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adjust the spacing between links on the left */
+}
+
+/* Style for the navigation links on the right */
+.nav-links-right {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adjust the spacing between links on the right */
 }
 
 /* Style for the navigation links */
 .nav-link {
-  color: #FAFAFA; /* White */
+  color: #FAFAFA; /* White text color */
   text-decoration: none;
-  margin: 0 10px; /* Adjust the spacing between the links */
+  font-weight: bold; /* Make the links bold */
+  transition: color 0.3s; /* Smooth color transition on hover */
 }
 
 /* Style for the selected link */
 .nav-link.selected {
-  color: #FF6162; /* Red when selected */
-}
-
-/* Style for the hamburger menu icon */
-.menu-icon {
-  display: none; /* Initially hide the hamburger menu icon */
-  cursor: pointer;
-}
-
-/* Style for the mobile menu */
-.mobile-menu {
-  display: none; /* Initially hide the mobile menu */
-  flex-direction: column;
-  background-color: #434F5B; /* Navy Blue */
-  position: absolute;
-  top: 60px; /* Height of the navbar */
-  right: 0;
-  width: 100%;
-}
-
-/* Style for the links in the mobile menu */
-.mobile-menu .nav-link {
-  color: #FAFAFA; /* White */
-  padding: 10px;
-  text-align: center;
+  color: #FF6162; /* Red text color when selected */
 }
 
 /* Media query for screens smaller than 768px (tablets and mobiles) */
@@ -66,9 +56,6 @@
     display: flex;
   }
 }
-
-
-
 
 .job {
 color: #232323;
