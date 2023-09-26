@@ -62,11 +62,14 @@
   position: relative;
   width: 50%;
   height: 50vh;
+  margin-top: 20px; /* Add space above the image */
+  margin-bottom: 20px; /* Add space below the image */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 
 
 .job {
