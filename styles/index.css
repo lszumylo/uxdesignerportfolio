@@ -18,14 +18,14 @@
 .nav-links-left {
   display: flex;
   align-items: center;
-  gap: 10px; /* Adjust the spacing between links on the left */
+  gap: 15px; /* Adjust the spacing between links on the left */
 }
 
 /* Style for the navigation links on the right */
 .nav-links-right {
   display: flex;
   align-items: center;
-  gap: 10px; /* Adjust the spacing between links on the right */
+  gap: 15px; /* Adjust the spacing between links on the right */
 }
 
 /* Style for the navigation links */
@@ -63,7 +63,7 @@
     width: 50%;
     height: 50vh;
     margin-top: 40px; /* Increase the top margin to add more space */
-    margin-bottom: 20px; /* You can adjust this as needed */
+    margin-bottom: 30px; /* You can adjust this as needed */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -80,7 +80,6 @@
     text-align: center;
     padding-top: 40px; /* Increase the top padding to add more space */
 }
-
 
 
 
