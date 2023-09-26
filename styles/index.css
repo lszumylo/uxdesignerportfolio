@@ -59,28 +59,30 @@
 }
 
 .Hero-Image {
-  position: relative;
-  width: 50%;
-  height: 50vh;
-  margin-top: 20px; /* Add space above the image */
-  margin-bottom: 20px; /* Add space below the image */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: relative;
+    width: 50%;
+    height: 50vh;
+    margin-top: 40px; /* Increase the top margin to add more space */
+    margin-bottom: 20px; /* You can adjust this as needed */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
 
 
 .job {
-color: #232323;
-background-color: white;
-width: auto;
-font-size: 30px;
-font-weight: normal;
-text-align: center;
-padding-top: 30px;
+    color: #232323;
+    background-color: white;
+    width: auto;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 40px; /* Increase the top padding to add more space */
 }
+
+
+
 
 .me {
   color: #FF6162;
@@ -107,26 +109,27 @@ padding-top: 30px;
   height: 560px;
   }
 
-  .description {
-  position: relative;
-  font-family: 'Taviraj', serif;
-  font-size: 35px;
-  font-weight: bold;
-  color: #000000;
-  top:-380px;
-  left: 550px;
+.description {
+    position: relative;
+    font-family: 'Taviraj', serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+    top: -380px;
+    left: 550px;
+    margin-top: 40px; /* Increase the top margin to add more space */
 }
 
 .sentence {
-position: absolute;
-font-family: 'Taviraj', serif;
-font-size: 20px;
-font-weight: normal;
-color: #000000 ;
-top: 660px;
-left: 950px;
+    position: absolute;
+    font-family: 'Taviraj', serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #000000;
+    top: 660px;
+    left: 950px;
+    margin-top: 20px; /* You can adjust this as needed */
 }
-
 
 .button-scuba {
   position: absolute;
