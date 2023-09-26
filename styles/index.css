@@ -73,6 +73,11 @@
 
 .value-prop {
   text-align: center;
+   width: auto;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 
