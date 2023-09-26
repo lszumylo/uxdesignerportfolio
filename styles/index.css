@@ -117,13 +117,8 @@
 .pink-container {
   background-color: #fea5b7;
   width: 100%;
-  height: 560px;
-  top: 200px; /* Adjust this value as needed */
-  position: relative;
-  z-index: 2; /* Set a higher z-index */
+  height: 200px; /* Adjust the height as needed */
 }
-
-
 
 
 
@@ -175,13 +170,13 @@
   width: 720px;
 }
 
-  .yellow-container1 {
-    position: relative;
-    background-color: #f2d597;
-    width: 100%;
-    height: 560px;
-    top: -32px;
-  }
+
+.yellow-container1 {
+  background-color: #f2d597;
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+}
+
 
 .food-mockup {
   position: relative;
