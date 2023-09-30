@@ -1,1 +1,36 @@
 
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #434F5B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Style the topnav links */
+.nav-link {
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 10px 16px; /* Adjusted padding to keep the text within the box */
+  transition: font-weight 0.2s; /* Smooth transition for font-weight */
+  font-weight: normal; /* Set the initial font weight */
+  line-height: 1.5; /* Fixed line height */
+}
+
+/* Change text style on hover */
+.topnav a:hover {
+  font-weight: bold; /* Change the text style (font-weight) on hover */
+  color: #f2f2f2;
+}
+
+/* Add background highlight for active link */
+.nav-link.selected {
+  background-color: #ddd;
+  color: black;
+  font-weight: bold; /* Set font weight for active link */
+}
+
+
+
