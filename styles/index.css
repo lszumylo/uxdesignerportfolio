@@ -1,4 +1,13 @@
 
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+}
+
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
@@ -32,5 +41,11 @@
   font-weight: bold; /* Set font weight for active link */
 }
 
+
+/* Add background highlight for active link */
+.topnav a.active {
+  background-color: #ddd;
+  color: black;
+  font-weight: bold; /* Set font weight for active link */
 
 
