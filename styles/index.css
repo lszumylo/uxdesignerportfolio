@@ -1,4 +1,3 @@
-
 {
   box-sizing: border-box;
 }
@@ -29,10 +28,11 @@ body {
 }
 
 /* Change text style on hover */
-.topnav a:hover {
+.nav-link:hover {
   font-weight: bold; /* Change the text style (font-weight) on hover */
   color: #f2f2f2;
 }
+
 
 /* Add background highlight for active link */
 .nav-link.selected {
@@ -72,7 +72,6 @@ body {
   font-weight: normal;
   padding-bottom: 20px;
 }
-
 
 .value-prop {
   text-align: center;
