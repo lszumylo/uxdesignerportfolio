@@ -101,7 +101,7 @@ body {
 
   
 .Hero-Image {
-  max-width: 40%; /* Set the maximum width to 100% of its container */
+  max-width: 100%; /* Set the maximum width to 100% of its container */
   height: auto; /* Allow the height to adjust proportionally */
 }
 
