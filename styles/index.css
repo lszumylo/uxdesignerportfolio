@@ -82,9 +82,10 @@ body {
   padding-bottom: 20px;
 }
 
-
 .Hero-Image {
-  max-width: 100%; /* Set the maximum width to 100% of its container */
+  max-width: 50%; /* Set the maximum width to 100% of its container */
   height: auto; /* Allow the height to adjust proportionally */
 }
+
+
   
