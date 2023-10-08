@@ -48,6 +48,12 @@ body {
   color: black;
   font-weight: bold; /* Set font weight for active link */
 
+
+.container {
+  width: 100%; /* You can adjust the width as needed */
+  text-align: center; /* Center-align the text within the container */
+}
+  
  
 .job, .me, .town {
   color: #232323;
