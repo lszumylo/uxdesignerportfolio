@@ -48,4 +48,35 @@ body {
   color: black;
   font-weight: bold; /* Set font weight for active link */
 
+  
+.job {
+    color: #232323;
+    background-color: white;
+    width: auto;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 40px; /* Increase the top padding to add more space */
+}
+
+
+.me {
+  color: #FF6162;
+  background-color: white;
+  width: auto;
+  font-size: 65px;
+  font-weight: bold;
+  text-align: center;
+}
+
+  .town {
+  color: #232323;
+  background-color: white;
+  width: auto;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 
