@@ -73,6 +73,15 @@ body {
   padding-bottom: 20px;
 }
 
+.image-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 
