@@ -67,13 +67,13 @@ body {
 
 .value-prop {
   text-align: center;
-  width: 50%; /* You can adjust this value as needed */
-  max-width: 500px; /* Optional: Set a maximum width to prevent it from getting too wide */
+  max-width: 500px; /* Adjust this value as needed to limit the width */
   font-size: 18px;
   font-weight: normal;
   padding-bottom: 20px;
   margin: 0 auto; /* Center the element horizontally within its parent container */
 }
+
 
 
 .image-container {
