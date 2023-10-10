@@ -75,20 +75,22 @@ body {
 }
 
 
-
 .image-container {
     display: flex;
     justify-content: center; /* Horizontally center the content */
     align-items: center; /* Vertically center the content */
     max-width: 100%;
     overflow: hidden;
-    height: 800px; /* Set the fixed height of the container */
+    height: auto; /* Set the height to auto to allow it to adjust to the image's natural size */
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%; /* Adjust the height as needed */
+    max-width: 80%; /* Adjust the width as needed to make the image smaller */
+    max-height: 80vh; /* Adjust the height as needed */
+    height: auto; /* Allow the height to adjust proportionally with the width */
 }
+
+
 
 
 
