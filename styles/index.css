@@ -10,6 +10,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  margin: 0 10px; /* Adjust the margin values as needed */
 }
 
 /* Style the topnav links */
@@ -154,5 +155,29 @@ img {
 }
 
 
+
+
+
+
+
+/* Your regular CSS styles go here */
+
+/* Media query for tablets (e.g., iPads) */
+@media (max-width: 1024px) {
+    .navbar {
+        margin: 0 15px; /* Adjusted margin for tablet screens */
+    }
+
+    /* Add styles specific to tablets here */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .navbar {
+        margin: 0 10px; /* Adjusted margin for mobile screens */
+    }
+
+    /* Add styles specific to mobile devices here */
+}
 
   
