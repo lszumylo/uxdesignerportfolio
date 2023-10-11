@@ -90,6 +90,19 @@ img {
 }
 
 
+.hero-button {
+    display: inline-block;
+    background-color: #ABD060;
+    color: #232323;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero-button:hover {
+    background-color: #94B34B; /* Change the color on hover if desired */
+}
 
 
 
