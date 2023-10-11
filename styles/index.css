@@ -67,7 +67,6 @@ body {
 
 .value-prop {
   text-align: center;
-  max-width: 200px; /* Adjust this value as needed to limit the width */
   font-size: 18px;
   font-weight: normal;
   padding-bottom: 20px;
