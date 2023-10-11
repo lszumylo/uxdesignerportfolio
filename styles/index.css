@@ -89,6 +89,10 @@ img {
     height: auto; /* Allow the height to adjust proportionally with the width */
 }
 
+.button-container {
+    text-align: center;
+}
+
 
 .hero-button {
     display: inline-block;
