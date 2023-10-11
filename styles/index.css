@@ -124,7 +124,6 @@ img {
 }
 
 .footer-links {
-    display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -141,11 +140,12 @@ img {
 }
 
 .footer-logo img {
-    max-width: 100px; /* Adjust the logo's max width as needed */
+    max-width: 70px; /* Adjust the logo's max width as needed */
 }
 
-
-
+.footer-bottom {
+    text-align: center;
+}
 
 
 
