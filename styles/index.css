@@ -137,17 +137,21 @@ img {
 
 .footer-logo {
     margin: 0;
+    display: flex;
+    align-items: center; /* Center the logo vertically */
 }
 
 .footer-logo img {
-    max-width: 70px; /* Adjust the logo's max width as needed */
+    max-width: 50px; /* Adjust the logo's max width as needed and make it smaller */
 }
 
 .footer-bottom {
     text-align: center;
 }
 
-
+.footer-bottom p {
+    color: #FAFAFA; /* Set the color of the year (2023) to white */
+}
 
 
 
