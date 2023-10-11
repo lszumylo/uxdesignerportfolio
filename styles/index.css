@@ -128,7 +128,9 @@ img {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center; /* Center-align the links */
 }
+
 
 .footer-links a {
     color: #FAFAFA;
@@ -140,11 +142,13 @@ img {
     margin: 0;
     display: flex;
     align-items: center; /* Center the logo vertically */
+    order: -1; /* Move the logo to the beginning (left) of the flex container */
 }
 
 .footer-logo img {
     max-width: 50px; /* Adjust the logo's max width as needed and make it smaller */
 }
+
 
 .footer-bottom {
     text-align: center;
