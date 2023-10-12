@@ -137,6 +137,9 @@ img {
     color: #FAFAFA;
     text-decoration: none;
     margin-right: 20px;
+    font-size: 14px; /* Set the font size to 14px */
+    display: inline-block; /* Make the links inline-block elements */
+    vertical-align: middle; /* Vertically align the links */
 }
 
 .footer-logo {
