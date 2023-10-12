@@ -149,17 +149,6 @@ img {
     vertical-align: middle; /* Vertically align the links */
 }
 
-.footer-logo {
-    margin: 0;
-    display: flex;
-    align-items: center; /* Center the logo vertically */
-    order: -1; /* Move the logo to the beginning (left) of the flex container */
-}
-
-.footer-logo img {
-    max-width: 40px; /* Adjust the logo's max width as needed and make it smaller */
-}
-
 
 .footer-bottom {
     text-align: center;
