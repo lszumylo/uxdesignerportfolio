@@ -166,9 +166,9 @@ img {
 }
 
 .footer-bottom p {
-    color: #FAFAFA; /* Set the color of the year (2023) to white */
+    color: #FAFAFA;
+    font-size: 14px; /* Set the font size to 14px */
 }
-
 
 
 
