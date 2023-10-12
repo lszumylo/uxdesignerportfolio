@@ -67,13 +67,20 @@ body {
   padding-bottom: 20px;
 }
 
-.value-prop {
-  text-align: center;
-  font-size: 18px;
-  font-weight: normal;
-  padding-bottom: 20px;
-  margin: 0 auto; /* Center the element horizontally within its parent container */
+
+.value-prop-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center; /* Center-align the content horizontally */
 }
+
+.value-prop {
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 20px;
+    text-align: left; /* Keep the text left-aligned within the container */
+}
+
 
 
 .image-container {
