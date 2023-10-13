@@ -1,9 +1,20 @@
-.about-container {
-  display: flex;
-  align-items: center; /* Center vertically */
-  justify-content: space-between; /* Space between image and text */
+/* General styles for paragraphs */
+p {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 24px 0; /* Adjust the top and bottom margins as needed */
 }
 
+/* General styles for the body */
+body {
+  margin: auto;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+}
+
+/* Styles for the image with the class "about-container__image" */
 .about-container__image {
   max-width: 50%; /* Adjust the width as needed */
 }
@@ -18,6 +29,11 @@
 
 /* Add responsive styling as needed for smaller screens */
 @media only screen and (max-width: 480px) {
+  p {
+    font-size: 14px; /* Reduce font size for smaller devices */
+    /* You may adjust other styles as needed for better mobile display */
+  }
+
   .about-container {
     flex-direction: column; /* Stack image and text on smaller screens */
   }
@@ -25,28 +41,29 @@
   .about-container__image {
     max-width: 100%; /* Adjust for full width on smaller screens */
   }
+
+  /* Styles for the navigation (you can keep these styles as is) */
+  .topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a.active {
+    background-color: white;
+    color: #DE5752;
+  }
 }
 
-/* Styles for the navigation */
-.topnav {
-  overflow: hidden;
-  background-color: #ffffff;
-}
-
-.topnav a {
-  float: left;
-  color: #000000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a.active {
-  background-color: white;
-  color: #DE5752;
-}
-
+/* Styles for the footer (you can keep these styles as is) */
 .site-footer {
   background-color: #434F5B;
   color: #FAFAFA;
