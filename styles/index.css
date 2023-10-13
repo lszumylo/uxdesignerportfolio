@@ -64,21 +64,23 @@ body {
   font-size: 25px;
   font-weight: normal;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
+
+
 
 .value-prop-container {
     display: flex;
     flex-direction: column; /* Stack content vertically */
     align-items: center; /* Center horizontally */
     justify-content: center; /* Center vertically */
-    height: 100vh; /* Make the container take the full viewport height */
+    height: 80vh; /* Make the container take the full viewport height */
 }
 
 .value-prop {
     font-size: 18px;
     font-weight: normal;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-align: left; /* Keep the text left-aligned within the container */
 }
 
@@ -89,7 +91,11 @@ body {
     max-width: 100%;
     overflow: hidden;
     height: auto; /* Set the height to auto to allow it to adjust to the image's natural size */
+    margin: 0;
+    padding: 0;
 }
+
+
 
 img {
     max-width: 80%; /* Adjust the width as needed to make the image smaller */
