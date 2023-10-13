@@ -1,30 +1,30 @@
-/* General styles for paragraphs */
-p {
-  font-family: 'Taviraj', serif;
-  color: #000000;
-  font-weight: normal;
-  font-size: 16px;
-  margin: 0; /* Remove margin to avoid extra space */
+.about-container {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Space between image and text */
 }
 
-/* General styles for the body */
-body {
-  margin: auto;
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-}
-
-/* Styles for the image with the class "about-container__image" */
 .about-container__image {
-  max-width: 100%; /* Limit the maximum width of the image to its container */
-  height: auto; /* Automatically adjust height based on width */
-  display: block; /* Ensure the image takes up the full width of its container */
-  margin: 0 auto 20px; /* Center the image horizontally and add space below */
+  max-width: 50%; /* Adjust the width as needed */
 }
 
-/* Styles for the heading */
+.about-container__text {
+  flex: 1; /* Fill available space */
+}
+
 .page-header__title {
   margin-top: 0; /* Remove default top margin for the heading */
+}
+
+/* Add responsive styling as needed for smaller screens */
+@media only screen and (max-width: 480px) {
+  .about-container {
+    flex-direction: column; /* Stack image and text on smaller screens */
+  }
+
+  .about-container__image {
+    max-width: 100%; /* Adjust for full width on smaller screens */
+  }
 }
 
 /* Styles for the navigation */
@@ -48,75 +48,41 @@ body {
 }
 
 .site-footer {
-    background-color: #434F5B;
-    color: #FAFAFA;
-    text-align: center;
-    padding: 20px 0;
+  background-color: #434F5B;
+  color: #FAFAFA;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center; /* Center-align the links */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Center-align the links */
 }
-
 
 .footer-links a {
-    color: #FAFAFA;
-    text-decoration: none;
-    margin-right: 20px;
-    font-size: 14px; /* Set the font size to 14px */
-    display: inline-block; /* Make the links inline-block elements */
-    vertical-align: middle; /* Vertically align the links */
+  color: #FAFAFA;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 14px; /* Set the font size to 14px */
+  display: inline-block; /* Make the links inline-block elements */
+  vertical-align: middle; /* Vertically align the links */
 }
 
-
 .footer-bottom {
-    text-align: center;
+  text-align: center;
 }
 
 .footer-bottom p {
-    color: #FAFAFA;
-    font-size: 14px; /* Set the font size to 14px */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media query for smaller devices */
-@media only screen and (max-width: 480px) {
-  p {
-    font-size: 14px; /* Reduce font size for smaller devices */
-    /* You may adjust other styles as needed for better mobile display */
-  }
-
-  .about-container__text {
-    /* Adjust styles for the text container to allow proper stacking on smaller devices */
-    float: none; /* Remove float for proper mobile display */
-    margin-left: 0; /* Remove left margin for proper mobile display */
-  }
-
-  .topnav a {
-    float: none; /* Remove float for proper mobile display */
-    display: block; /* Display navigation links as block elements for proper mobile display */
-    text-align: left; /* Align navigation links to the left for proper mobile display */
-  }
+  color: #FAFAFA;
+  font-size: 14px; /* Set the font size to 14px */
 }
