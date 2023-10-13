@@ -3,18 +3,97 @@
 }
 
 .project-info {
-    text-align: center;
-    padding: 40px 0;
-    background-color: #f0f0f0;
-    color: #333;
+  text-align: center;
+  padding: 40px 0;
+  background-color: #f0f0f0;
+  color: #333;
 }
 
 .project-info h1 {
-    font-size: 28px;
-    font-weight: bold;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .project-info p {
-    font-size: 18px;
+  font-size: 18px;
 }
+
+.scubagirl {
+  height: 250px;
+  width: 100%;
+}
+
+.description {
+  font-size: 17px;
+  top: 12px;
+  left: 71px;
+}
+
+.sentence {
+  font-size: 13px;
+  top: 523px;
+  left: 47px;
+}
+
+.button-scuba {
+  top: 559px;
+  left: 118px;
+  padding: 6px 8px;
+  font-size: 15px;
+}
+
+.pink-container {
+  height: 394px;
+}
+
+.food-mockup {
+  height: 44%;
+  width: 100%;
+  left: 0px;
+}
+
+.yellow-container1 {
+  height: 150px;
+  top: 221px;
+}
+
+.food-mockup {
+  height: 178%;
+  width: 100%;
+  left: 0px;
+  top: -253px;
+}
+
+.description2 {
+  font-size: 17px;
+  top: 24px;
+  left: 147px;
+}
+
+.sentence1 {
+  font-size: 13px;
+  top: 56px;
+  left: 96px;
+}
+
+.button-paycrave {
+  top: 90px;
+  left: 114px;
+  padding: 6px 8px;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
