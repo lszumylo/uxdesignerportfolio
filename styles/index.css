@@ -114,7 +114,17 @@ img {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+   border: 1px solid #434F5B; /* Add a 1px solid stroke with the desired color */
 }
+
+.hero-button:hover {
+  background-color: #94B34B; /* Change the color on hover if desired */
+}
+
+
+
+
+
 
 .hero-button:hover {
     background-color: #94B34B; /* Change the color on hover if desired */
