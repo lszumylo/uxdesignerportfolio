@@ -2,21 +2,21 @@
   text-align: center; /* Center text within the container */
 }
 
+
 .project-info {
   text-align: center;
-  padding: 40px 0;
-  background-color: #f0f0f0;
-  color: #333;
 }
 
-.project-info h1 {
-  font-size: 28px;
+.center-heading {
+  font-size: 24px; /* Adjust the font size as needed */
   font-weight: bold;
 }
 
-.project-info p {
-  font-size: 18px;
+.center-text {
+  font-size: 18px; /* Adjust the font size as needed */
+  font-weight: normal;
 }
+
 
 .scubagirl {
   height: 250px;
