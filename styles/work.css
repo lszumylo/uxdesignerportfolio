@@ -1,1 +1,16 @@
+.project-info {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.project-info h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.project-info p {
+    font-size: 18px;
+}
 
