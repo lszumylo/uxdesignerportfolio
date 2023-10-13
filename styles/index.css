@@ -75,16 +75,12 @@ body {
     height: 100vh; /* Make the container take the full viewport height */
 }
 
-
-
 .value-prop {
     font-size: 18px;
     font-weight: normal;
     padding-bottom: 20px;
     text-align: left; /* Keep the text left-aligned within the container */
 }
-
-
 
 .image-container {
     display: flex;
@@ -105,7 +101,6 @@ img {
     text-align: center;
 }
 
-
 .hero-button {
     display: inline-block;
     background-color: #ABD060;
@@ -119,15 +114,6 @@ img {
 
 .hero-button:hover {
   background-color: #94B34B; /* Change the color on hover if desired */
-}
-
-
-
-
-
-
-.hero-button:hover {
-    background-color: #94B34B; /* Change the color on hover if desired */
 }
 
 .site-footer {
