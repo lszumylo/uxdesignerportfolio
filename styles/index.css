@@ -67,12 +67,15 @@ body {
   padding-bottom: 20px;
 }
 
-
 .value-prop-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center; /* Center-align the content horizontally */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Make the container take the full viewport height */
 }
+
+
 
 .value-prop {
     font-size: 18px;
