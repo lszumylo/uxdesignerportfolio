@@ -25,6 +25,7 @@ body {
 
 .page-header__title {
   margin-top: 0; /* Remove default top margin for the heading */
+  text-align: center;
 }
 
 /* Add responsive styling as needed for smaller screens */
