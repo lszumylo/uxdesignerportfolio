@@ -68,20 +68,19 @@ body {
 }
 
 
-
 .value-prop-container {
     display: flex;
     flex-direction: column; /* Stack content vertically */
     align-items: center; /* Center horizontally */
     justify-content: center; /* Center vertically */
-    height: 80vh; /* Make the container take the full viewport height */
+    min-height: 80vh; /* Set a minimum height to maintain container size */
 }
 
 .value-prop {
     font-size: 18px;
     font-weight: normal;
-    padding-bottom: 10px;
-    text-align: left; /* Keep the text left-aligned within the container */
+    text-align: center; /* Center text within the container */
+    padding: 10px 0; /* Add padding to the top and bottom */
 }
 
 .image-container {
@@ -94,7 +93,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 
 
 img {
