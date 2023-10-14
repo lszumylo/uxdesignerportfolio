@@ -4,7 +4,7 @@ p {
   color: #000000;
   font-weight: normal;
   font-size: 16px;
-  margin: 24px 0; /* Adjust the top and bottom margins as needed */
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
 /* General styles for the body */
