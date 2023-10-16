@@ -45,7 +45,8 @@ body {
   font-size: 20px;
   font-weight: normal;
   text-align: center;
-  padding-top: 0px;
+  padding: 10px 0; /* Add padding to create space top and bottom */
+  margin-right: 10px; /* Add margin-right to create space between sections */
 }
 
 .me {
@@ -55,6 +56,8 @@ body {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
+  padding: 10px 0; /* Add padding to create space top and bottom */
+  margin-right: 10px; /* Add margin-right to create space between sections */
 }
 
 .town {
@@ -64,8 +67,8 @@ body {
   font-size: 20px;
   font-weight: normal;
   text-align: center;
-  }
-
+  padding: 10px 0; /* Add padding to create space top and bottom */
+}
 
 .value-prop {
     font-size: 18px;
