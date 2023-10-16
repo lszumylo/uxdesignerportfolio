@@ -64,18 +64,7 @@ body {
   font-size: 25px;
   font-weight: normal;
   text-align: center;
-  padding-bottom: 0px;
-}
-
-
-.value-prop-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 50vh;
-    margin: 0 40px; /* Add left and right margins of 20px */
-}
+  }
 
 
 .value-prop {
