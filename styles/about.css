@@ -16,8 +16,10 @@ body {
 
 /* Styles for the image with the class "about-container__image" */
 .about-container__image {
+  flex: 1; /* Fill available space */
   max-width: 50%; /* Adjust the width as needed */
 }
+
 
 .about-container__text {
   flex: 1; /* Fill available space */
