@@ -14,16 +14,21 @@ body {
   font-size: 16px;
 }
 
-/* Styles for the image with the class "about-container__image" */
-.about-container__image {
-  flex: 1; /* Fill available space */
-  max-width: 50%; /* Adjust the width as needed */
+
+.about-container {
+    display: flex;
+    flex-direction: row; /* Default value, ensures image is on the left, text is on the right */
 }
 
+.about-container__image {
+    max-width: 50%; /* Adjust the width as needed */
+}
 
 .about-container__text {
-  flex: 1; /* Fill available space */
+    flex: 1; /* Fill available space for the text */
 }
+
+
 
 .page-header__title {
   margin-top: 0; /* Remove default top margin for the heading */
