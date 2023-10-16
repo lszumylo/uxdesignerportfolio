@@ -160,12 +160,6 @@ img {
 }
 
 
-
-
-
-
-/* Your regular CSS styles go here */
-
 /* Media query for tablets (e.g., iPads) */
 @media (max-width: 1024px) {
     .navbar {
@@ -173,6 +167,10 @@ img {
     }
 
     /* Add styles specific to tablets here */
+
+    .value-prop {
+        margin: 0 15px; /* Adjust the margins for smaller screens */
+    }
 }
 
 /* Media query for mobile devices */
@@ -182,6 +180,20 @@ img {
     }
 
     /* Add styles specific to mobile devices here */
+
+    .value-prop {
+        margin: 0 10px; /* Adjust the margins for smaller screens */
+    }
+
+    .about-container {
+        flex-direction: column; /* Stack image and text on smaller screens */
+    }
+
+    .about-container__image {
+        max-width: 100%; /* Adjust for full width on smaller screens */
+    }
 }
+
+
 
   
