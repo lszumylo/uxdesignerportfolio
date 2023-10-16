@@ -67,14 +67,16 @@ body {
   padding-bottom: 0px;
 }
 
+
 .value-prop-container {
     display: flex;
-    flex-direction: column; /* Stack content vertically */
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
-    min-height: 50vh; /* Set a minimum height to maintain container size */
-    margin-top: 0px; /* Add margin to the top to reduce space */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    margin: 0 20px; /* Add left and right margins of 20px */
 }
+
 
 
 .value-prop {
