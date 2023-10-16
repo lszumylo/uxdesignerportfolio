@@ -71,14 +71,12 @@ body {
   margin: 5px 0; /* Adjust the margin to control spacing between sections */
 }
 
-
-
 .value-prop {
     font-size: 18px;
     font-weight: normal;
-    text-align: left; /* Center text within the container */
-    padding: 0; /* Add padding to the top and bottom */
-    margin: 0px; /* Add margin to all sides (top, right, bottom, left) */
+    text-align: left;
+    padding: 0; /* Add padding to the top and bottom if needed */
+    margin: 0 20px; /* Add margin to the left and right sides */
 }
 
 
