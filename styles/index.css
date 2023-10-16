@@ -42,7 +42,7 @@ body {
   color: #232323;
   background-color: white;
   width: auto;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: normal;
   text-align: center;
   padding-top: 0px;
@@ -52,7 +52,7 @@ body {
   color: #FF6162;
   background-color: white;
   width: auto;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
 }
@@ -61,7 +61,7 @@ body {
   color: #232323;
   background-color: white;
   width: auto;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: normal;
   text-align: center;
   }
