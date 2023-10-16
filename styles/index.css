@@ -74,9 +74,8 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 50vh;
-    margin: 0 20px; /* Add left and right margins of 20px */
+    margin: 0 40px; /* Add left and right margins of 20px */
 }
-
 
 
 .value-prop {
