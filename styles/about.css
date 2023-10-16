@@ -22,12 +22,12 @@ body {
 
 .about-container__image {
     max-width: 75%; /* Adjust the width as needed */
-    margin-right: 20px; /* Add right margin to the image */
+    margin-left: 30px; /* Add right margin to the image */
 }
 
 .about-container__text {
     flex: 1; /* Fill available space for the text */
-    margin-left: 20px; /* Add left margin to the text */
+    margin-right: 30px; /* Add left margin to the text */
 }
 
 
