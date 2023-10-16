@@ -23,11 +23,13 @@ body {
 .about-container__image {
     max-width: 75%; /* Adjust the width as needed */
     margin-left: 30px; /* Add right margin to the image */
+    maring-right: 30px;
 }
 
 .about-container__text {
     flex: 1; /* Fill available space for the text */
     margin-right: 30px; /* Add left margin to the text */
+    margin-left 30px;
 }
 
 
