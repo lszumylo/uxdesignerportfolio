@@ -76,13 +76,15 @@ body {
     margin-top: 0px; /* Add margin to the top to reduce space */
 }
 
+
 .value-prop {
     font-size: 18px;
     font-weight: normal;
     text-align: left; /* Center text within the container */
-    padding: 0px 0; /* Add padding to the top and bottom */
-    margin-top: 0px; /* Add margin to the top to reduce space */
+    padding: 0; /* Add padding to the top and bottom */
+    margin: 10px; /* Add margin to all sides (top, right, bottom, left) */
 }
+
 
 .image-container {
     display: flex;
