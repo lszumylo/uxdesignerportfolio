@@ -30,11 +30,6 @@ body {
   /* No need to add a margin to the text */
 }
 
-.page-header__title {
-  margin-top: 0; /* Remove default top margin for the heading */
-  text-align: center;
-}
-
 /* Add responsive styling as needed for smaller screens */
 @media only screen and (max-width: 480px) {
   p {
@@ -112,5 +107,3 @@ body {
   color: #FAFAFA;
   font-size: 14px; /* Set the font size to 14px */
 }
-
-
