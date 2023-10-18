@@ -26,8 +26,8 @@ body {
 
 .about-container__image {
   max-width: 50%; /* Adjust the width as needed */
-  margin-right: 30px; /* Add a margin to the right of the image */
-  margin-bottom: 30px; /* Add a margin to move the image down */
+  margin-left: 30px; /* Add a margin to the left of the image */
+  margin-bottom: 70px; /* Add a margin to move the image down */
 }
 
 
