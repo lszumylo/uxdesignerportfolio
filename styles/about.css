@@ -22,9 +22,8 @@ body {
 
 .about-container__image {
   max-width: 75%;
-  margin-right: 30px; /* Add a right margin to the image */
-  margin-left:  30x;
-  margin-top: 80px;
+  margin-right: 20px; /* Add a right margin to the image */
+  margin-top: 70px;
 }
 
 .about-container__text {
