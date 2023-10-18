@@ -23,8 +23,8 @@ body {
 .about-container__image {
   max-width: 75%;
   margin-right: 30px; /* Add a right margin to the image */
-  margin-left:  60x;
-  margin-top: 100px;
+  margin-left:  30x;
+  margin-top: 80px;
 }
 
 .about-container__text {
