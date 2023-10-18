@@ -24,12 +24,15 @@ body {
   align-items: left; /* left content vertically */
 }
 
-.about-container__image {
+
+  .about-container__image {
   max-width: 50%; /* Adjust the width as needed */
-  margin-right: 80px; /* Add a margin to the right of the image (optional) */
-  margin-left: 80px; /* Add a margin to the left of the image (optional) */
-  border-radius: 50%; /* Makes the image circular */
+  margin-right: 60px; /* Add a margin to the right of the image (optional) */
+  margin-left: 60px; /* Add a margin to the left of the image (optional) */
+  border-radius: 50%; /* Makes the image a circle */
 }
+
+
 
 .about-container__text {
   flex: 1;
