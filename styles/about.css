@@ -32,6 +32,12 @@ body {
   border-radius: 50%; /* Makes the image a circle */
 }
 
+.circle {
+  width: 100px; /* Set your desired width */
+  height: 100px; /* Set your desired height (same as width) */
+  background-color: #3498db; /* Set the background color to your desired color */
+  border-radius: 50%; /* Make it a circle with 50% border-radius */
+}
 
 
 .about-container__text {
