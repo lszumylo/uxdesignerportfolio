@@ -9,14 +9,17 @@ p {
 
 /* General styles for the body */
 body {
-  margin: auto;
+  margin: 0; /* Reset the default body margin */
   font-family: 'Taviraj', serif;
   font-size: 16px;
 }
 
+.centered-heading {
+  text-align: center; /* Center the heading */
+}
+
 .about-container {
   display: flex;
-  flex-direction: row;
   align-items: flex-start; /* Align items to the top */
 }
 
@@ -45,26 +48,29 @@ body {
     max-width: 100%; /* Adjust for full width on smaller screens */
     margin-right: 0; /* Remove the margin for smaller screens */
   }
-
-  /* Styles for the navigation (you can keep these styles as is) */
-  .topnav {
-    overflow: hidden;
-    background-color: #ffffff;
+  .centered-heading {
+    text-align: center; /* Center the heading on smaller screens */
   }
+}
 
-  .topnav a {
-    float: left;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+/* Styles for the navigation (you can keep these styles as is) */
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+}
 
-  .topnav a.active {
-    background-color: white;
-    color: #DE5752;
-  }
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: #DE5752;
 }
 
 /* Styles for the footer (you can keep these styles as is) */
@@ -107,3 +113,9 @@ body {
   color: #FAFAFA;
   font-size: 14px; /* Set the font size to 14px */
 }
+
+
+
+
+
+
