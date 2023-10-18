@@ -22,13 +22,13 @@ body {
 
 .about-container__image {
   max-width: 50%; /* Adjust the width as needed */
-  }
+  margin-right: 30px; /* Add a margin to the right of the image */
+}
 
 .about-container__text {
   flex: 1;
-  margin-left: 30px; /* Add a left margin to the text */
+  /* No need to add a margin to the text */
 }
-
 
 .page-header__title {
   margin-top: 0; /* Remove default top margin for the heading */
@@ -48,6 +48,7 @@ body {
 
   .about-container__image {
     max-width: 100%; /* Adjust for full width on smaller screens */
+    margin-right: 0; /* Remove the margin for smaller screens */
   }
 
   /* Styles for the navigation (you can keep these styles as is) */
@@ -111,3 +112,5 @@ body {
   color: #FAFAFA;
   font-size: 14px; /* Set the font size to 14px */
 }
+
+
