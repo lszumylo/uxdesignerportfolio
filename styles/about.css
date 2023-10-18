@@ -21,9 +21,10 @@ body {
 }
 
 .about-container__image {
-  max-width: 75%;
-  margin-right: 20px; /* Add a right margin to the image */
-  margin-top: 70px;
+  max-width: 45%; /* Adjust the width as needed */
+  margin-right: 30px; /* Add right margin to the image */
+  margin-left: 30px; /* Add left margin to the image */
+  margin-top: 0; /* Remove the top margin to align with the first sentence */
 }
 
 .about-container__text {
