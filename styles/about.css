@@ -21,9 +21,7 @@ body {
 }
 
 .about-container__image {
-  max-width: 45%; /* Adjust the width as needed */
-  margin-right: 30px; /* Add right margin to the image */
-  margin-left: 30px; /* Add left margin to the image */
+  max-width: 50%; /* Adjust the width as needed */
   margin-top: 0; /* Remove the top margin to align with the first sentence */
 }
 
