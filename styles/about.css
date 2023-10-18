@@ -14,22 +14,20 @@ body {
   font-size: 16px;
 }
 
-
 .about-container {
-    display: flex;
-    flex-direction: row; /* Default value, ensures image is on the left, text is on the right */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Align items to the top */
 }
 
 .about-container__image {
-    max-width: 75%; /* Adjust the width as needed */
-    margin-left: 30px; /* Add right margin to the image */
-    maring-right: 30px;
+  max-width: 75%;
+  margin-right: 30px; /* Add a right margin to the image */
 }
 
 .about-container__text {
-    flex: 1; /* Fill available space for the text */
-    margin-right: 30px; /* Add left margin to the text */
-    margin-left 30px;
+  flex: 1;
+  margin-left: 30px; /* Add a left margin to the text */
 }
 
 
