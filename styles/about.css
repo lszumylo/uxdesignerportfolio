@@ -27,9 +27,9 @@ body {
 .about-container__image {
   max-width: 50%; /* Adjust the width as needed */
   margin-right: 80px; /* Add a margin to the right of the image (optional) */
-  maragin-left: 80px; 
+  margin-left: 80px; /* Add a margin to the left of the image (optional) */
+  border-radius: 50%; /* Makes the image circular */
 }
-
 
 .about-container__text {
   flex: 1;
@@ -50,11 +50,19 @@ body {
   .about-container__image {
     max-width: 100%; /* Adjust for full width on smaller screens */
     margin-right: 0; /* Remove the margin for smaller screens */
+    margin-left: 0; /* Remove the margin for smaller screens */
   }
   .centered-heading {
     text-align: center; /* Center the heading on smaller screens */
   }
 }
+
+/* Styles for the navigation (you can keep these styles as is) */
+/* ... Your navigation styles ... */
+
+/* Styles for the footer (you can keep these styles as is) */
+/* ... Your footer styles ... */
+
 
 /* Styles for the navigation (you can keep these styles as is) */
 .topnav {
