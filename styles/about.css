@@ -22,8 +22,7 @@ body {
 
 .about-container__image {
   max-width: 50%; /* Adjust the width as needed */
-  margin-top: 0; /* Remove the top margin to align with the first sentence */
-}
+  }
 
 .about-container__text {
   flex: 1;
