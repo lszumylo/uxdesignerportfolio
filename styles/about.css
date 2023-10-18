@@ -18,17 +18,16 @@ body {
   text-align: center; /* Center the heading */
 }
 
-
-
 .about-container {
   display: flex;
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
+  justify-content: left; /* left content horizontally */
+  align-items: left; /* left content vertically */
 }
 
 .about-container__image {
   max-width: 50%; /* Adjust the width as needed */
-  margin-right: 30px; /* Add a margin to the right of the image (optional) */
+  margin-right: 80px; /* Add a margin to the right of the image (optional) */
+  maragin-left: 80px; 
 }
 
 
