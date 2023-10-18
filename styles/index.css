@@ -158,33 +158,37 @@ img {
     color: #FAFAFA;
     font-size: 14px; /* Set the font size to 14px */
 }
-
+/* Your existing CSS code (for large screens) */
 
 /* Media query for tablets (e.g., iPads) */
 @media (max-width: 1024px) {
     .navbar {
         margin: 0 15px; /* Adjusted margin for tablet screens */
+        /* Add specific styles for tablets here */
     }
-
-    /* Add styles specific to tablets here */
 
     .value-prop {
         margin: 0 15px; /* Adjust the margins for smaller screens */
+        /* Add specific styles for tablets here */
     }
+    
+    /* Add other styles specific to tablets as needed */
 }
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     .navbar {
         margin: 0 10px; /* Adjusted margin for mobile screens */
+        /* Add specific styles for mobile devices here */
     }
-
-    /* Add styles specific to mobile devices here */
 
     .value-prop {
         margin: 0 10px; /* Adjust the margins for smaller screens */
+        /* Add specific styles for mobile devices here */
     }
-
+    
+    /* Add other styles specific to mobile devices as needed */
+    
     .about-container {
         flex-direction: column; /* Stack image and text on smaller screens */
     }
@@ -193,6 +197,11 @@ img {
         max-width: 100%; /* Adjust for full width on smaller screens */
     }
 }
+
+
+
+
+
 
 
 
