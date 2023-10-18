@@ -18,15 +18,18 @@ body {
   text-align: center; /* Center the heading */
 }
 
+
 .about-container {
   display: flex;
-  align-items: flex-start; /* Align items to the top */
+  align-items: center; /* Change from flex-start to center to vertically center the content */
 }
 
 .about-container__image {
   max-width: 50%; /* Adjust the width as needed */
   margin-right: 30px; /* Add a margin to the right of the image */
+  margin-bottom: 30px; /* Add a margin to move the image down */
 }
+
 
 .about-container__text {
   flex: 1;
