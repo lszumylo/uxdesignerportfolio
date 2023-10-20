@@ -110,12 +110,15 @@ img {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-   border: 1px solid #434F5B; /* Add a 1px solid stroke with the desired color */
+    border: 1px solid #434F5B; /* Add a 1px solid stroke with the desired color */
+    transition: background-color 0.3s; /* Add a smooth transition for the background color change */
 }
 
 .hero-button:hover {
-  background-color: #CCC2B9; /* Change the color on hover if desired */
+    background-color: #CCC2B9; /* Change the background color on hover */
+    color: #232323; /* Change the text color on hover if desired */
 }
+
 
 .site-footer {
     background-color: #434F5B;
