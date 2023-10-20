@@ -27,7 +27,7 @@ body {
 /* Change text style on hover */
 .nav-link:hover {
   font-weight: bold; /* Change the text style (font-weight) on hover */
-  color: #FEDE00;
+  color: #ABD060;
 }
 
 /* Add background highlight for active link */
