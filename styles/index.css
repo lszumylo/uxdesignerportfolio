@@ -115,9 +115,10 @@ img {
 }
 
 .hero-button:hover {
-    background-color: #828282; /* Change the background color on hover */
-    color: #232323; /* Change the text color on hover if desired */
+    background-color: #828282; /* Change the background color on hover to #828282 */
+    color: #232323; /* Change the text color on hover to #232323 if desired */
 }
+
 
 
 .site-footer {
