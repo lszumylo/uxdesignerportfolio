@@ -29,16 +29,8 @@ body {
   max-width: 50%; /* Adjust the width as needed */
   margin-right: 60px; /* Add a margin to the right of the image (optional) */
   margin-left: 60px; /* Add a margin to the left of the image (optional) */
-  border-radius: 50%; /* Makes the image a circle */
+ margin-top: 60px;
 }
-
-.circle {
-  width: 100px; /* Set your desired width */
-  height: 100px; /* Set your desired height (same as width) */
-  background-color: #3498db; /* Set the background color to your desired color */
-  border-radius: 50%; /* Make it a circle with 50% border-radius */
-}
-
 
 .about-container__text {
   flex: 1;
