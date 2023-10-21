@@ -1,26 +1,45 @@
+/* Center text within the container */
 .centered {
-  text-align: center; /* Center text within the container */
-}
-
-
-.project-info {
   text-align: center;
 }
 
+/* Centered heading styles */
 .center-heading {
   font-size: 24px; /* Adjust the font size as needed */
   font-weight: bold;
 }
 
+/* Centered text styles */
 .center-text {
   font-size: 18px; /* Adjust the font size as needed */
   font-weight: normal;
 }
 
+/* Project card styles */
+.project-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 10px;
+  max-width: 300px;
+  transition: transform 0.2s;
+}
 
-.scubagirl {
-  height: 250px;
-  width: 100%;
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
 }
 
 .description {
@@ -35,210 +54,79 @@
   left: 47px;
 }
 
-.button-scuba {
-  top: 559px;
-  left: 118px;
-  padding: 6px 8px;
-  font-size: 15px;
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Project card colors */
 .pink-container {
-  height: 394px;
+  background-color: #FF69B4; /* Pink color */
 }
 
-.food-mockup {
-  height: 44%;
-  width: 100%;
-  left: 0px;
+.yellow-container {
+  background-color: #FFD700; /* Yellow color */
 }
 
-.yellow-container1 {
-  height: 150px;
-  top: 221px;
+.red-container {
+  background-color: #FF0000; /* Red color */
 }
 
-.food-mockup {
-  height: 178%;
-  width: 100%;
-  left: 0px;
-  top: -253px;
+.green-container {
+  background-color: #008000; /* Green color */
 }
 
-.description2 {
-  font-size: 17px;
-  top: 24px;
-  left: 147px;
+.blue-container {
+  background-color: #0000FF; /* Blue color */
 }
 
-.sentence1 {
-  font-size: 13px;
-  top: 56px;
-  left: 96px;
-}
-
-.button-paycrave {
-  top: 90px;
-  left: 114px;
-  padding: 6px 8px;
-  font-size: 15px;
-}
-
-
-.project-card {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  margin: 10px;
-  max-width: 300px;
-  transition: transform 0.2s;
-}
-
-.project-card:hover {
-  transform: scale(1.05);
-}
-
-.project-card img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-.project-info {
-  padding: 15px;
-  text-align: center;
-}
-
-h3 {
-  font-size: 20px;
-  margin: 0;
-  color: #333;
-}
-
-p {
-  font-size: 14px;
-  margin-top: 10px;
-}
-
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007BFF;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.button:hover {
-  background-color: #0056b3;
-}
-
-
-.project-card {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  margin: 10px;
-  max-width: 300px;
-  transition: transform 0.2s;
-}
-
-.project-card:hover {
-  transform: scale(1.05);
-}
-
-.project-card img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-.project-info {
-  padding: 15px;
-  text-align: center;
-}
-
-h3 {
-  font-size: 20px;
-  margin: 0;
-  color: #333;
-}
-
-p {
-  font-size: 14px;
-  margin-top: 10px;
-}
-
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007BFF;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.button:hover {
-  background-color: #0056b3;
-}
-
-
-
-
-
-
+/* Footer styles */
 .site-footer {
-    background-color: #434F5B;
-    color: #FAFAFA;
-    text-align: center;
-    padding: 20px 0;
+  background-color: #434F5B;
+  color: #FAFAFA;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space between;
 }
 
 .footer-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center; /* Center-align the links */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Center-align the links */
 }
-
 
 .footer-links a {
-    color: #FAFAFA;
-    text-decoration: none;
-    margin-right: 20px;
-    font-size: 14px; /* Set the font size to 14px */
-    display: inline-block; /* Make the links inline-block elements */
-    vertical-align: middle; /* Vertically align the links */
+  color: #FAFAFA;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-
 .footer-bottom {
-    text-align: center;
+  text-align: center;
 }
 
 .footer-bottom p {
-    color: #FAFAFA;
-    font-size: 14px; /* Set the font size to 14px */
+  color: #FAFAFA;
+  font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
 
