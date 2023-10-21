@@ -7,12 +7,17 @@ p {
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
+
 /* General styles for the body */
 body {
   margin: 0; /* Reset the default body margin */
   font-family: 'Taviraj', serif;
   font-size: 16px;
+  margin-right: 20px; /* Add a right margin of 20px */
 }
+
+
+
 
 .centered-heading {
   text-align: center; /* Center the heading */
