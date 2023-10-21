@@ -28,18 +28,16 @@ body {
 }
 
 
-  .about-container__image {
-  max-width: 60%;
-  margin-right: 60px;
-  margin-left: 60px;
-  margin-top: 100px; /* Add a top margin to move the image down */
-}
 
+.about-container__image {
+  max-width: 40%; /* Reduced the image width */
+}
 
 .about-container__text {
   flex: 1;
-  /* No need to add a margin to the text */
+  margin-left: 30px; /* Added left margin to separate text from image */
 }
+
 
 /* Add responsive styling as needed for smaller screens */
 @media only screen and (max-width: 480px) {
