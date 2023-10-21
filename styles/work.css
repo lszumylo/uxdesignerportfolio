@@ -1,19 +1,19 @@
-/* Center text within the container */
-.centered {
+.project-info {
   text-align: center;
 }
 
-/* Centered heading styles */
 .center-heading {
   font-size: 24px; /* Adjust the font size as needed */
   font-weight: bold;
 }
 
-/* Centered text styles */
 .center-text {
   font-size: 18px; /* Adjust the font size as needed */
   font-weight: normal;
 }
+
+
+
 
 /* Project card styles */
 .project-card {
