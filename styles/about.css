@@ -26,11 +26,12 @@ body {
 
 
   .about-container__image {
-  max-width: 50%; /* Adjust the width as needed */
-  margin-right: 60px; /* Add a margin to the right of the image (optional) */
-  margin-left: 60px; /* Add a margin to the left of the image (optional) */
- margin-top: 60px;
+  max-width: 50%;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-top: 20px; /* Add a top margin to move the image down */
 }
+
 
 .about-container__text {
   flex: 1;
