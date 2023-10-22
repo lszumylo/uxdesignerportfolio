@@ -28,9 +28,12 @@ body {
 }
 
 
-
 .about-container__image {
-  max-width: 40%; /* Reduced the image width */
+  max-width: 60%;
+  margin-right: 0; /* Remove right margin */
+  margin-top: 100px; /* Increase the top margin to move the image down */
+  float: right; /* Float the image to the right */
+  margin-left: 20px; /* Add a margin to the left to move the image closer to the paragraph */
 }
 
 .about-container__text {
