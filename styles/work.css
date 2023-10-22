@@ -1,5 +1,7 @@
+/* Center the project title and sentence */
 .project-info {
-  text-align: center;
+  text-align: center; /* Center-align the content */
+  margin-top: 50px; /* Add margin to push it down from the top */
 }
 
 .center-heading {
@@ -11,8 +13,6 @@
   font-size: 18px; /* Adjust the font size as needed */
   font-weight: normal;
 }
-
-
 
 
 /* Project card styles */
