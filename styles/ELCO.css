@@ -1,1 +1,1024 @@
+.page__header-title,
+.page__header-subtitle,
+.page__section-title {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.page__header-title {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.page__header-subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+button.page__section-text {
+  /* styles for the button */
+  background-color: #005F85; /* example background color */
+  color: #ffffff; /* example text color */
+  padding: 10px 10px; /* example padding */
+  text-decoration: none; /* removes underline from link */
+  display: block; /* makes the button a block-level element */
+  margin: 0 auto; /* centers the button horizontally */
+  border: 1px solid #002E42; /* adds a 2px solid border with a lighter shade of blue */
+}
+
+.hero-img {
+  width: 100%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.page__section-title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Table Styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #F2EAD6; /* Tan color */
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+.table th {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  background-color: #F2EAD6; /*tan color */
+  color: #000000; /* Black color */
+  }
+   
+
+/* Table Head Styles */
+.table__head {
+    text-align: left;
+}
+
+/* Table Row Styles */
+.table__row {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Table Header Styles */
+.table__header {
+    padding: 8px;
+    font-weight: bold;
+    width: 20%; /* Divide the table into 5 equal columns */
+}
+
+/* Table Body Styles */
+.table__body {
+    text-align: left;
+}
+
+
+/* Table Data Styles */
+.table__data {
+  padding: 8px 16px; /* Add top and bottom padding */
+  width: 20%; /* Divide the table into 5 equal columns */
+}
+
+
+.client-discovery__title {
+    height: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #005F85;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.client-discovery__item {
+  padding-left: 30px; /* add left padding to increase space between numbers and text */
+  padding-bottom: 30px;
+}
+
+
+.section-divider {
+  width: 100%;
+  border-top: 1.5px solid #ccc;
+  border-bottom: 1.5px solid #ccc;
+  text-align: center;
+  color: #000000;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.research__subtitle {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;  
+}
+
+.research__item {
+  padding-bottom: 30px; /* add 20px of padding at the bottom of each list item */
+}
+
+
+.survey-results {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  padding: 30px;
+}
+
+.survey-results__header {
+  width: 33.33%;
+  font-size: 25px;;
+}
+
+.survey-results__data2{
+  width: 33.33%;
+}
+
+.view-survey-button {
+  background-color: #005F85;
+  color: #ffffff;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #002E42;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.view-survey-button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.competitive-analysis__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+}
+
+
+.competitive-analysis-img {
+width: 100%; /* make the image fill the entire width of the parent container */
+height: auto; /* keep the aspect ratio of the image */
+object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
+
+img {
+  width: 100%; /* make the image fill the entire width of the parent container /
+  height: auto; / keep the aspect ratio of the image /
+  object-fit: cover; / fill the entire container while keeping the aspect ratio */
+  margin-top: 50px;
+  margin-bottom: 20px;
+  }
+
+button.competitive-analysis__view-full {
+  background-color: #005F85; /* example background color */
+  color: #ffffff; /* example text color */
+  padding: 10px 10px; /* example padding */
+  text-decoration: none; /* removes underline from link */
+  display: block; /* makes the button a block-level element */
+  margin: 0 auto; /* centers the button horizontally */
+  border: 1px solid #002E42; /* adds a 2px solid border with a lighter shade of blue */
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+
+.user-stories__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+}
+
+.crossover-stories__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+}
+
+.table__cell {
+  border-right: 1px solid #ddd;
+  padding: 8px;
+  width: 50%; /* Divide the table into 2 equal columns */
+}
+
+.table__cell:last-child {
+  border-right: none; /* Remove the border for the last column */
+}
+
+.table__row {
+  border-bottom: 1px solid #ddd; /* Adds a border of 1 pixel width and color #ddd */
+}
+
+.users__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+}
+
+.ELCO-Persona {
+  width: 100%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section-divider {
+  width: 100%;
+  border-top: 1.5px solid #ccc;
+  border-bottom: 1.5px solid #ccc;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.information-architecture__sub-title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+}
+
+.information-architecture__site-map-image {
+  width: 100%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.task-flows__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+}
+
+
+.task-flows__list-item {
+  margin-bottom: 30px;
+}
+
+.task-flows__view {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.task-flows__book {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.task-flows__payment {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sketches__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px; /* increase margin-bottom to add more space */
+}
+
+.sketches__description {
+  margin-bottom: 60px;
+}
+
+.sketches__homepage,
+.sketches__about-me,
+.sketches__services {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+
+.wireframes__title {
+  height: 21px;
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+}
+
+.wireframes__image-home {
+  width: 100%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+    margin-bottom: 30px;
+}
+
+
+.wireframes__image-About-home {
+  width: 100%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+   margin-bottom: 30px;
+}
+
+
+
+.wireframes__image-Services-home {
+  width: 100%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+  margin-bottom: 30px;
+}
+
+
+
+
+.wireframes__image-Contact-home {
+  width: 100%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+  margin-bottom: 30px;
+}
+
+
+
+.wireframes__image-Testimonials-home {
+  width: 100%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+  margin-bottom: 30px;
+}
+
+
+.user-testing__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+}
+
+
+
+.user-testing__subtitle {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+}
+
+.user-testing__list-item {
+  margin-bottom: 20px;
+}
+
+
+.results-summary__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.task__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.insights__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.thoughts__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.section-divider {
+  width: 100%;
+  border-top: 1.5px solid #ccc;
+  border-bottom: 1.5px solid #ccc;
+  text-align: center;
+  margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.brand-identity__subtitle {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+  }
+
+  .brand-identity__logo-1 {
+    width: 100%; /* make the image fill the entire width of the parent container */
+    height: auto; /* keep the aspect ratio of the image */
+    object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+
+.typography__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 50px;
+  margin-bottom: 30px; 
+}
+
+.typography__pairings {
+  width: 30%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin: 0 30px 30px 0;
+}
+
+
+@media (max-width: 768px) {
+  .typography__pairings {
+    flex-basis: 50%;
+    margin: 0 6px;
+  } }
+
+
+.style-tile__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 50px;
+  margin-bottom: 30px; 
+}
+
+
+.style-tile {
+  width: 100%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.hi-fidelity__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+}
+
+
+.hi-fidelity__image-home {
+width: 100%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hi-fidelity__image-about {
+  width: 100%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hi-fidelity__image-services {
+  width: 100%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.hi-fidelity__image-testimonial {
+  width: 100%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hi-fidelity__image-contact {
+  width: 100%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hi-fidelity__image-FAQ {
+  width: 100%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.user-testing__title-hi-fi {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+}
+
+
+.user-testing__list-item-hi-fi {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+
+
+.user-testing__subtitle-hi-fi {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.results-summary__title-hi-fi {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.takeaways__title-hi-fi {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.takeaways__item-hi-fi {
+  margin-top: 30px;
+ margin-bottom: 30px;
+}
+
+
+.insights-hi-fi__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.thoughts-hi-fi__thoughts-title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+ 
+.design-updates__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+}
+
+.design-updates__image-about {
+width: 100%; /* make the image fill the entire width of the parent container */
+height: auto; /* keep the aspect ratio of the image */
+object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+
+.design-updates__image-home {
+  width: 100%; /* make the image fill the entire width of the parent container */
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  }
+
+.design-updates__image-services {
+  width: 100%;
+  height: auto; /* keep the aspect ratio of the image */
+  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+
+.section-divider {
+  width: 100%;
+  border-top: 1.5px solid #ccc;
+  border-bottom: 1.5px solid #ccc;
+  text-align: center;
+  margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.sign-off__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+}
+
+.final__check-in__title {
+  height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+}
+
+
+
+.about-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about-container__image {
+  width: 400px;
+  height: 400px;
+}
+
+.about-container__text {
+  flex: 1;
+  max-width: 600px;
+} 
+
+button.case-study__button {
+  background-color: #005F85; /* example background color */
+  color: #ffffff; /* example text color */
+  padding: 10px 10px; /* example padding */
+  text-decoration: none; /* removes underline from link */
+  display: block; /* makes the button a block-level element */
+  margin: 0 auto; /* centers the button horizontally */
+  border: 1px solid #002E42; /* adds a 2px solid border with a lighter shade of blue */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 599px) {
+  /* Styles for mobile devices */
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  /* Styles for tablet devices */
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Styles for desktop devices */
+}
+
+/* Large Desktop Styles */
+@media only screen and (min-width: 1200px) {
+  /* Styles for large desktop devices */
+}
 
