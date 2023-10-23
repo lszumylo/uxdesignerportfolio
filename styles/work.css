@@ -30,7 +30,7 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   margin: 10px;
-  max-width: 300px;
+  max-width: 100px;
   transition: transform 0.2s;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .project-card img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   display: block;
 }
@@ -79,7 +79,7 @@ h3 {
 /* Project card colors */
 .pink-container {
   background-color: #fea5b7;
-  width: 100%;
+  width: 50%;
   height: 560px;
   position: relative;
 }
