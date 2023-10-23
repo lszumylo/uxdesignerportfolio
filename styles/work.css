@@ -1,88 +1,27 @@
+/* Global styles */
+body {
+  font-family: 'Taviraj', serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centered container styles */
 .centered-container {
   display: flex;
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
-  height: 100vh; /* Adjust the height to control the vertical centering */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .center-heading {
-  font-size: 24px; /* Adjust the font size as needed */
+  font-size: 24px;
   font-weight: bold;
 }
 
 .center-text {
-  font-size: 18px; /* Adjust the font size as needed */
+  font-size: 18px;
   font-weight: normal;
 }
-
-.pink-container {
-  background-color: #fea5b7;
-  width: 100%;
-  height: 560px;
-  position: relative;
-}
-
-.project-title {
-  font-family: 'Taviraj', serif;
-  font-size: 35px;
-  font-weight: bold;
-  color: #000000;
-}
-
-.description {
-  font-family: 'Taviraj', serif;
-  font-size: 20px;
-  font-weight: normal;
-  color: #000000;
-  position: absolute;
-  top: 200px;
-  left: 20px;
-}
-
-.sentence {
-  font-family: 'Taviraj', serif;
-  font-size: 20px;
-  font-weight: normal;
-  color: #000000;
-  position: absolute;
-  top: 320px;
-  left: 20px;
-}
-
-.button-scuba {
-  font-family: 'Taviraj', serif;
-  font-weight: normal;
-  position: absolute;
-  top: 400px;
-  left: 20px;
-  background-color: #7d8f9d;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.scubagirl {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 560px;
-  width: 720px;
-}
-
-
-
-
-
-
-
-
-
 
 /* Project card styles */
 .project-card {
@@ -139,63 +78,65 @@ h3 {
 
 /* Project card colors */
 .pink-container {
-  background-color: #FF69B4; /* Pink color */
+  background-color: #fea5b7;
+  width: 100%;
+  height: 560px;
+  position: relative;
 }
 
-.yellow-container {
-  background-color: #FFD700; /* Yellow color */
+.project-title {
+  font-family: 'Taviraj', serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: #000000;
 }
 
-.red-container {
-  background-color: #FF0000; /* Red color */
+.description {
+  font-family: 'Taviraj', serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #000000;
+  position: absolute;
+  top: 200px;
+  left: 20px;
 }
 
-.green-container {
-  background-color: #008000; /* Green color */
+.sentence {
+  font-family: 'Taviraj', serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #000000;
+  position: absolute;
+  top: 320px;
+  left: 20px;
 }
 
-.blue-container {
-  background-color: #0000FF; /* Blue color */
-}
-
-/* Footer styles */
-.site-footer {
-  background-color: #434F5B;
-  color: #FAFAFA;
-  text-align: center;
-  padding: 20px 0;
-}
-
-.footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space between;
-}
-
-.footer-links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center; /* Center-align the links */
-}
-
-.footer-links a {
-  color: #FAFAFA;
+.button-scuba {
+  font-family: 'Taviraj', serif;
+  font-weight: normal;
+  position: absolute;
+  top: 400px;
+  left: 20px;
+  background-color: #7d8f9d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-decoration: none;
-  margin-right: 20px;
-  font-size: 14px;
   display: inline-block;
-  vertical-align: middle;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
-.footer-bottom {
-  text-align: center;
+.scubagirl {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 560px;
+  width: 720px;
 }
 
-.footer-bottom p {
-  color: #FAFAFA;
-  font-size: 14px;
+/* Project card colors */
+.pink-container {
+  background-color: #fea5b7;
 }
-
