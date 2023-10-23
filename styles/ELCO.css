@@ -16,7 +16,6 @@ body {
   margin-right: 30px; /* Add a right margin of 20px */
 }
 
-
 .page__header-title {
   font-size: 22px;
   font-weight: bold;
@@ -793,12 +792,9 @@ width: 100%; /* make the image fill the entire width of the parent container */
   margin-bottom: 30px; 
 }
 
-
 .user-testing__list-item-hi-fi {
   margin-bottom: 10px; /* Adjust the value as needed */
 }
-
-
 
 .user-testing__subtitle-hi-fi {
   height: 21px;
@@ -980,7 +976,6 @@ margin-bottom: 50px;
 }
 
 
-
 .about-container {
   display: flex;
   flex-direction: row-reverse;
@@ -1030,3 +1025,6 @@ button.case-study__button {
 @media only screen and (min-width: 1200px) {
   /* Styles for large desktop devices */
 }
+
+
+
