@@ -29,15 +29,14 @@ body {
 
 
 .about-container__image {
-  max-width: 60%;
+  max-width: 70%; /* Increase the max-width to make the image larger */
   margin-top: 60px; /* Adjust the top margin to move the image down */
   float: right; /* Float the image to the right */
   margin-left: 60px; /* Add a margin to the left to move the image closer to the paragraph */
   position: relative; /* Add position property */
   top: 60px; /* Adjust the top position to move the image down further */
-  right: 10; /* Adjust the right position to move the image to the right */
+  right: 10px; /* Adjust the right position to move the image to the right */
 }
-
 
 
 .about-container__text {
