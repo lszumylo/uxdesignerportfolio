@@ -39,10 +39,13 @@ body {
 }
 
 
+
 .about-container__text {
   flex: 1;
-  margin-left: 30px; /* Added left margin to separate text from image */
+  margin-left: 30px; /* Add a left margin to separate text from the image */
+  margin-right: 20px; /* Add a right margin to the text */
 }
+
 
 
 /* Add responsive styling as needed for smaller screens */
