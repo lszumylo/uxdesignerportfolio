@@ -15,19 +15,6 @@
   font-weight: normal;
 }
 
-/* Add this to your existing CSS file */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  grid-gap: 20px;
-  margin: 20px;
-}
-
-.grid-item {
-  /* Style your grid items here */
-}
-
-
 .pink-container {
   background-color: #fea5b7;
   width: 100%;
