@@ -32,9 +32,9 @@ body {
   max-width: 60%;
   margin-top: 50px; /* Adjust the top margin to move the image down */
   float: right; /* Float the image to the right */
-  margin-left: 20px; /* Add a margin to the left to move the image closer to the paragraph */
+  margin-left: 40px; /* Add a margin to the left to move the image closer to the paragraph */
   position: relative; /* Add position property */
-  top: 20px; /* Adjust the top position to move the image down further */
+  top: 40px; /* Adjust the top position to move the image down further */
   right: 0; /* Adjust the right position to move the image to the right */
 }
 
