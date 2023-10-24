@@ -1,13 +1,54 @@
 
-.page__header-title,
-.page__header-subtitle,
-.page__section-title {
-  font-family: "Open Sans", sans-serif;
+/* Body Font Settings */
+body {
+  font-family: 'Taviraj', serif;
+  font-size: 18px; /* B1 */
 }
 
-body {
-  font-family: 'Lato', sans-serif;
+/* Main Body Text (B2): 16px */
+.main-body-text {
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
 }
+
+/* Subtext (B3): 14px */
+.subtext {
+  font-family: 'Taviraj', serif;
+  font-size: 14px;
+}
+
+/* Headings Font Settings */
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 36px; /* H1 */
+}
+
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 32px; /* H2 */
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 26px; /* H3 */
+}
+
+h4 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 24px; /* H4 */
+}
+
+/* Other Heading Elements (if needed) */
+/* h5 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px; 
+}
+
+h6 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px; 
+} */
+
 
 .page__header-title {
   font-size: 22px;
@@ -16,7 +57,7 @@ body {
 }
 
 .page__header-subtitle {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 16px;
   font-weight: lighter;
   text-align: center;
