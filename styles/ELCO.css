@@ -68,11 +68,11 @@ button.page__section-text {
 }
 
 .hero-image {
-  width: 100%; /* make the image fill the entire width of the parent container */
-  height: auto; /* keep the aspect ratio of the image */
-  object-fit: cover; /* fill the entire container while keeping the aspect ratio */
-  margin-top: 30px;
-  margin-bottom: 30px;
+    width: 100%; /* make the image fill the entire width of the parent container */
+    height: auto; /* keep the aspect ratio of the image */
+    object-fit: cover; /* fill the entire container while keeping the aspect ratio */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .page__section-title {
