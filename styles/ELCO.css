@@ -67,7 +67,7 @@ button.page__section-text {
   border: 1px solid #002E42; /* adds a 2px solid border with a lighter shade of blue */
 }
 
-.hero-img {
+.hero-image {
   width: 100%; /* make the image fill the entire width of the parent container */
   height: auto; /* keep the aspect ratio of the image */
   object-fit: cover; /* fill the entire container while keeping the aspect ratio */
