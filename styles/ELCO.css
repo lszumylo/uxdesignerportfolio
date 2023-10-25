@@ -75,6 +75,14 @@ button.page__section-text {
     margin-bottom: 30px;
 }
 
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will make the container fill the entire viewport height */
+    max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
+}
+
 .page__section-title {
   height: 21px;
   font-family: 'Open Sans', sans-serif;
