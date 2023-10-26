@@ -1,1 +1,32 @@
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 45%; /* Adjust the width to fit two cards per line */
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s, filter 0.2s;
+}
+
+.project-card img {
+  max-width: 100%;
+  transition: filter 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Enlarge the card on hover */
+}
+
+.project-card img:hover {
+  filter: grayscale(100%); /* Convert the image to black and white on hover */
+}
+
+.project-card.selected {
+  transform: scale(1.1); /* Enlarge the selected card */
+}
+
+/* Add more styling as needed */
 
