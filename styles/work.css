@@ -1,18 +1,21 @@
 .projects-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between; /* Spread the cards evenly on the row */
 }
 
 .project-card {
-  width: 45%; /* Adjust the width to fit two cards per line */
+  width: 48%; /* Adjust the width to fit two cards per line */
   margin: 10px;
   padding: 10px;
   text-align: center;
   transition: transform 0.2s, filter 0.2s;
+  box-sizing: border-box; /* Include padding and border in width calculation */
 }
 
 .project-card img {
-  max-width: 100%;
+  max-width: 100%; /* Make sure images don't overflow their containers */
+  height: auto; /* Maintain aspect ratio */
   transition: filter 0.2s;
 }
 
