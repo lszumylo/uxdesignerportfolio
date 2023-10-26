@@ -31,5 +31,12 @@
   transform: scale(1.1); /* Enlarge the selected card */
 }
 
-/* Add more styling as needed */
+.center-heading {
+  text-align: center; /* Center the text horizontally */
+}
+
+.center-text {
+  text-align: center; /* Center the text horizontally */
+}
+
 
