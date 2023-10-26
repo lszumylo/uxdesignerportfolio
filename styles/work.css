@@ -14,7 +14,7 @@
 }
 
 .project-card img {
-  max-width: 85%; /* Reduce the maximum width to 85% (15% reduction) */
+  max-width: 75%; /* Reduce the maximum width to 85% (15% reduction) */
   height: auto; /* Maintain aspect ratio */
   transition: filter 0.2s;
 }
