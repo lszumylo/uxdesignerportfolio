@@ -4,14 +4,25 @@
   justify-content: space-between; /* Spread the cards evenly on the row */
 }
 
+
 .project-card {
-  width: 48%; /* Adjust the width to fit two cards per line */
+  width: 48%;
   margin: 10px;
   padding: 10px;
   text-align: center;
   transition: transform 0.2s, filter 0.2s;
-  box-sizing: border-box; /* Include padding and border in width calculation */
+  box-sizing: border-box;
 }
+
+/* Adjust the margin or padding for title and content */
+.project-card .title {
+  margin-bottom: 5px; /* You can adjust this value to control the space between the title and content */
+}
+
+.project-card .content {
+  margin-top: 5px; /* You can adjust this value to control the space between the title and content */
+}
+
 
 .project-card img {
   max-width: 75%; /* Reduce the maximum width to 85% (15% reduction) */
