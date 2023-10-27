@@ -12,7 +12,10 @@
   text-align: center;
   transition: transform 0.2s, filter 0.2s;
   box-sizing: border-box;
+  background-color: #006DB6; /* New background color for project cards */
+  color: #FFFFFF; /* New text color for project cards */
 }
+
 
 /* Adjust the margin or padding for title and content */
 .project-card .title {
