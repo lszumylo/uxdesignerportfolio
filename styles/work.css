@@ -5,7 +5,7 @@
 }
 
 .project-card {
-  width: 41%; /* Reduce the width by 7% to make a 15% reduction */
+  width: 50%; /* Reduce the width by 7% to make a 15% reduction */
   margin: 10px;
   padding: 10px;
   text-align: center;
@@ -15,11 +15,11 @@
 
 /* Adjust the margin or padding for title and content */
 .project-card .project-title {
-  margin-bottom: 5px; /* You can adjust this value to control the space between the title and content */
+  margin-bottom: 2px; /* You can adjust this value to control the space between the title and content */
 }
 
 .project-card .description {
-  margin-top: 5px; /* You can adjust this value to control the space between the title and content */
+  margin-top: 2px; /* You can adjust this value to control the space between the title and content */
 }
 
 .project-card img {
@@ -32,7 +32,6 @@
 .project-card .content {
   margin-top: 5px; /* You can adjust this value to control the space between the title and content */
 }
-
 
 
 .project-card:hover {
