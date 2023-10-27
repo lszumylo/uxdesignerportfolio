@@ -13,6 +13,7 @@
   box-sizing: border-box;
 }
 
+
 /* Adjust the margin or padding for title and content */
 .project-card .project-title {
   margin-bottom: 2px; /* You can adjust this value to control the space between the title and content */
@@ -28,11 +29,13 @@
   transition: filter 0.2s;
 }
 
+.project-card img:hover {
+  filter: grayscale(100%);
+}
 
 .project-card .content {
   margin-top: 5px; /* You can adjust this value to control the space between the title and content */
 }
-
 
 .project-card:hover {
   transform: scale(1.05); /* Enlarge the card on hover */
