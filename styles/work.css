@@ -4,7 +4,6 @@
   justify-content: space-between; /* Spread the cards evenly on the row */
 }
 
-
 .project-card {
   width: 48%;
   margin: 10px;
@@ -12,8 +11,6 @@
   text-align: center;
   transition: transform 0.2s, filter 0.2s;
   box-sizing: border-box;
-  background-color: #006DB6; /* New background color for project cards */
-  color: #FFFFFF; /* New text color for project cards */
 }
 
 
