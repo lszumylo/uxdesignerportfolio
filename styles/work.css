@@ -1,11 +1,11 @@
 .projects-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Spread the cards evenly on the row */
+  justify-content: space-between;
 }
 
 .project-card {
-  width: 48%;
+  width: 41%; /* Reduce the width by 7% to make a 15% reduction */
   margin: 10px;
   padding: 10px;
   text-align: center;
@@ -13,22 +13,27 @@
   box-sizing: border-box;
 }
 
-
 /* Adjust the margin or padding for title and content */
-.project-card .title {
+.project-card .project-title {
   margin-bottom: 5px; /* You can adjust this value to control the space between the title and content */
 }
+
+.project-card .description {
+  margin-top: 5px; /* You can adjust this value to control the space between the title and content */
+}
+
+.project-card img {
+  max-width: 70%; /* Reduce the maximum width to 70% (15% reduction) */
+  height: auto;
+  transition: filter 0.2s;
+}
+
 
 .project-card .content {
   margin-top: 5px; /* You can adjust this value to control the space between the title and content */
 }
 
 
-.project-card img {
-  max-width: 75%; /* Reduce the maximum width to 85% (15% reduction) */
-  height: auto; /* Maintain aspect ratio */
-  transition: filter 0.2s;
-}
 
 .project-card:hover {
   transform: scale(1.05); /* Enlarge the card on hover */
