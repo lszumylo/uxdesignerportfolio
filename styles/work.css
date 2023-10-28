@@ -16,7 +16,7 @@
 
 /* Adjust the margin or padding for title and content */
 .project-card .project-title {
-  margin-bottom: 2px; /* You can adjust this value to control the space between the title and content */
+  margin-bottom: 5px; /* You can adjust this value to control the space between the title and content */
 }
 
 .project-card .description {
