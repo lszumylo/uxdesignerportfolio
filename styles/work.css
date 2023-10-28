@@ -57,11 +57,9 @@
   text-align: center; /* Center the text horizontally */
 }
 
-.view-button {
-  background-color: #006DB6; /* Button background color */
-  color: #FFFFFF; /* Text color */
-  border: 1px solid #006DB6; /* 1px outline color */
-  padding: 10px 20px; /* Adjust the padding as needed */
-  border-radius: 3px; /* Optional: Add rounded corners to the button */
+.no-underline-link {
+  text-decoration: none; /* Remove the underline */
+  /* Add any other link styles you want here */
 }
+
 
