@@ -27,24 +27,21 @@ body {
   align-items: left; /* left content vertically */
 }
 
-
 .about-container__image {
-  max-width: 70%; /* Increase the max-width to make the image larger */
+  max-width: 70%; /* You can adjust the image width as needed */
   margin-top: 60px; /* Adjust the top margin to move the image down */
-  float: right; /* Float the image to the right */
-  margin-left: 60px; /* Add a margin to the left to move the image closer to the paragraph */
-  position: relative; /* Add position property */
-  top: 60px; /* Adjust the top position to move the image down further */
-  right: 10px; /* Adjust the right position to move the image to the right */
+  float: left; /* Change the float property to "left" to place the image on the left side */
+  margin-right: 20px; /* Add a margin to the right to separate the image from the paragraph */
+  position: static; /* Change the position property to "static" to remove any positioning effects */
+  top: 0; /* Reset the top position to 0 */
+  right: 0; /* Reset the right position to 0 */
 }
-
 
 .about-container__text {
   flex: 1;
   margin-left: 30px; /* Add a left margin to separate text from the image */
   margin-right: 20px; /* Add a right margin to the text */
 }
-
 
 
 /* Add responsive styling as needed for smaller screens */
