@@ -7,7 +7,6 @@ p {
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-
 /* General styles for the body */
 body {
   margin: 0; /* Reset the default body margin */
@@ -16,20 +15,12 @@ body {
   margin-right: 30px; /* Add a right margin of 20px */
 }
 
-
 .centered-heading {
   text-align: center; /* Center the heading */
 }
 
-.about-container {
-  display: flex;
-  justify-content: left; /* left content horizontally */
-  align-items: left; /* left content vertically */
-}
-
 .about-container__image {
   max-width: 70%; /* You can adjust the image width as needed */
-  margin-top: 60px; /* Adjust the top margin to move the image down */
   float: left; /* Change the float property to "left" to place the image on the left side */
   margin-right: 20px; /* Add a margin to the right to separate the image from the paragraph */
   position: static; /* Change the position property to "static" to remove any positioning effects */
@@ -37,12 +28,16 @@ body {
   right: 0; /* Reset the right position to 0 */
 }
 
+.about-container {
+  display: flex;
+  align-items: center; /* Vertically center items in the container */
+}
+
 .about-container__text {
   flex: 1;
   margin-left: 30px; /* Add a left margin to separate text from the image */
   margin-right: 20px; /* Add a right margin to the text */
 }
-
 
 /* Add responsive styling as needed for smaller screens */
 @media only screen and (max-width: 480px) {
@@ -70,7 +65,6 @@ body {
 
 /* Styles for the footer (you can keep these styles as is) */
 /* ... Your footer styles ... */
-
 
 /* Styles for the navigation (you can keep these styles as is) */
 .topnav {
@@ -132,9 +126,3 @@ body {
   color: #FAFAFA;
   font-size: 14px; /* Set the font size to 14px */
 }
-
-
-
-
-
-
