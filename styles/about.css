@@ -21,12 +21,7 @@ body {
 
 .about-container__image {
   max-width: 70%; /* You can adjust the image width as needed */
-  float: left; /* Change the float property to "left" to place the image on the left side */
-  margin-right: 20px; /* Add a margin to the right to separate the image from the paragraph */
-  position: static; /* Change the position property to "static" to remove any positioning effects */
-  top: 0; /* Reset the top position to 0 */
-  right: 0; /* Reset the right position to 0 */
-}
+ }
 
 .about-container {
   display: flex;
