@@ -5,9 +5,9 @@
 }
 
 .project-card {
-  width: 35%;
+  width: 30%;
   margin: 5px; /* Reduce the margin to 5px */
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   transition: transform 0.2s, filter 0.2s;
   box-sizing: border-box;
