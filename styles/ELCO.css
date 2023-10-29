@@ -82,7 +82,7 @@ button.page__section-text {
 }
 
 .hero-image {
-  width: 100%; /* Make the image fill the entire width of the parent container */
+  width: 150%; /* Make the image fill the entire width of the parent container */
   height: auto; /* Keep the aspect ratio of the image */
   object-fit: cover; /* Fill the entire container while keeping the aspect ratio */
   margin-top: 30px;
