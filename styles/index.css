@@ -2,7 +2,6 @@ body {
   margin: 0;
 }
 
-/* Style the top navigation bar */
 .navbar {
   overflow: hidden;
   background-color: #434F5B;
@@ -11,10 +10,9 @@ body {
   align-items: center;
   padding: 0 20px;
   margin: 0px; /* Adjust the margin values as needed */
+  height: 60px; /* Adjust the height as needed */
 }
 
-
-/* Style the topnav links */
 .nav-link {
   color: #f2f2f2;
   text-decoration: none;
@@ -24,18 +22,19 @@ body {
   line-height: 1.5; /* Fixed line height */
 }
 
-/* Change text style on hover */
+
 .nav-link:hover {
   font-weight: bold; /* Change the text style (font-weight) on hover */
   color: #ABD060;
 }
 
-/* Add background highlight for active link */
 .nav-link.selected {
   background-color: #ddd;
   color: black;
   font-weight: bold; /* Set font weight for active link */
 }
+
+
 
 /* Define your CSS classes here */
 .job {
