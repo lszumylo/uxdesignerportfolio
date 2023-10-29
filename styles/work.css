@@ -5,8 +5,8 @@
 }
 
 .project-card {
-  width: 35%; /* Reduce the width by 7% to make a 15% reduction */
-  margin: 10px;
+  width: 35%;
+  margin: 5px; /* Reduce the margin to 5px */
   padding: 10px;
   text-align: center;
   transition: transform 0.2s, filter 0.2s;
