@@ -189,15 +189,15 @@ button.page__section-text {
   padding-bottom: 30px;
 }
 
-
+/* Style for the section containing the Research title and dividers */
 .section-divider {
-  width: 100%;
   border-top: 1.5px solid #ccc;
   border-bottom: 1.5px solid #ccc;
   text-align: center;
-  color: #000000;
+  color: #000000; /* Keep the color as it is */
   margin-top: 50px;
   margin-bottom: 50px;
+  width: 100%; /* Set the width to 100% to make the lines span the full page width */
 }
 
 
