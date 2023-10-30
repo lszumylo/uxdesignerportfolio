@@ -9,31 +9,33 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  margin: 0px; /* Adjust the margin values as needed */
-  height: 60px; /* Adjust the height as needed */
+  height: 60px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Vertically align the logo with the links */
 }
 
 .nav-link {
   color: #f2f2f2;
   text-decoration: none;
-  padding: 10px 16px; /* Adjusted padding to keep the text within the box */
-  transition: font-weight 0.2s; /* Smooth transition for font-weight */
-  font-weight: normal; /* Set the initial font weight */
-  line-height: 1.5; /* Fixed line height */
+  padding: 10px 16px;
+  transition: font-weight 0.2s;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
-
 .nav-link:hover {
-  font-weight: bold; /* Change the text style (font-weight) on hover */
+  font-weight: bold;
   color: #ABD060;
 }
 
 .nav-link.selected {
   background-color: #ddd;
   color: black;
-  font-weight: bold; /* Set font weight for active link */
+  font-weight: bold;
 }
-
 
 
 /* Define your CSS classes here */
