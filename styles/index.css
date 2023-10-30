@@ -9,7 +9,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  margin: 0px; /* Adjust the margin values as needed */
   height: 60px; /* Adjust the height as needed */
 }
 
@@ -30,7 +29,7 @@ body {
 .nav-link.selected {
   background-color: #ddd;
   color: black;
-  font-weight: bold; /* Set font weight for active link */
+  font-weight: bold; /* Set font weight for the active link */
 }
 
 
