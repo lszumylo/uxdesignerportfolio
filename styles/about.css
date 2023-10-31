@@ -23,19 +23,16 @@ body {
   text-align: center; /* Center the heading */
 }
 
-/* Style the container for text and image */
+
 .about-container {
   display: flex;
-  align-items: flex-start; /* Align items at the top */
 }
 
-
-/* Style the image */
 .about-container__image {
-  max-width: 30%; /* You can adjust the image width as needed */
+  max-width: 30%;
+  margin-top: 50px; /* Adjust the top margin to move the image higher */
 }
 
-/* Style the text container */
 .about-container__text {
   flex: 1;
   margin-left: 20px; /* Add space between image and text */
