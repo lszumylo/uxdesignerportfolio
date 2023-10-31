@@ -1,6 +1,15 @@
-margin: 0;
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
 }
 
+/* Define font families (assuming you have these fonts properly imported) */
+body {
+  font-family: 'Taviraj', serif;
+  font-size: 18px;
+  margin: 0 30px;
+}
 
 /* General styles for paragraphs */
 p {
@@ -11,40 +20,27 @@ p {
   margin: 24px 10px;
 }
 
-/* General styles for the body */
-body {
-  margin: 0; /* Reset the default body margin */
-  font-family: 'Taviraj', serif;
-  font-size: 18px; /* B1 */
-  margin-right: 30px; /* Add a right margin of 20px */
-}
-
-/* Main Body Text (B2): 16px */
-.main-body-text {
-  font-size: 16px;
-}
-
-/* Headings Font Settings */
-h1 {
+/* General styles for headings */
+h1, h2, h3, h4 {
   font-family: 'Work Sans', sans-serif;
-  font-size: 36px; /* H1 */
+}
+
+/* Individual heading styles */
+h1 {
+  font-size: 36px;
 }
 
 h2 {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 32px; /* H2 */
+  font-size: 32px;
 }
 
 h3 {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 26px; /* H3 */
+  font-size: 26px;
 }
 
 h4 {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 24px; /* H4 */
+  font-size: 24px;
 }
-
 
 .page__header-title {
   font-size: 22px;
@@ -120,16 +116,15 @@ button.page__section-text {
   width: 100%;
   border-collapse: collapse;
   background-color: #F2EAD6; /* Tan color */
-  font-family: "Lato", sans-serif;
+  font-family: "Taviraj", sans-serif;
   font-size: 16px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
 
-
 .table th {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   background-color: #F2EAD6; /*tan color */
   color: #000000; /* Black color */
@@ -1074,6 +1069,15 @@ button.case-study__button {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* CSS for smaller screens */
+  .typography__pairings {
+    flex-basis: 50%;
+    margin: 0 6px;
+  }
 
 /* Mobile Styles */
 @media only screen and (max-width: 599px) {
