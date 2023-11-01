@@ -3,15 +3,18 @@ body {
   padding: 0;
 }
 
+
 .navbar {
   overflow: hidden;
   background-color: #434F5B;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0;
   height: 60px; /* Adjust the height as needed */
+  width: 100%; /* Make the navbar extend across the screen */
 }
+
 
 .nav-link {
   color: #f2f2f2;
@@ -117,13 +120,14 @@ img {
 }
 
 
-
 .site-footer {
     background-color: #434F5B;
     color: #FAFAFA;
     text-align: center;
     padding: 20px 0;
+    width: 100%; /* Make the footer extend across the screen */
 }
+
 
 .footer-content {
     max-width: 1200px;
@@ -131,6 +135,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%; /* Make the footer content extend across the screen */
 }
 
 .footer-links {
