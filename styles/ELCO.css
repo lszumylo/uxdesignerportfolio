@@ -180,9 +180,17 @@ button.page__section-text {
 
 
 .client-discovery__item {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px;
   padding-left: 30px; /* add left padding to increase space between numbers and text */
   padding-bottom: 30px;
 }
+  
+
 
 /* Style for the section containing the Research title and dividers */
 .section-divider {
@@ -234,7 +242,10 @@ button.page__section-text {
   font-size: 16px;
   text-align: left;
   margin: 24px 10px;
+  padding-left: 30px; /* add left padding to increase space between numbers and text */
+  padding-bottom: 30px;
 }
+
 
 
 .survey-results {
@@ -531,8 +542,13 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px; 
 }
 
-
-
+.wireframes__title {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 24px 10px;
+}
 
 .wireframes__image-home {
   width: 100%; /* make the image fill the entire width of the parent container */
