@@ -260,8 +260,12 @@ button.page__section-text {
   font-size: 25px;;
 }
 
-.survey-results__data2{
+.survey-results__data {
   width: 33.33%;
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
 }
 
 .view-survey-button {
