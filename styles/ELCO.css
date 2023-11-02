@@ -675,6 +675,16 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px;
 }
 
+.results-summary__description {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
+}
+
+
 .task__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -779,6 +789,16 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px; 
 }
 
+.typography__description {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
+}
+
+
 .typography__pairings {
   width: 30%; /* make the image fill the entire width of the parent container */
   height: auto; /* keep the aspect ratio of the image */
@@ -821,6 +841,16 @@ font-family: 'Taviraj', serif;
   margin-bottom: 50px;
 }
 
+.style-tile__description {
+font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
+}
+
+
 
 .hi-fidelity__title {
   height: 21px;
@@ -837,6 +867,15 @@ font-family: 'Taviraj', serif;
   margin: 0 auto; /* center the element horizontally */
   margin-top: 30px;
   margin-bottom: 30px; 
+}
+
+.hi-fidelity__description {
+font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
 
@@ -907,12 +946,26 @@ width: 100%; /* make the image fill the entire width of the parent container */
   margin-bottom: 30px; 
 }
 
-
-.user-testing__list-item-hi-fi {
-  margin-bottom: 10px; /* Adjust the value as needed */
+.user-testing__description-hi-fi {
+font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
 
+.user-testing__list-item-hi-fi {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px;
+  padding-left: 30px; /* add left padding to increase space between numbers and text */
+  padding-bottom: 30px;
+}
 
 .user-testing__subtitle-hi-fi {
   height: 21px;
@@ -948,6 +1001,16 @@ width: 100%; /* make the image fill the entire width of the parent container */
   margin-bottom: 30px;
 }
 
+.results-summary__description-hi-fi {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
+}
+
+
 .takeaways__title-hi-fi {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -971,6 +1034,16 @@ width: 100%; /* make the image fill the entire width of the parent container */
  margin-bottom: 30px;
 }
 
+.takeaways__item-hi-fi {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
+}
+
+
 
 .insights-hi-fi__title {
   height: 21px;
@@ -989,6 +1062,16 @@ width: 100%; /* make the image fill the entire width of the parent container */
   margin-bottom: 30px;
 }
 
+.insights-hi-fi__description {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
+}
+
+
 .thoughts-hi-fi__thoughts-title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -1005,7 +1088,17 @@ width: 100%; /* make the image fill the entire width of the parent container */
   margin-top: 30px;
   margin-bottom: 30px;
 }
- 
+
+.thoughts-hi-fi__thoughts-description {
+   font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
+}
+
+
 .design-updates__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -1022,6 +1115,16 @@ width: 100%; /* make the image fill the entire width of the parent container */
   margin-top: 30px;
   margin-bottom: 30px; 
 }
+
+.design-updates__description {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
+}
+
 
 .design-updates__image-about {
 width: 100%; /* make the image fill the entire width of the parent container */
@@ -1093,12 +1196,14 @@ margin-bottom: 50px;
   margin-bottom: 30px; 
 }
 
+
 .hi-fidelity__description,
 .final__check-in__description {
-  font-family: 'Taviraj', serif;
+ font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
   font-size: 16px;
+  text-align: left;
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
