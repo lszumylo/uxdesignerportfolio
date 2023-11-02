@@ -654,7 +654,14 @@ font-family: 'Taviraj', serif;
 }
 
 .user-testing__list-item {
-  margin-bottom: 20px;
+   font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px;
+  padding-left: 30px; /* add left padding to increase space between numbers and text */
+  padding-bottom: 30px;
 }
 
 
@@ -735,6 +742,16 @@ font-family: 'Taviraj', serif;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.thoughts__description {
+font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
+}
+  
 
 .section-divider {
   width: 100%;
@@ -1090,7 +1107,7 @@ font-family: 'Taviraj', serif;
 }
 
 .thoughts-hi-fi__thoughts-description {
-   font-family: 'Taviraj', serif;
+  font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
   font-size: 16px;
@@ -1197,15 +1214,17 @@ margin-bottom: 50px;
 }
 
 
+
 .hi-fidelity__description,
 .final__check-in__description {
- font-family: 'Taviraj', serif;
+  font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
   font-size: 16px;
   text-align: left;
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
+
 
 .about-container {
   display: flex;
