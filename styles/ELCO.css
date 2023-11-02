@@ -625,6 +625,15 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px; 
 }
 
+.user-testing__description {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
+}
+
 
 
 .user-testing__subtitle {
