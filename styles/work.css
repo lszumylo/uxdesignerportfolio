@@ -23,17 +23,20 @@ body {
     margin: 0 20px;
 }
 
-.navbar a {
+/* Set the link color to green on hover */
+.navbar .nav-link a {
     text-decoration: none;
     color: #fff;
 }
 
-/* Style your navigation links as needed */
-.navbar a:hover {
-    text-decoration: underline;
+.content-below-navbar {
+    margin-top: 60px; /* Adjust the value as needed to control the amount of space */
 }
 
-
+/* Set the link color to green on hover */
+.navbar .nav-link a:hover {
+    color: #ABD060;
+}
 
 
 .projects-container {
