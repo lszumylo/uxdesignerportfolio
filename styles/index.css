@@ -48,6 +48,10 @@ body {
     text-decoration: underline;
 }
 
+.container {
+    margin-top: 80px; /* Add margin to push the content down below the navbar */
+}
+
 
 /* Define your CSS classes here */
 .job {
