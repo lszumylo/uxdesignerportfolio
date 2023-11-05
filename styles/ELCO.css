@@ -81,7 +81,7 @@ button.page__section-text {
 img {
   max-width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: contain; /* Use 'contain' to fit the entire image within the container */
   margin-top: 50px;
   margin-bottom: 20px;
 }
