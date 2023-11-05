@@ -77,6 +77,16 @@ button.page__section-text {
   align-items: center; /* Center the children horizontally */
 }
 
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
 .hero-image {
   width: 150%; /* Make the image fill the entire width of the parent container */
   height: auto; /* Keep the aspect ratio of the image */
