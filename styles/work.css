@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    padding-top: 90px; /* Add padding to the top of the body to create space below the navbar */
 }
 
 .navbar {
