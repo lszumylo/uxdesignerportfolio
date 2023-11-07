@@ -1235,6 +1235,9 @@ margin-bottom: 50px;
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
+.final__check-in__description p {
+  text-align: left;
+}
 
 .about-container {
   display: flex;
