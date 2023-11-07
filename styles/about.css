@@ -1,7 +1,7 @@
-/* Reset default margin and padding */
-body, h1, h2, h3, h4, p {
-  margin: 0;
-  padding: 0;
+  body {
+  font-family: 'Taviraj', serif;
+  font-size: 18px;
+  margin: 20px; /* Add a 20px margin on all sides */
 }
 
 /* Define font families (assuming you have these fonts properly imported) */
@@ -53,9 +53,10 @@ h4 {
 
 .about-container__image {
   max-width: 30%;
-  margin-top: 0; /* Remove the top margin to align with the heading */
+  margin-top: 10px; /* Adjust the top margin to move the image closer to the navigation bar */
   margin-right: 20px; /* Add space between image and text */
 }
+
 
 .about-container__text {
   flex: 1;
