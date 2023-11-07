@@ -335,7 +335,7 @@ img {
 button.competitive-analysis__view-full {
   background-color: #005F85; /* example background color */
   color: #ffffff; /* example text color */
-  padding: 10px 10px; /* example padding */
+  padding: 10px 20px; /* Increase the padding to make the button longer */
   text-decoration: none; /* removes underline from link */
   display: block; /* makes the button a block-level element */
   margin: 0 auto; /* centers the button horizontally */
@@ -344,7 +344,6 @@ button.competitive-analysis__view-full {
   margin-bottom: 50px;
   white-space: nowrap; /* Prevents text from wrapping to the next line */
 }
-
 
 .user-stories__title {
   height: 21px;
