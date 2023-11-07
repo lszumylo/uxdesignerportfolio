@@ -574,9 +574,8 @@ font-family: 'Taviraj', serif;
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-
-.wireframes__section-title
- width: 100%; /* make the image fill the entire width of the parent container */
+.wireframes__image-home {
+  width: 100%; /* make the image fill the entire width of the parent container */
   height: auto; /* keep the aspect ratio of the image */
   object-fit: cover; /* fill the entire container while keeping the aspect ratio */
   margin-bottom: 30px;
