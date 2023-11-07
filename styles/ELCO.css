@@ -335,7 +335,7 @@ img {
 button.competitive-analysis__view-full {
   background-color: #005F85; /* example background color */
   color: #ffffff; /* example text color */
-  padding: 10px 20px; /* Increase the padding to make the button longer */
+  padding: 10px 50px; /* Increase the padding to make the button longer */
   text-decoration: none; /* removes underline from link */
   display: block; /* makes the button a block-level element */
   margin: 0 auto; /* centers the button horizontally */
