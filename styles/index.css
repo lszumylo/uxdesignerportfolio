@@ -96,6 +96,7 @@ body {
 }
 
 
+
 .image-container {
     display: flex;
     justify-content: center; /* Horizontally center the content */
@@ -106,12 +107,10 @@ body {
     margin: 0;
     padding: 0;
 }
-
-
-img {
-    max-width: 40%; /* Adjust the width as needed to make the image smaller */
+.image-container img {
+    width: 100%; /* Set the width of the image to 100% to match the container's width */
     max-height: 40vh; /* Adjust the height as needed */
-    height: auto; /* Allow the height to adjust proportionally with the width */
+    height: auto;
 }
 
 .button-container {
