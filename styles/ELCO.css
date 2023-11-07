@@ -333,16 +333,17 @@ img {
 }
 
 button.competitive-analysis__view-full {
-  background-color: #005F85; /* example background color */
-  color: #ffffff; /* example text color */
-  padding: 10px 50px; /* Increase the padding to make the button longer */
-  text-decoration: none; /* removes underline from link */
-  display: block; /* makes the button a block-level element */
-  margin: 0 auto; /* centers the button horizontally */
-  border: 1px solid #002E42; /* adds a 2px solid border with a lighter shade of blue */
+  background-color: #005F85;
+  color: #ffffff;
+  padding: 10px 50px;
+  text-decoration: none;
+  display: flex; /* Use flexbox to center vertically and horizontally */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  border: 1px solid #002E42;
   margin-top: 10px;
   margin-bottom: 50px;
-  white-space: nowrap; /* Prevents text from wrapping to the next line */
+  white-space: nowrap;
 }
 
 .user-stories__title {
