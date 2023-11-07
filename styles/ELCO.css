@@ -342,6 +342,7 @@ button.competitive-analysis__view-full {
   border: 1px solid #002E42; /* adds a 2px solid border with a lighter shade of blue */
   margin-top: 10px;
   margin-bottom: 50px;
+  white-space: nowrap; /* Prevents text from wrapping to the next line */
 }
 
 
