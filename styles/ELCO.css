@@ -576,6 +576,10 @@ font-family: 'Taviraj', serif;
 }
 
 .wireframes__image-home {
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+  font-weight: normal;
+  font-size: 24px;
   width: 100%; /* make the image fill the entire width of the parent container */
   height: auto; /* keep the aspect ratio of the image */
   object-fit: cover; /* fill the entire container while keeping the aspect ratio */
@@ -584,6 +588,10 @@ font-family: 'Taviraj', serif;
 
 
 .wireframes__image-About-home {
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+  font-weight: normal;
+  font-size: 24px;
   width: 100%; /* make the image fill the entire width of the parent container */
   height: auto; /* keep the aspect ratio of the image */
   object-fit: cover; /* fill the entire container while keeping the aspect ratio */
@@ -593,6 +601,10 @@ font-family: 'Taviraj', serif;
 
 
 .wireframes__image-Services-home {
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+  font-weight: normal;
+  font-size: 24px;
   width: 100%; /* make the image fill the entire width of the parent container */
   height: auto; /* keep the aspect ratio of the image */
   object-fit: cover; /* fill the entire container while keeping the aspect ratio */
@@ -603,6 +615,10 @@ font-family: 'Taviraj', serif;
 
 
 .wireframes__image-Contact-home {
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+  font-weight: normal;
+  font-size: 24px;
   width: 100%; /* make the image fill the entire width of the parent container */
   height: auto; /* keep the aspect ratio of the image */
   object-fit: cover; /* fill the entire container while keeping the aspect ratio */
@@ -612,6 +628,10 @@ font-family: 'Taviraj', serif;
 
 
 .wireframes__image-Testimonials-home {
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+  font-weight: normal;
+  font-size: 24px;
   width: 100%; /* make the image fill the entire width of the parent container */
   height: auto; /* keep the aspect ratio of the image */
   object-fit: cover; /* fill the entire container while keeping the aspect ratio */
