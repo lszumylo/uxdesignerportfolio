@@ -1153,7 +1153,7 @@ margin-bottom: 50px;
   border-bottom: 1.5px solid #ccc;
   text-align: center;
   margin-top: 20px;
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 
@@ -1191,8 +1191,6 @@ margin-bottom: 50px;
   margin-bottom: 30px; 
 }
 
-
-
 .hi-fidelity__description {
   font-family: 'Taviraj', serif;
   color: #000000;
@@ -1202,8 +1200,8 @@ margin-bottom: 50px;
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-.final__check-in__description p {
-   font-family: 'Taviraj', serif;
+.final__check-in__description {
+  font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
   font-size: 16px;
