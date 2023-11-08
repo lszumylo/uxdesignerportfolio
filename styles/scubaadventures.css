@@ -1,24 +1,46 @@
-
-
-.navigation-link {
-  link {
-      color: #DE5752;
-      background-color: transparent;
-      text-decoration: none;
-  }
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
 }
-  visited {
-      color: #0AC6E7;
-      background-color: transparent;
-      text-decoration: none;
-  }
-  hover {
-      color: #0AC6E7;
-      background-color: transparent;
-      text-decoration: underline;
-  }
 
+/* Define font families (assuming you have these fonts properly imported) */
+body {
+  font-family: 'Taviraj', serif;
+  font-size: 18px;
+  margin: 0 30px;
+}
 
+/* General styles for paragraphs */
+p {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 24px 10px;
+}
+
+/* General styles for headings */
+h1, h2, h3, h4 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* Individual heading styles */
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 24px;
+}
 
 .project-title {
   font-family: 'Work-Sans',sans-serif;
