@@ -792,7 +792,7 @@ font-family: 'Taviraj', serif;
 
 .typography__pairings {
   flex: 1;
-  max-width: 98%; /* Reduce max-width slightly to prevent scrollbar */
+  max-width: 80%; /* Reduce max-width slightly to prevent scrollbar */
   height: auto;
   object-fit: cover;
   margin-top: 60px;
