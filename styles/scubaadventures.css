@@ -43,6 +43,15 @@ h4 {
 }
 
 
+.scuba-image-style {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
 
 img { 
   width: 150%; /* Make the image fill the entire width of the parent container */
