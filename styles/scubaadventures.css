@@ -42,6 +42,16 @@ h4 {
   font-size: 24px;
 }
 
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain; /* Use 'contain' to fit the entire image within the container */
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
 .project-title {
   font-family: 'Work-Sans',sans-serif;
   font-weight: bold;
