@@ -1357,16 +1357,16 @@ i {
 
 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
-{
-
-.body {
-  overflow: hidden;
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    overflow: hidden;
   }
 
+  
   .project-title {
     font-size: 25px;
   }
+
 
 .project-summary {
   text-align: left;
@@ -1801,7 +1801,6 @@ display: none;
   font-size: 16px;
 }
 
-
 .image-logo-1 {
   width: 282px;
   height: 433px;
@@ -1900,7 +1899,6 @@ display: none;
   width: 276px;
 }
 
-
 .pref-test-1 {
   font-size: 18px;
 }
@@ -1984,7 +1982,6 @@ display: none;
 .conclusion-container {
 padding 0px 0px;
   }
-
 
 .conclusion {
   font-size: 18px;
