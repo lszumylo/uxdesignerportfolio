@@ -86,12 +86,22 @@ img {
 }
 
  .problem {
-  font-family: 'Work-Sans',sans-serif;
-  color: #0AC6E7;
-  font-size: 32px;
-  font-weight: normal;
-  text-align: center;
+  height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 
 .sample {
   font-family: 'Taviraj',serif;
@@ -102,12 +112,24 @@ img {
 }
 
 .solution {
-  font-family: 'Work-Sans',sans-serif;
-  font-size: 32px;
-  font-weight: normal;
-  color: #0AC6E7;
-  text-align: center;
+ {
+  height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
+
 
 .explanation {
   font-family: 'Taviraj', serif;
