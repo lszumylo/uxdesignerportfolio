@@ -222,13 +222,21 @@ color: #000000;
 }
 
 
-.analysis {
-  background-color: #F0F0F0;
-  font-family: 'Work-Sans',sans-serif;
-  font-size: 32px;
-  font-weight: normal;
-  color:#0AC6E6;
-  text-align: center;
+.analysis {  
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .swo {
@@ -346,11 +354,22 @@ color: #000000;
 }
 
 .our-users {
-  font-family: 'Work-Sans',serif;
-  font-weight: normal;
-  font-size: 32px;
-  color: #0AC6E7;
+     height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 
 .g-clark {
   width: 90%;
@@ -669,13 +688,22 @@ padding-bottom: 5px;
 
 
 .userflow {
-  background-color: #ffffff;
-  font-family: 'Work-Sans',sans-serif;
-  font-size: 32px;
-  font-weight: normal;
-  color:#0AC6E6;
-  text-align: center;
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 
 
 .flows {
@@ -724,13 +752,23 @@ padding-bottom: 5px;
   padding: 20px;
 }
 
-.wireframe {
-  font-family: 'Work-Sans',sans-serif;
-  font-size: 32px;
-  font-weight: normal;
-  color: #0AC6E6;
-  text-align: center;
+.wireframe {  
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 
 .screen {
   font-family: 'Taviraj',sans-serif;
@@ -748,13 +786,21 @@ padding-bottom: 5px;
 
 
 .wireframe-slides {
-  font-family: 'Taviraj', sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  color: #000000;
-  margin-top: 10px;
-  display:none;
- }
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 
 
@@ -826,13 +872,22 @@ padding-bottom: 5px;
 }
 
 .user-testing {
-  font-family: 'Work-Sans',sans-serif;
-  font-size: 32px;
-  font-weight: normal;
-  color: #000000;
-  text-align: center;
-  padding-top: 20px;
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 
 .test {
   font-family: 'Taviraj',sans-serif;
@@ -843,13 +898,23 @@ padding-bottom: 5px;
   text-align: left;
 }
 
-.results-summary {
-  font-family: 'Work-Sans',sans-serif;
-  font-size: 30px;
-  font-weight: normal;
-  color: #000000;
-  text-align: center;
+.results-summary {  
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 
 .question1 {
 font-family: 'Taviraj', sans-serif;
@@ -875,13 +940,23 @@ margin-top: 18px;
   margin-top: 10px;
 }
 
-.problem1 {
-  font-family: 'Work-Sans',sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  color: #000000;
-  text-align: center;
+.problem1 {  
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 
 .problem1-explanation {
   font-family: 'Taviraj',sans-serif;
@@ -891,13 +966,23 @@ margin-top: 18px;
   text-align: left;
 }
 
-.problem2 {
-  font-family: 'Work-Sans',sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  color:#000000;
-  text-align: center;
+.problem2 {  
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 
 .problem2-explanation {
   font-family: 'Taviraj',sans-serif;
@@ -907,14 +992,23 @@ margin-top: 18px;
   text-align: left;
 }
 
-.results {
-  font-family: 'Work-Sans',sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  color: #000000;
-  text-align: center;
-
+.results {  
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 
 .results-explanation {
   font-family: 'Taviraj',sans-serif;
@@ -924,13 +1018,23 @@ margin-top: 18px;
   text-align: left;
 }
 
-.thoughts {
-  font-family: 'Work-Sans',sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  color: #000000;
-  text-align: center;
+.thoughts {  
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 
 .thoughts-explanation {
   font-family: 'Taviraj',sans-serif;
@@ -949,12 +1053,21 @@ margin-top: 18px;
 }
 
 
-.high-fid-wireframe {
-  font-family: 'Work-Sans',sans-serif;
-  font-size: 32px;
-  font-weight: normal;
-  color: #0AC6E6;
-  text-align: center;
+.high-fid-wireframe {  
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .high-fid-explanation {
@@ -1007,13 +1120,23 @@ margin-top: 18px;
   padding: 20px;
 }
 
-.logo-sketch {
-  font-family: 'Work-Sans',sans-serif;
-  font-size: 32px;
-  font-weight: normal;#F0F0F0;
-  color: #0AC6E6;
-  text-align: center;
+.logo-sketch {  
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 
 .logo-explanation {
   font-family: 'Taviraj',sans-serif;
@@ -2024,8 +2147,21 @@ padding 0px 0px;
   font-size: 18px;
 }
 
-.what-worked {
-  font-size: 18px;
+.what-worked {  
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .worked-explanation {
@@ -2035,8 +2171,21 @@ padding 0px 0px;
   width: 250px;
 }
 
-.project-concerns {
-  font-size: 18px;
+.project-concerns{  
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .project-explanation {
@@ -2046,9 +2195,23 @@ padding 0px 0px;
   width: 252px;
 }
 
-.surprised {
-  font-size: 18px;
-  }
+.surprised {  
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 
 .surprised-explanation {
   font-size: 16px;
@@ -2057,9 +2220,23 @@ padding 0px 0px;
   width: 250px;
 }
 
-.better-me {
-  font-size: 18px;
+.better-me {  
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 
 .better-me-explanation {
   font-size: 16px;
