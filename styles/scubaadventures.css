@@ -4,12 +4,12 @@ body, h1, h2, h3, h4, p {
   padding: 0;
 }
 
-/* Define font families (assuming you have these fonts properly imported) */
 body {
   font-family: 'Taviraj', serif;
   font-size: 18px;
-  margin: 0 30px;
+  margin: 0 20px; /* Updated margin to 20px on both sides */
 }
+
 
 /* General styles for paragraphs */
 p {
