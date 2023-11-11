@@ -112,7 +112,6 @@ img {
 }
 
 .solution {
- {
   height: 21px;
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
@@ -170,12 +169,22 @@ padding-bottom: 5px;
 }
 
 .user-surveys {
-  font-family: 'Work-Sans', sans-serif;
-  font-size: 32px;
-  font-weight: normal;
-  text-align: center;
-  color: #0AC6E7;
-  }
+   height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 
 
 .result {
@@ -263,14 +272,20 @@ color: #000000;
 }
 
 .user-stories {
-  background-color: #ffffff;
-  width: 100%;
-  font-family: 'Work-Sans', sans-serif;
-  font-size: 32px;
-  font-weight: normal;
-  text-align: center;
-  color: #0ac6e7;
-  padding: 15px;
+   height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0AC6E7;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .crossover-stories {
