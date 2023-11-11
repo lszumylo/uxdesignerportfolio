@@ -79,20 +79,16 @@ img {
   text-align: center;
 }
 
-
-button.prototype {
-  /* styles for the button */
+.prototype a {
   background-color: #f2c94c;
-  color: #000000; /* set the text color to black */
+  color: #000000;
   padding: 10px;
   text-decoration: none;
-  display: block;
-  margin: 0 auto;
+  display: inline-block;
   border: 1px solid #002E42;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* smooth transition effect */
+  transition: background-color 0.3s ease;
 }
-
 
 
  .problem {
