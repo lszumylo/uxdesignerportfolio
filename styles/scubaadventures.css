@@ -279,7 +279,7 @@ color: #000000;
   height:120px;
 }
 
-.user-stories {
+.user-stories-sa {
    height: 21px;
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
@@ -296,7 +296,7 @@ color: #000000;
     margin-bottom: 30px;
 }
 
-.crossover-stories {
+.crossover-stories-sa {
   background-color: #ffffff;
   width: 100%;
   font-family: 'Taviraj', serif;
@@ -871,7 +871,7 @@ padding-bottom: 5px;
     padding: 20px;
 }
 
-.user-testing {
+.user-testing-sa {
     height: 21px;
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
@@ -898,7 +898,7 @@ padding-bottom: 5px;
   text-align: left;
 }
 
-.results-summary {  
+.results-summary-sa {  
     height: 21px;
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
