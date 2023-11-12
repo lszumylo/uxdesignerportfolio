@@ -4,13 +4,12 @@ body, h1, h2, h3, h4, p {
   padding: 0;
 }
 
-
+/* Define font families (assuming you have these fonts properly imported) */
 body {
   font-family: 'Taviraj', serif;
   font-size: 18px;
-  margin: 0 80px; /* Updated margin to 80px on both sides */
+  margin: 0 30px;
 }
-
 
 /* General styles for paragraphs */
 p {
@@ -43,33 +42,18 @@ h4 {
   font-size: 24px;
 }
 
-.scuba-image-style {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.project-title {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
 }
 
-
-.project-title {
-  font-family: 'Work-Sans', sans-serif;
-  font-weight: bold;
-  font-size: 35px;
-  text-align: center;
-  color: #000000;
-  }
-
-.project-summary {
-  font-family: 'Taviraj', serif;
-  color: #000000;
-  font-weight: normal;
+.page__header-subtitle {
+  font-family: "Work Sans", sans-serif;
   font-size: 16px;
-  margin: 24px 10px;
+  font-weight: lighter;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .prototype {
@@ -79,12 +63,82 @@ h4 {
 .prototype a {
   background-color: #f2c94c;
   color: #000000;
-  padding: 10px;
-  text-decoration: none;
-  display: inline-block;
-  border: 1px solid #002E42;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  padding: 10px 10px; /* example padding */
+  text-decoration: none; /* removes underline from link */
+  display: block; /* makes the button a block-level element */
+  margin: 0 auto; /* centers the button horizontally */
+  border: 1px solid #002E42; /* adds a 2px solid border with a lighter shade of blue */
+  border-style: none; /* Remove the border style (including underline) */
+  cursor: pointer; /* Change the cursor to a pointer on hover (optional) */
+}
+
+
+
+/* Add these styles to your CSS file */
+.content-container {
+  max-width: 960px; /* Set a maximum width for the content */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px; /* Add padding to create margins on each side of the screen */
+  display: flex;
+  flex-direction: column; /* Stack the children elements vertically */
+  align-items: center; /* Center the children horizontally */
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain; /* Use 'contain' to fit the entire image within the container */
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
+.scuba-image-style { {
+  width: 150%; /* Make the image fill the entire width of the parent container */
+  height: auto; /* Keep the aspect ratio of the image */
+  object-fit: cover; /* Fill the entire container while keeping the aspect ratio */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will make the container fill the entire viewport height */
+    max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
+}
+
+.page__section-title {
+  height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+.project-summary {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 24px 10px;
+  text-align: center;
 }
 
 
