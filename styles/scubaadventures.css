@@ -4,11 +4,10 @@ body, h1, h2, h3, h4, p {
   padding: 0;
 }
 
-/* Define font families (assuming you have these fonts properly imported) */
 body {
   font-family: 'Taviraj', serif;
   font-size: 18px;
-  margin: 0 30px;
+  margin: 0 80px; /* Updated margin to 80px on both sides */
 }
 
 /* General styles for paragraphs */
@@ -41,6 +40,18 @@ h3 {
 h4 {
   font-size: 24px;
 }
+
+.scuba-image-style {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .project-title {
   font-size: 22px;
