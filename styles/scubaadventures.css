@@ -42,18 +42,20 @@ h4 {
   font-size: 24px;
 }
 
-
 .scuba-image-style {
   max-width: 100%;
   height: auto;
   object-fit: contain;
   margin-top: 50px;
   margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 .project-title {
-  font-family: 'Work-Sans',sans-serif;
+  font-family: 'Work-Sans', sans-serif;
   font-weight: bold;
   font-size: 35px;
   text-align: center;
@@ -75,11 +77,15 @@ h4 {
   align-items: center;
   padding: 10px;
   text-decoration: none;
-  display: inline-block;
+  display: block; /* Change to block */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
   border: 1px solid #002E42;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
+
 
 
  .problem {
