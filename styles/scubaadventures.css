@@ -54,10 +54,13 @@ h4 {
 
 
 .project-title {
-  font-size: 22px;
+  font-family: 'Work-Sans', sans-serif;
   font-weight: bold;
+  font-size: 35px;
   text-align: center;
-}
+  color: #000000;
+  }
+
 
 .page__header-subtitle {
   font-family: "Work Sans", sans-serif;
