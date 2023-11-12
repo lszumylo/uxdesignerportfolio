@@ -71,21 +71,20 @@ h4 {
   text-align: center;
 }
 
+.prototype {
+  text-align: center; /* Center the content horizontally */
+}
+
 .prototype a {
   background-color: #f2c94c;
   color: #000000;
-  align-items: center;
   padding: 10px;
   text-decoration: none;
-  display: block; /* Change to block */
-  margin-left: auto; /* Center horizontally */
-  margin-right: auto; /* Center horizontally */
+  display: inline-block;
   border: 1px solid #002E42;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
-
 
 
  .problem {
