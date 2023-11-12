@@ -104,6 +104,162 @@ img {
   margin-bottom: 20px;
 }
 
+<p style="background-color:#0AC6E7; color: white; padding: 10px;"></p>
+
+<div class="newspaper" style="background-color: #0AC6E7; text-align: center;">
+  <br>
+  <strong>My Role</strong><br>
+  <br>
+  User Experience Design<br>
+  User Interaction Design<br>
+  User Research<br>
+  Visual Design<br>
+  Branding &amp; Identity<br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <strong>Deliverables</strong><br>
+  <br>
+  Personas<br>
+  Surveys<br>
+  User Stories &amp; Flows<br>
+  Competitive Analysis<br>
+  User Testing<br>
+  Sketching<br>
+  Wireframes<br>
+  <br>
+  <br>
+  <strong>Tools</strong><br>
+  <br>
+  Pen &amp; Paper<br>
+  InVision<br>
+  Figma<br>
+  Draw.io<br>
+  Sketch<br>
+  Google Forms<br>
+  Usertesting.com<br>
+</div>
+
+
+<br>
+<hr color="#0AC6E7">
+
+<h2 class="research">Research</h2>
+
+<hr color="#0AC6E7">
+  
+<br>
+
+<div>
+  <h3 class="user-surveys">User Surveys & Results</h3>
+
+  <p class="result">I created 2 Google surveys to gain insight on how many times a year people dive,
+    where they go, how long their trips are, if they rent or own their dive equipment,
+    and how many people they normally dive with.</p>
+
+  <br>
+
+  <a class="Excursion" href="https://docs.google.com/spreadsheets/d/1LXqdLlXylOtAD6robm8zWPUoXguc4gYztYioA7d2Ro0/edit?usp=sharing">Excursion Survey Results</a>
+  <br>
+  <a class="Scuba-Survey" href="https://docs.google.com/spreadsheets/d/1Yl1sGNld5DUuOG-ZamW1lD5jFkpd12Wmd5AdNXqnZP8/edit?usp=sharing">Scuba Survey Results</a>
+
+    <br>
+  <!-- view survey button -->
+
+  <div class="flex-container">
+    <div class="divers">
+        <h2><center>76%</center></h2>
+        <p><center>of divers prefer<br>
+        International<br>
+        dive locations</center></p>
+      </div>
+
+    <div class="gear">
+        <h2><center>60%</center></h2>
+        <p><center>own their<br>
+        Scuba gear</center></p>
+      </div>
+
+     <div class="factors">
+    <h2><center>Factors</center></h2>
+    <p><center>most vital Cost & Location<br>least vital Transit</center></p>
+  </div>
+
+  <div class="trips">
+    <h2><center>Length</center></h2>
+    <p><center>trips are primarily<br>
+    1-2 days long</center></p>
+  </div>
+</div>
+
+<br>
+</div>
+
+<div class="grey-container">
+  <h3 class="analysis">Competitive Analysis</h3>
+
+  <p class="swo">
+    Scuba Diving is a great way to explore the world we live in, with so many locations and diving types available it would take several lifetimes to see it all. Today's technology allows you to book your next excursion in minutes and explore your dive site within hours.
+    <br>
+    <br>
+    Based on the survey results, we took a deeper look into 3 Scuba Diving Companies to see what they offered, who their target market is, how they are similar to each other and what made them different in the diving market. Listing out their strengths and weaknesses will help see if our site can stand out against the competition. Let's dive in!
+  </p>
+  <br>
+  <br>
+
+  <a class="link-analysis" href="https://docs.google.com/document/d/1dYLaJ2o1_WiClINyRUguIbSrW-aKAIVD7TjMJdM8l8s/edit?usp=sharing">View Competitive Analysis</a>
+
+  <div class="logo-container">
+    <img class="mass-diving" src="images/MD Diving.png" alt="Mass Dive Logo">
+    <img class="padi-diving" src="https://s.diviac.com/travel_dist/images/padi-logo.svg" alt="padi diving">
+    <img class="dive-on-it" src="http://www.diveonit.com/wp-content/uploads/2017/03/scubalogo2-e1489539990273.png" alt="Dive On It Scuba - A ScubaTrainors LLC Shop Logo">
+  </div>
+</div>
+
+<h2 class="user-stories-sa">User Stories</h2>
+
+<p class="crossover-stories-sa">
+  I created 2 sets of user stories, the first to show what users expected to see on a dive website based off of the survey results. The second to show what the business goals would be. This resulted in some crossover between both the consumer and business goals. I have listed those crossover findings below.
+</p>
+
+<div class="row">
+   <div class="column" style="background-color: #0AC6E7;">
+    <h2 class="as-user">as a user...</h2>
+</div>
+
+<br>
+
+<p class="desires">As a user, I want to be able to search
+   by location, skill level, cost, or dive type
+   to help speed up my search time.</p>
+<hr style="color: #000000">
+
+<p class="desires">As a user, I want to be able to chat with
+   a live person who is knowledgeable about the
+   locations and able to answer my questions.</p>
+<hr style="color: #000000">
+
+<p class="desires">As a user, I want to purchase multi-day
+   dive packages so I can save time and money
+   on my next dive trip.</p>
+<hr style="color: #000000">
+
+<p class="desires">As a user, I want to see photos of the dive
+   locations and accommodations so I know what is
+   included in the cost.</p>
+<hr style="color: #000000">
+
+<p class="desires">As a user, I want to sign up for newsletters
+   so I can receive information on sales and new
+   dive locations available.</p>
+
+
+
+
+
+
+
 
 .scuba-image-style { {
   width: 150%; /* Make the image fill the entire width of the parent container */
