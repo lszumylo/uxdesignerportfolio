@@ -84,6 +84,7 @@ h4 {
   border: 1px solid #002E42; /* adds a 2px solid border with a lighter shade of blue */
   border-style: none; /* Remove the border style (including underline) */
   cursor: pointer; /* Change the cursor to a pointer on hover (optional) */
+  max-width: 200px; /* Set a maximum width for the button */
 }
 
 
