@@ -261,7 +261,7 @@ img {
 
 
 
-.scuba-image-style { {
+.scuba-image-style { 
   width: 150%; /* Make the image fill the entire width of the parent container */
   height: auto; /* Keep the aspect ratio of the image */
   object-fit: cover; /* Fill the entire container while keeping the aspect ratio */
@@ -270,30 +270,6 @@ img {
 }
 
 
-.hero-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* This will make the container fill the entire viewport height */
-    max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
-}
-
-.page__section-title {
-  height: 21px;
-  font-family: 'Work Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #005F85;
-  text-align: center;
-  margin: 0 auto; /* center the element horizontally */
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 
 
 
