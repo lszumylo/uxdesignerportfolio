@@ -42,6 +42,17 @@ h4 {
   font-size: 24px;
 }
 
+/* Add these styles to your CSS file */
+.new-content-container {
+  max-width: 960px; /* Set a maximum width for the content */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px; /* Add padding to create margins on each side of the screen */
+  display: flex;
+  flex-direction: column; /* Stack the children elements vertically */
+  align-items: center; /* Center the children horizontally */
+}
+
+
 .scuba-image-style {
   max-width: 100%;
   height: auto;
@@ -88,17 +99,6 @@ h4 {
   max-width: 200px; /* Set a maximum width for the button */
 }
 
-
-
-/* Add these styles to your CSS file */
-.new-content-container {
-  max-width: 960px; /* Set a maximum width for the content */
-  margin: 0 auto; /* Center the content horizontally */
-  padding: 20px; /* Add padding to create margins on each side of the screen */
-  display: flex;
-  flex-direction: column; /* Stack the children elements vertically */
-  align-items: center; /* Center the children horizontally */
-}
 
 
 img {
