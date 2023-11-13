@@ -1240,31 +1240,3 @@ button.case-study__button {
   margin-bottom: 30px;
 }
 
-
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-  /* CSS for smaller screens */
-  .typography__pairings {
-    flex-basis: 50%;
-    margin: 0 6px;
-  }
-
-/* Mobile Styles */
-@media only screen and (max-width: 599px) {
-  /* Styles for mobile devices */
-}
-
-/* Tablet Styles */
-@media only screen and (min-width: 600px) and (max-width: 991px) {
-  /* Styles for tablet devices */
-}
-
-/* Desktop Styles */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  /* Styles for desktop devices */
-}
-
-/* Large Desktop Styles */
-@media only screen and (min-width: 1200px) {
-  /* Styles for large desktop devices */
-}
