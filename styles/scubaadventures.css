@@ -90,7 +90,7 @@ h4 {
 
 
 /* Add these styles to your CSS file */
-.content-container {
+.new-content-container {
   max-width: 960px; /* Set a maximum width for the content */
   margin: 0 auto; /* Center the content horizontally */
   padding: 20px; /* Add padding to create margins on each side of the screen */
