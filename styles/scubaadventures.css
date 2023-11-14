@@ -2,27 +2,29 @@
 body, h1, h2, h3, h4, p {
   margin: 0;
   padding: 0;
-  font-family: 'Taviraj', serif; /* Primary font */
 }
 
+
 body {
-  font-family: 'Taviraj', serif;
+  font-family: 'Taviraj', serif; /* Set body text font-family to Taviraj */
   font-size: 18px;
   margin: 0 80px; /* Updated margin to 80px on both sides */
 }
 
+
 /* General styles for paragraphs */
 p {
-  font-family: 'Taviraj', serif;
+  font-family: 'Taviraj', serif; /* Set paragraphs font-family to Taviraj */
   color: #000000;
   font-weight: normal;
   font-size: 16px;
   margin: 24px 10px;
 }
 
+
 /* General styles for headings */
 h1, h2, h3, h4 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif; /* Set headings font-family to Work Sans */
 }
 
 /* Individual heading styles */
@@ -93,7 +95,8 @@ font-family: "Work Sans", sans-serif;
   margin: 0 auto; /* center the element horizontally */
   margin-top: 30px;
   margin-bottom: 30px;
-
+}
+  
 .solution {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -109,26 +112,10 @@ font-family: "Work Sans", sans-serif;
   margin: 0 auto; /* center the element horizontally */
   margin-top: 30px;
   margin-bottom: 30px;
-
-  
-
-.newspaper {
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
-    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 20px; /* Firefox */
-    column-gap: 20px;
-    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
-    -moz-column-rule-style: solid; /* Firefox */
-    column-rule-style: solid;
-    -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
-    -moz-column-rule-width: 1px; /* Firefox */
-    column-rule-width: 1px;
-    -webkit-column-rule-color: black; /* Chrome, Safari, Opera */
-    -moz-column-rule-color: black; /* Firefox */
-    column-rule-color: black;
 }
+
+
+
 
 
 .flex-container {
