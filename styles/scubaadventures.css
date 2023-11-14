@@ -67,11 +67,10 @@ font-family: "Work Sans", sans-serif;
 
   /* Center text within the button */
   text-align: center;
-  display: block;
-  width: 100%;
-  height: 100%;
+  display: inline-block; /* Set to inline-block to fit its content */
+  width: auto; /* Adjust width based on content */
+  margin: 0 auto; /* Center the button horizontally */
 }
-
 
 
 .problem {
@@ -84,7 +83,7 @@ font-family: "Work Sans", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #E07110;
+  color: #ED0707;
   text-align: center;
   margin: 0 auto; /* center the element horizontally */
   margin-top: 30px;
