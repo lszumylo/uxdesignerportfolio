@@ -57,20 +57,33 @@ font-family: "Work Sans", sans-serif;
 }
 
 .prototype {
-  background-color: #FEDE00; /* Updated background color */
-  color: #000000; /* example text color */
-  padding: 10px 10px; /* example padding */
-  text-decoration: none; /* removes underline from link */
-  display: block; /* makes the button a block-level element */
-  margin: 0 auto; /* centers the button horizontally */
-  border: 1px solid #002E42; /* adds a 2px solid border with a lighter shade of blue */
-  border-style: none; /* Remove the border style (including underline) */
-  cursor: pointer; /* Change the cursor to a pointer on hover (optional) */
+  background-color: #FEDE00;
+  color: #000000;
+  padding: 10px 20px; /* Adjust padding as needed */
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #002E42;
+  border-style: none;
+  cursor: pointer;
+  max-width: 200px; /* Set a maximum width for the button */
 }
 
-
-
-
+.problem {
+   height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E07110;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
 
 
 .newspaper {
