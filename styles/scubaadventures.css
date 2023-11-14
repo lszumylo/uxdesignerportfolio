@@ -56,6 +56,13 @@ font-family: "Work Sans", sans-serif;
   margin-bottom: 30px;
 }
 
+.prototype {
+  position: absolute;
+  top: 50%; /* Position the button 50% from the top */
+  left: 50%; /* Position the button 50% from the left */
+  transform: translate(-50%, -50%); /* Center the button using translation */
+}
+
 .prototype a {
   /* Button properties */
   background-color: #FEDE00;
@@ -68,13 +75,11 @@ font-family: "Work Sans", sans-serif;
   /* Center text within the button */
   text-align: center;
   display: inline-block; /* Set to inline-block to fit its content */
-  width: auto; /* Adjust width based on content */
-  margin: 0 auto; /* Center the button horizontally */
 }
 
 
 .problem {
-   height: 21px;
+  height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -89,7 +94,21 @@ font-family: "Work Sans", sans-serif;
   margin-top: 30px;
   margin-bottom: 30px;
 
-
+.solution {
+  height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ED0707;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
 
   
 
