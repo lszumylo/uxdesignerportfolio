@@ -126,30 +126,39 @@ h4 {
   margin-bottom: 30px;
 }
 
+.button-container {
+  display: flex;
+}
+
+.button-container a {
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #FFD700; /* Yellow background color */
+  color: #fff; /* Text color */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #FFD700; /* Add border to match button color */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.button-container a:hover {
+  background-color: #FFCC00; /* Darker yellow on hover */
+}
+
+/* If you want specific styles for Excursion and Scuba-Survey, use separate classes */
 .Excursion {
-  background-color: #FEDE00; /* Background color */
-  color: #000000; /* Text color */
-  padding: 10px 20px; /* Padding */
-  text-decoration: none; /* Remove underline from link */
-  display: block; /* Makes the button a block-level element */
-  width: fit-content; /* Adjust width based on content */
-  margin: 0 auto; /* Centers the button horizontally */
-  border: 1px solid #002E42; /* Border */
-  cursor: pointer; /* Change cursor on hover (optional) */
+  background-color: #FEDE00;
+  color: #000000;
+  /* ... Other styles specific to Excursion button ... */
 }
 
 .Scuba-Survey {
-
-  background-color: #FEDE00; /* Background color */
-  color: #000000; /* Text color */
-  padding: 10px 20px; /* Padding */
-  text-decoration: none; /* Remove underline from link */
-  display: block; /* Makes the button a block-level element */
-  width: fit-content; /* Adjust width based on content */
-  margin: 0 auto; /* Centers the button horizontally */
-  border: 1px solid #002E42; /* Border */
-  cursor: pointer; /* Change cursor on hover (optional) */
+  background-color: #FEDE00;
+  color: #000000;
+  /* ... Other styles specific to Scuba-Survey button ... */
 }
+
+
 
 .flex-container {
   display: flex;
