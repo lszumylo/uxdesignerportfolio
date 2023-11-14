@@ -51,7 +51,6 @@ h4 {
 }
 
 .project-summary {
-font-family: "Work Sans", sans-serif;
   font-size: 16px;
   font-weight: lighter;
   text-align: center;
@@ -70,8 +69,6 @@ font-family: "Work Sans", sans-serif;
   border: 1px solid #002E42; /* Border */
   cursor: pointer; /* Change cursor on hover (optional) */
 }
-
-
 
 
 .problem {
@@ -128,6 +125,32 @@ font-family: "Work Sans", sans-serif;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.Excursion {
+  background-color: #FEDE00; /* Background color */
+  color: #000000; /* Text color */
+  padding: 10px 20px; /* Padding */
+  text-decoration: none; /* Remove underline from link */
+  display: block; /* Makes the button a block-level element */
+  width: fit-content; /* Adjust width based on content */
+  margin: 0 auto; /* Centers the button horizontally */
+  border: 1px solid #002E42; /* Border */
+  cursor: pointer; /* Change cursor on hover (optional) */
+}
+
+.Scuba-Survey {
+
+  background-color: #FEDE00; /* Background color */
+  color: #000000; /* Text color */
+  padding: 10px 20px; /* Padding */
+  text-decoration: none; /* Remove underline from link */
+  display: block; /* Makes the button a block-level element */
+  width: fit-content; /* Adjust width based on content */
+  margin: 0 auto; /* Centers the button horizontally */
+  border: 1px solid #002E42; /* Border */
+  cursor: pointer; /* Change cursor on hover (optional) */
+}
+
 
 
 
