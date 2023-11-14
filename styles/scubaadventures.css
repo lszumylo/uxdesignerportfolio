@@ -151,29 +151,24 @@ h4 {
   cursor: pointer; /* Change cursor on hover (optional) */
 }
 
-
-
-
-
-
-
-
 .flex-container {
   display: flex;
-  justify-content: center;
-  background-color: white;
+  justify-content: space-around; /* Adjust as needed */
+  align-items: center; /* Align items vertically */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
 }
-
 
 .flex-container > div {
-  background-color: #ffffff;
-  font-family:'Taviraj',serif;
-  width: 180px;
-  margin: 15px;
-  text-align: center;
-  line-height: 50px;
-  font-size: 17px;
+  width: 200px; /* Adjust width as needed */
+  text-align: center; /* Center align text */
+  margin: 10px; /* Add some space between items */
+  border: 1px solid #ccc; /* Optional: add borders for clarity */
+  padding: 10px; /* Optional: add padding for spacing */
 }
+
+
+
+
 
 
 
