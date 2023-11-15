@@ -209,14 +209,14 @@ h4 {
 
 /* Apply common styles to each image */
 .logo-container img {
-  width: 75%; /* Set width to 75% of the parent container */
+  width: 25%; /* Set width to 75% of the parent container */
   height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Ensure images don't exceed their natural size */
 }
 
 /* Larger logo specific styling */
 .larger-logo {
-  width: 40%; /* Adjust size for the larger logo */
+  width: 20%; /* Adjust size for the larger logo */
 }
 
 
