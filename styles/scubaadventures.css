@@ -201,7 +201,6 @@ h4 {
   cursor: pointer; /* Change cursor on hover (optional) */
 }
 
-
 .logo-container {
   display: flex;
   justify-content: space-between; /* Adjust as needed */
@@ -214,6 +213,17 @@ h4 {
   height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Ensure images don't exceed their natural size */
 }
+
+/* Larger logo specific styling */
+.larger-logo {
+  width: 40%; /* Adjust size for the larger logo */
+}
+
+
+
+
+
+
 
 
 
