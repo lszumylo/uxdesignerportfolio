@@ -248,6 +248,7 @@ h4 {
 /* Two-column layout */
 .row {
   display: flex;
+  align-items: flex-start; /* Align items to the start of the cross-axis */
 }
 
 /* Style for each column */
@@ -267,6 +268,8 @@ h4 {
 .as-owner {
   margin-top: 0; /* Adjust top margin for owner heading if needed */
 }
+
+
 
 
 
