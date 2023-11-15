@@ -245,6 +245,29 @@ h4 {
   margin-bottom: 30px;
  }
 
+/* Two-column layout */
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style for each column */
+.column {
+  width: 48%; /* Adjust width of columns */
+  background-color: #0AC6E7;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Additional styling for user needs column */
+.user-needs {
+  /* Add specific styles for the user needs column if required */
+}
+
+/* Additional styling for owner needs column */
+.owner-needs {
+  /* Add specific styles for the owner needs column if required */
+}
 
 
 
