@@ -248,7 +248,6 @@ h4 {
 /* Two-column layout */
 .row {
   display: flex;
-  align-items: flex-start; /* Align items to the start of the cross-axis */
 }
 
 /* Style for each column */
@@ -266,10 +265,11 @@ h4 {
 }
 
 /* Additional styling for owner needs column */
-.as-owner {
-  margin-top: -10px; /* Adjust top margin for owner heading to move it up */
-  /* You might need to adjust this value according to your layout */
+.column:nth-child(2) {
+  margin-top: -20px; /* Adjust the margin to move the entire column up */
+  /* You may need to adjust this value to achieve the desired alignment */
 }
+
 
 .our-users {
   height: 21px;
