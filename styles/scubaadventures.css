@@ -262,12 +262,20 @@ h4 {
 /* Additional styling for user needs column */
 .as-user, .as-owner {
   text-align: center; /* Center-align headings if desired */
+  margin-top: 0; /* Reset top margin for headings */
 }
 
 /* Additional styling for owner needs column */
 .as-owner {
-  margin-top: 0; /* Adjust top margin for owner heading if needed */
+  margin-top: -10px; /* Adjust top margin for owner heading to move it up */
+  /* You might need to adjust this value according to your layout */
 }
+
+
+
+
+
+
 
 
 
