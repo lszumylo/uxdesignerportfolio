@@ -201,23 +201,24 @@ h4 {
   cursor: pointer; /* Change cursor on hover (optional) */
 }
 
-.logo-container {
-  display: flex;
-  justify-content: space-between; /* Adjust as needed */
-  align-items: center; /* Align items vertically */
-}
-
 /* Apply common styles to each image */
 .logo-container img {
-  width: 25%; /* Set width to 75% of the parent container */
+  width: 25%; /* Set width to 25% of the parent container */
   height: auto; /* Maintain aspect ratio */
-  max-width: 100%; /* Ensure images don't exceed their natural size */
+  max-width: 300px; /* Limit maximum width of images to 300px */
 }
 
 /* Larger logo specific styling */
 .larger-logo {
   width: 20%; /* Adjust size for the larger logo */
 }
+
+
+
+
+
+
+
 
 .user-stories-sa {
   height: 21px;
