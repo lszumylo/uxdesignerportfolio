@@ -201,17 +201,36 @@ h4 {
   cursor: pointer; /* Change cursor on hover (optional) */
 }
 
+
+.logo-container {
+  display: flex;
+  justify-content: space-between; /* Evenly space items */
+  align-items: center; /* Align items vertically */
+  width: 90%; /* Adjust width as needed */
+  max-width: 1200px; /* Set max-width for responsiveness */
+  margin: 0 auto; /* Center the container */
+}
+
 /* Apply common styles to each image */
 .logo-container img {
-  width: 25%; /* Set width to 25% of the parent container */
+  width: 20%; /* Set width to 20% of the parent container */
   height: auto; /* Maintain aspect ratio */
-  max-width: 300px; /* Limit maximum width of images to 300px */
+  max-width: 100%; /* Ensure images don't exceed their natural size */
 }
 
 /* Larger logo specific styling */
 .larger-logo {
-  width: 20%; /* Adjust size for the larger logo */
+  width: 25%; /* Adjust size for the larger logo */
 }
+
+.smaller-logo {
+  width: 15%; /* Adjust size for smaller logos */
+}
+
+
+
+
+
 
 
 
