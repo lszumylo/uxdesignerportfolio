@@ -132,6 +132,58 @@ h4 {
   margin-top: 20px; /* Adjust top margin as needed */
 }
 
+.button-container a {
+  text-decoration: none;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #FEDE00; /* Yellow background color */
+  color: #000000; /* Text color */
+  border: 1px solid #002E42; /* Border */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  margin: 0 25px; /* Set equal margins around buttons */
+}
+
+.Excursion,
+.Scuba-Survey {
+  /* Use common styles for both Excursion and Scuba-Survey */
+  display: inline-block; /* Change to inline-block for sizing */
+}
+
+.Scuba-Survey {
+  margin-left: 50px; /* Left margin for the Scuba-Survey button */
+}
+
+.button-container a:hover {
+  background-color: #FFCC00; /* Darker yellow on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Horizontally center items */
+  margin-top: 20px; /* Adjust top margin as needed */
+
+
 
 .button-container a {
   margin: 0 25px; /* Set equal margins around buttons */
@@ -142,20 +194,20 @@ h4 {
   border: 1px solid #002E42; /* Border */
   border-radius: 5px; /* Rounded corners */
   transition: background-color 0.3s ease; /* Smooth transition on hover */
-}
+
 
 
 .button-container a:first-child {
   margin-right: 50px; /* Right margin for the first button */
-}
+
 
 .button-container a:last-child {
   margin-left: 50px; /* Left margin for the last button */
-}
+
 
 .button-container a:hover {
   background-color: #FFCC00; /* Darker yellow on hover */
-}
+
 
 
 .Excursion, .Scuba-Survey {
@@ -168,7 +220,7 @@ h4 {
   border: 1px solid #002E42; /* Border */
   border-radius: 5px; /* Rounded corners */
   transition: background-color 0.3s ease; /* Smooth transition on hover */
-}
+
 
 
 .flex-container {
