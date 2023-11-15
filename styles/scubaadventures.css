@@ -172,6 +172,34 @@ h4 {
   padding: 10px; /* Optional: add padding for spacing */
 }
 
+.analysis {
+  height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ED0707;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.link-analysis {
+  background-color: #FEDE00; /* Background color */
+  color: #000000; /* Text color */
+  padding: 10px 20px; /* Padding */
+  text-decoration: none; /* Remove underline from link */
+  display: block; /* Makes the button a block-level element */
+  width: fit-content; /* Adjust width based on content */
+  margin: 0 auto; /* Centers the button horizontally */
+  border: 1px solid #002E42; /* Border */
+  cursor: pointer; /* Change cursor on hover (optional) */
+}
 
 
 
