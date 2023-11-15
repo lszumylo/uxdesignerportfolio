@@ -211,16 +211,16 @@ h4 {
   margin: 0 auto; /* Center the container */
 }
 
+
 /* Apply common styles to each image */
 .logo-container img {
-  width: 20%; /* Set width to 20% of the parent container */
   height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Ensure images don't exceed their natural size */
 }
 
 /* Larger logo specific styling */
 .larger-logo {
-  width: 15%; /* Adjust size for the larger logo */
+  width: 25%; /* Adjust size for the larger logo */
 }
 
 .smaller-logo {
