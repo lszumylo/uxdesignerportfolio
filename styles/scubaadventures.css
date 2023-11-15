@@ -132,15 +132,15 @@ h4 {
   margin-top: 20px; /* Adjust top margin as needed */
 }
 
-
 .button-container a {
   margin-right: 10px;
   text-decoration: none;
   padding: 10px 20px; /* Adjust padding as needed */
-  background-color: #FFD700; /* Yellow background color */
+  background-color: #FEDE00; /* Background color */
   color: #000000; /* Text color */
+  display: inline-block; /* Change to inline-block for sizing */
+  border: 1px solid #002E42; /* Border */
   border-radius: 5px; /* Rounded corners */
-  border: 1px solid #FFD700; /* Add border to match button color */
   transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
 
@@ -148,18 +148,19 @@ h4 {
   background-color: #FFCC00; /* Darker yellow on hover */
 }
 
-/* If you want specific styles for Excursion and Scuba-Survey, use separate classes */
-.Excursion {
-  background-color: #FEDE00; /* Background color */
-  color: #000000; /* Text color */
+.Excursion, .Scuba-Survey {
+  /* Use common styles for both Excursion and Scuba-Survey */
+  display: inline-block; /* Change to inline-block for sizing */
   padding: 10px 20px; /* Padding */
   text-decoration: none; /* Remove underline from link */
-  display: block; /* Makes the button a block-level element */
-  width: fit-content; /* Adjust width based on content */
-  margin: 0 auto; /* Centers the button horizontally */
+  background-color: #FEDE00; /* Background color */
+  color: #000000; /* Text color */
   border: 1px solid #002E42; /* Border */
-  cursor: pointer; /* Change cursor on hover (optional) */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
+
+
 
 
 .Scuba-Survey {
