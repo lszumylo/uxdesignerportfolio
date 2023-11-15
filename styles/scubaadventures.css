@@ -248,6 +248,8 @@ h4 {
 /* Two-column layout */
 .row {
   display: flex;
+  flex-direction: row; /* Arrange columns in a row */
+  align-items: flex-start; /* Align items at the start of the flex container */
 }
 
 /* Style for each column */
@@ -259,16 +261,13 @@ h4 {
 }
 
 /* Additional styling for user needs column */
-.as-user, .as-owner {
+.as-user,
+.as-owner {
   text-align: center; /* Center-align headings if desired */
-  margin-top: 0; /* Reset top margin for headings */
+  margin-top: 0; /* Adjust top margin for headings */
 }
 
-/* Additional styling for owner needs column */
-.column:nth-child(2) {
-  margin-top: -20px; /* Adjust the margin to move the entire column up */
-  /* You may need to adjust this value to achieve the desired alignment */
-}
+
 
 
 .our-users {
