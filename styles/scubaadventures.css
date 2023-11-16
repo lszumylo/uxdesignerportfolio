@@ -269,8 +269,12 @@ h4 {
 
 /* Style for the second column (right column) */
 .column:nth-child(2) {
-  margin-top: -10px; /* Adjust the value as needed */
+  margin-top: -2px; /* Adjust the value as needed */
+  margin-bottom: 22px; /* Adjust the bottom margin to counteract the negative top margin */
 }
+
+
+
 
 
 
