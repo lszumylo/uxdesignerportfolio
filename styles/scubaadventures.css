@@ -245,21 +245,29 @@ h4 {
   margin-bottom: 30px;
  }
 
-/* Style for each column */
-.column {
-  /* ... other styles ... */
-  position: relative; /* Enable positioning for the <hr> elements */
+/* Align columns at the top */
+.row {
+  display: flex;
+  align-items: flex-start;
 }
 
-/* Style for <hr> elements within each column */
-.column hr {
-  position: absolute; /* Position elements absolutely */
-  width: calc(100% - 20px); /* Adjust width to span the column minus padding */
-  top: 50%; /* Position the <hr> at the middle */
-  border: none; /* Remove default <hr> border */
-  border-top: 1px solid black; /* Apply border style */
-  z-index: -1; /* Push the <hr> elements behind text */
+/* Style for each column */
+.column {
+  flex: 1;
+  background-color: #0AC6E7;
+  padding: 10px;
+  margin-bottom: 20px;
 }
+
+/* Additional styling for user and owner headings */
+.as-user, .as-owner {
+  text-align: center;
+}
+
+
+
+
+
 
 
 
