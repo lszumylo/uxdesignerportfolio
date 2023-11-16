@@ -245,30 +245,27 @@ h4 {
   margin-bottom: 30px;
  }
 
-/* Align columns at the top */
+/* Two-column layout */
 .row {
   display: flex;
-  align-items: flex-start;
+  flex-direction: row; /* Arrange columns in a row */
+  align-items: flex-start; /* Align items at the start of the flex container */
 }
 
 /* Style for each column */
 .column {
-  flex: 1;
+  flex: 1; /* Equal width for both columns */
   background-color: #0AC6E7;
   padding: 10px;
   margin-bottom: 20px;
 }
 
-/* Additional styling for user and owner headings */
-.as-user, .as-owner {
-  text-align: center;
+/* Additional styling for user needs column */
+.as-user,
+.as-owner {
+  text-align: center; /* Center-align headings if desired */
+  margin-top: 0; /* Adjust top margin for headings */
 }
-
-
-
-
-
-
 
 
 
