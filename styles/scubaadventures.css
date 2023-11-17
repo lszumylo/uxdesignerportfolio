@@ -365,8 +365,6 @@ h4 {
 }
 
 
-
-
 .wireframe {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -470,7 +468,7 @@ h4 {
 }
 
 
-  .thoughts{
+  .thoughts {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -487,17 +485,8 @@ h4 {
   margin-bottom: 30px;
 }
 
-/* Apply the color to the section divider */
-.section-divider {
-  border-color: #0AC6E7; /* Change to the desired color */
-  border-width: 1px;
-  border-style: solid;
-}
-
-/* Style for the brand identity heading */
 .brand-identity {
-  color: black; /* Set the color to black */
-  /* Add any other desired styles for the heading */
+  color: 000000
 }
 
 .logo-sketch {
