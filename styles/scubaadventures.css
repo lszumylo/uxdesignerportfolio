@@ -486,22 +486,18 @@ h4 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-    
-.high-fid-wireframe {
-  height: 21px;
-  font-family: 'Work Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ED0707;
-  text-align: center;
-  margin: 0 auto; /* center the element horizontally */
-  margin-top: 30px;
-  margin-bottom: 30px;
+
+/* Apply the color to the section divider */
+.section-divider {
+  border-color: #0AC6E7; /* Change to the desired color */
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* Style for the brand identity heading */
+.brand-identity {
+  color: black; /* Set the color to black */
+  /* Add any other desired styles for the heading */
 }
 
 .logo-sketch {
@@ -555,6 +551,22 @@ h4 {
   margin-bottom: 30px;
 }
 
+.high-fid-wireframe {
+  height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ED0707;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 .design-mockup {
   height: 21px;
