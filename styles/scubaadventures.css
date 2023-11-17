@@ -255,7 +255,6 @@ h4 {
 /* Style for each column */
 .column {
   flex: 1; /* Equal width for both columns */
-  background-color: #0AC6E7;
   padding: 10px;
   margin-bottom: 20px;
 }
@@ -272,13 +271,6 @@ h4 {
   margin-top: -2px; /* Adjust the value as needed */
   margin-bottom: 22px; /* Adjust the bottom margin to counteract the negative top margin */
 }
-
-
-
-
-
-
-
 
 .our-users {
   height: 21px;
