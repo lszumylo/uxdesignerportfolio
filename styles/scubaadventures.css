@@ -289,6 +289,17 @@ h4 {
   margin-bottom: 30px;
  }
 
+
+.g-clark,
+.MHerbert,
+.DKuhn {
+  width: 75%; /* Set width to 75% of the parent container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure images don't exceed their natural size */
+}
+
+
+
 .Architecture {
    text-align: center;
 }
