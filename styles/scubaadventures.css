@@ -325,6 +325,22 @@ h4 {
   margin-bottom: 30px;
 }
 
+
+.multi,
+.cave,
+.dive-photos,
+.newsletter,
+.rep {
+  width: 80%; /* Set width to 80% of the parent container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure images don't exceed their natural size */
+  display: block; /* Ensure images are treated as blocks */
+  margin: 0 auto; /* Center-align the images */
+}
+
+
+
+
 .wireframe {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
