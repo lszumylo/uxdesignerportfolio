@@ -229,43 +229,44 @@
   <p class="screen">I developed initial low and medium fidelity screens to establish the fundamental user interface. These screens were instrumental in conducting user tests, validating the workflow, and ensuring coherence in the design process before advancing to secondary pages.</p>
   <br>
 
-  <h2 class="wireframe-slides">View Slideshow</h2>
+<h2 class="wireframe-slides">View Slideshow</h2>
 
-  <button class="wireframe-slides-container-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
-  <button class="wireframe-slides-container-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
+<button class="wireframe-slides-container-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+<button class="wireframe-slides-container-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
 
-  <div class="wireframe-slides-container">
-    <img class="wireframe-slides" src="images/destination.jpg" alt="Wireframe Slide 1" style="width:30%">
-    <img class="wireframe-slides" src="images/inspiration.jpg" alt="Wireframe Slide 2" style="width:30%">
-    <img class="wireframe-slides" src="images/trip planner.jpg" alt="Wireframe Slide 3" style="width:30%">
-    <img class="wireframe-slides" src="images/Home Page.png" alt="Wireframe Slide 4" style="width:30%">
-    <img class="wireframe-slides" src="images/Destinations.png" alt="Wireframe Slide 5" style="width:30%">
-    <img class="wireframe-slides" src="images/Caribbean.png" alt="Wireframe Slide 6" style="width:30%">
-    <img class="wireframe-slides" src="images/Testimonials (1).png" alt="Wireframe Slide 7" style="width:30%">
-  </div>
+<div class="wireframe-slides-container">
+  <img class="wireframe-slides" src="images/destination.jpg" alt="Wireframe Slide 1" style="width:30%">
+  <!-- Add other image elements here -->
 </div>
 
 <script>
-  var slideIndex = [1, 1];
-  var slideId = ["wireframe-slides", "high-fid-wireframe-slides"]
-  showDivs(1, 0);
-  showDivs(1, 1);
+var slideIndex = 1;
 
-  function plusDivs(n, no) {
-    showDivs(slideIndex[no] += n, no);
-  }
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
 
-  function showDivs(n, no) {
-    var i;
-    var x = document.getElementsByClassName(slideId[no]);
-    if (n > x.length) { slideIndex[no] = 1 }
-    if (n < 1) { slideIndex[no] = x.length }
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    x[slideIndex[no] - 1].style.display = "block";
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("wireframe-slides");
+  if (n > x.length) { slideIndex = 1; }
+  if (n < 1) { slideIndex = x.length; }
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
   }
+  x[slideIndex - 1].style.display = "block";
+}
+showDivs(slideIndex);
 </script>
+
+
+
+
+
+
+
+
+
 
 <div class="user-testing-container">
 
