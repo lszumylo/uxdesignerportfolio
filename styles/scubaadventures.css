@@ -508,17 +508,25 @@ h4 {
 
 .image-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; /* Adjust as needed */
+  justify-content: space-between; /* Distribute space between items */
   margin: 0 auto; /* Center the container horizontally */
   max-width: 900px; /* Adjust as needed */
 }
 
 .image-logo {
   width: calc(30% - 10px); /* Adjust width and margin as needed */
-  margin-bottom: 10px; /* Add spacing between images */
+  margin-right: 10px; /* Add spacing between images */
   /* Add any other styles as desired */
 }
+
+/* To remove margin-right from the last image in the row */
+.image-logo:last-child {
+  margin-right: 0;
+}
+
+
+
+
 
 
 .color-palette {
