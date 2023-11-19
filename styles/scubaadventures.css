@@ -603,6 +603,41 @@ h4 {
   margin-bottom: 30px;
 }
 
+.design-home{
+  width: 50%; /* Set width to 50% of the parent container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure images don't exceed their natural size */
+  display: block; /* Ensure images are treated as blocks */
+  margin: 0 auto; /* Center-align the images */
+  border: 2px solid #CDCDCD; /* Add a 2px solid border with the color #CDCDCD */
+  padding: 5px; /* Add some padding around the images */
+}
+
+
+.design-destination{
+  width: 50%; /* Set width to 50% of the parent container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure images don't exceed their natural size */
+  display: block; /* Ensure images are treated as blocks */
+  margin: 0 auto; /* Center-align the images */
+  border: 2px solid #CDCDCD; /* Add a 2px solid border with the color #CDCDCD */
+  padding: 5px; /* Add some padding around the images */
+} 
+  
+.design-testimonial{
+  width: 50%; /* Set width to 50% of the parent container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure images don't exceed their natural size */
+  display: block; /* Ensure images are treated as blocks */
+  margin: 0 auto; /* Center-align the images */
+  border: 2px solid #CDCDCD; /* Add a 2px solid border with the color #CDCDCD */
+  padding: 5px; /* Add some padding around the images */
+} 
+
+
+
+
+
 .preference-testing {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
