@@ -575,14 +575,12 @@ h4 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 .style-image {
-  width: 50%; /* Set width to 50% of the parent container */
-  height: auto; /* Maintain aspect ratio */
+  width: auto; /* Set width to auto to maintain image's original width */
   max-width: 100%; /* Ensure images don't exceed their natural size */
-  display: block; /* Ensure images are treated as blocks */
-  margin: 0 auto; /* Center-align the images */
-  border: 2px solid #CDCDCD; /* Add a 2px solid border with the color #CDCDCD */
-  padding: 5px; /* Add some padding around the images */
+  display: inline-block; /* Change to inline-block for inline behavior */
+  box-sizing: border-box; /* Include border and padding in the element's total width and height */
 }
 
 
