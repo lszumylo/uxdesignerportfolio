@@ -559,7 +559,7 @@ h4 {
   margin-bottom: 30px;
 }
 
-.typography {
+.style-tile {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -577,13 +577,14 @@ h4 {
 }
 
 .style-image {
-  width: auto; /* Set width to auto to maintain image's original width */
+  width: 75%; /* Set width to 75% of the parent container */
+  height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Ensure images don't exceed their natural size */
-  display: inline-block; /* Change to inline-block for inline behavior */
+  display: block; /* Ensure images are treated as blocks */
+  margin: 0 auto; /* Center-align the images */
   border: 2px solid #CDCDCD; /* Add a 2px solid border with the color #CDCDCD */
-  box-sizing: border-box; /* Include border and padding in the element's total width and height */
+  padding: 5px; /* Add some padding around the images */
 }
-
 
 .high-fid-wireframe {
   height: 21px;
