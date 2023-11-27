@@ -616,13 +616,6 @@ h4 {
 }
 
 
-
-
-
-
-
-
-
 .design-mockup {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -641,21 +634,23 @@ h4 {
 }
 
 .design-image {
-  width: 30%; /* Set width to 30% of the parent container for three images in a row */
-  height: auto; /* Maintain aspect ratio */
+  width: calc(30% - 10px); /* Set width for each image with space between */
+  height: auto;
   max-width: 100%; /* Ensure images don't exceed their natural size */
   display: block; /* Ensure images are treated as blocks */
-  margin: 0 1%; /* Add a margin for space between images */
   border: 2px solid #CDCDCD; /* Add a 2px solid border with the color #CDCDCD */
   padding: 5px; /* Add some padding around the images */
+  margin-bottom: 20px; /* Add spacing between rows */
 }
 
 .design-mockup-container {
   display: flex; /* Use flexbox to arrange images in a row */
-  justify-content: space-between; /* Distribute space between items */
   flex-wrap: wrap; /* Allow items to wrap to the next line */
-  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Distribute space between items */
+  align-items: flex-start; /* Align items at the start of the flex container */
+  gap: 20px; /* Adjust as needed for space between images */
 }
+
 
 
 
