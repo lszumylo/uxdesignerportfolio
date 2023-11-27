@@ -128,6 +128,7 @@ h4 {
   margin-bottom: 30px;
 }
 
+
 .button-container {
   display: flex;
   justify-content: center;
@@ -135,11 +136,8 @@ h4 {
 }
 
 .button-container a {
-  text-decoration: none;
-  padding: 10px 20px;
-  color: #000000;
-  transition: color 0.3s ease; /* Smooth transition on hover */
-  border-radius: 5px;
+  text-decoration: underline; /* Add underline to the link */
+  color: #000000; /* Set text color to black */
   margin: 0 25px;
 }
 
@@ -153,19 +151,9 @@ h4 {
 }
 
 .button-container a:hover {
-  color: #FFCC00;
+  color: #FFCC00; /* Change text color on hover */
 }
 
-/* Additional styles for maintaining button appearance */
-.Excursion a {
-  background-color: #FEDE00;
-  border: 1px solid #002E42;
-}
-
-.Scuba-Survey a {
-  background-color: #FEDE00;
-  border: 1px solid #002E42;
-}
 
 .flex-container {
   display: flex;
