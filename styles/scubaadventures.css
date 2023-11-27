@@ -602,7 +602,6 @@ h4 {
   margin-bottom: 30px;
 }
 
-
 .high-fid-wireframe-slides-container {
   display: flex;
   flex-wrap: wrap;
@@ -612,10 +611,13 @@ h4 {
 .high-fid-wireframe-slides {
   width: calc(50% - 10px); /* Set width for two images per row with space between */
   height: auto;
-  margin-bottom: 20px; /* Add spacing between rows */
+  margin-bottom: 10px; /* Reduce spacing between rows */
   max-width: 100%; /* Ensure images don't exceed their natural size */
   transform: scale(0.5); /* Scale images down by 50% */
 }
+
+
+
 
 
 
