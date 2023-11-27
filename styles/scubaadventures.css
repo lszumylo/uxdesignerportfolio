@@ -671,20 +671,25 @@ h4 {
 /* Flexbox setup for sets of images in preference tests */
 .pref-test-images {
   display: flex;
-  flex-wrap: wrap; /* Allow images to wrap to the next line */
-  justify-content: space-between; /* Adjust spacing between images */
-  align-items: center;
-  margin-bottom: 20px; /* Add spacing between preference test sections */
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-/* Styling for individual images */
-.pref-test-images img {
-  width: calc(50% - 10px); /* Set width for individual images */
+/* Style for individual images */
+.pref-test-image {
+  width: calc(50% - 5px); /* Adjust the width for individual images */
   height: auto;
   border: 2px solid #BDBDBD; /* Add a border with the color #BDBDBD */
-  padding: 5px; /* Add padding around the images */
-  box-sizing: border-box; /* Include padding within the image size */
-  margin-bottom: 10px; /* Add spacing between images */
+  box-sizing: border-box;
+  margin-bottom: 0; /* Remove default bottom margin */
+}
+
+/* Adjust the margin between images */
+.pref-test-image:first-child {
+  margin-right: 10px; /* Set the right margin between the first and second image */
+}
+.pref-test-image:last-child {
+  margin-left: 10px; /* Set the left margin between the second and first image */
 }
 
 /* Adjustments for specific individual images if necessary */
