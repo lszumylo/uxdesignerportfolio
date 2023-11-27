@@ -602,19 +602,22 @@ h4 {
   margin-bottom: 30px;
 }
 
-
 .high-fid-wireframe-slides-container {
   display: flex;
-  justify-content: space-between; /* Distribute space between items */
-  align-items: center; /* Align items vertically */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Adjust as needed to add space between images */
 }
 
 .high-fid-wireframe-slides {
-  flex-basis: calc(25% - 10px); /* Set width for each image with space between */
+  flex-basis: calc(40% - 10px); /* Set width for each image with space between */
   height: auto;
-  max-width: 75%; /* Scale images down to 75% of their original size */
-  transform: scale(0.75); /* Scale images down by 75% */
+  margin-bottom: 20px; /* Add spacing between rows */
 }
+
+
+
+
 
 
 
