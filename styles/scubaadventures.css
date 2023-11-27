@@ -651,17 +651,6 @@ h4 {
   gap: 20px; /* Adjust as needed for space between images */
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .preference-testing {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -678,6 +667,27 @@ h4 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+
+/* Flexbox setup for images in preference tests */
+.pref-test-images {
+  display: flex;
+  justify-content: space-between; /* Adjust spacing between images */
+  align-items: center;
+  margin-bottom: 20px; /* Add spacing between preference test sections */
+}
+
+/* Adjustments for individual images if necessary */
+.pref-test-a,
+.pref-test-d,
+.pref-test-a1,
+.pref-test-c,
+.pref-test-a2,
+.pref-test-b {
+  /* Add specific styles if needed */
+  max-width: 45%; /* Adjust image size if necessary */
+}
+
 
 
 .pref-test-1 {
