@@ -382,6 +382,7 @@ h4 {
   margin-bottom: 30px;
 }
 
+
 .wireframe-slides-container {
   display: flex;
   flex-wrap: wrap;
@@ -394,6 +395,17 @@ h4 {
   padding: 5px; /* Add some padding around the images */
   /* Add any other styles as desired */
 }
+
+/* Target the first and second images specifically */
+.wireframe-slides:nth-of-type(1),
+.wireframe-slides:nth-of-type(2) {
+  width: calc(30% - 10px); /* Set the width for the first two images */
+  /* Adjust other styles as needed */
+}
+
+
+
+
 
 
 
