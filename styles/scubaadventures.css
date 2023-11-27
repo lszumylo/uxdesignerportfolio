@@ -183,6 +183,10 @@ h4 {
   margin-bottom: 30px;
 }
 
+.link-analysis-container {
+  text-align: center; /* Center-align the content */
+}
+
 .link-analysis {
   color: #000000; /* Text color */
   text-decoration: underline; /* Add underline to the link */
@@ -192,7 +196,6 @@ h4 {
   margin: 0; /* Remove margin */
   cursor: pointer; /* Change cursor on hover (optional) */
 }
-
 
 .logo-container {
   display: flex;
