@@ -668,25 +668,31 @@ h4 {
   margin-bottom: 30px;
 }
 
-/* Flexbox setup for sets of images in preference tests */
-.pref-test-images {
-  display: flex;
-  justify-content: space-between;
+/* Flexbox setup for each preference test section */
+.pref-test-section {
   margin-bottom: 20px;
 }
 
+.pref-test-section .pref-test-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Style for individual images */
-.pref-test-image {
-  width: calc(45% - 5px); /* Adjust the width for individual images */
+.pref-test-section .pref-test-image {
+  width: 48%; /* Adjust the width for individual images */
   height: auto;
+  max-width: 100%;
   border: 2px solid #BDBDBD; /* Add a border with the color #BDBDBD */
   box-sizing: border-box;
 }
 
-/* Adjust the margin between images */
-.pref-test-image:first-child {
-  margin-right: 10px; /* Set the right margin between the first and second image */
-}
+
+
+
+
+
 
 
 
