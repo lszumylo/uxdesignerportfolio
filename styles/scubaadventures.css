@@ -542,7 +542,7 @@ h4 {
 }
 
 .image-logo {
-  width: calc(33.33% - 10px); /* Increase width for larger images */
+  width: calc(45% - 10px); /* Increase width for larger images */
   margin-right: 10px; /* Add spacing between images */
   /* Add any other styles as desired */
 }
@@ -551,6 +551,14 @@ h4 {
 .image-logo:last-child {
   margin-right: 0;
 }
+
+
+
+
+
+
+
+
 
 
 .color-palette {
