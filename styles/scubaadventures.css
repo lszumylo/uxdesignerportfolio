@@ -667,9 +667,11 @@ h4 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 /* Flexbox setup for sets of images in preference tests */
 .pref-test-images {
   display: flex;
+  flex-wrap: wrap; /* Allow images to wrap to the next line */
   justify-content: space-between; /* Adjust spacing between images */
   align-items: center;
   margin-bottom: 20px; /* Add spacing between preference test sections */
@@ -677,10 +679,12 @@ h4 {
 
 /* Styling for individual images */
 .pref-test-images img {
-  max-width: calc(50% - 10px); /* Set maximum width for individual images with space between them */
+  width: calc(50% - 10px); /* Set width for individual images */
+  height: auto;
   border: 2px solid #BDBDBD; /* Add a border with the color #BDBDBD */
   padding: 5px; /* Add padding around the images */
   box-sizing: border-box; /* Include padding within the image size */
+  margin-bottom: 10px; /* Add spacing between images */
 }
 
 /* Adjustments for specific individual images if necessary */
