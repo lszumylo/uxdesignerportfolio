@@ -681,14 +681,12 @@ h4 {
 
 /* Style for individual images */
 .pref-test-section .pref-test-image {
-  width: 48%; /* Adjust the width for individual images */
+  width: 50%; /* Adjust the width for individual images to scale down by 50% */
   height: auto;
   max-width: 100%;
   border: 2px solid #BDBDBD; /* Add a border with the color #BDBDBD */
   box-sizing: border-box;
 }
-
-
 
 
 
