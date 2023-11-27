@@ -677,23 +677,17 @@ h4 {
 
 /* Style for individual images */
 .pref-test-image {
-  width: calc(50% - 5px); /* Adjust the width for individual images */
+  width: calc(45% - 5px); /* Adjust the width for individual images */
   height: auto;
   border: 2px solid #BDBDBD; /* Add a border with the color #BDBDBD */
   box-sizing: border-box;
 }
 
-
-/* Adjustments for specific individual images if necessary */
-.pref-test-images .pref-test-a,
-.pref-test-images .pref-test-d,
-.pref-test-images .pref-test-a1,
-.pref-test-images .pref-test-c,
-.pref-test-images .pref-test-a2,
-.pref-test-images .pref-test-b {
-  /* Add specific styles if needed */
-  max-width: 45%; /* Adjust image size if necessary */
+/* Adjust the margin between images */
+.pref-test-image:first-child {
+  margin-right: 10px; /* Set the right margin between the first and second image */
 }
+
 
 
 .pref-test-1 {
