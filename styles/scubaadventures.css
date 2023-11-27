@@ -640,36 +640,28 @@ h4 {
   margin-bottom: 30px;
 }
 
-.design-home{
-  width: 50%; /* Set width to 50% of the parent container */
+.design-image {
+  width: 30%; /* Set width to 30% of the parent container for three images in a row */
   height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Ensure images don't exceed their natural size */
   display: block; /* Ensure images are treated as blocks */
-  margin: 0 auto; /* Center-align the images */
+  margin: 0 1%; /* Add a margin for space between images */
   border: 2px solid #CDCDCD; /* Add a 2px solid border with the color #CDCDCD */
   padding: 5px; /* Add some padding around the images */
 }
 
+.design-mockup-container {
+  display: flex; /* Use flexbox to arrange images in a row */
+  justify-content: space-between; /* Distribute space between items */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  align-items: center; /* Align items vertically */
+}
 
-.design-destination{
-  width: 50%; /* Set width to 50% of the parent container */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 100%; /* Ensure images don't exceed their natural size */
-  display: block; /* Ensure images are treated as blocks */
-  margin: 0 auto; /* Center-align the images */
-  border: 2px solid #CDCDCD; /* Add a 2px solid border with the color #CDCDCD */
-  padding: 5px; /* Add some padding around the images */
-} 
-  
-.design-testimonial{
-  width: 50%; /* Set width to 50% of the parent container */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 100%; /* Ensure images don't exceed their natural size */
-  display: block; /* Ensure images are treated as blocks */
-  margin: 0 auto; /* Center-align the images */
-  border: 2px solid #CDCDCD; /* Add a 2px solid border with the color #CDCDCD */
-  padding: 5px; /* Add some padding around the images */
-} 
+
+
+
+
+
 
 
 
