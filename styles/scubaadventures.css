@@ -602,6 +602,7 @@ h4 {
   margin-bottom: 30px;
 }
 
+
 .high-fid-wireframe-slides-container {
   display: flex;
   justify-content: space-between; /* Distribute space between items */
@@ -611,9 +612,9 @@ h4 {
 .high-fid-wireframe-slides {
   flex-basis: calc(25% - 10px); /* Set width for each image with space between */
   height: auto;
-  max-width: 100%; /* Ensure images don't exceed their natural size */
+  max-width: 75%; /* Scale images down to 75% of their original size */
+  transform: scale(0.75); /* Scale images down by 75% */
 }
-
 
 
 
