@@ -681,16 +681,8 @@ h4 {
   height: auto;
   border: 2px solid #BDBDBD; /* Add a border with the color #BDBDBD */
   box-sizing: border-box;
-  margin-bottom: 0; /* Remove default bottom margin */
 }
 
-/* Adjust the margin between images */
-.pref-test-image:first-child {
-  margin-right: 10px; /* Set the right margin between the first and second image */
-}
-.pref-test-image:last-child {
-  margin-left: 10px; /* Set the left margin between the second and first image */
-}
 
 /* Adjustments for specific individual images if necessary */
 .pref-test-images .pref-test-a,
