@@ -673,20 +673,22 @@ h4 {
   margin-bottom: 20px;
 }
 
+/* Style for each set of two images */
 .pref-test-section .pref-test-images {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px; /* Add space between the two images */
 }
 
-/* Style for individual images */
-.pref-test-section .pref-test-image {
-  width: 50%; /* Adjust the width for individual images to scale down by 50% */
-  height: auto;
+/* Style for individual images within each set */
+.pref-test-section .pref-test-images .pref-test-image {
+  width: 48%; /* Adjust the width for individual images */
   max-width: 100%;
   border: 2px solid #BDBDBD; /* Add a border with the color #BDBDBD */
   box-sizing: border-box;
 }
+
 
 
 
