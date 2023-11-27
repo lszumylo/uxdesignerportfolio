@@ -382,29 +382,23 @@ h4 {
   margin-bottom: 30px;
 }
 
-wireframe-container 
-
-
-
 .wireframe-slides-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px; /* Adjust as needed to add space between images */
 }
 
 .wireframe-slides {
-  width: calc(33.33% - 6.67%); /* Set width for three images per row with space */
-  height: auto; /* Maintain aspect ratio */
+  width: calc(49% - 5px); /* Set width for two images per row with space between */
+  height: auto;
   margin-bottom: 20px; /* Add spacing between rows */
-  /* Other styles as desired */
 }
 
-/* Target the first two images specifically using alt attributes */
-img[alt="Destination Image"],
-img[alt="inspiration sketch"] {
-  width: calc(25% - 5%); /* Set width for the first two images to be 25% smaller */
-  /* Adjust other styles as needed */
+.wireframe-slides:nth-child(3),
+.wireframe-slides:nth-child(4),
+.wireframe-slides:nth-child(5) {
+  width: calc(32% - 5px); /* Set width for three images per row with space between */
+  /* Adjust width and other styles as needed */
 }
 
 
