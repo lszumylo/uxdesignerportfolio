@@ -395,8 +395,6 @@ h4 {
   margin-bottom: 20px; /* Add spacing between rows */
 }
 
-
-
 .user-testing-sa {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -689,13 +687,6 @@ h4 {
   box-sizing: border-box;
 }
 
-
-
-
-
-
-
-
 .pref-test-1 {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -712,6 +703,8 @@ h4 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+
 
 .pref-test-2 {
   height: 21px;
