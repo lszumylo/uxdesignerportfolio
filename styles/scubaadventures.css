@@ -722,6 +722,17 @@ h4 {
   margin-bottom: 30px;
 }
 
+.Testimonials Preferance Test Title results  {
+  width: 42.1875%; /* 75% of 56.25% (reduced by another 25%) */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure images don't exceed their natural size */
+  display: block; /* Ensure images are treated as blocks */
+  margin: 0 auto; /* Center-align the images */
+  border: 2px solid #CDCDCD; /* Add a 2px solid border with the color #CDCDCD */
+  padding: 5px; /* Add some padding around the images */
+}
+
+
 .conclusion {
 text-align: center;
 }
