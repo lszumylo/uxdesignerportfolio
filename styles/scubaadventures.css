@@ -185,11 +185,11 @@ h4 {
 
 .link-analysis {
   color: #000000; /* Text color */
-  padding: 10px 20px; /* Padding */
-  text-decoration: none; /* Remove underline from link */
-  display: inline-block; /* Make it inline-block to adjust width */
-  margin: 0 auto; /* Centers the link horizontally */
-  border: 1px solid #002E42; /* Border */
+  text-decoration: underline; /* Add underline to the link */
+  border: none; /* Remove border */
+  padding: 0; /* Remove padding */
+  display: inline; /* Set back to inline for default link behavior */
+  margin: 0; /* Remove margin */
   cursor: pointer; /* Change cursor on hover (optional) */
 }
 
