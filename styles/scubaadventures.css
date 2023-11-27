@@ -589,7 +589,7 @@ h4 {
 }
 
 .style-image {
-  width: 75%; /* Set width to 75% of the parent container */
+  width: 56.25%; /* 75% of 75% (reduced by 25%) */
   height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Ensure images don't exceed their natural size */
   display: block; /* Ensure images are treated as blocks */
@@ -597,6 +597,7 @@ h4 {
   border: 2px solid #CDCDCD; /* Add a 2px solid border with the color #CDCDCD */
   padding: 5px; /* Add some padding around the images */
 }
+
 
 .high-fid-wireframe {
   height: 21px;
