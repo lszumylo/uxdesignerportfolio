@@ -382,9 +382,9 @@ h4 {
   margin-bottom: 30px;
 }
 
-.wireframe-container {
-  /* Your existing styles for wireframe container */
-}
+wireframe-container 
+
+
 
 .wireframe-slides-container {
   display: flex;
@@ -398,6 +398,13 @@ h4 {
   height: auto; /* Maintain aspect ratio */
   margin-bottom: 20px; /* Add spacing between rows */
   /* Other styles as desired */
+}
+
+/* Target the first two images specifically using alt attributes */
+img[alt="Destination Image"],
+img[alt="inspiration sketch"] {
+  width: calc(25% - 5%); /* Set width for the first two images to be 25% smaller */
+  /* Adjust other styles as needed */
 }
 
 
