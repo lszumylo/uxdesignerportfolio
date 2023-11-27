@@ -382,27 +382,27 @@ h4 {
   margin-bottom: 30px;
 }
 
-
+.wireframe-container {
+  /* Your existing styles for wireframe container */
+}
 
 .wireframe-slides-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Adjust as needed */
+  justify-content: space-between;
+  gap: 20px; /* Adjust as needed to add space between images */
 }
 
 .wireframe-slides {
-  width: calc(30% - 10px); /* Adjust width and margin as needed */
-  margin-bottom: 10px; /* Add spacing between images */
-  padding: 5px; /* Add some padding around the images */
-  /* Add any other styles as desired */
+  width: calc(33.33% - 6.67%); /* Set width for three images per row with space */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Add spacing between rows */
+  /* Other styles as desired */
 }
 
-/* Target the first and second images specifically */
-.wireframe-slides:nth-of-type(1),
-.wireframe-slides:nth-of-type(2) {
-  width: 75%; /* Set the width for the first two images to 75% */
-  /* Adjust other styles as needed */
-}
+
+
+
 
 
 
