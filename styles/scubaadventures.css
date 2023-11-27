@@ -540,14 +540,6 @@ h4 {
 }
 
 
-
-
-
-
-
-
-
-
 .color-palette {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -593,7 +585,6 @@ h4 {
 }
 
 
-
 .high-fid-wireframe {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -610,6 +601,25 @@ h4 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.high-fid-wireframe-slides-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust as needed to add space between images */
+}
+
+.high-fid-wireframe-slides {
+  flex-basis: calc(50% - 10px); /* Set width for two images per row with space between */
+  height: auto;
+  margin-bottom: 20px; /* Add spacing between rows */
+  max-width: 100%; /* Ensure images don't exceed their natural size */
+}
+
+
+
+
+
+
 
 .design-mockup {
   height: 21px;
