@@ -4,17 +4,17 @@ body, h1, h2, h3, h4, p {
   padding: 0;
 }
 
-/* Define font families (assuming you have these fonts properly imported) */
+/* Define font families and general styles */
 body {
   font-family: 'Taviraj', serif;
   font-size: 18px;
   margin: 0 30px;
+  color: #000000;
 }
 
 /* General styles for paragraphs */
 p {
   font-family: 'Taviraj', serif;
-  color: #000000;
   font-weight: normal;
   font-size: 16px;
   margin: 24px 10px;
@@ -41,6 +41,42 @@ h3 {
 h4 {
   font-size: 24px;
 }
+
+/* Page header styles */
+.page__header-title {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.page__header-subtitle {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Button styling */
+button.page__section-text {
+  /* Add your button styles here */
+}
+
+/* Container for content */
+.content-container {
+  /* Add your container styles here */
+}
+
+/* Image styles */
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
 
 .page__header-title {
   font-size: 22px;
