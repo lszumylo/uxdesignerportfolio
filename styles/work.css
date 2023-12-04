@@ -60,6 +60,7 @@ body {
   max-width: 800px; /* Example max-width to limit container width */
 }
 
+
 .project-card {
   width: calc(100% - 20px); /* Adjust the width for each project card in the grid */
   max-width: calc(100% - 20px); /* Width with adjusted margins */
@@ -69,6 +70,7 @@ body {
   text-align: center;
   transition: transform 0.2s, filter 0.2s;
   position: relative; /* Add this to set a stacking context for the project card */
+  transform: scale(1.15); /* Increase card size by 15% */
 }
 
 
