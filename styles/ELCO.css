@@ -680,7 +680,12 @@ font-family: 'Taviraj', serif;
 
 
 .task__description {
-  
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
 
@@ -702,10 +707,13 @@ font-family: 'Taviraj', serif;
 }
 
 .insights__description {
-
+font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
-
-
 
   
 .thoughts__title {
@@ -782,8 +790,13 @@ font-family: 'Taviraj', serif;
 
 
 .brand-identity__description {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
-
 
 
   .brand-identity__logo-1 {
@@ -795,11 +808,32 @@ font-family: 'Taviraj', serif;
   }
 
 .brand-identity__subtitle {
-}
+  height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+  }
 
 
 .brand-identity__description {
+font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
+
 
 
 .brand-identity__logo-Idea-1 {
