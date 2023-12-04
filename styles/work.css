@@ -54,17 +54,17 @@ body {
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(2, calc(50% - 20px)); /* 2 columns with 50% width and adjusted margins */
+  grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
   grid-gap: 20px; /* Adjust the gap between grid items */
   margin: 0 auto; /* Center the container and ensure equal margins on both sides */
   max-width: 800px; /* Example max-width to limit container width */
 }
 
 .project-card {
-  width: calc(100% - 20px); /* Adjust the width for each project card in the grid */
-  max-width: calc(100% - 20px); /* Width with adjusted margins */
+  width: 100%; /* Adjust the width for each project card in the grid */
+  max-width: 100%; /* Width with adjusted margins */
   margin: 10px; /* Margin for each project card (adjust as needed) */
-  padding: 10px; /* Padding for each project card */
+  padding: 20px; /* Increased padding for each project card */
   box-sizing: border-box; /* Include padding and borders in the element's total width and height */
   text-align: center;
   transition: transform 0.2s, filter 0.2s;
@@ -72,25 +72,13 @@ body {
   transform: scale(1.15); /* Increase card size by 15% */
 }
 
-.project-card .project-title {
-  margin-bottom: 5px;
-}
-
 .project-card .description {
-  margin-top: 2px;
+  margin-top: 10px; /* Adjust space between title and description */
 }
 
-
 .project-card img {
-  max-width: 50%; /* Reduce the image size by 25% */
+  max-width: 100%; /* Adjust the image size */
   height: auto; /* Maintain aspect ratio */
-  transition: filter 0.2s;
-}
-
-
-.project-card img {
-  max-width: 100%;
-  height: auto;
   transition: filter 0.2s;
 }
 
@@ -106,6 +94,9 @@ body {
 .project-card.selected {
   transform: scale(1.1);
   z-index: 1;
+}
+
+
 }
 
 
