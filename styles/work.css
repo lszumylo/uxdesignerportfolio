@@ -79,7 +79,7 @@ body {
 
 
 .project-card img {
-  max-width: 75%; /* Reduce the image size by 25% */
+  max-width: 50%; /* Reduce the image size by 25% */
   height: auto; /* Maintain aspect ratio */
   transition: filter 0.2s;
 }
