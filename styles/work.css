@@ -40,17 +40,14 @@ body {
     color: #ABD060;
 }
 
-
 .projects-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid; /* Change from flex to grid */
+  grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+  grid-gap: 20px; /* Adjust the gap between grid items */
 }
 
-
-
 .project-card {
-    width: 30%;
+    width: 100%; /* Adjust the width for each project card in the grid 
     margin: 5px;
     padding: 5px;
     text-align: center;
@@ -112,5 +109,21 @@ body {
   text-decoration: none; /* Remove the underline */
   /* Add any other link styles you want here */
 }
+
+/* ... Existing CSS styles ... */
+
+.projects-container {
+  display: grid; /* Change from flex to grid */
+  grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+  grid-gap: 20px; /* Adjust the gap between grid items */
+}
+
+.project-card {
+  width: 100%; /* Adjust the width for each project card in the grid */
+  /* Other styles for project cards remain the same */
+}
+
+/* ... Existing CSS styles ... */
+
 
 
