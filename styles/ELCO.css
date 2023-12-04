@@ -678,6 +678,12 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px;
 }
 
+
+.task__description {
+  
+}
+
+
 .insights__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -695,6 +701,13 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px;
 }
 
+.insights__description {
+
+}
+
+
+
+  
 .thoughts__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -732,6 +745,24 @@ font-family: 'Taviraj', serif;
 }
 
 
+.section-divider__title {
+ height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px; 
+  }
+  
+
 .brand-identity__subtitle {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -749,6 +780,12 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px; 
   }
 
+
+.brand-identity__description {
+}
+
+
+
   .brand-identity__logo-1 {
     width: 100%; /* make the image fill the entire width of the parent container */
     height: auto; /* keep the aspect ratio of the image */
@@ -756,6 +793,18 @@ font-family: 'Taviraj', serif;
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+.brand-identity__subtitle {
+}
+
+
+.brand-identity__description {
+}
+
+
+.brand-identity__logo-Idea-1 {
+}
+
 
 
 .typography__title {
@@ -774,6 +823,7 @@ font-family: 'Taviraj', serif;
   margin-top: 50px;
   margin-bottom: 30px; 
 }
+
 
 .typography__description {
   font-family: 'Taviraj', serif;
@@ -978,6 +1028,15 @@ font-family: 'Taviraj', serif;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+
+
+
+
+
+
+
+
 
 .results-summary__title-hi-fi {
   height: 21px;
