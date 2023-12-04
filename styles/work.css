@@ -52,18 +52,18 @@ body {
 
 /* Projects Container Styles */
 
-
 .projects-container {
   display: grid;
   grid-template-columns: repeat(2, calc(50% - 20px)); /* 2 columns with 50% width and adjusted margins */
   grid-gap: 20px; /* Adjust the gap between grid items */
-  margin: 0 20px; /* Margin on both sides */
+  margin: 0 auto; /* Center the container and ensure equal margins on both sides */
+  max-width: 800px; /* Example max-width to limit container width */
 }
 
 .project-card {
-  width: 100%; /* Adjust the width for each project card in the grid */
+  width: calc(100% - 20px); /* Adjust the width for each project card in the grid */
   max-width: calc(100% - 20px); /* Width with adjusted margins */
-  margin: 10px 0; /* Margin for each project card */
+  margin: 10px; /* Margin for each project card (adjust as needed) */
   padding: 10px; /* Padding for each project card */
   box-sizing: border-box; /* Include padding and borders in the element's total width and height */
   text-align: center;
