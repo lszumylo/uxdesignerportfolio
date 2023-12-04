@@ -48,17 +48,17 @@ body {
   /* Add any other link styles you want here */
 }
 
+
+
 /* Projects Container Styles */
 
 .projects-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
-  grid-gap: 30px; /* Adjust the gap between grid items (increase to create more space) */
+  grid-gap: 40px 30px; /* Increase vertical gap (40px) and horizontal gap (30px) */
   margin: 0 auto; /* Center the container and ensure equal margins on both sides */
   max-width: 800px; /* Example max-width to limit container width */
 }
-
-
 
 .project-card {
   width: 100%; /* Adjust the width for each project card in the grid */
@@ -70,6 +70,7 @@ body {
   transition: transform 0.2s, filter 0.2s;
   position: relative; /* Add this to set a stacking context for the project card */
   transform: scale(1.15); /* Increase card size by 15% */
+  grid-row: span 2; /* Make each card span two rows */
 }
 
 .project-card .description {
@@ -94,9 +95,6 @@ body {
 .project-card.selected {
   transform: scale(1.1);
   z-index: 1;
-}
-
-
 }
 
 
