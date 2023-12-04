@@ -183,9 +183,12 @@ h4 {
   margin-bottom: 30px;
 }
 
-.link-analysis-container {
-  text-align: center; /* Center-align the content */
+.link-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; /* Adjust the top margin as needed */
 }
+
 
 .link-analysis {
   color: #000000; /* Text color */
@@ -195,6 +198,7 @@ h4 {
   display: inline; /* Set back to inline for default link behavior */
   margin: 0; /* Remove margin */
   cursor: pointer; /* Change cursor on hover (optional) */
+  text-align: center;
 }
 
 .logo-container {
