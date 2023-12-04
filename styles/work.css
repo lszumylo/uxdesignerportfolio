@@ -1,106 +1,46 @@
+/* Base styles */
+
 body {
-    margin: 0;
-    padding: 0;
-    padding-top: 90px; /* Add padding to the top of the body to create space below the navbar */
+  margin: 0;
+  padding: 0;
+  padding-top: 90px; /* Add padding to the top of the body to create space below the navbar */
 }
 
 .navbar {
-    background-color: #434F5B;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    z-index: 2; /* Set a higher z-index for the navbar */
+  background-color: #434F5B;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 2; /* Set a higher z-index for the navbar */
 }
 
 .navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
 .navbar li {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 
-/* Set the link color to green on hover */
 .navbar .nav-link a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .content-below-navbar {
-    margin-top: 60px; /* Adjust the value as needed to control the amount of space */
+  margin-top: 60px; /* Adjust the value as needed to control the amount of space */
 }
 
-/* Set the link color to green on hover */
 .navbar .nav-link a:hover {
-    color: #ABD060;
+  color: #ABD060;
 }
 
-.projects-container {
-  display: grid; /* Change from flex to grid */
-  grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
-  grid-gap: 20px; /* Adjust the gap between grid items */
-}
-
-.project-card {
-    width: 100%; /* Adjust the width for each project card in the grid 
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
-    transition: transform 0.2s, filter 0.2s;
-    box-sizing: border-box;
-    position: relative; /* Add this to set a stacking context for the project card */
-}
-
-/* Adjust the margin or padding for title and content */
-.project-card .project-title {
-  margin-bottom: 5px; /* You can adjust this value to control the space between the title and content */
-}
-
-.project-card .description {
-  margin-top: 2px; /* You can adjust this value to control the space between the title and content */
-}
-
-
-.project-card img {
-    max-width: 70%;
-    height: auto;
-    transition: filter 0.2s;
-    position: relative; /* Add this to set a stacking context for the image */
-}
-
-
-.project-card img:hover {
-    filter: grayscale(100%);
-    z-index: 1; /* Set a lower z-index for the hovered image */
-}
-
-.project-card .content {
-  margin-top: 5px; /* You can adjust this value to control the space between the title and content */
-}
-
-.project-card:hover {
-  transform: scale(1.05); /* Enlarge the card on hover */
-}
-
-.project-card img:hover {
-  filter: grayscale(100%); /* Convert the image to black and white on hover */
-}
-
-
-.project-card.selected {
-    transform: scale(1.1);
-    z-index: 1; /* Ensure the selected card is displayed under the navbar */
-}
-
-.center-heading {
-  text-align: center; /* Center the text horizontally */
-}
-
+.center-heading,
 .center-text {
   text-align: center; /* Center the text horizontally */
 }
@@ -110,20 +50,52 @@ body {
   /* Add any other link styles you want here */
 }
 
-/* ... Existing CSS styles ... */
+/* Projects Container Styles */
 
 .projects-container {
-  display: grid; /* Change from flex to grid */
-  grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px; /* Adjust the gap between grid items */
+  margin: 0 20px; /* Margin on both sides */
 }
 
 .project-card {
-  width: 100%; /* Adjust the width for each project card in the grid */
-  /* Other styles for project cards remain the same */
+  width: calc(100% - 20px); /* Width with adjusted margins */
+  margin: 10px 0; /* Margin for each project card */
+  padding: 10px; /* Padding for each project card */
+  box-sizing: border-box; /* Include padding and borders in the element's total width and height */
+  text-align: center;
+  transition: transform 0.2s, filter 0.2s;
+  position: relative; /* Add this to set a stacking context for the project card */
 }
 
-/* ... Existing CSS styles ... */
+.project-card .project-title {
+  margin-bottom: 5px;
+}
+
+.project-card .description {
+  margin-top: 2px;
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+  transition: filter 0.2s;
+}
+
+.project-card img:hover {
+  filter: grayscale(100%);
+  z-index: 1;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card.selected {
+  transform: scale(1.1);
+  z-index: 1;
+}
 
 
 
