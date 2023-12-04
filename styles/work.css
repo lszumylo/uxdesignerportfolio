@@ -1,5 +1,3 @@
-/* Base styles */
-
 body {
   margin: 0;
   padding: 0;
@@ -55,10 +53,12 @@ body {
 .projects-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
-  grid-gap: 20px; /* Adjust the gap between grid items */
+  grid-gap: 30px; /* Adjust the gap between grid items (increase to create more space) */
   margin: 0 auto; /* Center the container and ensure equal margins on both sides */
   max-width: 800px; /* Example max-width to limit container width */
 }
+
+
 
 .project-card {
   width: 100%; /* Adjust the width for each project card in the grid */
