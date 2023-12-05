@@ -58,7 +58,6 @@ h4 {
   flex: 1;
 }
 
-
 /* Add responsive styling as needed for smaller screens */
 @media only screen and (max-width: 480px) {
   p {
@@ -71,20 +70,16 @@ h4 {
   }
 
   .about-container__image {
-    max-width: 100%; /* Adjust for full width on smaller screens */
-    margin-right: 0; /* Remove the margin for smaller screens */
-    margin-left: 0; /* Remove the margin for smaller screens */
+    max-width: 30%; /* Original width */
+    width: 70%; /* 30% smaller than the original width */
+    margin-top: 10px;
+    margin-right: 20px;
   }
+
   .centered-heading {
     text-align: center; /* Center the heading on smaller screens */
   }
 }
-
-/* Styles for the navigation (you can keep these styles as is) */
-/* ... Your navigation styles ... */
-
-/* Styles for the footer (you can keep these styles as is) */
-/* ... Your footer styles ... */
 
 /* Styles for the navigation (you can keep these styles as is) */
 .topnav {
