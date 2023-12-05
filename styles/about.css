@@ -1,17 +1,10 @@
-</body>
-</html>
-  body {
-  font-family: 'Taviraj', serif;
-  font-size: 18px;
-  margin: 20px; /* Add a 20px margin on all sides */
-}
 
-/* Define font families (assuming you have these fonts properly imported) */
 body {
   font-family: 'Taviraj', serif;
   font-size: 18px;
-  margin: 0 30px;
+  margin: 20px 30px; /* This will set a 20px top and bottom margin and 30px left and right margin */
 }
+
 
 /* General styles for paragraphs */
 p {
@@ -86,13 +79,7 @@ h4 {
   }
 }
 
-/* Styles for the navigation (you can keep these styles as is) */
-/* ... Your navigation styles ... */
 
-/* Styles for the footer (you can keep these styles as is) */
-/* ... Your footer styles ... */
-
-/* Styles for the navigation (you can keep these styles as is) */
 .topnav {
   overflow: hidden;
   background-color: #ffffff;
@@ -112,13 +99,13 @@ h4 {
   color: #DE5752;
 }
 
-/* Styles for the footer (you can keep these styles as is) */
 .site-footer {
   background-color: #434F5B;
   color: #FAFAFA;
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0; /* Adjust vertical padding here (top/bottom) */
 }
+
 
 .footer-content {
   max-width: 1200px;
