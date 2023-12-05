@@ -674,7 +674,7 @@ font-family: 'Taviraj', serif;
 }
 
 
-.task__title {
+.task1__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -691,7 +691,7 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px;
 }
 
-.task__description {
+.task1__description {
   font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
