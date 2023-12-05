@@ -57,25 +57,6 @@ h4 {
   margin-bottom: 30px;
 }
 
-/* Button styling */
-button.page__section-text {
-  /* Add your button styles here */
-}
-
-/* Container for content */
-.content-container {
-  /* Add your container styles here */
-}
-
-/* Image styles */
-img {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
-
 .page__header-title {
   font-size: 22px;
   font-weight: bold;
