@@ -1,15 +1,11 @@
-  body {
-  font-family: 'Taviraj', serif;
-  font-size: 18px;
-  margin: 20px; /* Add a 20px margin on all sides */
-}
-
-/* Define font families (assuming you have these fonts properly imported) */
 body {
   font-family: 'Taviraj', serif;
   font-size: 18px;
-  margin: 0 30px;
+  margin: 20px auto; /* Set top and bottom margins to 20px, and auto for left and right */
+  max-width: 1200px; /* Optionally set a maximum width for content */
+  padding: 0 20px; /* Optionally add padding for content within the body */
 }
+
 
 /* General styles for paragraphs */
 p {
