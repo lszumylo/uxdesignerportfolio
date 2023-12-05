@@ -1,9 +1,10 @@
 body {
   font-family: 'Taviraj', serif;
   font-size: 18px;
-  margin: 20px auto; /* Set top and bottom margins to 20px, and auto for left and right */
-  max-width: 1200px; /* Optionally set a maximum width for content */
-  padding: 0 20px; /* Optionally add padding for content within the body */
+  margin: 20px; /* Set equal margins on all sides */
+  max-width: 1200px;
+  padding: 0 20px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 
@@ -101,13 +102,19 @@ h4 {
   color: #DE5752;
 }
 
-/* Styles for the footer (you can keep these styles as is) */
 .site-footer {
   background-color: #434F5B;
   color: #FAFAFA;
   text-align: center;
   padding: 20px 0;
+  width: 100%; /* Set the width to cover the entire screen */
+  position: fixed; /* Fixed position to keep it at the bottom of the viewport */
+  bottom: 0; /* Align it to the bottom of the viewport */
+  left: 0; /* Align it to the left edge */
+  margin: 0; /* Remove default margins */
 }
+
+
 
 .footer-content {
   max-width: 1200px;
