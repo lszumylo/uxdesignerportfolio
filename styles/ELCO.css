@@ -718,7 +718,6 @@ font-family: 'Taviraj', serif;
   text-align: left;
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
- 
 
 .insights__title {
   height: 21px;
@@ -835,8 +834,6 @@ font-family: 'Taviraj', serif;
   margin-bottom: 50px;
 }
 
-
-
 .brand-identity__subtitle {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -856,7 +853,7 @@ font-family: 'Taviraj', serif;
 
 
 .brand-identity__description {
-font-family: 'Taviraj', serif;
+ font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
   font-size: 16px;
@@ -951,7 +948,7 @@ font-family: 'Taviraj', serif;
 }
 
 .style-tile__description {
-font-family: 'Taviraj', serif;
+  font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
   font-size: 16px;
@@ -979,7 +976,7 @@ font-family: 'Taviraj', serif;
 }
 
 .hi-fidelity__description {
-font-family: 'Taviraj', serif;
+  font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
   font-size: 16px;
@@ -1056,7 +1053,7 @@ width: 100%; /* make the image fill the entire width of the parent container */
 }
 
 .user-testing__description-hi-fi {
-font-family: 'Taviraj', serif;
+  font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
   font-size: 16px;
@@ -1140,10 +1137,11 @@ font-family: 'Taviraj', serif;
 }
 
 
-.takeaways__item-hi-fi {
+takeaways__item-hi-fi {
   margin-top: 30px;
  margin-bottom: 30px;
 }
+
 
 .takeaways__item-hi-fi {
   font-family: 'Taviraj', serif;
@@ -1312,7 +1310,7 @@ margin-bottom: 50px;
   color: #000000;
   font-weight: normal;
   font-size: 16px;
-  text-align: left; /* Set text-align to left for .hi-fidelity__description */
+  text-align: left;
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
@@ -1321,7 +1319,7 @@ margin-bottom: 50px;
   color: #000000;
   font-weight: normal;
   font-size: 16px;
-  text-align: left; /* Set text-align to left for .final__check-in__description */
+  text-align: left;
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
