@@ -4,13 +4,11 @@ body, h1, h2, h3, h4, p {
   padding: 0;
 }
 
-
 body {
   font-family: 'Taviraj', serif; /* Set body text font-family to Taviraj */
   font-size: 18px;
   margin: 0 80px; /* Updated margin to 80px on both sides */
 }
-
 
 /* General styles for paragraphs */
 p {
@@ -18,9 +16,8 @@ p {
   color: #000000;
   font-weight: normal;
   font-size: 16px;
-  margin: 24px 10px;
+  margin: 24px 10px; /* Margin of 24px top and bottom, 10px left and right */
 }
-
 
 /* General styles for headings */
 h1, h2, h3, h4 {
@@ -44,16 +41,9 @@ h4 {
   font-size: 24px;
 }
 
-  visited {
-      color: #0AC6E7;
-      background-color: transparent;
-      text-decoration: none;
-  }
-  hover {
-      color: #0AC6E7;
-      background-color: transparent;
-      text-decoration: underline;
-  }
+
+
+
 
   .project-name {
     font-family: 'Work-Sans',sans-serif;
