@@ -50,6 +50,7 @@ h4 {
   max-width: 30%;
   margin-top: 10px; /* Adjust the top margin to move the image closer to the navigation bar */
   margin-right: 20px; /* Add space between image and text */
+  margin-left: 20px;
 }
 
 
@@ -70,7 +71,7 @@ h4 {
   }
 
   .about-container__image {
-    max-width: 100%; /* Adjust for full width on smaller screens */
+    max-width: 80%; /* Adjust for full width on smaller screens */
     margin-right: 0; /* Remove the margin for smaller screens */
     margin-left: 0; /* Remove the margin for smaller screens */
   }
