@@ -1,12 +1,49 @@
-
-
-.navigation-link {
-  link {
-      color: #DE5752;
-      background-color: transparent;
-      text-decoration: none;
-  }
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
 }
+
+
+body {
+  font-family: 'Taviraj', serif; /* Set body text font-family to Taviraj */
+  font-size: 18px;
+  margin: 0 80px; /* Updated margin to 80px on both sides */
+}
+
+
+/* General styles for paragraphs */
+p {
+  font-family: 'Taviraj', serif; /* Set paragraphs font-family to Taviraj */
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 24px 10px;
+}
+
+
+/* General styles for headings */
+h1, h2, h3, h4 {
+  font-family: 'Work Sans', sans-serif; /* Set headings font-family to Work Sans */
+}
+
+/* Individual heading styles */
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
   visited {
       color: #0AC6E7;
       background-color: transparent;
