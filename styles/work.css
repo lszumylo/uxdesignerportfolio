@@ -54,24 +54,21 @@ body {
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
-  grid-gap: 40px 30px; /* Increase vertical gap (40px) and horizontal gap (30px) */
-  margin: 0 auto; /* Center the container and ensure equal margins on both sides */
+  grid-template-columns: repeat(2, calc(50% - 15px)); /* 2 columns with 15px gaps */
+  gap: 30px; /* Horizontal and vertical gap between grid items */
+  margin: 0 auto; /* Center the container */
   max-width: 800px; /* Example max-width to limit container width */
 }
 
 .project-card {
-  width: 100%; /* Adjust the width for each project card in the grid */
+  width: 100%; /* Adjust the width for each project card */
   max-width: 100%; /* Width with adjusted margins */
-  margin: 10px; /* Margin for each project card (adjust as needed) */
-  padding: 20px; /* Increased padding for each project card */
   box-sizing: border-box; /* Include padding and borders in the element's total width and height */
   text-align: center;
-  transition: transform 0.2s, filter 0.2s;
-  position: relative; /* Add this to set a stacking context for the project card */
-  transform: scale(1.15); /* Increase card size by 15% */
-  grid-row: span 2; /* Make each card span two rows */
+  padding: 20px; /* Increased padding for each project card */
+  margin: 0; /* Remove default margin */
 }
+
 
 .project-card .description {
   margin-top: 10px; /* Adjust space between title and description */
