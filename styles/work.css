@@ -43,6 +43,7 @@ body {
   grid-gap: 30px;
   margin: 0 auto;
   max-width: 800px;
+  text-align: center; /* Center the content horizontally within the container */
 }
 
 .project-card {
@@ -53,26 +54,19 @@ body {
   margin: 0;
 }
 
-
 .project-card h3,
 .project-card .description {
   margin-top: 10px; /* Adjust space between title and description */
   text-decoration: none; /* Remove underlines */
 }
 
-
 .project-card img {
   max-width: 100%;
   height: auto;
   transition: filter 0.2s;
+  text-decoration: none; /* Remove underlines */
 }
 
 .project-card img:hover {
   filter: grayscale(100%);
 }
-
-
-
-
-
-
