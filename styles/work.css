@@ -53,9 +53,13 @@ body {
   margin: 0;
 }
 
+
+.project-card h3,
 .project-card .description {
   margin-top: 10px; /* Adjust space between title and description */
+  text-decoration: none; /* Remove underlines */
 }
+
 
 .project-card img {
   max-width: 100%;
@@ -66,6 +70,8 @@ body {
 .project-card img:hover {
   filter: grayscale(100%);
 }
+
+
 
 
 
