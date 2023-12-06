@@ -1,9 +1,11 @@
+/* Resetting default margin and padding for body */
 body {
   margin: 0;
   padding: 0;
   padding-top: 90px; /* Add padding to the top of the body to create space below the navbar */
 }
 
+/* Navbar styles */
 .navbar {
   background-color: #434F5B;
   position: fixed;
@@ -30,69 +32,41 @@ body {
   color: #fff;
 }
 
-.content-below-navbar {
-  margin-top: 60px; /* Adjust the value as needed to control the amount of space */
-}
-
 .navbar .nav-link a:hover {
   color: #ABD060;
 }
 
-.center-heading,
-.center-text {
-  text-align: center; /* Center the text horizontally */
-}
-
-.no-underline-link {
-  text-decoration: none; /* Remove the underline */
-  /* Add any other link styles you want here */
-}
-
-
-
-/* Projects Container Styles */
-
+/* Projects container and project card styles */
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(2, calc(50% - 15px)); /* 2 columns with 15px gaps */
-  gap: 30px; /* Horizontal and vertical gap between grid items */
-  margin: 0 auto; /* Center the container */
-  max-width: 800px; /* Example max-width to limit container width */
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 .project-card {
-  width: 100%; /* Adjust the width for each project card */
-  max-width: 100%; /* Width with adjusted margins */
-  box-sizing: border-box; /* Include padding and borders in the element's total width and height */
+  width: 100%;
+  box-sizing: border-box;
   text-align: center;
-  padding: 20px; /* Increased padding for each project card */
-  margin: 0; /* Remove default margin */
+  padding: 20px;
+  margin: 0;
 }
-
 
 .project-card .description {
   margin-top: 10px; /* Adjust space between title and description */
 }
 
 .project-card img {
-  max-width: 100%; /* Adjust the image size */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 100%;
+  height: auto;
   transition: filter 0.2s;
 }
 
 .project-card img:hover {
   filter: grayscale(100%);
-  z-index: 1;
 }
 
-.project-card:hover {
-  transform: scale(1.05);
-}
-
-.project-card.selected {
-  transform: scale(1.1);
-  z-index: 1;
-}
 
 
 
