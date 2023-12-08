@@ -55,7 +55,11 @@ body {
   grid-gap: 30px;
   margin: 0 auto;
   max-width: 800px;
-  text-align: center; /* Center the content horizontally within the container */
+  text-align: center;
+}
+
+.project-item {
+  display: flex; /* Ensures the project items align properly */
 }
 
 .project-card {
@@ -64,21 +68,35 @@ body {
   text-align: center;
   padding: 20px;
   margin: 0;
+  transition: transform 0.3s ease; /* Adds a smooth transition for hover effect */
+}
+
+.project-card:hover {
+  transform: scale(1.1); /* Enlarges the image on hover */
 }
 
 .project-card h3,
 .project-card .description {
-  margin-top: 10px; /* Adjust space between title and description */
-  text-decoration: none; /* Remove underlines */
+  margin-top: 10px;
+  text-decoration: none;
 }
 
 .project-card img {
   max-width: 100%;
   height: auto;
-  transition: filter 0.2s;
-  text-decoration: none; /* Remove underlines */
+  text-decoration: none;
 }
 
-.project-card img:hover {
-  filter: grayscale(100%);
+/* Additional styles for the first two items to ensure alignment */
+.project-item:nth-child(odd) {
+  justify-content: flex-end; /* Aligns odd-indexed items to the right */
 }
+
+.project-item:nth-child(even) {
+  justify-content: flex-start; /* Aligns even-indexed items to the left */
+}
+
+
+
+
+
