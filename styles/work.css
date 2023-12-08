@@ -36,6 +36,18 @@ body {
   color: #ABD060;
 }
 
+.centered-container {
+  text-align: center; /* Center align text within this container */
+}
+
+.project-info {
+  margin-top: 100px; /* Adjust the top margin for spacing */
+}
+
+.project-info .center-heading {
+  margin-bottom: 20px; /* Adjust space between heading and subtext */
+}
+
 /* Projects container and project card styles */
 .projects-container {
   display: grid;
