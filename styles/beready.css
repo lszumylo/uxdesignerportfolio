@@ -93,10 +93,12 @@ h4 {
   margin-bottom: 30px;
 }
 
-.exploration {
-text-align: center;
-}
 
+.exploration {
+  text-align: center; /* Aligns text content within the element */
+  margin: 0 auto; /* Horizontal centering by setting left and right margins to auto */
+  /* Additional styles if needed */
+}
 
 
 .market-research {
@@ -114,6 +116,13 @@ text-align: center;
   margin: 0 auto; /* center the element horizontally */
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+
+.visuals {
+   text-align: center; /* Aligns text content within the element */
+  margin: 0 auto; /* Horizontal centering by setting left and right margins to auto */
+  /* Additional styles if needed */
 }
 
 
@@ -173,6 +182,10 @@ text-align: center;
 
 
 .finalization {
+  text-align: center; /* Aligns text content within the element */
+  margin: 0 auto; /* Horizontal centering by setting left and right margins to auto */
+  /* Additional styles if needed */
 }
+
 
 
