@@ -4,25 +4,27 @@ body, h1, h2, h3, h4, p {
   padding: 0;
 }
 
-/* Define font families and general styles */
+
 body {
-  font-family: 'Taviraj', serif;
+  font-family: 'Taviraj', serif; /* Set body text font-family to Taviraj */
   font-size: 18px;
-  margin: 0 30px;
-  color: #000000;
+  margin: 0 80px; /* Updated margin to 80px on both sides */
 }
+
 
 /* General styles for paragraphs */
 p {
-  font-family: 'Taviraj', serif;
+  font-family: 'Taviraj', serif; /* Set paragraphs font-family to Taviraj */
+  color: #000000;
   font-weight: normal;
   font-size: 16px;
   margin: 24px 10px;
 }
 
+
 /* General styles for headings */
 h1, h2, h3, h4 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif; /* Set headings font-family to Work Sans */
 }
 
 /* Individual heading styles */
@@ -42,43 +44,21 @@ h4 {
   font-size: 24px;
 }
 
-/* Page header styles */
-.page__header-title {
+.page-title {
   font-size: 22px;
   font-weight: bold;
   text-align: center;
 }
 
-.project_name {
-  font-size: 22px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.project_brief {
+.page-project-summary {
   font-size: 16px;
   font-weight: lighter;
   text-align: center;
   margin-bottom: 30px;
 }
 
-.be_ready_prototype-container {
-  text-align: center; /* Center-align the content */
-}
 
-.be_ready_prototype {
-  background-color: transparent; /* Remove background color */
-  color: #000000; /* Set text color to black */
-  padding: 0; /* Remove padding */
-  text-decoration: underline; /* Add underline to the link */
-  display: inline-block; /* Change to inline block to center */
-  border: none; /* Remove border */
-  cursor: pointer; /* Change cursor on hover (optional) */
-  margin: 0 auto; /* Center the link horizontally */
-}
-
-
-.problem_statement {
+.prob {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -94,8 +74,9 @@ h4 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
   
-.solution_statement {
+.example {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -113,6 +94,45 @@ h4 {
 }
 
 
+
+.resolution {
+}
+
+
+.proposal {
+}
+
+
+.exploration {
+text-align: center;
+}
+
+
+
+.market-research {
+}
+
+
+.insight {
+}
+
+
+
+
+.Visuals {
+}
+
+
+.sketches {
+}
+
+
+.brainstorming  {
+}
+
+
+.sketches-container {
+}
 
 
 
