@@ -11,7 +11,6 @@ body {
   margin: 0 80px; /* Updated margin to 80px on both sides */
 }
 
-
 /* General styles for paragraphs */
 p {
   font-family: 'Taviraj', serif; /* Set paragraphs font-family to Taviraj */
@@ -19,6 +18,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   margin: 24px 10px;
+  text-align: left; /* Ensures paragraphs are left-aligned */
 }
 
 
