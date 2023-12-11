@@ -1,4 +1,3 @@
-
 /* Reset default margin and padding */
 body, h1, h2, h3, h4, p {
   margin: 0;
@@ -49,3 +48,73 @@ h4 {
   font-weight: bold;
   text-align: center;
 }
+
+.project_name {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.project_brief {
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.be_ready_prototype-container {
+  text-align: center; /* Center-align the content */
+}
+
+.be_ready_prototype {
+  background-color: transparent; /* Remove background color */
+  color: #000000; /* Set text color to black */
+  padding: 0; /* Remove padding */
+  text-decoration: underline; /* Add underline to the link */
+  display: inline-block; /* Change to inline block to center */
+  border: none; /* Remove border */
+  cursor: pointer; /* Change cursor on hover (optional) */
+  margin: 0 auto; /* Center the link horizontally */
+}
+
+
+.problem_statement {
+  height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ED0707;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+  
+.solution_statement {
+  height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ED0707;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
