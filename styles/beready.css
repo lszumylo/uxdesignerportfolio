@@ -4,11 +4,10 @@ body, h1, h2, h3, h4, p {
   padding: 0;
 }
 
-
 body {
   font-family: 'Taviraj', serif; /* Set body text font-family to Taviraj */
   font-size: 18px;
-  margin: 0 80px; /* Updated margin to 80px on both sides */
+  margin: 0 80px 0; /* Updated margin: 0 at the top, 80px on left and right sides */
 }
 
 
