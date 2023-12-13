@@ -72,11 +72,11 @@ a {
   padding: 20px; /* Add padding for space inside the container */
 }
 
-
-
 .project-card .description {
   margin-top: 10px;
+  text-align: center; /* Center-align text under each title */
 }
+
 
 .project-card:hover img {
   transform: scale(0.9);
