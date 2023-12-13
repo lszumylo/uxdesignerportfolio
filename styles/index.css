@@ -113,10 +113,9 @@ body {
     height: auto;
 }
 
-.button-container {
+.selected-works-button-container {
     text-align: center;
 }
-
 
 
 .works-button {
