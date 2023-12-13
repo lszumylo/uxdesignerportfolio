@@ -50,6 +50,10 @@ a {
   margin-bottom: 20px; /* Adjust space between heading and subtext */
 }
 
+.project-info .center-text {
+  text-align: center; /* Center-align text under the heading */
+}
+
 
 .projects-container {
   display: flex;
@@ -65,19 +69,27 @@ a {
 }
 
 
+
+
+
 .project-card {
   display: flex;
   flex-direction: column;
   height: 100%; /* Occupy full height within the project-item */
   border: 1px solid #ccc; /* Optional: Add a border to visualize container boundaries */
   overflow: hidden; /* Hide any content that overflows the container */
+  text-align: center; /* Center-align text under each title */
 }
 
 
-/* Reduce the size of images in project cards */
+.project-card .description {
+  /* Styles for the text under each title */
+  margin-top: 10px; /* Add margin for separation */
+}
+
+/* Scale down the image on hover */
 .project-card:hover img {
   transform: scale(0.9); /* Decrease the size of the image on hover */
-  transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
 
 
@@ -88,12 +100,15 @@ a {
   text-decoration: none;
 }
 
+
 .project-card img {
   max-width: 100%;
   height: auto;
   display: block;
   margin-top: -10px; /* Adjust the margin to remove space above images */
+  transition: transform 0.3s ease; /* Apply transition to all images by default */
 }
+
 
 
 /* Remove justify-content properties for nth-child elements */
