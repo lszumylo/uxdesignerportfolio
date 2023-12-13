@@ -1,12 +1,11 @@
-/* Resetting default margin and padding for body */
 body {
   margin: 0;
   padding: 0;
   padding-top: 90px; /* Add padding to the top of the body to create space below the navbar */
+  padding-bottom: 50px; /* Additional padding for space at the bottom */
 }
 
 
-/* Navbar styles */
 .navbar {
   background-color: #434F5B;
   position: fixed;
@@ -28,7 +27,7 @@ body {
   margin: 0 20px;
 }
 
-/* Remove underlines from all anchor tags */
+
 a {
   text-decoration: none;
   color: inherit; /* Inherit color from parent */
@@ -51,11 +50,14 @@ a {
   margin-bottom: 20px; /* Adjust space between heading and subtext */
 }
 
+
 .projects-container {
   display: flex;
-  justify-content: space-between; /* Equal space between containers */
+  justify-content: space-between;
   margin: 0 -15px; /* Adjust for increased spacing between containers */
+  margin-bottom: 30px; /* Increase space under the containers */
 }
+
 
 .project-item {
   flex: 0 0 calc(33.33% - 20px); /* Adjust width for each container with increased space between */
@@ -71,8 +73,11 @@ a {
   overflow: hidden; /* Hide any content that overflows the container */
 }
 
-.project-card:hover {
-  transform: scale(1.1); /* Enlarges the image on hover */
+
+/* Reduce the size of images in project cards */
+.project-card:hover img {
+  transform: scale(0.9); /* Decrease the size of the image on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
 
 
@@ -86,7 +91,7 @@ a {
 .project-card img {
   max-width: 100%;
   height: auto;
-  display: block; /* Ensure images behave as blocks */
+  display: block;
   margin-top: -10px; /* Adjust the margin to remove space above images */
 }
 
