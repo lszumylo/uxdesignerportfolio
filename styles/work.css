@@ -36,10 +36,47 @@ a {
   color: #ABD060;
 }
 
+
+
+.projects-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px; /* Adjust side margins to add space */
+}
+
 .project-item {
   flex: 0 0 calc(33.33% - 40px); /* Adjust width for each container with space between */
   margin: 0 10px; /* Adjust increased spacing between containers */
 }
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px; /* Add padding for space inside the container */
+}
+
+.project-card .description {
+  margin-top: 10px;
+  text-align: center; /* Center-align text under each title */
+}
+
+.project-card:hover img {
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+
+.project-card img {
+  width: 100%; /* Set the image width to fill its container */
+  height: auto;
+  display: block;
+  margin-top: -10px;
+}
+
+
 
 .centered-container {
   text-align: center; /* Center align text within this container */
@@ -53,50 +90,6 @@ a {
   text-align: center; /* Center-align text under the heading */
 }
 
-
-.projects-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 20px; /* Adjust side margins to add space */
-}
-
-
-.project-item:last-child .project-card .description {
-  text-align: center;
-}
-
-
-.project-card {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  border: 1px solid #ccc;
-  overflow: hidden;
-  text-align: center;
-  padding: 20px; /* Add padding for space inside the container */
-}
-
-
-
-
-.project-card .description {
-  margin-top: 10px;
-  text-align: center; /* Center-align text under each title */
-}
-
-
-.project-card:hover img {
-  transform: scale(0.9);
-  transition: transform 0.3s ease;
-}
-
-
-.project-card img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-top: -10px;
-}
 
 /* Remove justify-content properties for nth-child elements */
 .project-item:nth-child(odd),
