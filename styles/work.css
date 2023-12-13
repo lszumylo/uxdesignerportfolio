@@ -41,10 +41,6 @@ a {
   text-align: center; /* Center align text within this container */
 }
 
-.project-info {
-  margin-top: 100px; /* Adjust the top margin for spacing */
-}
-
 .project-info .center-heading {
   margin-bottom: 20px; /* Adjust space between heading and subtext */
 }
@@ -57,46 +53,34 @@ a {
 .projects-container {
   display: flex;
   justify-content: space-between;
-  margin: 0 -15px; /* Adjust for increased spacing between containers */
-  margin-bottom: 30px; /* Increase space under the containers */
+  margin: 0 20px; /* Adjust side margins to add space */
 }
-
 
 .project-item {
-  flex: 0 0 calc(33.33% - 20px); /* Adjust width for each container with increased space between */
+  flex: 0 0 calc(33.33% - 40px); /* Adjust width for each container with space between */
   margin: 0 10px; /* Adjust increased spacing between containers */
 }
-
-
-
 
 
 .project-card {
   display: flex;
   flex-direction: column;
-  height: 100%; /* Occupy full height within the project-item */
-  border: 1px solid #ccc; /* Optional: Add a border to visualize container boundaries */
-  overflow: hidden; /* Hide any content that overflows the container */
-  text-align: center; /* Center-align text under each title */
-}
-
-
-.project-card .description {
-  /* Styles for the text under each title */
-  margin-top: 10px; /* Add margin for separation */
-}
-
-/* Scale down the image on hover */
-.project-card:hover img {
-  transform: scale(0.9); /* Decrease the size of the image on hover */
+  height: 100%;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px; /* Add padding for space inside the container */
 }
 
 
 
-.project-card h3,
 .project-card .description {
   margin-top: 10px;
-  text-decoration: none;
+}
+
+.project-card:hover img {
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
 }
 
 
@@ -104,27 +88,32 @@ a {
   max-width: 100%;
   height: auto;
   display: block;
-  margin-top: -10px; /* Adjust the margin to remove space above images */
-  transition: transform 0.3s ease; /* Apply transition to all images by default */
+  margin-top: -10px;
 }
-
-
 
 /* Remove justify-content properties for nth-child elements */
 .project-item:nth-child(odd),
 .project-item:nth-child(even) {
-  justify-content: initial; /* Remove justify-content property */
+  justify-content: initial;
 }
-
 
 /* Additional styles for the first two items to ensure alignment */
 .project-item:nth-child(odd) .project-card {
-  justify-content: flex-end; /* Aligns odd-indexed items to the right */
+  justify-content: flex-end;
 }
 
 .project-item:nth-child(even) .project-card {
-  justify-content: flex-start; /* Aligns even-indexed items to the left */
+  justify-content: flex-start;
 }
+
+
+.site-footer {
+  margin-top: 30px; /* Increase space between containers and footer */
+  /* Footer styles... */
+}
+
+
+
 
 
 
