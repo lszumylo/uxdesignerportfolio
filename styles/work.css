@@ -5,6 +5,7 @@ body {
   padding-top: 90px; /* Add padding to the top of the body to create space below the navbar */
 }
 
+
 /* Navbar styles */
 .navbar {
   background-color: #434F5B;
@@ -37,6 +38,7 @@ a {
   color: #ABD060;
 }
 
+
 .centered-container {
   text-align: center; /* Center align text within this container */
 }
@@ -51,20 +53,33 @@ a {
 
 
 .projects-container {
-    display: flex;
-    justify-content: space-between; /* Equal space between containers */
-    margin: 0 -10px; /* Adjust for spacing between containers */
+  display: flex;
+  justify-content: space-between; /* Equal space between containers */
+  margin: 0 -10px; /* Adjust for spacing between containers */
+}
+
+.project-item {
+  flex: 1; /* Occupy equal space within the flex container */
+  margin: 0 10px; /* Adjust spacing between containers */
 }
 
 .project-card {
-    flex: 0 0 calc(33.33% - 20px); /* Set width for each container with space between */
-    margin: 0 10px; /* Adjust spacing between containers */
-    /* Other styles for the container */
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Occupy full height within the project-item */
+  border: 1px solid #ccc; /* Optional: Add a border to visualize container boundaries */
+  /* Other styles for the container */
 }
-
 
 .project-card:hover {
   transform: scale(1.1); /* Enlarges the image on hover */
+}
+
+
+/* Remove justify-content properties for nth-child elements */
+.project-item:nth-child(odd),
+.project-item:nth-child(even) {
+  justify-content: initial; /* Remove justify-content property */
 }
 
 .project-card h3,
@@ -79,14 +94,18 @@ a {
   text-decoration: none;
 }
 
+
 /* Additional styles for the first two items to ensure alignment */
-.project-item:nth-child(odd) {
+.project-item:nth-child(odd) .project-card {
   justify-content: flex-end; /* Aligns odd-indexed items to the right */
 }
 
-.project-item:nth-child(even) {
+.project-item:nth-child(even) .project-card {
   justify-content: flex-start; /* Aligns even-indexed items to the left */
 }
+
+
+
 
 
 
