@@ -117,19 +117,19 @@ body {
     text-align: center;
 }
 
-.hero-button {
+.works-button {
     display: inline-block;
     background-color: #E5D4B8;
     color: #232323;
     padding: 10px 20px;
-    text-decoration: none;
+    text-decoration: none; /* Remove underline from the text */
     border-radius: 5px;
     font-weight: bold;
     border: 1px solid #434F5B; /* Add a 1px solid stroke with the desired color */
     transition: background-color 0.3s; /* Add a smooth transition for the background color change */
 }
 
-.hero-button:hover {
+.works-button:hover {
     background-color: #CCBA9E; /* Change the background color on hover to #CCBA9E */
     color: #232323; /* Change the text color on hover to #232323 if desired */
 }
