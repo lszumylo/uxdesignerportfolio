@@ -132,6 +132,7 @@ body {
 .works-button:hover {
     background-color: #CCBA9E; /* Change the background color on hover to #CCBA9E */
     color: #232323; /* Change the text color on hover to #232323 if desired */
+    text-decoration: none; /* Remove underline on hover */
 }
 
 
