@@ -49,28 +49,19 @@ a {
   margin-bottom: 20px; /* Adjust space between heading and subtext */
 }
 
-/* Projects container and project card styles */
-.projects-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 30px;
-  margin: 0 auto;
-  max-width: 800px;
-  text-align: center;
-}
 
-.project-item {
-  display: flex; /* Ensures the project items align properly */
+.projects-container {
+    display: flex;
+    justify-content: space-between; /* Equal space between containers */
+    margin: 0 -10px; /* Adjust for spacing between containers */
 }
 
 .project-card {
-  width: 100%;
-  box-sizing: border-box;
-  text-align: center;
-  padding: 20px;
-  margin: 0;
-  transition: transform 0.3s ease; /* Adds a smooth transition for hover effect */
+    flex: 0 0 calc(33.33% - 20px); /* Set width for each container with space between */
+    margin: 0 10px; /* Adjust spacing between containers */
+    /* Other styles for the container */
 }
+
 
 .project-card:hover {
   transform: scale(1.1); /* Enlarges the image on hover */
