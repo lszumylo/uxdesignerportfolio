@@ -36,6 +36,10 @@ a {
   color: #ABD060;
 }
 
+.project-item {
+  flex: 0 0 calc(33.33% - 40px); /* Adjust width for each container with space between */
+  margin: 0 10px; /* Adjust increased spacing between containers */
+}
 
 .centered-container {
   text-align: center; /* Center align text within this container */
