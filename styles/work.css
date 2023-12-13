@@ -37,6 +37,7 @@ a {
 }
 
 
+
 .projects-container {
   display: flex;
   justify-content: space-between;
@@ -48,6 +49,8 @@ a {
   margin: 0 10px; /* Adjust increased spacing between containers */
   border: none; /* Remove border from the container */
 }
+
+
 
 .project-card {
   display: flex;
@@ -64,6 +67,7 @@ a {
   text-align: center; /* Center-align text under each title */
 }
 
+
 .project-card:hover img {
   transform: scale(0.9);
   transition: transform 0.3s ease;
@@ -74,8 +78,8 @@ a {
   height: auto;
   display: block;
   margin-top: -10px;
+  border: none; /* Remove border from the image */
 }
-
 
 .centered-container {
   text-align: center; /* Center align text within this container */
