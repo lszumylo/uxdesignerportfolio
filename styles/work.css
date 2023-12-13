@@ -37,7 +37,6 @@ a {
 }
 
 
-
 .projects-container {
   display: flex;
   justify-content: space-between;
@@ -47,16 +46,17 @@ a {
 .project-item {
   flex: 0 0 calc(33.33% - 40px); /* Adjust width for each container with space between */
   margin: 0 10px; /* Adjust increased spacing between containers */
+  border: none; /* Remove border from the container */
 }
 
 .project-card {
   display: flex;
   flex-direction: column;
   height: 100%;
-  border: 1px solid #ccc;
   overflow: hidden;
   text-align: center;
   padding: 20px; /* Add padding for space inside the container */
+  border: none; /* Remove border from the card */
 }
 
 .project-card .description {
@@ -75,7 +75,6 @@ a {
   display: block;
   margin-top: -10px;
 }
-
 
 
 .centered-container {
