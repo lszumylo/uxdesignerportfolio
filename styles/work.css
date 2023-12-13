@@ -56,9 +56,9 @@ a {
   margin: 0 20px; /* Adjust side margins to add space */
 }
 
-.project-item {
-  flex: 0 0 calc(33.33% - 40px); /* Adjust width for each container with space between */
-  margin: 0 10px; /* Adjust increased spacing between containers */
+
+.project-item:last-child .project-card .description {
+  text-align: center;
 }
 
 
@@ -71,6 +71,9 @@ a {
   text-align: center;
   padding: 20px; /* Add padding for space inside the container */
 }
+
+
+
 
 .project-card .description {
   margin-top: 10px;
