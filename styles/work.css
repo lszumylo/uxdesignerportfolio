@@ -51,24 +51,24 @@ a {
   margin-bottom: 20px; /* Adjust space between heading and subtext */
 }
 
-
 .projects-container {
   display: flex;
   justify-content: space-between; /* Equal space between containers */
-  margin: 0 -10px; /* Adjust for spacing between containers */
+  margin: 0 -15px; /* Adjust for increased spacing between containers */
 }
 
 .project-item {
-  flex: 1; /* Occupy equal space within the flex container */
-  margin: 0 10px; /* Adjust spacing between containers */
+  flex: 0 0 calc(33.33% - 20px); /* Adjust width for each container with increased space between */
+  margin: 0 10px; /* Adjust increased spacing between containers */
 }
+
 
 .project-card {
   display: flex;
   flex-direction: column;
   height: 100%; /* Occupy full height within the project-item */
   border: 1px solid #ccc; /* Optional: Add a border to visualize container boundaries */
-  /* Other styles for the container */
+  overflow: hidden; /* Hide any content that overflows the container */
 }
 
 .project-card:hover {
@@ -76,11 +76,6 @@ a {
 }
 
 
-/* Remove justify-content properties for nth-child elements */
-.project-item:nth-child(odd),
-.project-item:nth-child(even) {
-  justify-content: initial; /* Remove justify-content property */
-}
 
 .project-card h3,
 .project-card .description {
@@ -91,7 +86,15 @@ a {
 .project-card img {
   max-width: 100%;
   height: auto;
-  text-decoration: none;
+  display: block; /* Ensure images behave as blocks */
+  margin-top: -10px; /* Adjust the margin to remove space above images */
+}
+
+
+/* Remove justify-content properties for nth-child elements */
+.project-item:nth-child(odd),
+.project-item:nth-child(even) {
+  justify-content: initial; /* Remove justify-content property */
 }
 
 
