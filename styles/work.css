@@ -42,7 +42,10 @@ a {
   display: flex;
   justify-content: space-between;
   margin: 0 20px; /* Adjust side margins to add space */
+  padding-bottom: 120px; /* Adjust the padding-bottom value to accommodate the height of the footer */
 }
+
+
 
 .project-item {
   flex: 0 0 calc(33.33% - 40px); /* Adjust width for each container with space between */
@@ -123,6 +126,8 @@ a {
 }
 
 
+ 
+ 
 
 
 
