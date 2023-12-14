@@ -2,7 +2,10 @@ body {
   margin: 0;
   padding: 0;
   padding-top: 90px; /* Add padding to the top of the body to create space below the navbar */
-  }
+  padding-bottom: 60px; /* Add padding to the bottom to prevent content from being covered by the footer */
+  position: relative; /* Set position to relative */
+  min-height: 100vh; /* Ensure body takes at least the height of the viewport */
+}
 
 
 .navbar {
@@ -36,15 +39,13 @@ a {
   color: #ABD060;
 }
 
-
-
+/* Add space between content and footer */
 .projects-container {
   display: flex;
   justify-content: space-between;
-  margin: 0 20px; /* Adjust side margins to add space */
-  padding-bottom: 120px; /* Adjust the padding-bottom value to accommodate the height of the footer */
+  margin: 0 20px;
+  padding-bottom: 160px; /* Increase the padding to create more space between content and footer */
 }
-
 
 
 .project-item {
@@ -52,8 +53,6 @@ a {
   margin: 0 10px; /* Adjust increased spacing between containers */
   border: none; /* Remove border from the container */
 }
-
-
 
 .project-card {
   display: flex;
@@ -112,18 +111,19 @@ a {
   justify-content: flex-start;
 }
 
-
 .site-footer {
-  width: 100%; /* Set the width to span the entire screen */
-  background-color: #434F5B; /* Set background color */
-  color: white; /* Set text color */
-  text-align: center; /* Center-align text within the footer */
-  padding: 20px 0; /* Add padding for content spacing */
-  position: fixed; /* Fix the footer to the bottom */
-  bottom: 0; /* Position the footer at the bottom of the screen */
-  left: 0; /* Ensure the footer starts from the left edge */
-  z-index: 1; /* Set a z-index value if needed */
+  width: 100%;
+  background-color: #434F5B;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: absolute; /* Change position to absolute */
+  bottom: 0;
+  left: 0;
 }
+
+
+
 
 
  
