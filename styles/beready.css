@@ -159,7 +159,7 @@ h4 {
 
 /* Style for the logo sketches image */
 .sketches-logo {
-  width: 100%; /* Make the image responsive within its container */
+  width: 160%; /* Make the image responsive within its container */
   max-width: 600px; /* Set a maximum width for the image */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Remove default inline styling */
