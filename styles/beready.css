@@ -118,13 +118,12 @@ h4 {
 }
 
 .analysis-image {
-  width: 100%; /* Make the image span the entire width of its container */
-  max-width: 100%; /* Ensure the image doesn't exceed its original size */
-  display: block; /* Remove any default inline styling */
+  width: 50%; /* Set the image width to 50% of its container */
+  max-width: 100%; /* Ensure the image remains responsive */
+  display: block;
   margin: 20px auto; /* Center the image horizontally and add space around it */
   /* Additional styles if needed */
 }
-
 
 
 .visuals {
