@@ -117,6 +117,15 @@ h4 {
   margin-bottom: 30px;
 }
 
+.analysis-image {
+  width: 100%; /* Make the image span the entire width of its container */
+  max-width: 100%; /* Ensure the image doesn't exceed its original size */
+  display: block; /* Remove any default inline styling */
+  margin: 20px auto; /* Center the image horizontally and add space around it */
+  /* Additional styles if needed */
+}
+
+
 
 .visuals {
    text-align: center; /* Aligns text content within the element */
