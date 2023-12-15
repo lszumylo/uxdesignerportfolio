@@ -1,8 +1,10 @@
-
 body {
-  font-family: 'Taviraj', serif;
-  font-size: 18px;
-  margin: 20px 30px; /* This will set a 20px top and bottom margin and 30px left and right margin */
+  margin: 0;
+  padding: 0;
+  padding-top: 90px; /* Add padding to the top of the body to create space below the navbar */
+  padding-bottom: 60px; /* Add padding to the bottom to prevent content from being covered by the footer */
+  position: relative; /* Set position to relative */
+  min-height: 100vh; /* Ensure body takes at least the height of the viewport */
 }
 
 
@@ -100,11 +102,17 @@ h4 {
   color: #DE5752;
 }
 
-
 .site-footer {
-  margin-top: 30px; /* Increase space between containers and footer */
-  /* Footer styles... */
+  width: 100%;
+  background-color: #434F5B;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: absolute; /* Change position to absolute */
+  bottom: 0;
+  left: 0;
 }
+
 
 
 
