@@ -151,6 +151,24 @@ h4 {
 }
 
 
+.sketches-container {
+  text-align: center; /* Center-align the content */
+  margin-top: 20px; /* Add top margin for separation */
+  /* Add any other styles as needed */
+}
+
+/* Style for the logo sketches image */
+.sketches-logo {
+  width: 100%; /* Make the image responsive within its container */
+  max-width: 600px; /* Set a maximum width for the image */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline styling */
+  margin: 0 auto; /* Center the image horizontally */
+  /* Add any other styles as needed */
+}
+
+
+
 .colors {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
