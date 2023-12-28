@@ -167,8 +167,6 @@ h4 {
   margin-bottom: 30px;
 }
 
-
-
 .sketches-container {
   text-align: center; /* Center-align the content */
   margin-top: 20px; /* Add top margin for separation */
@@ -186,11 +184,11 @@ h4 {
 }
 
 
-.Branding Logos {
-  align-items: center;
+.sketches-Ideas {
+  display: block;
+  margin: 0 auto; /* This centers the image horizontally */
+  /* Additional styling for your image */
 }
-
-
 
 .colors {
   height: 21px;
@@ -207,6 +205,12 @@ h4 {
   margin: 0 auto; /* center the element horizontally */
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.color-image {
+  display: block;
+  margin: 0 auto 20px; /* This centers the images horizontally and adds 20px bottom margin */
+  /* Additional styling for your images */
 }
 
   
@@ -227,6 +231,13 @@ h4 {
   margin-bottom: 30px;
 }
 
+.fonts-image {
+  display: block;
+  margin: 0 auto; /* This centers the image horizontally */
+  /* Additional styling for your image */
+}
+
+
 .ab-testing {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -244,6 +255,25 @@ h4 {
   margin-bottom: 30px;
 }
 
+.centered-images {
+  display: block;
+  margin: 0 auto 20px; /* This centers the images horizontally and adds 20px bottom margin */
+  /* Additional styling for your images */
+}
+
+p {
+  text-align: center; /* Centers the paragraphs */
+  /* Additional styling for your paragraphs */
+}
+
+
+.four-ideas {
+  display: block;
+  margin: 0 auto 20px; /* This centers the image horizontally and adds 20px bottom margin */
+  /* Additional styling for your image */
+}
+
+
 .finalresult {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -260,7 +290,14 @@ h4 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-  
+
+.three-logos {
+  display: block;
+  margin: 0 auto 20px; /* This centers the image horizontally and adds 20px bottom margin */
+  /* Additional styling for your image */
+}
+
+
 .clientfollowup {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -279,7 +316,7 @@ h4 {
 }
 
 .sweatshirt {
-   width: 900px; /* Set the image width to 800 pixels */
+  width: 720px; /* Reduce the image width to 20% less than 900px */
   max-width: 100%; /* Allow the image to be responsive within its container */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Remove default inline styling */
