@@ -317,22 +317,19 @@ h4 {
   margin-bottom: 30px;
 }
 
-.sweatshirt {
-  width: 720px; /* Reduce the image width to 20% less than 900px */
-  max-width: 100%; /* Allow the image to be responsive within its container */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Remove default inline styling */
-  margin: 0 auto; /* Center the image horizontally */
-  /* Add any other styles as needed */
+.apparel {
+  display: flex;
+  justify-content: space-between; /* Distribute space between the images */
+  gap: 20px; /* Space between images */
 }
 
-.hat {
-   width: 720px; /* Reduce the image width to 20% less than 900px */
-  max-width: 100%; /* Allow the image to be responsive within its container */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Remove default inline styling */
-  margin: 0 auto; /* Center the image horizontally */
-  /* Add any other styles as needed */
+.apparel .sweatshirt,
+.apparel .hat {
+  width: 360px; /* 720px divided by 2 with space between them */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  /* Other styles as needed */
 }
 
 
