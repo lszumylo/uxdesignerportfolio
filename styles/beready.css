@@ -255,16 +255,18 @@ h4 {
   margin-bottom: 30px;
 }
 
-.centered-images {
-  display: block;
-  margin: 0 auto 20px; /* This centers the images horizontally and adds 20px bottom margin */
-  /* Additional styling for your images */
+.centered-section {
+  text-align: center; /* Centers the content within this section */
+  margin: 0 auto; /* Centers the section horizontally */
 }
 
-p {
-  text-align: center; /* Centers the paragraphs */
-  /* Additional styling for your paragraphs */
+.centered-section p,
+.centered-section img {
+  display: block; /* Ensures elements stack vertically */
+  margin: 0 auto 20px; /* This centers the elements horizontally and adds 20px bottom margin */
+  /* Additional styling for your elements */
 }
+
 
 
 .four-ideas {
