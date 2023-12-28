@@ -326,7 +326,14 @@ h4 {
   /* Add any other styles as needed */
 }
 
-
+.hat {
+   width: 720px; /* Reduce the image width to 20% less than 900px */
+  max-width: 100%; /* Allow the image to be responsive within its container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline styling */
+  margin: 0 auto; /* Center the image horizontally */
+  /* Add any other styles as needed */
+}
 
 
 .finalization {
