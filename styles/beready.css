@@ -358,7 +358,7 @@ h4 {
 
 /* Adjust the width of the business card */
 .apparel .business-card {
-  width: 500px; /* Set width for the horizontal business card image */
+  width: 100%; /* Set width for the horizontal business card image */
   max-width: 100%;
   height: auto;
   display: block;
@@ -366,11 +366,6 @@ h4 {
   margin: 0 10px; /* Initially create space of 10px on each side */
 }
 
-/* Add extra margin to the second image to have 100px space between them */
-.apparel .hat,
-.apparel .business-card {
-  margin-left: 110px; /* Add extra margin to the left of the second image */
-}
 
 
 .finalization {
