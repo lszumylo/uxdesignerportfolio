@@ -56,6 +56,14 @@ h4 {
   margin-bottom: 30px;
   }
 
+.brf-storesign {
+    width: 75%; /* Set the image width to 50% of its container */
+  max-width: 100%; /* Ensure the image remains responsive */
+  display: block;
+  margin: 20px auto; /* Center the image horizontally and add space around it */
+  /* Additional styles if needed */
+}
+
 
 .prob {
   height: 21px;
@@ -207,12 +215,23 @@ h4 {
   margin-bottom: 30px;
 }
 
+.container {
+  /* Set appropriate width for the container if needed */
+  /* margin: 0 auto; can be used to center the container itself horizontally */
+}
+
 .color-image {
   display: flex;
   justify-content: center; /* Horizontally centers the element */
   align-items: center; /* Vertically centers the element */
   margin: 0 auto 20px; /* Additional styling */
   /* Additional styling for your images */
+}
+
+.color-image img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto;
+  /* Other styles for your image */
 }
 
   
@@ -327,18 +346,21 @@ h4 {
 }
 
 .apparel .sweatshirt,
-.apparel .hat {
+.apparel .hat,
+.apparel .business-card {
   width: 288px; /* 20% smaller than the original 360px width */
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 0 50px; /* Initially create space of 50px on each side */
+  /* Adjusted margin for spacing */
+  margin: 0 10px; /* Initially create space of 10px on each side */
   /* Other styles as needed */
 }
 
 /* Add extra margin to the second image to have 100px space between them */
-.apparel .hat {
-  margin-left: 100px; /* Add extra margin to the left of the second image */
+.apparel .hat,
+.apparel .business-card {
+  margin-left: 90px; /* Add extra margin to the left of the second image */
 }
 
 
