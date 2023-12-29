@@ -259,18 +259,19 @@ h4 {
 
 .centered-section {
   text-align: center; /* Centers the content within this section */
-  margin: 0 auto; /* Centers the section horizontally */
 }
 
 .centered-section p,
 .centered-section img {
   display: block; /* Ensures elements stack vertically */
-  margin: 0 auto 20px; /* This centers the elements horizontally and adds 20px bottom margin */
+  margin: 0 auto 20px; /* Centers the elements horizontally and adds 20px bottom margin */
   /* Additional styling for your elements */
 }
 
-
-
+.centered-section p {
+  text-align: center; /* Center-align the text within paragraphs */
+  /* Other styles as needed */
+}
 .four-ideas {
   display: block;
   margin: 0 auto 20px; /* This centers the image horizontally and adds 20px bottom margin */
@@ -331,8 +332,13 @@ h4 {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 0 10px; /* Adjust the margin for spacing between images */
+  margin: 0 50px; /* Initially create space of 50px on each side */
   /* Other styles as needed */
+}
+
+/* Add extra margin to the second image to have 100px space between them */
+.apparel .hat {
+  margin-left: 100px; /* Add extra margin to the left of the second image */
 }
 
 
