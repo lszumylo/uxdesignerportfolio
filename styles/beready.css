@@ -208,8 +208,10 @@ h4 {
 }
 
 .color-image {
-  display: block;
-  margin: 0 auto 20px; /* This centers the images horizontally and adds 20px bottom margin */
+  display: flex;
+  justify-content: center; /* Horizontally centers the element */
+  align-items: center; /* Vertically centers the element */
+  margin: 0 auto 20px; /* Additional styling */
   /* Additional styling for your images */
 }
 
@@ -325,10 +327,11 @@ h4 {
 
 .apparel .sweatshirt,
 .apparel .hat {
-  width: 360px; /* 720px divided by 2 with space between them */
+  width: 288px; /* 20% smaller than the original 360px width */
   max-width: 100%;
   height: auto;
   display: block;
+  margin: 0 10px; /* Adjust the margin for spacing between images */
   /* Other styles as needed */
 }
 
