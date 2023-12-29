@@ -346,8 +346,7 @@ h4 {
 }
 
 .apparel .sweatshirt,
-.apparel .hat,
-.apparel .business-card {
+.apparel .hat {
   width: 288px; /* 20% smaller than the original 360px width */
   max-width: 100%;
   height: auto;
@@ -357,12 +356,21 @@ h4 {
   /* Other styles as needed */
 }
 
+/* Adjust the width of the business card */
+.apparel .business-card {
+  width: 480px; /* Set width for the horizontal business card image */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  /* Adjusted margin for spacing */
+  margin: 0 10px; /* Initially create space of 10px on each side */
+}
+
 /* Add extra margin to the second image to have 100px space between them */
 .apparel .hat,
 .apparel .business-card {
   margin-left: 90px; /* Add extra margin to the left of the second image */
 }
-
 
 .finalization {
   text-align: center; /* Aligns text content within the element */
