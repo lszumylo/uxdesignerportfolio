@@ -215,20 +215,24 @@ h4 {
   margin-bottom: 30px;
 }
 
-.color-image {
-  display: flex;
-  justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
-  flex-direction: column; /* Stack items vertically */
-  text-align: center; /* Center inline elements within the container */
-  margin-top: 20px; /* Add space above the images if needed */
+.brf-color-set-1 {
+  width: 900px; /* Set the image width to 800 pixels */
+  max-width: 100%; /* Allow the image to be responsive within its container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline styling */
+  margin: 0 auto; /* Center the image horizontally */
+  /* Add any other styles as needed */
 }
 
-.color-image img {
-  max-width: 100%; /* Ensure the image doesn't exceed its container */
-  height: auto;
-  margin-bottom: 10px; /* Add space between the images if needed */
+.brf-color-set-2 {
+  width: 900px; /* Set the image width to 800 pixels */
+  max-width: 100%; /* Allow the image to be responsive within its container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline styling */
+  margin: 0 auto; /* Center the image horizontally */
+  /* Add any other styles as needed */
 }
+
 
   
 .font {
