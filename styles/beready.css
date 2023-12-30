@@ -333,32 +333,12 @@ h4 {
 }
 
 .apparel {
-  display: flex;
-  justify-content: space-between; /* Distribute space between the images */
-  gap: 20px; /* Space between images */
-}
-
-.apparel .sweatshirt,
-.apparel .hat {
-  width: 288px; /* 20% smaller than the original 360px width */
-  max-width: 100%;
-  height: auto;
+   width: 75%; /* Set the image width to 50% of its container */
+  max-width: 100%; /* Ensure the image remains responsive */
   display: block;
-  /* Adjusted margin for spacing */
-  margin: 0 10px; /* Initially create space of 10px on each side */
-  /* Other styles as needed */
+  margin: 20px auto; /* Center the image horizontally and add space around it */
+  /* Additional styles if needed */
 }
-
-/* Adjust the width of the business card */
-.apparel .business-card {
-  width: 100%; /* Set width for the horizontal business card image */
-  max-width: 100%;
-  height: auto;
-  display: block;
-  /* Adjusted margin for spacing */
-  margin: 0 10px; /* Initially create space of 10px on each side */
-}
-
 
 
 .finalization {
