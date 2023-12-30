@@ -225,13 +225,14 @@ h4 {
 }
 
 .brf-color-set-2 {
-  width: 900px; /* Set the image width to 800 pixels */
+  width: 50%; /* Reduce the image size to 50% of its original size */
   max-width: 100%; /* Allow the image to be responsive within its container */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Remove default inline styling */
   margin: 0 auto; /* Center the image horizontally */
   /* Add any other styles as needed */
 }
+
 
 
   
