@@ -215,16 +215,19 @@ h4 {
   margin-bottom: 30px;
 }
 
-.container {
+.color-image {
   display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
   flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally within the container */
+  text-align: center; /* Center inline elements within the container */
+  margin-top: 20px; /* Add space above the images if needed */
 }
 
 .color-image img {
   max-width: 100%; /* Ensure the image doesn't exceed its container */
   height: auto;
-  margin-bottom: 20px; /* Add space between the images if needed */
+  margin-bottom: 10px; /* Add space between the images if needed */
 }
 
   
