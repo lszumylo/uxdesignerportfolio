@@ -2,10 +2,7 @@ body {
   margin: 0;
   padding: 0;
   padding-top: 90px; /* Adjust the top padding accordingly */
-  padding-bottom: 120px; /* Adjust the bottom padding to match the footer's height */
 }
-
-
 
 .navbar {
     background-color: #434F5B;
@@ -147,11 +144,7 @@ body {
   color: white;
   text-align: center;
   padding: 20px 0;
-  /* position: fixed; Remove this property */
-  /* bottom: 0; Remove this property */
-  /* left: 0; Remove this property */
 }
-
 
 
 
