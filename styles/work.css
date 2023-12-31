@@ -127,6 +127,13 @@ a {
   max-width: 100%; /* Set the maximum width to its original size */
 }
 
+.project-card .be-ready-image {
+  width: 80%; /* Adjust the width as needed */
+  max-width: unset; /* Remove the maximum width constraint */
+  height: auto; /* Maintain the aspect ratio */
+  /* Other styling properties */
+}
+
 .site-footer {
   width: 100%;
   background-color: #434F5B;
