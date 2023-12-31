@@ -140,16 +140,20 @@ body {
   text-decoration: none; /* Remove underline on hover */
 }
 
+
 .site-footer {
   width: 100%;
   background-color: #434F5B;
   color: white;
   text-align: center;
   padding: 20px 0;
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  /* position: fixed; Remove this property */
+  /* bottom: 0; Remove this property */
+  /* left: 0; Remove this property */
 }
+
+
+
 
 
 /* Your existing CSS code (for large screens) */
