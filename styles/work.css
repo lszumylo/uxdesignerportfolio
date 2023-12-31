@@ -117,6 +117,15 @@ a {
   justify-content: flex-start;
 }
 
+/* Reset the image size for Scuba Adventures */
+.pink-container .project-image {
+  max-width: 100%; /* Set the maximum width to its original size */
+}
+
+/* Reset the image size for Elite Life Coach Online */
+.green-container .project-image {
+  max-width: 100%; /* Set the maximum width to its original size */
+}
 
 .site-footer {
   width: 100%;
