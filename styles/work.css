@@ -36,30 +36,39 @@ a {
   color: #ABD060;
 }
 
-/* Add space between content and footer */
 .projects-container {
   display: flex;
   justify-content: space-between;
-  margin: 0 20px;
-  padding-bottom: 160px; /* Increase the padding to create more space between content and footer */
+  flex-wrap: wrap; /* Allow items to wrap within the container */
+  margin: 0 auto; /* Center the container */
+  max-width: 1200px; /* Set a maximum width for the container */
 }
-
 
 .project-item {
-  flex: 0 0 calc(33.33% - 40px); /* Adjust width for each container with space between */
-  margin: 0 10px; /* Adjust increased spacing between containers */
-  border: none; /* Remove border from the container */
+  flex: 0 0 calc(33.33% - 20px); /* Adjust width for each container */
+  margin-bottom: 40px; /* Add space between rows */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
 }
+
 
 .project-card {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  overflow: hidden;
+  width: 100%; /* Ensure card takes full width of its container */
   text-align: center;
-  padding: 20px; /* Add padding for space inside the container */
-  border: none; /* Remove border from the card */
+  padding: 20px;
+  border: none;
 }
+
+
+/* Set a maximum width for project images to maintain consistency */
+.project-card .project-image {
+  max-width: 100%; /* Ensure images don't exceed their container's width */
+  height: auto;
+  margin-top: 20px; /* Adjust spacing */
+}
+
 
 .project-card .description {
   margin-top: 10px;
