@@ -24,9 +24,10 @@ body {
 .nav-link {
     color: #f2f2f2;
     text-decoration: none;
-    padding: 10px 16px;
+    padding: 10px 16px; /* You can keep the existing padding */
     transition: color 0.2s;
-    font-weight: normal; /* Set the initial font weight */
+    font-weight: normal;
+    margin: 0 6px; /* Adjust the margin to reduce space between links */
     line-height: 1.5;
 }
 
