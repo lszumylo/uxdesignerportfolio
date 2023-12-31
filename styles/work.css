@@ -62,12 +62,12 @@ a {
 }
 
 
-/* Set a maximum width for project images to maintain consistency */
 .project-card .project-image {
-  max-width: 100%; /* Ensure images don't exceed their container's width */
+  max-width: 15%; /* Set the maximum width to 15% of its container */
   height: auto;
   margin-top: 20px; /* Adjust spacing */
 }
+
 
 
 .project-card .description {
