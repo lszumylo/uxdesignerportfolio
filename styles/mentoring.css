@@ -43,10 +43,21 @@ h4 {
   text-align: center;
 }
 
-.mentoring-list li i {
-    margin-right: 5px; /* Adjust the right margin to add space between the icon and the text */
+
+.mentoring-list {
+  list-style: none; /* Removes bullet points */
+  padding-left: 0; /* Remove default padding */
 }
 
+.mentoring-list li {
+  display: flex; /* Use flexbox for easier alignment */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 10px; /* Add spacing between list items */
+}
+
+.mentoring-list li i {
+  margin-right: 10px; /* Adjust the right margin to add space between the icon and the text */
+}
 
 .contact-link {
   color: #006DB6; /* Set the color to blue (#006DB6) */
