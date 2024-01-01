@@ -1,6 +1,6 @@
 .connect {
   color: white;
-    background-color: #000080;
+  background-color: #005A8D;
   font-family: 'work sans', serif;
    font-size: 50px;
    font-weight: normal;
@@ -14,7 +14,7 @@
 
 .design {
 color: white;
-background-color: #000080;
+background-color: #005A8D;
 font-family: Taviraj, serif;
  font-size: 20px;
  font-weight: normal;
@@ -39,7 +39,7 @@ font-family: Taviraj, serif;
 .message {
   font-family: Taviraj, serif;
   font-size: 18px;
-  color: ##000080;
+  color: #005A8D;
   position: relative;
   left: 555px;
   top:-212px;
@@ -48,7 +48,7 @@ font-family: Taviraj, serif;
 .leave-a-message {
   font-family: Taviraj, serif;
   font-size: 22px;
-  color: #000080;
+  color: #005A8D;
   text-align: center;
   padding-bottom: 10px;
 }
@@ -60,7 +60,7 @@ form {
   margin: 0 auto;
   width: 900px;
   height: 700px;
-  color: #000080;
+  color: #005A8D;
   font-family: 'Taviraj',serif;
   font-size: 18px;
 
@@ -117,7 +117,7 @@ textarea {
 button {
   /* To position the buttons to the same position of the text fields */
   padding-center: 90px; /* same size as the label elements */
-  color: #000080;
+  color: #005A8D;
   height: 50px;
   width: 200px;
   font-size: 16px;
@@ -140,7 +140,7 @@ button {
   padding: 1em;
   border: 2px solid #31a2ac;
   border-radius: 1em;
-  color: #000080;
+  color: #005A8D;
   font-family: 'Taviraj', serif;
   font-size: 18px;
   background-color: #f2f2f2;
@@ -201,7 +201,7 @@ button {
 /* Styles for .connect, .design, .letter, .message, .leave-a-message */
 .connect {
   color: white;
-  background-color: #000080;
+  background-color: #005A8D;
   font-family: 'work sans', serif;
   font-size: 50px;
   font-weight: normal;
@@ -214,7 +214,7 @@ button {
 
 .design {
   color: white;
-  background-color: #000080;
+  background-color: #005A8D;
   font-family: Taviraj, serif;
   font-size: 20px;
   font-weight: normal;
@@ -235,7 +235,7 @@ button {
 .message {
   font-family: Taviraj, serif;
   font-size: 18px;
-  color: #000080;
+  color: #005A8D;
   position: relative;
   left: 555px;
   top: -212px;
@@ -244,7 +244,7 @@ button {
 .leave-a-message {
   font-family: Taviraj, serif;
   font-size: 22px;
-  color: #000080;
+  color: #005A8D;
   text-align: center;
   padding-bottom: 10px;
 }
@@ -254,7 +254,7 @@ form {
   margin: 0 auto;
   width: 900px;
   height: 700px;
-  color: #000080;
+  color: #005A8D;
   font-family: 'Taviraj', serif;
   font-size: 18px;
   padding: 1em;
@@ -294,7 +294,7 @@ textarea {
 
 button {
   padding: 10px 90px; /* Adjust padding to center the button */
-  color: #000080;
+  color: #005A8D;
   height: 50px;
   width: 200px;
   font-size: 16px;
@@ -309,7 +309,7 @@ button {
   padding: 1em;
   border: 2px solid #31a2ac;
   border-radius: 1em;
-  color: #000080;
+  color: #005A8D;
   font-family: 'Taviraj', serif;
   font-size: 18px;
   background-color: #f2f2f2;
@@ -353,7 +353,7 @@ button {
 }
 
 .form-container .button button {
-  background-color: #000080;
+  background-color: #005A8D;
   color: #fff;
   padding: 10px 20px;
   border: none;
