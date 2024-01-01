@@ -1,12 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  padding-top: 90px; /* Add padding to the top of the body to create space below the navbar */
-  padding-bottom: 60px; /* Add padding to the bottom to prevent content from being covered by the footer */
-  position: relative; /* Set position to relative */
-  min-height: 100vh; /* Ensure body takes at least the height of the viewport */
+  padding-top: 90px; /* Adjust the top padding accordingly */
 }
-
 
 /* General styles for paragraphs */
 p {
