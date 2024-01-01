@@ -67,7 +67,7 @@ form {
 
   /* To see the outline of the form */
   padding: 1em;
-  border: 2px solid #31a2ac;
+  border: 2px solid #434F5B;
   border-radius: 1em;
 }
 
@@ -95,7 +95,7 @@ input, textarea {
 
 
   /* To harmonize the look & feel of text field border */
-  border: 2px solid #31a2ac;
+  border: 2px solid #434F5B;
 
 }
 
@@ -138,7 +138,7 @@ button {
   max-width: 900px;
   margin: 0 auto;
   padding: 1em;
-  border: 2px solid #31a2ac;
+  border: 2px solid #434F5B;
   border-radius: 1em;
   color: #005A8D;
   font-family: 'Taviraj', serif;
@@ -162,7 +162,7 @@ button {
   width: 100%; /* Use full width of the container */
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 2px solid #31a2ac;
+  border: 2px solid #434F5B;
   margin-bottom: 10px;
   padding: 10px;
 }
@@ -258,7 +258,7 @@ form {
   font-family: 'Taviraj', serif;
   font-size: 18px;
   padding: 1em;
-  border: 2px solid #31a2ac;
+  border: 2px solid #434F5B;
   border-radius: 1em;
 }
 
@@ -278,7 +278,7 @@ textarea {
   width: 864px;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 2px solid #31a2ac;
+  border: 2px solid #434F5B;
 }
 
 input:focus,
@@ -307,7 +307,7 @@ button {
   max-width: 900px;
   margin: 0 auto;
   padding: 1em;
-  border: 2px solid #31a2ac;
+  border: 2px solid #434F5B;
   border-radius: 1em;
   color: #005A8D;
   font-family: 'Taviraj', serif;
@@ -331,7 +331,7 @@ button {
   width: 100%;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 2px solid #31a2ac;
+  border: 2px solid #434F5B;
   margin-bottom: 10px;
   padding: 10px;
 }
