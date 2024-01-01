@@ -26,8 +26,12 @@ body {
 
 .nav-links {
   display: flex;
-  justify-content: flex-end; /* Push the links to the right */
+  justify-content: space-between; /* Evenly space the links */
+  align-items: center; /* Vertically align items */
+  width: calc(100% - 100px); /* Adjust the width to create space on edges */
+  padding: 0 50px; /* Add padding on the edges */
 }
+
 
 .nav-link {
   color: #f2f2f2;
