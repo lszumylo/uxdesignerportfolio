@@ -1,1 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 90px; /* Add padding to the top of the body to create space below the navbar */
+  padding-bottom: 60px; /* Add padding to the bottom to prevent content from being covered by the footer */
+  position: relative; /* Set position to relative */
+  min-height: 100vh; /* Ensure body takes at least the height of the viewport */
+}
+
+
+/* General styles for paragraphs */
+p {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 24px 10px;
+}
+
+/* General styles for headings */
+h1, h2, h3, h4 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* Individual heading styles */
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 24px;
+}
 
