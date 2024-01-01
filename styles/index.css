@@ -18,15 +18,27 @@ body {
     justify-content: space-between;
 }
 
-.nav-link {
-    color: #f2f2f2;
-    text-decoration: none;
-    padding: 10px 16px; /* You can keep the existing padding */
-    transition: color 0.2s;
-    font-weight: normal;
-    margin: 0 6px; /* Adjust the margin to reduce space between links */
-    line-height: 1.5;
+.logo {
+  flex: 1; /* Allow the logo to take available space */
+  display: flex;
+  justify-content: center; /* Center the logo horizontally */
 }
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end; /* Push the links to the right */
+}
+
+.nav-link {
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 10px 16px;
+  transition: color 0.2s;
+  font-weight: normal;
+  margin: 0 6px;
+  line-height: 1.5;
+}
+
 
 .nav-link:hover {
     font-weight: bold; /* Change the text style (font-weight) on hover */
@@ -97,7 +109,6 @@ body {
 }
 
 
-
 .image-container {
     display: flex;
     justify-content: center; /* Horizontally center the content */
@@ -117,7 +128,6 @@ body {
 .selected-works-button-container {
     text-align: center;
 }
-
 
 .works-button {
   display: inline-block;
