@@ -649,18 +649,23 @@ a {
   margin-bottom: 20px; /* Add spacing between rows */
 }
 
-
-.design-image {
-  width: 80%; /* Set width to 80% of the parent container */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 100%; /* Ensure images don't exceed their natural size */
-  display: block; /* Ensure images are treated as blocks */
-  margin: 0 auto 20px; /* Center-align the images and add bottom margin */
+.design-mockup-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px; /* Add space between images */
 }
+
+
+
+.design-image {
+  width: 100%; /* Set width to 100% to fill the container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: none; /* Remove max-width to allow larger images */
+  display: block; /* Ensure images are treated as blocks */
+  margin: 0 auto 20px; /* Center-align the images and add bottom margin */
+}
+
 
 .mockups {
  height: 21px;
