@@ -673,16 +673,16 @@ a {
 }
 
 .design-image {
-  width: 50%; /* Set width for each image to 50% of their container */
+  width: 80%; /* Set width to 80% of the parent container */
+  height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Ensure images don't exceed their natural size */
-  height: auto;
-  display: block;
-  border: 2px solid #CDCDCD;
-  padding: 5px;
-  margin-bottom: 20px;
+  display: block; /* Ensure images are treated as blocks */
+  margin: 0 auto; /* Center-align the images */
 }
-
-
+  
+.design-explanation {
+  text-align:left;
+}
 
 .preference-testing {
   height: 21px;
