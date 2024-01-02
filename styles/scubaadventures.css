@@ -649,21 +649,25 @@ a {
   margin-bottom: 20px; /* Add spacing between rows */
 }
 
-.design-mockup {
-  height: 21px;
-  font-family: 'Work Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 38px;
+.design-mockup-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  color: #ED0707;
-  text-align: center;
-  margin: 0 auto; /* center the element horizontally */
+}
+
+.heading-container {
   margin-top: 30px;
   margin-bottom: 30px;
+  text-align: center;
+}
+
+.design-mockup {
+  color: #ED0707;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0; /* Adjust padding for spacing */
 }
 
 .design-image {
@@ -677,13 +681,6 @@ a {
 }
 
 
-.design-mockup-container {
-  display: flex; /* Use flexbox to arrange images in a row */
-  flex-wrap: wrap; /* Allow items to wrap to the next line */
-  justify-content: space-between; /* Distribute space between items */
-  align-items: flex-start; /* Align items at the start of the flex container */
-  gap: 20px; /* Adjust as needed for space between images */
-}
 
 .preference-testing {
   height: 21px;
