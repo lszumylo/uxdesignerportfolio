@@ -649,12 +649,6 @@ a {
   margin-bottom: 20px; /* Add spacing between rows */
 }
 
-.design-mockup-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px; /* Add space between images */
-}
 
 .design-image {
   width: 80%; /* Set width to 80% of the parent container */
@@ -662,6 +656,10 @@ a {
   max-width: 100%; /* Ensure images don't exceed their natural size */
   display: block; /* Ensure images are treated as blocks */
   margin: 0 auto 20px; /* Center-align the images and add bottom margin */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Add space between images */
 }
 
 .mockups {
