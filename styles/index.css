@@ -4,6 +4,7 @@ body {
   padding-top: 90px; /* Adjust the top padding accordingly */
 }
 
+
 .navbar {
   background-color: #434F5B;
   position: fixed;
@@ -11,58 +12,32 @@ body {
   left: 0;
   width: 100%;
   height: 60px;
-  display: flex;
-  align-items: center; /* Center items vertically */
-  justify-content: space-between;
-  padding: 0 20px; /* Adjust padding for edges */
+  z-index: 2;
 }
 
 
-.logo {
-  flex: 1; /* Allow the logo to take available space */
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  justify-content: center; /* Center the logo horizontally */
 }
 
-.nav-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: calc(100% - 100px);
-  padding: 10px 50px; /* Adjust vertical padding */
+.navbar li {
+  margin: 0 20px;
 }
 
-.nav-link {
-  color: #f2f2f2;
+
+a {
   text-decoration: none;
-  padding: 0; /* Reset padding */
-  transition: color 0.2s;
-  font-weight: normal;
-  margin: 0 6px;
-  line-height: 1; /* Adjust line height */
+  color: inherit; /* Inherit color from parent */
 }
 
 
-.nav-link:hover {
-    font-weight: bold; /* Change the text style (font-weight) on hover */
-    color: #ABD060;
+.navbar .nav-link:hover {
+  color: #ABD060;
 }
 
-.nav-link.selected {
-    background-color: #ddd;
-    color: black;
-    font-weight: bold; /* Set font weight for the active link */
-}
-
-.navbar .nav-link a {
-    text-decoration: none;
-    color: #fff;
-}
-
-/* Style your navigation links as needed */
-.navbar .nav-link a:hover {
-    text-decoration: underline;
-}
 
 .container {
     margin-top: 80px; /* Add margin to push the content down below the navbar */
