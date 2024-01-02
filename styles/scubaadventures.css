@@ -512,6 +512,10 @@ a {
   margin-bottom: 30px;
 }
 
+.link-container a {
+  text-decoration: underline;
+}
+
 
   .thoughts {
   height: 21px;
@@ -645,7 +649,6 @@ a {
   margin-bottom: 20px; /* Add spacing between rows */
 }
 
-
 .design-mockup {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -664,7 +667,7 @@ a {
 }
 
 .design-image {
-  width: 25%; /* Set width for each image */
+  width: 50%; /* Set width for each image to 50% */
   height: auto;
   max-width: 100%; /* Ensure images don't exceed their natural size */
   display: block; /* Ensure images are treated as blocks */
@@ -736,7 +739,11 @@ a {
   margin-top: 30px;
   margin-bottom: 30px;
  }
-  
+
+.pref-test-description {
+  text-align: center;
+}
+
   
 .end-result {
   height: 21px;
