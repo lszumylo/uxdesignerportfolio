@@ -805,5 +805,42 @@ text-align: center;
   margin-bottom: 30px;
 } 
 
+.site-footer {
+  width: 100%;
+  background-color: #434F5B;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column; /* Align items in a column */
+  align-items: center; /* Center-align items */
+  padding-bottom: 10px; /* Adjust bottom padding */
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0; /* Add margin between links and the bottom text */
+}
+
+.footer-links a {
+  color: #FAFAFA;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  color: #FAFAFA;
+  font-size: 14px;
+  margin-top: 10px; /* Add margin at the top of the copyright text */
+}
+
 
 
