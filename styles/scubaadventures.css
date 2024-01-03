@@ -657,10 +657,11 @@ a {
 }
 
 .design-image {
-  flex-basis: calc(30% - 10px); /* Adjust width for each image with space between */
-  height: auto;
+  width: 300px; /* Set a specific width for the images */
+  height: auto; /* Maintain aspect ratio */
   margin-bottom: 20px; /* Add spacing between rows */
 }
+
 
 .image-container {
   display: flex;
