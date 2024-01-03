@@ -8,9 +8,9 @@ body, h1, h2, h3, h4, p {
 body {
   font-family: 'Taviraj', serif; /* Set body text font-family to Taviraj */
   font-size: 18px;
-  margin: 0 80px; /* Updated margin to 80px on both sides */
-}
+  margin: 0 80px 0; /* Updated margin: 0 at the top, 80px on left and right sides */
 
+  
 /* General styles for paragraphs */
 p {
   font-family: 'Taviraj', serif; /* Set paragraphs font-family to Taviraj */
@@ -18,10 +18,10 @@ p {
   font-weight: normal;
   font-size: 16px;
   margin: 24px 10px;
-  text-align: left; /* Ensures paragraphs are left-aligned */
 }
 
 
+  
 /* General styles for headings */
 h1, h2, h3, h4 {
   font-family: 'Work Sans', sans-serif; /* Set headings font-family to Work Sans */
