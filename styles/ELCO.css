@@ -53,6 +53,30 @@ h4 {
   z-index: 2;
 }
 
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+}
+
+
+.navbar .nav-link:hover {
+  color: #ABD060;
+}
+
+
 .page__header-title {
   font-size: 22px;
   font-weight: bold;
