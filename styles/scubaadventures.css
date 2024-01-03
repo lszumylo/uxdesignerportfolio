@@ -650,22 +650,24 @@ a {
 }
 
 .design-mockup-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px; /* Add space between images */
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Adjust as needed to add space between images */
 }
 
 
+.image-container {
+  display: flex;
+  justify-content: space-between; /* Distributes space between the images */
+  align-items: center; /* Aligns items vertically at the center */
+}
 
 .design-image {
-  width: 100%; /* Set width to 100% to fill the container */
+  width: 200px; /* Set a specific width for the images */
   height: auto; /* Maintain aspect ratio */
-  max-width: none; /* Remove max-width to allow larger images */
-  display: block; /* Ensure images are treated as blocks */
-  margin: 0 auto 20px; /* Center-align the images and add bottom margin */
+  margin: 0 10px; /* Add space between images horizontally */
 }
-
 
 .mockups {
  height: 21px;
