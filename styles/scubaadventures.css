@@ -662,13 +662,13 @@ a {
   margin-bottom: 20px; /* Add spacing between rows */
 }
 
-
 .image-container {
   display: flex;
-  justify-content: space-between; /* Distributes space between the images */
-  align-items: center; /* Aligns items vertically at the center */
+  justify-content: space-between; /* Distribute space between the images */
+  align-items: center; /* Align items vertically at the center */
   width: 100%; /* Ensure the container takes full width */
 }
+
 
 .mockup {
  height: 21px;
