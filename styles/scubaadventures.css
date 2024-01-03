@@ -657,10 +657,11 @@ a {
 }
 
 .design-images {
-  width: 300px; /* Set a specific width for the images */
+  width: 400px; /* Set a larger width for the images */
   height: auto; /* Maintain aspect ratio */
   margin-bottom: 20px; /* Add spacing between rows */
 }
+
 
 .image-container {
   display: flex;
@@ -687,9 +688,6 @@ a {
   margin-bottom: 30px;
 }
 
-.design-explanation {
-  text-align:left;
-}
 
 .preference-testing {
   height: 21px;
