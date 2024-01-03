@@ -44,21 +44,6 @@ h4 {
 }
 
 
-/* Page header styles */
-.page__header-title {
-  font-size: 22px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.page__header-subtitle {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 16px;
-  font-weight: lighter;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
 .page__header-title {
   font-size: 22px;
   font-weight: bold;
