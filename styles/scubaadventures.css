@@ -650,23 +650,23 @@ a {
 }
 
 .design-mockup-container {
-   display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px; /* Adjust as needed to add space between images */
 }
 
+.design-image {
+  flex-basis: calc(30% - 10px); /* Adjust width for each image with space between */
+  height: auto;
+  margin-bottom: 20px; /* Add spacing between rows */
+}
 
 .image-container {
   display: flex;
   justify-content: space-between; /* Distributes space between the images */
   align-items: center; /* Aligns items vertically at the center */
-}
-
-.design-image {
-  width: 200px; /* Set a specific width for the images */
-  height: auto; /* Maintain aspect ratio */
-  margin: 0 10px; /* Add space between images horizontally */
+  width: 100%; /* Ensure the container takes full width */
 }
 
 .mockups {
@@ -685,7 +685,6 @@ a {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
 
 .design-explanation {
   text-align:left;
