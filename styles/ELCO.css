@@ -903,14 +903,6 @@ brand-identity__logo-Idea-1 {
 }
 
 
-@media (max-width: 768px) {
-  .typography__pairings {
-    flex: 1; /* Adjust the flex property to allow equal spacing */
-    max-width: 50%; /* Set the max-width to control the image size */
-    margin: 0 6px; /* Adjust margin for spacing between images */
-  }
-}
-
 
 .style-tile__title {
   height: 21px;
