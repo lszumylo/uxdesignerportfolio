@@ -1035,11 +1035,26 @@ margin-bottom: 20px;
 } 
 
 .recap__list-hi-fi {
-
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px;
+  padding-left: 30px; /* add left padding to increase space between numbers and text */
+  padding-bottom: 30px;
 }
 
 
 .recap__item-hi-fi {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px;
+  padding-left: 30px; /* add left padding to increase space between numbers and text */
+  padding-bottom: 30px;
 }
 
 
@@ -1132,7 +1147,21 @@ margin-bottom: 20px;
 }
 
 .section-divider__title {
-}
+ height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 50px;
+  margin-bottom: 30px; 
+} 
 
 
 .completion__title {
@@ -1188,8 +1217,6 @@ margin-bottom: 20px;
 }
 
 
-
-
 .site-footer {
   width: 100%;
   background-color: #434F5B;
@@ -1226,18 +1253,6 @@ margin-bottom: 20px;
   font-size: 14px;
   margin-top: 10px; /* Add margin at the top of the copyright text */
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
