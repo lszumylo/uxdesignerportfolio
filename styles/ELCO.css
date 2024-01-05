@@ -518,16 +518,16 @@ font-family: 'Taviraj', serif;
 
 
 
-.task-flows__view,
-.task-flows__book,
-.task-flows__payment {
+.elcotask-flows__view,
+.elcotask-flows__book,
+.elcotask-flows__payment {
   /* Shared properties for these classes */
   margin-top: 20px;
   margin-bottom: 20px;
   z-index: 0; /* Set a lower z-index */
 }
 
-.task-flows__list-item {
+.elcotask-flows__list-item {
   z-index: 1; /* Set a higher z-index */
   position: relative; /* Use relative positioning */
 }
