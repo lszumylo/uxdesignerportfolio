@@ -105,14 +105,13 @@ button.page__section-text {
   cursor: pointer; /* Change the cursor to a pointer on hover (optional) */
 }
 
-/* Add these styles to your CSS file */
 .content-container {
-  max-width: 960px; /* Set a maximum width for the content */
-  margin: 0 auto; /* Center the content horizontally */
-  padding: 20px; /* Add padding to create margins on each side of the screen */
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
   display: flex;
-  flex-direction: column; /* Stack the children elements vertically */
-  align-items: center; /* Center the children horizontally */
+  flex-direction: column;
+  align-items: center;
 }
 
 .page__section-text {
@@ -123,6 +122,8 @@ button.page__section-text {
 .page__section-text:hover {
   color: #00f; /* Change color on hover if needed */
 }
+
+
 
 
 
@@ -167,7 +168,9 @@ img {
   margin: 0 auto; /* center the element horizontally */
   margin-top: 30px;
   margin-bottom: 30px;
+  text-decoration: none; /* Remove underline */
 }
+
 
 /* Table Styles */
 .table {
