@@ -76,13 +76,13 @@ a {
   color: #ABD060;
 }
 
-img {
-  max-width: calc(100% - 160px); /* Adjust based on the total margin you want to account for (80px on each side) */
-  margin: 0 80px; /* Set the margin to 80px on the left and right */
-  height: auto; /* Maintains aspect ratio */
+
+.img {
+  width: calc(100% - 160px); /* Adjust based on the total width you want to account for */
+  max-width: 100%; /* Ensure images don't exceed their container's width */
+  height: auto; /* Maintain aspect ratio */
   /* Additional styling */
 }
-
 
 
 
