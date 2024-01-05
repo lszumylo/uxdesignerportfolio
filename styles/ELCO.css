@@ -1262,16 +1262,16 @@ font-family: 'Taviraj', serif;
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-
 .site-footer {
-  width: 100%;
+  width: 100vw; /* Use viewport width instead of percentage */
   background-color: #434F5B;
   color: white;
   text-align: center;
   padding: 20px 0;
-  position: relative;
+  position: fixed; /* Change position to fixed */
   bottom: 0;
   left: 0;
+  right: 0; /* Adjust to cover the full width */
 }
 
 .footer-content {
