@@ -114,6 +114,16 @@ button.page__section-text {
   align-items: center; /* Center the children horizontally */
 }
 
+.page__section-text {
+  text-decoration: underline; /* Add underline */
+  color: #000; /* Set the text color */
+}
+
+.page__section-text:hover {
+  color: #00f; /* Change color on hover if needed */
+}
+
+
 
 img {
   max-width: 100%;
