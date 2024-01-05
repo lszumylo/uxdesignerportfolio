@@ -38,6 +38,8 @@ a {
   color: #ABD060;
 }
 
+
+
 .projects-container {
   display: flex;
   justify-content: space-between;
@@ -56,19 +58,30 @@ a {
 .project-card {
   display: flex;
   flex-direction: column;
-  width: 100%; /* Ensure card takes full width of its container */
+  width: 100%;
   text-align: center;
   padding: 20px;
   border: none;
 }
 
-
-.project-card .project-image {
-  max-width: 15%; /* Set the maximum width to 15% of its container */
-  height: auto;
-  margin-top: 20px; /* Adjust spacing */
+.project-item {
+  flex: 0 0 calc(50% - 20px);
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
 }
 
+.pink-container,
+.green-container {
+  width: 100%;
+}
+
+/* Image styling */
+.project-card .project-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
 
 
 .project-card .description {
