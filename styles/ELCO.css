@@ -358,20 +358,9 @@ img {
 }
 
 button.competitive-analysis__view-full {
-  background-color: #005F85;
-  color: #ffffff;
-  padding: 10px 20px; /* Adjust padding to expand the button width */
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #002E42;
-  margin-top: 10px;
-  margin-bottom: 50px;
-  white-space: nowrap;
-  margin: 0 auto; /* Center the button horizontally within its container */
-  display: block; /* Ensure that the button takes up the full width of the container */
+    text-decoration: underline;
 }
+
 
 .user-stories__title {
   height: 21px;
