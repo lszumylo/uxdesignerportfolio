@@ -90,18 +90,6 @@ a {
   margin-bottom: 30px;
 }
 
-button.page__section-text {
-  /* styles for the button */
-  background-color: #005F85; /* example background color */
-  color: #ffffff; /* example text color */
-  padding: 10px 10px; /* example padding */
-  text-decoration: none; /* removes underline from link */
-  display: block; /* makes the button a block-level element */
-  margin: 0 auto; /* centers the button horizontally */
-  border: 1px solid #002E42; /* adds a 2px solid border with a lighter shade of blue */
-  border-style: none; /* Remove the border style (including underline) */
-  cursor: pointer; /* Change the cursor to a pointer on hover (optional) */
-}
 
 .content-container {
   max-width: 960px;
@@ -123,10 +111,8 @@ button.page__section-text {
 
 
 
-
-
 img {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
   object-fit: contain; /* Use 'contain' to fit the entire image within the container */
   margin-top: 50px;
