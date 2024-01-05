@@ -904,22 +904,20 @@ brand-identity__logo-Idea-1 {
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
   
-
 .typography__pairings-container {
   display: flex;
   max-width: 100%;
-  overflow: auto;
+  overflow: hidden; /* Change overflow to hidden to remove the scrollbar */
 }
 
 .typography__pairings {
-   flex: 1;
-  width: 150%; /* Increase the width by 50% */
+  flex: 1;
+  width: 130%; /* Reduce the width to 130% (adjust according to your preference) */
   height: auto; /* Maintain the aspect ratio */
   margin-top: 60px;
   margin-bottom: 60px;
-  margin-right: 30px; /* Adjust the margin if needed */
+  margin-right: 20px; /* Adjust the margin if needed */
 }
-
 
 .styling-board__title {
   height: 21px;
