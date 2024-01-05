@@ -132,9 +132,11 @@ a {
   max-width: 100%; /* Set the maximum width to its original size */
 }
 
-/* Reset the image size for Elite Life Coach Online */
+/* Adjust the image size for Elite Life Coach Online */
 .green-container .project-image {
-  max-width: 100%; /* Set the maximum width to its original size */
+  max-width: 100%; /* Set the maximum width to fill its container */
+  height: auto; /* Maintain the aspect ratio */
+  /* Other styling properties */
 }
 
 /* Adjust the image size for Be Ready Fitness project */
