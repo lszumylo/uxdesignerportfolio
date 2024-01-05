@@ -113,36 +113,21 @@ a {
 }
 
 
+
+
+
+
+
+
+
+
+
 img {
-  max-width: 100%; /* Set the maximum width to the container's width */
-  max-height: 100%; /* Set the maximum height to the container's height */
-  object-fit: cover;
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
-
-
-
-.image-container {
-  width: 100%; /* Set the width to a fixed value or a percentage */
-  max-width: calc(100% - 160px); /* Adjust based on the total width you want to account for */
-  margin: 0 auto; /* Center the container */
-}
-
-.image-container img {
-  width: 75%; /* Set the image width to 75% of its container */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 100%; /* Ensures image doesn't exceed its container's width */
-  /* Additional styling */
-}
-
-
-
-/* Additional styling for all images */
-img {
-  max-width: 50%; /* Adjust this value to make the images smaller */
+  max-width: 75%;
   height: auto;
   object-fit: contain; /* Use 'contain' to fit the entire image within the container */
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 
