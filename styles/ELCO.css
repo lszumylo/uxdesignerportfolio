@@ -1,5 +1,5 @@
-/* Reset default margin and padding */
-body, h1, h2, h3, h4, p {
+* Reset default margin and padding */
+  body, h1, h2, h3, h4, p {
   margin: 0;
   padding: 0;
 }
@@ -77,6 +77,14 @@ a {
 }
 
 
+.img {
+  width: calc(100% - 160px); /* Adjust based on the total width you want to account for */
+  max-width: 100%; /* Ensure images don't exceed their container's width */
+  height: auto; /* Maintain aspect ratio */
+  /* Additional styling */
+}
+
+
 .page__header-title {
   font-size: 22px;
   font-weight: bold;
@@ -103,6 +111,17 @@ a {
   .content-container a {
   text-decoration: underline;
 }
+
+
+img {
+  max-width: 100%; /* Set the maximum width to the container's width */
+  max-height: 100%; /* Set the maximum height to the container's height */
+  object-fit: cover;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
 
 .image-container {
   width: 100%; /* Set the width to a fixed value or a percentage */
