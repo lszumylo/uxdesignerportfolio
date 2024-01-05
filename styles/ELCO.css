@@ -304,14 +304,15 @@ img {
 }
 
 .view-survey-button a {
-  color: #005F85;
-  text-decoration: underline;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 0; /* Set border-bottom width to 0 */
+  text-decoration: underline; /* Apply underline to the text */
 }
-
-.view-survey-button a:hover {
-  text-decoration: none; /* Remove underline on hover if desired */
-}
-
 
 .competitive-analysis__title {
   height: 21px;
@@ -348,19 +349,14 @@ img {
 }
 
 button.competitive-analysis__view-full {
-  background-color: #005F85;
-  color: #ffffff;
-  padding: 10px 20px; /* Adjust padding to expand the button width */
-  text-decoration: none;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  border: 1px solid #002E42;
-  margin-top: 10px;
-  margin-bottom: 50px;
-  white-space: nowrap;
-  margin: 0 auto; /* Center the button horizontally within its container */
-  display: block; /* Ensure that the button takes up the full width of the container */
+  border-bottom: 0; /* Set border-bottom width to 0 */
+  text-decoration: underline; /* Apply underline to the text */
 }
 
 .user-stories__title {
