@@ -113,8 +113,10 @@ a {
 .image-container img {
   width: 75%; /* Set the image width to 75% of its container */
   height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensures image doesn't exceed its container's width */
   /* Additional styling */
 }
+
 
 
 /* Additional styling for all images */
@@ -320,6 +322,7 @@ img {
 
  .view-survey-button a {
   text-decoration: underline;
+  align-items: center;
 }
 
 
@@ -349,16 +352,10 @@ margin-top: 50px;
 margin-bottom: 20px;
 }
 
-img {
-  max-width: 100%; /* Set the maximum width to the container's width */
-  max-height: 100%; /* Set the maximum height to the container's height */
-  object-fit: cover;
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
 
 button.competitive-analysis__view-full {
-    text-decoration: underline;
+   text-decoration: underline;
+   text-align:center;
 }
 
 
