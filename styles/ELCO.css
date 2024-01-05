@@ -90,7 +90,6 @@ a {
   margin-bottom: 30px;
 }
 
-
 .content-container {
   max-width: 960px;
   margin: 0 auto;
@@ -100,13 +99,8 @@ a {
   align-items: center;
 }
 
-.page__section-text {
-  text-decoration: underline; /* Add underline */
-  color: #000; /* Set the text color */
-}
-
-.page__section-text:hover {
-  color: #00f; /* Change color on hover if needed */
+  .content-container a {
+  text-decoration: underline;
 }
 
 
