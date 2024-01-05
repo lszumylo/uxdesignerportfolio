@@ -77,15 +77,6 @@ a {
 }
 
 
-.img {
-  width: calc(100% - 160px); /* Adjust based on the total width you want to account for */
-  max-width: 100%; /* Ensure images don't exceed their container's width */
-  height: auto; /* Maintain aspect ratio */
-  /* Additional styling */
-}
-
-
-
 .page__header-title {
   font-size: 22px;
   font-weight: bold;
@@ -114,24 +105,27 @@ a {
 }
 
 .image-container {
-  width: 100%;
+  width: 100%; /* Set the width to a fixed value or a percentage */
   max-width: calc(100% - 160px); /* Adjust based on the total width you want to account for */
-  margin: 0 auto;
+  margin: 0 auto; /* Center the container */
 }
 
 .image-container img {
-  width: 100%;
-  height: auto;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  width: 75%; /* Set the image width to 75% of its container */
+  height: auto; /* Maintain aspect ratio */
+  /* Additional styling */
 }
+
 
 /* Additional styling for all images */
 img {
-  max-width: 75%;
+  max-width: 50%; /* Adjust this value to make the images smaller */
   height: auto;
   object-fit: contain; /* Use 'contain' to fit the entire image within the container */
 }
+
+
+
 
 
 
