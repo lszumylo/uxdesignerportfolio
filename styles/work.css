@@ -47,11 +47,10 @@ a {
 }
 
 .project-item {
-  flex: 0 0 calc(33.33% - 20px); /* Adjust width for each container */
-  margin-bottom: 40px; /* Add space between rows */
-  display: flex;
-  justify-content: center; /* Center content horizontally */
+  flex: 0 0 calc(30% - 10px); /* Adjust width for each container */
+  margin-bottom: 20px; /* Decrease space between rows */
 }
+
 
 .project-card {
   display: flex;
