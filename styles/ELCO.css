@@ -113,15 +113,26 @@ a {
   text-decoration: underline;
 }
 
+.image-container {
+  width: 100%;
+  max-width: calc(100% - 160px); /* Adjust based on the total width you want to account for */
+  margin: 0 auto;
+}
 
+.image-container img {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
 
+/* Additional styling for all images */
 img {
   max-width: 75%;
   height: auto;
   object-fit: contain; /* Use 'contain' to fit the entire image within the container */
-  margin-top: 50px;
-  margin-bottom: 20px;
 }
+
 
 
 .hero-image {
