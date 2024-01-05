@@ -557,7 +557,7 @@ font-family: 'Taviraj', serif;
 }
 
 
-.sketches__title {
+.brainstorm__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -575,9 +575,9 @@ font-family: 'Taviraj', serif;
 }
 
 
-.sketches__homepage,
-.sketches__about-me,
-.sketches__services {
+.brainstorm__homepage,
+.brainstorm__about-me,
+.brainstorm__services {
   width: 100%;
   height: auto;
   object-fit: cover;
