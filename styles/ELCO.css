@@ -876,13 +876,16 @@ font-family: 'Taviraj', serif;
 
 
 brand-identity__logo-Idea-1 {
-  width: 75%; /* Set width to 75% of the parent container */
+  width: 50%; /* Set width to 75% of the parent container */
   height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Ensure images don't exceed their natural size */
   display: block; /* Ensure images are treated as blocks */
   margin: 0 auto; /* Center-align the images */
   padding: 5px; /* Add some padding around the images */
 }
+
+
+
 
 
 .typography__title {
