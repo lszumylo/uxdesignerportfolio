@@ -515,33 +515,32 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px; 
 }
 
-
 .elcotask-flows__view,
 .elcotask-flows__book,
 .elcotask-flows__payment {
- width: 75%; /* Set width to 75% of the parent container */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 100%; /* Ensure images don't exceed their natural size */
-  display: block; /* Ensure images are treated as blocks */
-  margin: 0 auto; /* Center-align the images */
-  border: 2px solid #CDCDCD; /* Add a 2px solid border with the color #CDCDCD */
-  padding: 5px; /* Add some padding around the images */
-  z-index: 0; /* Set a lower z-index */
+  width: 75%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #CDCDCD;
+  padding: 5px;
+  z-index: 0;
+  margin-bottom: 15px; /* Add margin bottom to create space below the images */
 }
-
-
 
 .elcotask-flows__list-item {
-  z-index: 1; /* Set a higher z-index */
-  position: relative; /* Use relative positioning */
+  z-index: 1;
+  position: relative;
 }
-
 
 .parent-container::after {
   content: '';
   display: block;
   clear: both;
 }
+
+
 
 .task-flows__title {
   height: 21px;
