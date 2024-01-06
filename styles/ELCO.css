@@ -310,11 +310,13 @@ img {
   color: #000000; /* Set text color to black */
   padding: 0; /* Remove padding */
   text-decoration: underline; /* Add underline to the link */
-  display: inline-block; /* Change to inline block to center */
+  display: block; /* Change to block to allow centering */
+  width: max-content; /* Set a width to match the content */
+  margin: 0 auto; /* Center the link horizontally */
   border: none; /* Remove border */
   cursor: pointer; /* Change cursor on hover (optional) */
-  margin: 0 auto; /* Center the link horizontally */
 }
+
 
 
 
