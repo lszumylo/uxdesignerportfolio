@@ -76,6 +76,11 @@ a {
   color: #ABD060;
 }
 
+img {
+  outline: none; /* Remove the default outline for all images */
+}
+
+
 .page__header-title {
   font-size: 22px;
   font-weight: bold;
