@@ -335,14 +335,14 @@ img {
   margin-bottom: 30px; 
 }
 
-
 .competitive-analysis-img {
-width: 100%; /* make the image fill the entire width of the parent container */
-height: auto; /* keep the aspect ratio of the image */
-object-fit: cover; /* fill the entire container while keeping the aspect ratio */
-margin-top: 50px;
-margin-bottom: 20px;
+  width: 85%; /* Reduce the image size by 15% */
+  height: auto; /* Keep the aspect ratio of the image */
+  object-fit: cover; /* Fill the entire container while keeping the aspect ratio */
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
+
 
 img {
   max-width: 100%; /* Set the maximum width to the container's width */
