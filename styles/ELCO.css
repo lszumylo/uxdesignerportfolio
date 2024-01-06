@@ -884,12 +884,8 @@ brand-identity__logo-Idea-1 {
   padding: 5px; /* Add some padding around the images */
 }
 
-
-
-
-
 .typography__title {
-  height: 21px;
+ height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -904,6 +900,7 @@ brand-identity__logo-Idea-1 {
   margin-top: 50px;
   margin-bottom: 30px; 
 }
+
 
 .typography__description {
  font-family: 'Taviraj', serif;
@@ -922,7 +919,7 @@ brand-identity__logo-Idea-1 {
 
 .typography__pairings {
   flex: 1;
-  width: 120%; /* Reduce the width to 130% (adjust according to your preference) */
+  width: 110%; /* Reduce the width to 130% (adjust according to your preference) */
   height: auto; /* Maintain the aspect ratio */
   margin-top: 60px;
   margin-bottom: 60px;
