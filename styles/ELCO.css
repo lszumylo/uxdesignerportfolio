@@ -303,13 +303,11 @@ img {
   font-size: 16px;
 }
 
-.button-container {
-  text-align: center; /* Center-align the content */
-}
 
 .view-survey-button {
   max-width: 960px;
   display: inline-block;
+ align-text: center;
 }
 
 .view-survey-button a {
