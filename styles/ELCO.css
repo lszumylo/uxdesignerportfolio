@@ -303,8 +303,8 @@ img {
   font-size: 16px;
 }
 
-.view-survey-button a {
-  max-width: 960px;
+.view-survey-button {
+ max-width: 960px;
   margin: 0 auto;
   padding: 20px;
   display: flex;
@@ -313,6 +313,12 @@ img {
   border-bottom: 0; /* Set border-bottom width to 0 */
   text-decoration: underline; /* Apply underline to the text */
 }
+
+
+
+
+ 
+
 
 .competitive-analysis__title {
   height: 21px;
