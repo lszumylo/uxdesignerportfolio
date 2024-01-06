@@ -303,18 +303,18 @@ img {
   font-size: 16px;
 }
 
+.button-container {
+  text-align: center; /* Center-align the content */
+}
+
 .view-survey-button {
   max-width: 960px;
-  margin: 0 auto;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: inline-block;
 }
 
 .view-survey-button a {
-  text-decoration: underline; /* Apply underline to the text */
-  color: #005F85; /* Set the link color */
+  text-decoration: underline;
+  color: #005F85;
 }
 
 
@@ -336,7 +336,7 @@ img {
 }
 
 .competitive-analysis-img {
-  width: 85%; /* Reduce the image size by 15% */
+  width: 100%; /* Reduce the image size by 15% */
   height: auto; /* Keep the aspect ratio of the image */
   object-fit: cover; /* Fill the entire container while keeping the aspect ratio */
   margin-top: 50px;
@@ -352,16 +352,20 @@ img {
   margin-bottom: 20px;
 }
 
-button.competitive-analysis__view-full {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-bottom: 0; /* Set border-bottom width to 0 */
-  text-decoration: underline; /* Apply underline to the text */
+.button-container {
+  text-align: center; /* Center-align the content */
 }
+
+.competitive-analysis__view-full {
+  max-width: 960px;
+  display: inline-block;
+}
+
+.competitive-analysis__view-full a {
+  text-decoration: underline; /* Apply underline to the text */
+  color: #005F85; /* Set the link color */
+}
+
 
 .user-stories__title {
   height: 21px;
