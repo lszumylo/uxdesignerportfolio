@@ -352,18 +352,10 @@ img {
   margin-bottom: 20px;
 }
 
-.button-container {
-  text-align: center; /* Center-align the content */
-}
-
-.competitive-analysis__view-full {
-  max-width: 960px;
-  display: inline-block;
-}
-
 .competitive-analysis__view-full a {
   text-decoration: underline; /* Apply underline to the text */
   color: #005F85; /* Set the link color */
+  /* Additional styles if needed */
 }
 
 
