@@ -582,18 +582,13 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px;
 }
 
-
-
 .brainstorm__about-me,
 .brainstorm__services {
-  width: 120%;
+  width: 140%;
   height: auto;
   object-fit: cover;
   margin-bottom: 30px;
 }
-
-
-
 
 .wireframes__title {
   height: 21px;
