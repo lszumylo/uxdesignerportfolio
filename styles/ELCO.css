@@ -574,14 +574,24 @@ font-family: 'Taviraj', serif;
 }
 
 
-.brainstorm__homepage,
-.brainstorm__about-me,
-.brainstorm__services {
+.brainstorm__homepage{
   width: 100%;
   height: auto;
   object-fit: cover;
   margin-bottom: 30px;
 }
+
+
+
+.brainstorm__about-me,
+.brainstorm__services {
+  width: 120%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+
 
 
 .wireframes__title {
