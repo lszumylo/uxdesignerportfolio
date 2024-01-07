@@ -960,7 +960,7 @@ styling-board__description {
 
 
 
-styling-board {
+.styling-board {
   width: 75%; /* Set width to 75% of the parent container */
   height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Ensure images don't exceed their natural size */
@@ -969,8 +969,7 @@ styling-board {
   padding: 5px; /* Add some padding around the images */
 }
 
-
-h-fidelity__title {
+.h-fidelity__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
