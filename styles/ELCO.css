@@ -1103,8 +1103,21 @@ ponder-hi-fi__thoughts-description {
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-revamp__title {
-
+.revamp__title {
+   height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #005F85;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 revamp__description {
@@ -1118,16 +1131,44 @@ section-divider__title {
 } 
 
 
-completion__title {
-  
-} 
+.completion__title {
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #005F85;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ 
 
 completion__description {
 }
 
-assessment__title {
+.assessment__title {
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #005F85;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
  
-} 
 
 assessment__description {
 
