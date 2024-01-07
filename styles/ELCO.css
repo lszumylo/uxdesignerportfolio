@@ -929,7 +929,26 @@ font-family: 'Taviraj', serif;
   margin-right: 20px; /* Adjust the margin if needed */
 }
 
-styling-board__title {
+.styling-board__title {
+  height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 50px;
+  margin-bottom: 30px; 
+}
+
+
+
+
  
 
 styling-board__description {
