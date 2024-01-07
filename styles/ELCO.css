@@ -879,7 +879,7 @@ font-family: 'Taviraj', serif;
 
 
 .brand-identity__logo-Idea-1 {
-  width: 30%; /* Set width to 30% of the parent container */
+  width: 75%; /* Set width to 75% of the parent container */
   height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Ensure images don't exceed their natural size */
   display: block; /* Ensure images are treated as blocks */
@@ -889,8 +889,9 @@ font-family: 'Taviraj', serif;
 
 
 
+
 .typography__title {
- height: 21px;
+  height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -931,7 +932,7 @@ font-family: 'Taviraj', serif;
   margin-right: 20px; /* Adjust the margin if needed */
 }
 
-styling-board__title {
+.styling-board__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
