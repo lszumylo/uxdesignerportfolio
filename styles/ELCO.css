@@ -1130,24 +1130,24 @@ section-divider__title {
 
 } 
 
-
 .completion__Title {
-    height: 21px;
-    font-family: 'Work Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 38px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #005F85;
-    text-align: center;
-    margin: 0 auto; /* center the element horizontally */
-    margin-top: 30px;
-    margin-bottom: 30px;
+    height: 21px !important;
+    font-family: 'Work Sans', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 38px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #005F85 !important;
+    text-align: center !important;
+    margin: 0 auto !important; /* center the element horizontally */
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
 }
- 
+
+
 
 completion__description {
 }
