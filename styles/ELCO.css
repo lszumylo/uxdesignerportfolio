@@ -1010,7 +1010,7 @@ h-fidelity__description {
   margin: 0 auto; /* center the element horizontally */
   margin-top: 50px;
   margin-bottom: 30px; 
-} 
+}
   
 user-test__description-hi-fi {
   font-family: 'Taviraj', serif;
@@ -1021,7 +1021,7 @@ user-test__description-hi-fi {
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-.user-test__subtitle-hi-fi {
+user-test__subtitle-hi-fi {
    height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1052,7 +1052,7 @@ font-family: 'Taviraj', serif;
 }  
 
 
-.outcome-summary__title-hi-fi {
+outcome-summary__title-hi-fi {
    height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1093,7 +1093,8 @@ outcome-summary__description-hi-fi {
   margin: 0 auto; /* center the element horizontally */
   margin-top: 50px;
   margin-bottom: 30px; 
-} 
+}
+
 
 recap__list-hi-fi {
   font-family: 'Taviraj', serif;
@@ -1134,7 +1135,7 @@ recap__item-hi-fi {
   margin: 0 auto; /* center the element horizontally */
   margin-top: 50px;
   margin-bottom: 30px; 
-} 
+}
 
 
 realizations-hi-fi__description {
@@ -1161,7 +1162,7 @@ realizations-hi-fi__description {
   margin: 0 auto; /* center the element horizontally */
   margin-top: 50px;
   margin-bottom: 30px; 
-} 
+}
 
 ponder-hi-fi__thoughts-description {
  font-family: 'Taviraj', serif;
@@ -1173,7 +1174,7 @@ ponder-hi-fi__thoughts-description {
 }
 
 .revamp__title {
-  height: 21px;
+   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1187,7 +1188,7 @@ ponder-hi-fi__thoughts-description {
   margin: 0 auto; /* center the element horizontally */
   margin-top: 50px;
   margin-bottom: 30px; 
-} 
+}
 
 revamp__description {
  font-family: 'Taviraj', serif;
@@ -1225,7 +1226,7 @@ section-divider__title {
 } 
 
 
-.completion__title {
+completion__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1251,7 +1252,7 @@ completion__description {
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-.assessment__title {
+assessment__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
