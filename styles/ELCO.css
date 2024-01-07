@@ -948,9 +948,6 @@ font-family: 'Taviraj', serif;
 
 
 
-
- 
-
 styling-board__description {
  
 
@@ -964,17 +961,53 @@ styling-board__description {
   padding: 5px; /* Add some padding around the images */
 }
 
-h-fidelity__title {
-
+.h-fidelity__title {
+  height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 50px;
+  margin-bottom: 30px; 
 }
+
+
+ 
+
 
 h-fidelity__description {
 
 }
 
-user-test__title-hi-fi {
-
+.user-test__title-hi-fi {
+  height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 50px;
+  margin-bottom: 30px; 
 }
+
+ 
+
+
+ 
+
   
 user-test__description-hi-fi {
  
