@@ -995,7 +995,7 @@ h-fidelity__description {
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-user-test__title-hi-fi {
+.user-test__title-hi-fi {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1021,7 +1021,7 @@ user-test__description-hi-fi {
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-user-test__subtitle-hi-fi {
+.user-test__subtitle-hi-fi {
    height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1052,7 +1052,7 @@ font-family: 'Taviraj', serif;
 }  
 
 
-outcome-summary__title-hi-fi {
+.outcome-summary__title-hi-fi {
    height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1078,7 +1078,7 @@ outcome-summary__description-hi-fi {
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-recap__title-hi-fi {
+.recap__title-hi-fi {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1119,7 +1119,7 @@ recap__item-hi-fi {
 }
 
 
-realizations-hi-fi__title {
+.realizations-hi-fi__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1146,7 +1146,7 @@ realizations-hi-fi__description {
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-ponder-hi-fi__thoughts-title {
+.ponder-hi-fi__thoughts-title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1172,7 +1172,7 @@ ponder-hi-fi__thoughts-description {
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-revamp__title {
+.revamp__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1225,7 +1225,7 @@ section-divider__title {
 } 
 
 
-completion__title {
+.completion__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1251,7 +1251,7 @@ completion__description {
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-assessment__title {
+.assessment__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
