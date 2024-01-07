@@ -887,9 +887,6 @@ font-family: 'Taviraj', serif;
   padding: 5px; /* Add some padding around the images */
 }
 
-
-
-
 .typography__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
@@ -933,31 +930,10 @@ font-family: 'Taviraj', serif;
 }
 
 styling-board__title {
-  height: 21px;
-  font-family: 'Work Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #005F85;
-  text-align: center;
-  margin: 0 auto; /* center the element horizontally */
-  margin-top: 50px;
-  margin-bottom: 30px; 
-}
+ 
 
 styling-board__description {
- font-family: 'Taviraj', serif;
-  color: #000000;
-  font-weight: normal;
-  font-size: 16px;
-  text-align: left;
-  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
-}
-
+ 
 
 
 .styling-board {
@@ -970,55 +946,19 @@ styling-board__description {
 }
 
 h-fidelity__title {
-  height: 21px;
-  font-family: 'Work Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #005F85;
-  text-align: center;
-  margin: 0 auto; /* center the element horizontally */
-  margin-top: 50px;
-  margin-bottom: 30px; 
+
 }
 
 h-fidelity__description {
-  font-family: 'Taviraj', serif;
-  color: #000000;
-  font-weight: normal;
-  font-size: 16px;
-  text-align: left;
-  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
+
 }
 
 user-test__title-hi-fi {
-  height: 21px;
-  font-family: 'Work Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #005F85;
-  text-align: center;
-  margin: 0 auto; /* center the element horizontally */
-  margin-top: 50px;
-  margin-bottom: 30px; 
+
 }
   
 user-test__description-hi-fi {
-  font-family: 'Taviraj', serif;
-  color: #000000;
-  font-weight: normal;
-  font-size: 16px;
-  text-align: left;
-  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
+ 
 }
 
 user-test__subtitle-hi-fi {
@@ -1053,46 +993,15 @@ font-family: 'Taviraj', serif;
 
 
 outcome-summary__title-hi-fi {
-   height: 21px;
-  font-family: 'Work Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #005F85;
-  text-align: center;
-  margin: 0 auto; /* center the element horizontally */
-  margin-top: 50px;
-  margin-bottom: 30px; 
+   
 } 
   
 outcome-summary__description-hi-fi {
-  font-family: 'Taviraj', serif;
-  color: #000000;
-  font-weight: normal;
-  font-size: 16px;
-  text-align: left;
-  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
-}
+
+ ]
 
 recap__title-hi-fi {
-  height: 21px;
-  font-family: 'Work Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #005F85;
-  text-align: center;
-  margin: 0 auto; /* center the element horizontally */
-  margin-top: 50px;
-  margin-bottom: 30px; 
+ 
 }
 
 
@@ -1121,47 +1030,16 @@ recap__item-hi-fi {
 
 
 realizations-hi-fi__title {
-  height: 21px;
-  font-family: 'Work Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #005F85;
-  text-align: center;
-  margin: 0 auto; /* center the element horizontally */
-  margin-top: 50px;
-  margin-bottom: 30px; 
+ 
 }
 
 
 realizations-hi-fi__description {
- font-family: 'Taviraj', serif;
-  color: #000000;
-  font-weight: normal;
-  font-size: 16px;
-  text-align: left;
-  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
+
 }
 
 ponder-hi-fi__thoughts-title {
-  height: 21px;
-  font-family: 'Work Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #005F85;
-  text-align: center;
-  margin: 0 auto; /* center the element horizontally */
-  margin-top: 50px;
-  margin-bottom: 30px; 
+
 }
 
 ponder-hi-fi__thoughts-description {
@@ -1174,108 +1052,33 @@ ponder-hi-fi__thoughts-description {
 }
 
 revamp__title {
-   height: 21px;
-  font-family: 'Work Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #005F85;
-  text-align: center;
-  margin: 0 auto; /* center the element horizontally */
-  margin-top: 50px;
-  margin-bottom: 30px; 
+
 }
 
 revamp__description {
- font-family: 'Taviraj', serif;
-  color: #000000;
-  font-weight: normal;
-  font-size: 16px;
-  text-align: left;
-  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
+
 }
 
-revamp__image-home {
-}
 
-revamp__image-about {
-}
-
-revamp__image-services {
-}
 
 section-divider__title {
- height: 21px;
-  font-family: 'Work Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #005F85;
-  text-align: center;
-  margin: 0 auto; /* center the element horizontally */
-  margin-top: 50px;
-  margin-bottom: 30px; 
+
 } 
 
 
 completion__title {
-  height: 21px;
-  font-family: 'Work Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #005F85;
-  text-align: center;
-  margin: 0 auto; /* center the element horizontally */
-  margin-top: 50px;
-  margin-bottom: 30px; 
+  
 } 
 
 completion__description {
- font-family: 'Taviraj', serif;
-  color: #000000;
-  font-weight: normal;
-  font-size: 16px;
-  text-align: left;
-  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
 assessment__title {
-  height: 21px;
-  font-family: 'Work Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #005F85;
-  text-align: center;
-  margin: 0 auto; /* center the element horizontally */
-  margin-top: 50px;
-  margin-bottom: 30px; 
+ 
 } 
 
 assessment__description {
- font-family: 'Taviraj', serif;
-  color: #000000;
-  font-weight: normal;
-  font-size: 16px;
-  text-align: left;
-  margin: 24px 10px; /* Adjust the top and bottom margins as needed */
+
 }
 
 site-footer {
