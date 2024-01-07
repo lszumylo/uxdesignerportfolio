@@ -1131,7 +1131,7 @@ section-divider__title {
 } 
 
 
-.completion__title {
+.completion__Title {
     height: 21px;
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
@@ -1152,7 +1152,7 @@ section-divider__title {
 completion__description {
 }
 
-.assessment__title {
+.assessment__Title {
     height: 21px;
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
