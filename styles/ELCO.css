@@ -575,8 +575,8 @@ font-family: 'Taviraj', serif;
 }
 
 
-.brainstorm__homepage{
-  width: 100%;
+.brainstorm__homepage {
+  width: 90%;
   height: auto;
   object-fit: cover;
   margin-bottom: 30px;
