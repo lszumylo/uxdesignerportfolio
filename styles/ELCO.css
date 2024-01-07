@@ -924,14 +924,14 @@ font-family: 'Taviraj', serif;
 
 .typography__pairings {
   flex: 1;
-  width: 110%; /* Reduce the width to 130% (adjust according to your preference) */
+  width: 90%; /* Reduce the width to 130% (adjust according to your preference) */
   height: auto; /* Maintain the aspect ratio */
   margin-top: 60px;
   margin-bottom: 60px;
   margin-right: 20px; /* Adjust the margin if needed */
 }
 
-.styling-board__title {
+styling-board__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -948,7 +948,7 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px; 
 }
 
-.styling-board__description {
+styling-board__description {
   font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
@@ -959,7 +959,7 @@ font-family: 'Taviraj', serif;
 
 
 
-.styling-board {
+styling-board {
   width: 75%; /* Set width to 75% of the parent container */
   height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Ensure images don't exceed their natural size */
@@ -969,7 +969,7 @@ font-family: 'Taviraj', serif;
 }
 
 
-.h-fidelity__title {
+h-fidelity__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -986,7 +986,7 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px; 
 }
 
-.h-fidelity__description {
+h-fidelity__description {
   font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
@@ -995,7 +995,7 @@ font-family: 'Taviraj', serif;
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-.user-test__title-hi-fi {
+user-test__title-hi-fi {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1012,7 +1012,7 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px; 
 } 
   
-.user-test__description-hi-fi {
+user-test__description-hi-fi {
   font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
@@ -1021,7 +1021,7 @@ font-family: 'Taviraj', serif;
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-.user-test__subtitle-hi-fi {
+user-test__subtitle-hi-fi {
    height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1040,7 +1040,7 @@ font-family: 'Taviraj', serif;
 
 
 
-.user-test__list-item-hi-fi {
+user-test__list-item-hi-fi {
 font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
@@ -1052,7 +1052,7 @@ font-family: 'Taviraj', serif;
 }  
 
 
-.outcome-summary__title-hi-fi {
+outcome-summary__title-hi-fi {
    height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1069,7 +1069,7 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px; 
 } 
   
-.outcome-summary__description-hi-fi {
+outcome-summary__description-hi-fi {
   font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
@@ -1078,7 +1078,7 @@ font-family: 'Taviraj', serif;
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-.recap__title-hi-fi {
+recap__title-hi-fi {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1095,19 +1095,7 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px; 
 } 
 
-.recap__list-hi-fi {
-  font-family: 'Taviraj', serif;
-  color: #000000;
-  font-weight: normal;
-  font-size: 16px;
-  text-align: left;
-  margin: 24px 10px;
-  padding-left: 30px; /* add left padding to increase space between numbers and text */
-  padding-bottom: 30px;
-}
-
-
-.recap__item-hi-fi {
+recap__list-hi-fi {
   font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
@@ -1119,7 +1107,19 @@ font-family: 'Taviraj', serif;
 }
 
 
-.realizations-hi-fi__title {
+recap__item-hi-fi {
+  font-family: 'Taviraj', serif;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 10px;
+  padding-left: 30px; /* add left padding to increase space between numbers and text */
+  padding-bottom: 30px;
+}
+
+
+realizations-hi-fi__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1137,7 +1137,7 @@ font-family: 'Taviraj', serif;
 } 
 
 
-.realizations-hi-fi__description {
+realizations-hi-fi__description {
  font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
@@ -1146,7 +1146,7 @@ font-family: 'Taviraj', serif;
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-.ponder-hi-fi__thoughts-title {
+ponder-hi-fi__thoughts-title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1163,7 +1163,7 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px; 
 } 
 
-.ponder-hi-fi__thoughts-description {
+ponder-hi-fi__thoughts-description {
  font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
@@ -1172,7 +1172,7 @@ font-family: 'Taviraj', serif;
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-.revamp__title {
+revamp__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1189,7 +1189,7 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px; 
 } 
 
-.revamp__description {
+revamp__description {
  font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
@@ -1198,16 +1198,16 @@ font-family: 'Taviraj', serif;
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-.revamp__image-home {
+revamp__image-home {
 }
 
-.revamp__image-about {
+revamp__image-about {
 }
 
-.revamp__image-services {
+revamp__image-services {
 }
 
-.section-divider__title {
+section-divider__title {
  height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1225,7 +1225,7 @@ font-family: 'Taviraj', serif;
 } 
 
 
-.completion__title {
+completion__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1242,7 +1242,7 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px; 
 } 
 
-.completion__description {
+completion__description {
  font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
@@ -1251,7 +1251,7 @@ font-family: 'Taviraj', serif;
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-.assessment__title {
+assessment__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1268,7 +1268,7 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px; 
 } 
 
-.assessment__description {
+assessment__description {
  font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
