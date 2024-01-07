@@ -932,7 +932,7 @@ font-family: 'Taviraj', serif;
   margin-right: 20px; /* Adjust the margin if needed */
 }
 
-.styling-board__title {
+styling-board__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -949,7 +949,7 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px; 
 }
 
-.styling-board__description {
+styling-board__description {
  font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
@@ -969,7 +969,7 @@ font-family: 'Taviraj', serif;
   padding: 5px; /* Add some padding around the images */
 }
 
-.h-fidelity__title {
+h-fidelity__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -986,7 +986,7 @@ font-family: 'Taviraj', serif;
   margin-bottom: 30px; 
 }
 
-.h-fidelity__description {
+h-fidelity__description {
   font-family: 'Taviraj', serif;
   color: #000000;
   font-weight: normal;
