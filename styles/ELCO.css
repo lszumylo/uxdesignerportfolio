@@ -233,18 +233,6 @@ img {
 }
   
 
-.section-divider {
-  text-align: center; /* Aligns text content within the element */
-  margin: 0 auto; /* Horizontal centering by setting left and right margins to auto */
-  border-top: 1.5px solid #ccc; /* Border color set to light gray */
-  border-bottom: 1.5px solid #ccc; /* Border color set to light gray */
-  margin-top: 50px;
-  margin-bottom: 50px;
-  width: 100%;
-  color: #000000; /* Keep the color as it is */
-}
-
-
 .research__subtitle {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
