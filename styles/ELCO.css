@@ -43,6 +43,24 @@ h4 {
   font-size: 24px;
 }
 
+.__Title {
+   height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #005F85;
+    text-align: center;
+    margin: 0 auto; /* center the element horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
 .navbar {
   background-color: #434F5B;
   position: fixed;
@@ -961,22 +979,8 @@ styling-board__description {
   padding: 5px; /* Add some padding around the images */
 }
 
-.h-fidelity__Title {
-   height: 21px !important;
-    font-family: 'Work Sans', sans-serif !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 20px !important;
-    line-height: 38px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    color: #005F85 !important;
-    text-align: center !important;
-    margin: 0 auto !important; /* center the element horizontally */
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
+h-fidelity__Title {
+  
 
 
  
@@ -986,23 +990,7 @@ h-fidelity__description {
 
 }
 
-.user-test__title-hi-fi {
-  height: 21px !important;
-    font-family: 'Work Sans', sans-serif !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 20px !important;
-    line-height: 38px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    color: #005F85 !important;
-    text-align: center !important;
-    margin: 0 auto !important; /* center the element horizontally */
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
-
+user-test__title-hi-fi {
  
 
 
@@ -1044,44 +1032,16 @@ font-family: 'Taviraj', serif;
 }  
 
 
-.outcome-summary__Title-hi-fi {
-   height: 21px !important;
-    font-family: 'Work Sans', sans-serif !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 20px !important;
-    line-height: 38px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    color: #005F85 !important;
-    text-align: center !important;
-    margin: 0 auto !important; /* center the element horizontally */
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-} 
+outcome-summary__Title-hi-fi {
+  
 
   
 outcome-summary__description-hi-fi {
 
  ]
 
-.recap__Title-hi-fi {
-  height: 21px !important;
-    font-family: 'Work Sans', sans-serif !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 20px !important;
-    line-height: 38px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    color: #005F85 !important;
-    text-align: center !important;
-    margin: 0 auto !important; /* center the element horizontally */
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
+recap__Title-hi-fi {
+ 
 
 
 
@@ -1109,22 +1069,8 @@ recap__item-hi-fi {
 }
 
 
-.realizations-hi-fi__Title {
-  height: 21px !important;
-    font-family: 'Work Sans', sans-serif !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 20px !important;
-    line-height: 38px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    color: #005F85 !important;
-    text-align: center !important;
-    margin: 0 auto !important; /* center the element horizontally */
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
+realizations-hi-fi__Title {
+ 
 
 
 
@@ -1132,22 +1078,8 @@ realizations-hi-fi__description {
 
 }
 
-.ponder-hi-fi__thoughts-Title {
- height: 21px !important;
-    font-family: 'Work Sans', sans-serif !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 20px !important;
-    line-height: 38px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    color: #005F85 !important;
-    text-align: center !important;
-    margin: 0 auto !important; /* center the element horizontally */
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
+ponder-hi-fi__thoughts-Title {
+ 
 }
 
 ponder-hi-fi__thoughts-description {
@@ -1159,22 +1091,8 @@ ponder-hi-fi__thoughts-description {
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-.revamp__Title {
-   height: 21px !important;
-    font-family: 'Work Sans', sans-serif !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 20px !important;
-    line-height: 38px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    color: #005F85 !important;
-    text-align: center !important;
-    margin: 0 auto !important; /* center the element horizontally */
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
+revamp__Title {
+   
 
 revamp__description {
 
@@ -1186,45 +1104,15 @@ section-divider__title {
 
 } 
 
-.completion__Title {
-    height: 21px !important;
-    font-family: 'Work Sans', sans-serif !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 20px !important;
-    line-height: 38px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    color: #005F85 !important;
-    text-align: center !important;
-    margin: 0 auto !important; /* center the element horizontally */
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
-
+completion__Title {
+  
 
 
 completion__description {
 }
 
-.assessment__Title {
-   height: 21px !important;
-    font-family: 'Work Sans', sans-serif !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 20px !important;
-    line-height: 38px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    color: #005F85 !important;
-    text-align: center !important;
-    margin: 0 auto !important; /* center the element horizontally */
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
-
+assessment__Title {
+  
  
 
 assessment__description {
