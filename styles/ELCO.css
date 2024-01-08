@@ -978,10 +978,8 @@ styling-board__description
   margin-bottom: 30px; 
 }
 
-
-
-.user-test__Title-hi-fi
- height: 21px;
+.user-test__Title-hi-fi {
+  height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -998,7 +996,7 @@ styling-board__description
 } 
 
 
-user-test__subtitle-hi-fi {
+.user-test__subtitle-hi-fi {
    height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1133,7 +1131,7 @@ ponder-hi-fi__thoughts-description {
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-.revamp__Title {
+.revampTitle {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
