@@ -233,16 +233,15 @@ img {
 }
   
 
-
-/* Style for the section containing the Research title and dividers */
 .section-divider {
-  border-top: 1.5px solid #ccc;
-  border-bottom: 1.5px solid #ccc;
-  text-align: center;
-  color: #000000; /* Keep the color as it is */
+  text-align: center; /* Aligns text content within the element */
+  margin: 0 auto; /* Horizontal centering by setting left and right margins to auto */
+  border-top: 1.5px solid #ccc; /* Border color set to light gray */
+  border-bottom: 1.5px solid #ccc; /* Border color set to light gray */
   margin-top: 50px;
   margin-bottom: 50px;
-  width: 100%; /* Set the width to 100% to make the lines span the full page width */
+  width: 100%;
+  color: #000000; /* Keep the color as it is */
 }
 
 
