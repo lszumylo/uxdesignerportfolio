@@ -980,8 +980,7 @@ styling-board__description
 
 
 
-
-.user-test__title-hi-fi {
+.user-test__Title-hi-fi
  height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1004,7 +1003,7 @@ user-test__subtitle-hi-fi {
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 38px;
   display: flex;
   align-items: center;
@@ -1014,7 +1013,8 @@ user-test__subtitle-hi-fi {
   margin: 0 auto; /* center the element horizontally */
   margin-top: 30px;
   margin-bottom: 30px; 
-} 
+  }
+    
 
 
 
@@ -1090,8 +1090,7 @@ recap__item-hi-fi {
   padding-bottom: 30px;
 }
 
-
-.realizations-hi-fi__Title {
+.realizations-hi-fi__title {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -1108,8 +1107,8 @@ recap__item-hi-fi {
   margin-bottom: 30px; 
 }
 
-.ponder-hi-fi__thoughts-Title {
-  height: 21px;
+.ponder-hi-fi__thoughts-title {
+   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
