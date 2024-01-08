@@ -1086,12 +1086,23 @@ section-divider__title {
 
 } 
 
-completion__Title {
-  
-
-
-completion__description {
+.closing__title {
+ height: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 50px;
+  margin-bottom: 30px; 
 }
+ 
+
 
 .assessmentTitle {
   height: 20px;
