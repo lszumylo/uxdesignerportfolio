@@ -948,7 +948,7 @@ font-family: 'Taviraj', serif;
 
 
 
-styling-board__description {
+styling-board__description 
  
 
 
@@ -961,27 +961,43 @@ styling-board__description {
   padding: 5px; /* Add some padding around the images */
 }
 
-h-fidelity__Title {
-  
-
-
- 
-
-
-h-fidelity__description {
-
+.h-fidelity__Title {
+   height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 50px;
+  margin-bottom: 30px; 
 }
 
-user-test__title-hi-fi {
- 
 
 
- 
 
-  
-user-test__description-hi-fi {
- 
-}
+.user-test__title-hi-fi {
+ height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 50px;
+  margin-bottom: 30px; 
+} 
+
 
 user-test__subtitle-hi-fi {
    height: 21px;
@@ -1014,16 +1030,40 @@ font-family: 'Taviraj', serif;
 }  
 
 
-outcome-summary__Title-hi-fi {
-  
+.outcome-summary__Title-hi-fi {
+   height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 50px;
+  margin-bottom: 30px; 
+}
 
-  
-outcome-summary__description-hi-fi {
 
- ]
-
-recap__Title-hi-fi {
- 
+.recap__Title-hi-fi {
+  height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 50px;
+  margin-bottom: 30px; 
+}
 
 
 
@@ -1051,17 +1091,38 @@ recap__item-hi-fi {
 }
 
 
-realizations-hi-fi__Title {
- 
-
-
-
-realizations-hi-fi__description {
-
+.realizations-hi-fi__Title {
+  height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 50px;
+  margin-bottom: 30px; 
 }
 
-ponder-hi-fi__thoughts-Title {
- 
+.ponder-hi-fi__thoughts-Title {
+  height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 50px;
+  margin-bottom: 30px; 
 }
 
 ponder-hi-fi__thoughts-description {
@@ -1073,8 +1134,22 @@ ponder-hi-fi__thoughts-description {
   margin: 24px 10px; /* Adjust the top and bottom margins as needed */
 }
 
-revamp__Title {
-   
+.revamp__Title {
+  height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 50px;
+  margin-bottom: 30px; 
+}  
 
 revamp__description {
 
@@ -1082,18 +1157,25 @@ revamp__description {
 
 
 
-section-divider__title {
-
+.section-divider__title {
+ height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 50px;
+  margin-bottom: 30px; 
 } 
 
 .closing__title {
- height: 20px;
-}
- 
-
-
-.assessmentTitle {
-  height: 20px;
+   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1109,6 +1191,24 @@ section-divider__title {
   margin-bottom: 30px; 
 }
  
+
+
+.assessmentTitle {
+  height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #005F85;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 50px;
+  margin-bottom: 30px; 
+}
 
 .assessmentDescription {
   font-family: 'Taviraj', serif;
