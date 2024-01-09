@@ -939,8 +939,8 @@ styling-board__description
  
 
 
-styling-board {
-  width: 50%; /* Set width to 75% of the parent container */
+.styling-board {
+  width: 25%; /* Set width to 75% of the parent container */
   height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Ensure images don't exceed their natural size */
   display: block; /* Ensure images are treated as blocks */
