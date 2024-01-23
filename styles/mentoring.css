@@ -76,3 +76,34 @@ h4 {
 }
 
 
+/* Tablet styles */
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+    body {
+        padding-top: 100px; /* Adjust top padding for tablets */
+    }
+    h1 {
+        font-size: 30px; /* Adjust font size for tablets */
+    }
+    img {
+        max-width: 100%; /* Make images responsive within the container */
+        height: auto;
+    }
+    /* Add other tablet-specific styles as needed */
+}
+
+/* Mobile styles */
+@media screen and (max-width: 599px) {
+    body {
+        padding-top: 80px; /* Adjust top padding for mobile */
+    }
+    h1 {
+        font-size: 24px; /* Adjust font size for mobile */
+    }
+    img {
+        max-width: 100%; /* Make images responsive within the container */
+        height: auto;
+    }
+    /* Add other mobile-specific styles as needed */
+}
+
+
