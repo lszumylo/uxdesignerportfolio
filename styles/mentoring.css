@@ -35,6 +35,58 @@ h4 {
   font-size: 24px;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8; /* Adjust background color as needed */
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333; /* Adjust link color as needed */
+}
+
+.burger-btn {
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+/* Hide links initially on mobile */
+@media screen and (max-width: 767px) {
+    .nav-links {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links.show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px; /* Adjust the distance from the top as needed */
+        left: 0;
+        width: 100%;
+        background-color: #f8f8f8; /* Adjust background color as needed */
+    }
+
+    .nav-link {
+        margin: 10px;
+    }
+}
+
 .mentoring-title {
   text-align: center;
 }
