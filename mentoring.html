@@ -31,6 +31,18 @@
     </div>
 </div>
 
+
+ <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const burgerBtn = document.querySelector('.burger-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        burgerBtn.addEventListener('click', function () {
+            navLinks.classList.toggle('show');
+        });
+    });
+</script>
+
  
  <section class="mentoring-container">
         <h1 class="mentoring-title">UX Design Guidance Sessions</h1>
