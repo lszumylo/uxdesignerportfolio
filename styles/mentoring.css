@@ -57,6 +57,8 @@ h4 {
     cursor: pointer;
     border: none;
     background: none;
+    color: #333; /* Adjust the color to match the nav link color */
+    display: none; /* Hide the hamburger button by default on desktop */
 }
 
 /* Mobile styles for Navbar */
@@ -65,7 +67,7 @@ h4 {
         display: none;
     }
 
-    .nav-links.show {
+ .nav-links.show {
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -78,9 +80,21 @@ h4 {
     .nav-link {
         margin: 10px;
         text-align: center;
+        color: #006DB6; /* Adjust the color to match the nav link color */
+    }
+
+   /* Dropdown text color */
+    .nav-links.show .nav-link {
+        color: #006DB6; /* Adjust the color to match the nav link color */
+    }
+
+    /* Show hamburger button on mobile */
+    .burger-btn {
+        display: block;
     }
 }
 
+  
 /* Mentoring section styles */
 .mentoring-title {
     text-align: center;
