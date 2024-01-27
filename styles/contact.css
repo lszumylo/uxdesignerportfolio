@@ -25,8 +25,6 @@ font-family: Taviraj, serif;
 }
 
 
-}
-
 .letter {
   position: relative;
   height: 110px;
@@ -394,22 +392,6 @@ button {
   padding-left: 27px;
 }
 
-.phone-icon {
-  left: 24px;
-  top: 38px;
-  }
-
-.call {
-  font-size: 16px;
-  padding-left: 126px;
-  top: -55px;
-}
-
-.number {
-  font-size: 16px;
-  padding-left: 126px;
-  top: -51px;
-  }
 
   .letter {
     height: 80px;
