@@ -180,3 +180,31 @@ a {
   font-size: 14px;
   margin-top: 10px; /* Add margin at the top of the copyright text */
 }
+
+
+@media only screen and (max-width: 767px) {
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-item {
+    width: 100%;
+    margin-bottom: 30px; /* Adjusted margin for more spacing */
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .project-card img {
+    width: 100%;
+    max-width: 100%; /* Adjusted max-width for larger images */
+    height: auto;
+  }
+
+  .description {
+    text-align: center;
+  }
+}
