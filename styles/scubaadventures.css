@@ -867,4 +867,18 @@ text-align: center;
 }
 
 
+/* Mobile styles */
+@media screen and (max-width: 599px) {
+    body {
+        padding-top: 80px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    /* Add other mobile-specific styles as needed */
+}
 
