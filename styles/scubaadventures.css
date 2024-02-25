@@ -865,9 +865,6 @@ text-align: center;
   margin-top: 10px; /* Add margin at the top of the copyright text */
 }
 
-
-
-
 /* Mobile styles */
 @media screen and (max-width: 599px) {
   body {
@@ -901,18 +898,18 @@ text-align: center;
   }
   
   .our-users {
-    margin-bottom: 10px; /* Adjust margin for "Our Users" heading */
+    margin-bottom: 30px; /* Adjust margin for "Our Users" heading */
   }
   
   .user-details {
-    margin-bottom: 20px; /* Adjust margin for user details subtext */
+    margin-bottom: 30px; /* Adjust margin for user details subtext */
   }
 
   /* Adjust space below the images of personas */
   .g-clark,
   .MHerbert,
   .DKuhn {
-    margin-bottom: 10px; /* Adjust the margin as needed */
+    margin-bottom: 30px; /* Adjust the margin as needed */
   }
 }
 
