@@ -865,6 +865,7 @@ text-align: center;
   margin-top: 10px; /* Add margin at the top of the copyright text */
 }
 
+
 /* Mobile styles */
 @media screen and (max-width: 599px) {
   body {
@@ -887,6 +888,8 @@ text-align: center;
   .architecture-heading {
     margin-top: 20px; /* Adjust the margin as needed */
   }
+
+  /* Add more mobile-specific styles here if necessary */
 }
 
 /* Larger screens */
@@ -919,3 +922,10 @@ text-align: center;
 
   /* Add other desktop-specific styles as needed */
 }
+
+
+
+
+
+
+
