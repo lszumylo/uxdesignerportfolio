@@ -866,6 +866,7 @@ text-align: center;
 }
 
 
+
 /* Mobile styles */
 @media screen and (max-width: 599px) {
   body {
@@ -889,7 +890,14 @@ text-align: center;
     margin-top: 20px; /* Adjust the margin as needed */
   }
 
-  /* Add more mobile-specific styles here if necessary */
+  /* Add styles to address overlapping text on mobile devices */
+  .column {
+    margin-bottom: 20px; /* Add margin between columns to prevent overlapping */
+  }
+
+  .desires {
+    margin-bottom: 10px; /* Add margin between desires to improve readability */
+  }
 }
 
 /* Larger screens */
@@ -922,9 +930,6 @@ text-align: center;
 
   /* Add other desktop-specific styles as needed */
 }
-
-
-
 
 
 
