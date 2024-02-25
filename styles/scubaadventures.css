@@ -882,6 +882,36 @@ text-align: center;
 }
 
 
+/* Mobile styles */
+@media screen and (min-width: 600px) {
+  body {
+    padding-top: 80px;
+  }
+
+  h1 {
+    font-size: 36px; /* Reset font size for larger screens */
+  }
+
+  /* Add other tablet-specific styles as needed */
+}
+
+/* Tablet and larger screens */
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0 40px; /* Adjusted margin for larger screens */
+  }
+
+  /* Add other tablet-specific styles as needed */
+}
+
+/* Larger screens */
+@media screen and (min-width: 1200px) {
+  body {
+    margin: 0 80px; /* Adjusted margin for larger screens */
+  }
+
+  /* Add other desktop-specific styles as needed */
+}
 
 
 
