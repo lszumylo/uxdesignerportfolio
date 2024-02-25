@@ -865,19 +865,23 @@ text-align: center;
   margin-top: 10px; /* Add margin at the top of the copyright text */
 }
 
+
 /* Mobile styles */
 @media screen and (max-width: 599px) {
   body {
     padding-top: 80px;
     margin: 0 10px; /* Adjusted margin for smaller screens */
   }
+
   h1 {
     font-size: 24px;
   }
+
   img {
     max-width: 100%;
     height: auto;
   }
+
   /* Add other mobile-specific styles as needed */
 
   .spacing-break {
@@ -930,6 +934,11 @@ text-align: center;
   .column:nth-child(2) {
     margin-top: -2px; /* Adjust the value as needed */
     margin-bottom: 22px; /* Adjust the bottom margin to counteract the negative top margin */
+  }
+
+  /* Add margin to the Our Users section */
+  .our-users {
+    margin-bottom: 100px; /* Adjust the margin as needed */
   }
 }
 
