@@ -871,50 +871,67 @@ text-align: center;
     padding-top: 80px;
     margin: 0 10px; /* Adjusted margin for smaller screens */
   }
-  
   h1 {
     font-size: 24px;
   }
-  
   img {
     max-width: 100%;
     height: auto;
   }
-  
+  /* Add other mobile-specific styles as needed */
+
   .spacing-break {
     margin-bottom: 20px; /* Adjust the margin as needed */
   }
-  
+
   .architecture-heading {
     margin-top: 20px; /* Adjust the margin as needed */
   }
-  
+
+  /* Add styles to address overlapping text on mobile devices */
   .column {
     margin-bottom: 20px; /* Add margin between columns to prevent overlapping */
   }
-  
+
   .desires {
     margin-bottom: 10px; /* Add margin between desires to improve readability */
   }
-  
-  .our-users {
-    margin-bottom: 30px; /* Adjust margin for "Our Users" heading */
-  }
-  
-  .user-details {
-    margin-bottom: 30px; /* Adjust margin for user details subtext */
-  }
 
-  /* Adjust space below the images of personas */
+  /* Add space below the images of personas */
   .g-clark,
   .MHerbert,
   .DKuhn {
-    margin-bottom: 30px; /* Adjust the margin as needed */
+    margin-bottom: 40px; /* Adjust the margin as needed */
+  }
+
+  /* Two-column layout */
+  .row {
+    display: flex;
+    flex-direction: row; /* Arrange columns in a row */
+    align-items: flex-start; /* Align items at the start of the flex container */
+    margin-bottom: 40px; /* Add margin after the user stories section */
+  }
+
+  /* Style for each column */
+  .column {
+    flex: 1; /* Equal width for both columns */
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* Additional styling for user needs column */
+  .as-user,
+  .as-owner {
+    text-align: center; /* Center-align headings if desired */
+    margin-top: 0; /* Adjust top margin for headings */
+  }
+
+  /* Style for the second column (right column) */
+  .column:nth-child(2) {
+    margin-top: -2px; /* Adjust the value as needed */
+    margin-bottom: 22px; /* Adjust the bottom margin to counteract the negative top margin */
   }
 }
-
-
-
 
 
 
