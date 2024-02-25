@@ -865,8 +865,6 @@ text-align: center;
   margin-top: 10px; /* Add margin at the top of the copyright text */
 }
 
-
-
 /* Mobile styles */
 @media screen and (max-width: 599px) {
   body {
@@ -897,6 +895,13 @@ text-align: center;
 
   .desires {
     margin-bottom: 10px; /* Add margin between desires to improve readability */
+  }
+
+  /* Add space below the images of personas */
+  .g-clark,
+  .MHerbert,
+  .DKuhn {
+    margin-bottom: 20px; /* Adjust the margin as needed */
   }
 }
 
@@ -930,7 +935,6 @@ text-align: center;
 
   /* Add other desktop-specific styles as needed */
 }
-
 
 
 
