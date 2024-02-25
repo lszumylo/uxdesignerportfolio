@@ -865,56 +865,56 @@ text-align: center;
   margin-top: 10px; /* Add margin at the top of the copyright text */
 }
 
+
+
+
 /* Mobile styles */
 @media screen and (max-width: 599px) {
   body {
     padding-top: 80px;
     margin: 0 10px; /* Adjusted margin for smaller screens */
   }
+  
   h1 {
     font-size: 24px;
   }
+  
   img {
     max-width: 100%;
     height: auto;
   }
-  /* Add other mobile-specific styles as needed */
-
+  
   .spacing-break {
     margin-bottom: 20px; /* Adjust the margin as needed */
   }
-
+  
   .architecture-heading {
     margin-top: 20px; /* Adjust the margin as needed */
   }
-
-  /* Add styles to address overlapping text on mobile devices */
+  
   .column {
     margin-bottom: 20px; /* Add margin between columns to prevent overlapping */
   }
-
+  
   .desires {
     margin-bottom: 10px; /* Add margin between desires to improve readability */
   }
+  
+  .our-users {
+    margin-bottom: 10px; /* Adjust margin for "Our Users" heading */
+  }
+  
+  .user-details {
+    margin-bottom: 20px; /* Adjust margin for user details subtext */
+  }
 
-  /* Add space below the images of personas */
+  /* Adjust space below the images of personas */
   .g-clark,
   .MHerbert,
   .DKuhn {
-    margin-bottom: 20px; /* Adjust the margin as needed */
-  }
-
-  /* Adjust margin for the heading "Our Users" */
-  .our-users {
-    margin-bottom: 20px; /* Adjust the margin as needed */
-  }
-
-  /* Adjust margin for the associated text */
-  .user-details {
-    margin-bottom: 20px; /* Adjust the margin as needed */
+    margin-bottom: 10px; /* Adjust the margin as needed */
   }
 }
-
 
 
 
