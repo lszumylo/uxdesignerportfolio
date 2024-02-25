@@ -901,14 +901,24 @@ text-align: center;
   .g-clark,
   .MHerbert,
   .DKuhn {
-    margin-bottom: 40px; /* Adjust the margin as needed */
+    margin-bottom: 20px; /* Adjust the margin as needed */
   }
 
   /* Adjust margin for the heading "Our Users" */
   .our-users {
-    margin-bottom: 40px; /* Adjust the margin as needed */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+
+  /* Adjust margin for the associated text */
+  .user-details {
+    margin-bottom: 20px; /* Adjust the margin as needed */
   }
 }
+
+
+
+
+
 
 
 /* Larger screens */
