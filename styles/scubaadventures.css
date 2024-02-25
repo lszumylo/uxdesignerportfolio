@@ -937,7 +937,7 @@ text-align: center;
 
   /* Add margin to the Our Users section */
   .our-users {
-    margin-bottom: 20px; /* Adjust the margin as needed */
+    margin-bottom: 80px; /* Move the title down by 4 rows */
   }
 
   /* Add margin to reduce space between Our Users and User Details */
@@ -945,6 +945,8 @@ text-align: center;
     margin-top: 10px; /* Adjust the margin as needed */
   }
 }
+
+
 
 
 /* Larger screens */
