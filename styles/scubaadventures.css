@@ -865,7 +865,6 @@ text-align: center;
   margin-top: 10px; /* Add margin at the top of the copyright text */
 }
 
-
 /* Mobile styles */
 @media screen and (max-width: 599px) {
   body {
@@ -911,9 +910,9 @@ text-align: center;
   /* Two-column layout */
   .row {
     display: flex;
-    flex-direction: row; /* Arrange columns in a row */
+    flex-direction: column; /* Change to column layout for mobile */
     align-items: flex-start; /* Align items at the start of the flex container */
-    margin-bottom: 400px; /* Add margin after the user stories section */
+    margin-bottom: 100px; /* Adjust margin after the user stories section */
   }
 
   /* Style for each column */
@@ -938,10 +937,14 @@ text-align: center;
 
   /* Add margin to the Our Users section */
   .our-users {
-    margin-bottom: 600px; /* Adjust the margin as needed */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+
+  /* Add margin to reduce space between Our Users and User Details */
+  .user-details {
+    margin-top: 10px; /* Adjust the margin as needed */
   }
 }
-
 
 
 /* Larger screens */
