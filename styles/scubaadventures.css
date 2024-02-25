@@ -865,11 +865,11 @@ text-align: center;
   margin-top: 10px; /* Add margin at the top of the copyright text */
 }
 
-
 /* Mobile styles */
 @media screen and (max-width: 599px) {
   body {
     padding-top: 80px;
+    margin: 0 10px; /* Adjusted margin for smaller screens */
   }
   h1 {
     font-size: 24px;
@@ -879,10 +879,17 @@ text-align: center;
     height: auto;
   }
   /* Add other mobile-specific styles as needed */
+
+  .spacing-break {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+
+  .architecture-heading {
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
 }
 
-
-/* Mobile styles */
+/* Larger screens */
 @media screen and (min-width: 600px) {
   body {
     padding-top: 80px;
@@ -912,12 +919,3 @@ text-align: center;
 
   /* Add other desktop-specific styles as needed */
 }
-
-
-
-
-
-
-  
-
-
