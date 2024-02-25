@@ -909,7 +909,7 @@ text-align: center;
     display: flex;
     flex-direction: row; /* Arrange columns in a row */
     align-items: flex-start; /* Align items at the start of the flex container */
-    margin-bottom: 40px; /* Add margin after the user stories section */
+    margin-bottom: 90px; /* Add margin after the user stories section */
   }
 
   /* Style for each column */
