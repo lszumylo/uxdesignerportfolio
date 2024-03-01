@@ -97,22 +97,22 @@ body {
 }
 
 
-.button-container {
+a.button-container {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-.button-container a {
+a.button-container a {
   text-decoration: none;
 }
 
-.works-button-container {
+a.works-button-container {
   text-align: center;
 }
 
-.works-button,
-.consult-button {
+a.works-button,
+a.consult-button {
   display: inline-block;
   padding: 10px 20px;
   text-decoration: none;
