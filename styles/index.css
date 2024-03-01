@@ -97,46 +97,54 @@ body {
 }
 
 
-.button-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px; /* Adjust the margin as needed */
-}
+  .button-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
 
-.works-button,
-.consult-button {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s; /* Added color transition */
-    cursor: pointer;
-}
+    .works-button-container {
+      text-align: center;
+    }
 
-.works-button {
-    background-color: #E5D4B8;
-    color: #232323;
-    border: 1px solid #434F5B;
-}
 
-.works-button:hover {
-    background-color: #CCBA9E;
-    color: #232323;
-    text-decoration: none;
-}
+    .works-button,
+    .consult-button {
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s, color 0.3s;
+      cursor: pointer;
+    }
 
-.consult-button {
-    background-color: #000000;
-    color: #E5D4B8;
-    border: 1px solid #E5D4B8;
-}
+    .works-button {
+      background-color: #E5D4B8;
+      color: #232323;
+      border: 1px solid #434F5B;
+    }
 
-.consult-button:hover {
-    background-color: #3D3D3D;
-    color: #E5D4B8;
-    text-decoration: none;
-}
+
+ .works-button:hover {
+      background-color: #CCBA9E;
+      color: #232323;
+      text-decoration: none;
+    }
+
+    .consult-button {
+      background-color: #000000;
+      color: #E5D4B8;
+      border: 1px solid #E5D4B8;
+    }
+
+    .consult-button:hover {
+      background-color: #3D3D3D;
+      color: #E5D4B8;
+      text-decoration: none;
+    }
+
+
 
 /* Additional styles to remove underline */
 .selected-works-button-container {
