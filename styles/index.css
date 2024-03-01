@@ -118,6 +118,28 @@ body {
   text-decoration: none; /* Remove underline on hover */
 }
 
+.consult-button-container {
+    text-align: center;
+}
+
+.consult-button {
+  display: inline-block;
+  background-color: #E5D4B8;
+  color: #232323;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 1px solid #434F5B;
+  transition: background-color 0.3s;
+  cursor: pointer; /* Add cursor property */
+}
+
+.consult-button:hover {
+  background-color: #CCBA9E;
+  color: #232323;
+  text-decoration: none;
+}
 
 .site-footer {
   width: 100%;
