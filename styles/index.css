@@ -138,18 +138,20 @@ body {
 }
 
 .consult-button {
-  background-color: #E5D4B8;
-  color: #232323;
-  border: 1px solid #434F5B;
-  text-decoration: none;
-}
-
-.consult-button:hover {
-  background-color: #3D3D3D;
+   background-color: #3D3D3D;
   color: #E5D4B8;
   text-decoration: none;
   /* Remove text-decoration from hover to ensure consistency */
 }
+
+
+.consult-button:hover {
+   background-color: #CCBA9E;
+  color: #232323;
+  text-decoration: none;
+  /* Remove text-decoration from hover to ensure consistency */
+}
+
 
 
 .site-footer {
