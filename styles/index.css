@@ -96,6 +96,65 @@ body {
     height: auto;
 }
 
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.works-button-container {
+  text-align: center;
+}
+
+.works-button,
+.consult-button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.works-button {
+  background-color: #E5D4B8;
+  color: #232323;
+  border: 1px solid #434F5B;
+}
+
+.works-button:hover {
+  background-color: #CCBA9E;
+  color: #232323;
+  /* Remove text-decoration from hover to ensure consistency */
+}
+
+.consult-button {
+  background-color: #000000;
+  color: #E5D4B8;
+  border: 1px solid #E5D4B8;
+}
+
+.consult-button:hover {
+  background-color: #3D3D3D;
+  color: #E5D4B8;
+  /* Remove text-decoration from hover to ensure consistency */
+}
+
+/* Additional styles to remove underline */
+.selected-works-button {
+  text-decoration: none;
+  color: #E5D4B8;
+}
+
+.selected-works-button:hover {
+  text-decoration: none;
+}
+
+
+
+
+
 
  
 
