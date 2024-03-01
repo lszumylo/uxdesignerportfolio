@@ -141,15 +141,7 @@ body {
   /* Remove text-decoration from hover to ensure consistency */
 }
 
-/* Additional styles to remove underline */
-.selected-works-button {
-  text-decoration: none;
-  color: #E5D4B8;
-}
 
-.selected-works-button:hover {
-  text-decoration: none;
-}
 
 
 
