@@ -130,7 +130,7 @@ body {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
-  border: 1px solid #434F5B;
+  border: 1px solid #E5D4B8;
   transition: background-color 0.3s;
   cursor: pointer; /* Add cursor property */
 }
