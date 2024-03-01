@@ -96,6 +96,10 @@ body {
     height: auto;
 }
 
+.button-container a {
+  text-decoration: none;
+}
+
 .button-container {
   display: flex;
   justify-content: space-between;
