@@ -122,21 +122,21 @@ body {
   cursor: pointer;
 }
 
-.works-button {
+a.works-button {
   background-color: #E5D4B8;
   color: #232323;
   border: 1px solid #434F5B;
   text-decoration: none;
 }
 
-.works-button:hover {
+a.works-button:hover {
   background-color: #CCBA9E;
   color: #232323;
   text-decoration: none;
   /* Remove text-decoration from hover to ensure consistency */
 }
 
-.consult-button {
+a.consult-button {
   background-color: #80A1A3;
   color: #000000;
   border: 1px solid #000000;
