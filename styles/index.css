@@ -143,9 +143,8 @@ body {
   text-decoration: none;
   }
 
-
-.consult-button:hover {
-   background-color: #6D8990;
+a.consult-button:hover {
+  background-color: #6D8990;
   color: #232323;
   text-decoration: none;
   /* Remove text-decoration from hover to ensure consistency */
