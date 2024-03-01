@@ -146,11 +146,8 @@ body {
 
 
 
-/* Additional styles to remove underline */
-.selected-works-button-container {
-    text-align: center;
-}
 
+/* Additional styles to remove underline */
 .selected-works-button {
     text-decoration: none;
     color: #E5D4B8;
@@ -159,8 +156,6 @@ body {
 .selected-works-button:hover {
     text-decoration: none;
 }
-
-
 
 .site-footer {
   width: 100%;
