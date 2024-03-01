@@ -121,6 +121,8 @@ body {
 
 .works-button:hover {
     background-color: #CCBA9E;
+    color: #232323;
+    text-decoration: none;
 }
 
 .consult-button {
@@ -132,53 +134,12 @@ body {
 .consult-button:hover {
     background-color: #3D3D3D;
     color: #E5D4B8;
+    text-decoration: none;
 }
 
 
-.selected-works-button-container {
-    text-align: center;
-}
 
-.works-button {
-  display: inline-block;
-  background-color: #E5D4B8;
-  color: #232323;
-  padding: 10px 20px;
-  text-decoration: none; /* Remove underline from the text */
-  border-radius: 5px;
-  font-weight: bold;
-  border: 1px solid #434F5B;
-  transition: background-color 0.3s;
-}
 
-.works-button:hover {
-  background-color: #CCBA9E;
-  color: #232323;
-  text-decoration: none; /* Remove underline on hover */
-}
-
-.consult-button-container {
-    text-align: center;
-}
-
-.consult-button {
-  display: inline-block;
-  background-color: #000000;
-  color: #E5D4B8;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  border: 1px solid #E5D4B8;
-  transition: background-color 0.3s;
-  cursor: pointer; /* Add cursor property */
-}
-
-.consult-button:hover {
-  background-color: #3D3D3D;
-  color: #E5D4B8;
-  text-decoration: none;
-}
 
 .site-footer {
   width: 100%;
@@ -187,8 +148,6 @@ body {
   text-align: center;
   padding: 20px 0;
 }
-
-
 
 
 /* Your existing CSS code (for large screens) */
