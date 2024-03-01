@@ -96,6 +96,7 @@ body {
     height: auto;
 }
 
+
 .button-container {
     display: flex;
     justify-content: space-between;
@@ -117,7 +118,6 @@ body {
     background-color: #E5D4B8;
     color: #232323;
     border: 1px solid #434F5B;
-    text-decoration: none;
 }
 
 .works-button:hover {
@@ -137,6 +137,22 @@ body {
     color: #E5D4B8;
     text-decoration: none;
 }
+
+/* Additional styles to remove underline */
+.selected-works-button-container {
+    text-align: center;
+}
+
+.selected-works-button {
+    text-decoration: none;
+    color: #E5D4B8;
+}
+
+.selected-works-button:hover {
+    text-decoration: none;
+}
+
+
 
 .site-footer {
   width: 100%;
