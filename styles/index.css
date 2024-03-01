@@ -137,11 +137,11 @@ body {
 }
 
 .consult-button {
-   background-color: #3D3D3D;
-  color: #E5D4B8;
+  background-color: #80A1A3;
+  color: #000000;
+  border: 1px solid #000000;
   text-decoration: none;
-  /* Remove text-decoration from hover to ensure consistency */
-}
+  }
 
 
 .consult-button:hover {
