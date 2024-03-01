@@ -96,14 +96,16 @@ body {
     height: auto;
 }
 
-.button-container a {
-  text-decoration: none;
-}
+
 
 .button-container {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+}
+
+.button-container a {
+  text-decoration: none;
 }
 
 .works-button-container {
