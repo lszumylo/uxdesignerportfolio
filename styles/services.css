@@ -96,11 +96,7 @@ h4 {
 
   
 /* services section styles */
-.services-title {
-    text-align: center;
-}
-
-.service-title {
+.services-title, .solution-title {
     text-align: center;
 }
 
