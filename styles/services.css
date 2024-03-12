@@ -20,49 +20,41 @@ body {
     color: #fff; /* Adjust link color as needed */
 }
 
-/* Services section styles */
+/* Adjustments for services section */
 .services-container {
-    text-align: center; /* Center the content */
-    margin-bottom: 40px; /* Adjust the margin as needed */
+    text-align: center;
 }
 
-.services-title {
-    font-family: 'Work Sans', sans-serif; /* Apply font family */
-    font-size: 36px; /* Adjust the font size */
-    margin-bottom: 20px; /* Add margin bottom */
-}
-
-.services-content {
-    margin-top: 20px; /* Add space between title and content */
+.service {
+    margin-bottom: 40px;
 }
 
 .solution-title {
-    font-size: 24px; /* Adjust the font size */
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .services-list {
     list-style: none;
     padding-left: 0;
-    margin-top: 20px; /* Adjust the top margin of the services list */
 }
 
 .services-list li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px; /* Increase margin between individual service items */
+    margin-bottom: 15px;
 }
 
 .services-list li strong {
-    font-size: 20px; /* Adjust the font size */
+    font-size: 20px;
 }
 
 .services-list li ul {
-    margin-top: 10px; /* Add space between service items */
+    margin-top: 5px;
 }
 
 .services-list li ul li {
-    font-size: 16px; /* Adjust the font size */
+    font-size: 16px;
 }
+
 
 .contact-link {
     color: #FF6162;
