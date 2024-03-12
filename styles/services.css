@@ -4,34 +4,6 @@ body {
     padding: 0;
     padding-top: 90px; /* Adjust the top padding accordingly */
 }
- 
-p {
-    font-family: 'Taviraj', serif;
-    color: #000000;
-    font-weight: normal;
-    font-size: 16px;
-    margin: 24px 10px;
-}
-
-h1, h2, h3, h4 {
-    font-family: 'Work Sans', sans-serif;
-}
-
-h1 {
-    font-size: 36px;
-}
-
-h2 {
-    font-size: 32px;
-}
-
-h3 {
-    font-size: 26px;
-}
-
-h4 {
-    font-size: 24px;
-}
 
 /* Navbar styles */
 .navbar {
@@ -42,44 +14,53 @@ h4 {
     padding: 10px;
 }
 
-.nav-links {
-    display: flex;
-}
-
 .nav-link {
     margin: 0 15px;
     text-decoration: none;
-    color: #333; /* Adjust link color as needed */
+    color: #fff; /* Adjust link color as needed */
 }
 
-  
-/* services section styles */
+/* Services section styles */
 .services-container {
+    text-align: center; /* Center the content */
     margin-bottom: 40px; /* Adjust the margin as needed */
 }
 
 .services-title {
-    text-align: center;
+    font-family: 'Work Sans', sans-serif; /* Apply font family */
+    font-size: 36px; /* Adjust the font size */
+}
 
- .solution-title {
-    text-align: center;
+.services-content {
+    margin-top: 20px; /* Add space between title and content */
+}
+
+.solution-title {
+    font-size: 24px; /* Adjust the font size */
 }
 
 .services-list {
     list-style: none;
     padding-left: 0;
     margin-top: 20px; /* Adjust the top margin of the services list */
-    margin-bottom: 20px; /* Adjust the bottom margin of the services list */
 }
 
 .services-list li {
     display: flex;
     align-items: center;
-    margin-bottom: 15px; /* Adjust the margin between individual service items */
+    margin-bottom: 30px; /* Increase margin between individual service items */
 }
 
-.services-list li i {
-    margin-right: 10px;
+.services-list li strong {
+    font-size: 20px; /* Adjust the font size */
+}
+
+.services-list li ul {
+    margin-top: 10px; /* Add space between service items */
+}
+
+.services-list li ul li {
+    font-size: 16px; /* Adjust the font size */
 }
 
 .contact-link {
@@ -101,14 +82,9 @@ h4 {
     body {
         padding-top: 100px;
     }
-    h1 {
-        font-size: 30px;
+    .services-title {
+        font-size: 30px; /* Adjust the font size */
     }
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-    /* Add other tablet-specific styles as needed */
 }
 
 /* Mobile styles */
@@ -116,12 +92,11 @@ h4 {
     body {
         padding-top: 80px;
     }
-    h1 {
-        font-size: 24px;
+    .services-title {
+        font-size: 24px; /* Adjust the font size */
     }
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-    /* Add other mobile-specific styles as needed */
 }
+
+
+
+
