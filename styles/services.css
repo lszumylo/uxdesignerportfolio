@@ -29,6 +29,7 @@ body {
 .services-title {
     font-family: 'Work Sans', sans-serif; /* Apply font family */
     font-size: 36px; /* Adjust the font size */
+    margin-bottom: 20px; /* Add margin bottom */
 }
 
 .services-content {
@@ -96,6 +97,12 @@ body {
         font-size: 24px; /* Adjust the font size */
     }
 }
+
+
+
+
+
+
 
 
 
