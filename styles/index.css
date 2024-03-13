@@ -96,7 +96,6 @@ body {
     height: auto;
 }
 
-
 .button-container {
   display: flex;
   justify-content: center;
@@ -119,32 +118,23 @@ a.works-button {
   background-color: #E5D4B8;
   color: #232323;
   border: 1px solid #434F5B;
-  text-decoration: none;
 }
 
 a.works-button:hover {
   background-color: #CCBA9E;
   color: #232323;
-  text-decoration: none;
-  /* Remove text-decoration from hover to ensure consistency */
 }
 
 a.consult-button {
   background-color: #80A1A3;
   color: #000000;
-  border: 1px solid #000000;
-  text-decoration: none;
+  border: 1px solid #434F5B;
 }
 
 a.consult-button:hover {
   background-color: #6D8990;
   color: #232323;
-  text-decoration: none;
-  /* Remove text-decoration from hover to ensure consistency */
 }
-
-
-
 
 
 .site-footer {
