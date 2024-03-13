@@ -68,16 +68,18 @@ a.book-button {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Added border-color transition */
   cursor: pointer;
-  background-color: #E5D4B8;
+  background-color: #FFFFFF; /* White background */
   color: #00204A; /* Navy blue text color */
   border: 1px solid #00204A; /* Navy blue border color */
 }
 
+
 a.book-button:hover {
-  background-color: #CCBA9E;
+  background-color: #D3E9F8; /* Light blue background on hover */
   color: #00204A; /* Navy blue text color on hover */
+  border-color: #D3E9F8; /* Light blue border color on hover */
   text-decoration: none;
   /* Remove text-decoration from hover to ensure consistency */
 }
