@@ -97,9 +97,10 @@ body {
 }
 
 
-a.works-button-container,
-a.consult-button-container {
-  text-align: center;
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 a.works-button,
@@ -141,7 +142,6 @@ a.consult-button:hover {
   text-decoration: none;
   /* Remove text-decoration from hover to ensure consistency */
 }
-
 
 
 
