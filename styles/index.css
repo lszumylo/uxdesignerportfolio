@@ -97,16 +97,10 @@ body {
 }
 
 
-a.button-container {
-  display: flex;
-  justify-content: center; /* Center the buttons horizontally */
-  margin-top: 20px;
+a.works-button-container,
+a.consult-button-container {
+  text-align: center;
 }
-
-a.button-container a {
-  text-decoration: none;
-}
-
 
 a.works-button,
 a.consult-button {
@@ -119,14 +113,6 @@ a.consult-button {
   cursor: pointer;
   margin: 0 10px; /* Add margin to create space between buttons */
 }
-
-
-/* Add this CSS to center the buttons */
-a.works-button-container,
-a.consult-button-container {
-  text-align: center;
-}
-
 
 a.works-button {
   background-color: #E5D4B8;
@@ -155,6 +141,8 @@ a.consult-button:hover {
   text-decoration: none;
   /* Remove text-decoration from hover to ensure consistency */
 }
+
+
 
 
 
