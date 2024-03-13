@@ -29,9 +29,11 @@ body {
     margin-bottom: 40px;
 }
 
+
 .solution-title {
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .services-content {
