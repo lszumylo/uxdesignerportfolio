@@ -96,11 +96,18 @@ body {
     height: auto;
 }
 
+
 .button-container {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
+
+/* Add this rule to make buttons inline */
+.button-container a {
+  display: inline-block;
+}
+
 
 a.works-button,
 a.consult-button {
