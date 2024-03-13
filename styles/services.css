@@ -56,20 +56,15 @@ text-align: center;
     list-style-type: none; /* Remove the bullet points */
 }
 
-
 a.button-container {
   display: flex;
   justify-content: center; /* Center the button horizontally */
   margin-top: 20px;
 }
 
-a.button-container a {
-  text-decoration: none;
-}
-
 a.book-button {
   display: inline-block;
-  padding: 8px 16px; /* Reduced padding */
+  padding: 6px 12px; /* Reduced padding */
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
@@ -87,18 +82,12 @@ a.book-button:hover {
   /* Remove text-decoration from hover to ensure consistency */
 }
 
-
-a.book-button {
-  display: block; /* Change from inline-block to block to center it */
-  margin: 0 auto; /* Center the button horizontally */
-  background-color: #FFFFFF; /* Change background color to white */
-  border: 1px solid #00204A; /* Change border color to navy blue */
+@media screen and (max-width: 599px) {
+  a.book-button {
+    display: block; /* Change from inline-block to block to center it */
+    margin: 0 auto; /* Center the button horizontally */
+  }
 }
-
-a.book-button:hover {
-  border-color: #00204A; /* Change border color on hover */
-}
-
 
 
 
