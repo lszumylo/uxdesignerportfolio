@@ -57,6 +57,50 @@ text-align: center;
 }
 
 
+a.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+a.button-container a {
+  text-decoration: none;
+}
+
+a.book-button-container {
+  text-align: center;
+}
+
+a.book-button,
+ {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+a.book-button {
+  background-color: #E5D4B8;
+  color: #232323;
+  border: 1px solid #434F5B;
+  text-decoration: none;
+}
+
+a.book-button:hover {
+  background-color: #CCBA9E;
+  color: #232323;
+  text-decoration: none;
+  /* Remove text-decoration from hover to ensure consistency */
+}
+
+
+
+
+
+
 
 /* Footer styles */
 .site-footer {
