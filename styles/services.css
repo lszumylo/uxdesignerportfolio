@@ -44,10 +44,17 @@ text-align: center;
 
 .services-list li strong {
     font-size: 20px;
-    margin-left: -20px; /* Adjust the margin as needed */
-    display: block; /* Convert the strong element into a block element */
 }
 
+.services-list li {
+    margin-bottom: 15px;
+    list-style-type: none; /* Remove the bullet points */
+}
+
+.services-list li ul {
+    margin-top: 5px;
+    list-style-type: none; /* Remove the bullet points */
+}
 
 
 
