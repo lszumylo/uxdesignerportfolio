@@ -42,6 +42,15 @@ h4 {
 text-align: center;
 }
 
+.services-list li strong {
+    font-size: 20px;
+    margin-left: -20px; /* Adjust the margin as needed */
+    display: block; /* Convert the strong element into a block element */
+}
+
+
+
+
 /* Footer styles */
 .site-footer {
     width: 100%;
