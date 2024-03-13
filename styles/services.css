@@ -57,6 +57,7 @@ text-align: center;
 }
 
 
+
 a.button-container {
   display: flex;
   justify-content: space-between;
@@ -71,8 +72,7 @@ a.book-button-container {
   text-align: center;
 }
 
-a.book-button,
- {
+a.book-button {
   display: inline-block;
   padding: 10px 20px;
   text-decoration: none;
@@ -80,13 +80,9 @@ a.book-button,
   font-weight: bold;
   transition: background-color 0.3s, color 0.3s;
   cursor: pointer;
-}
-
-a.book-button {
   background-color: #E5D4B8;
   color: #232323;
   border: 1px solid #434F5B;
-  text-decoration: none;
 }
 
 a.book-button:hover {
@@ -96,11 +92,17 @@ a.book-button:hover {
   /* Remove text-decoration from hover to ensure consistency */
 }
 
+a.book-button {
+  display: block; /* Change from inline-block to block to center it */
+  margin: 0 auto; /* Center the button horizontally */
+  background-color: #FFFFFF; /* Change background color to white */
+  color: #232323; /* Change text color to navy blue */
+  border: 1px solid #00204A; /* Change border color to navy blue */
+}
 
-
-
-
-
+a.book-button:hover {
+  border-color: #00204A; /* Change border color on hover */
+}
 
 /* Footer styles */
 .site-footer {
