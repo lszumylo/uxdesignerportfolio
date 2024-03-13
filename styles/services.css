@@ -34,6 +34,10 @@ body {
     margin-bottom: 10px;
 }
 
+.services-content {
+    text-align: left;
+}
+    
 .services-list {
     list-style: none;
     padding-left: 0;
