@@ -96,12 +96,18 @@ body {
     height: auto;
 }
 
-
 .button-container {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
+
+/* Make the buttons inline-block to display them side by side */
+.button-container a.works-button,
+.button-container a.consult-button {
+  display: inline-block;
+}
+
 
 /* Add this rule to make buttons inline */
 .button-container a {
