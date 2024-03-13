@@ -99,16 +99,12 @@ body {
 
 a.button-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Center the buttons horizontally */
   margin-top: 20px;
 }
 
 a.button-container a {
   text-decoration: none;
-}
-
-a.works-button-container {
-  text-align: center;
 }
 
 a.works-button,
@@ -120,6 +116,7 @@ a.consult-button {
   font-weight: bold;
   transition: background-color 0.3s, color 0.3s;
   cursor: pointer;
+  margin: 0 10px; /* Add margin to create space between buttons */
 }
 
 a.works-button {
@@ -141,7 +138,7 @@ a.consult-button {
   color: #000000;
   border: 1px solid #000000;
   text-decoration: none;
-  }
+}
 
 a.consult-button:hover {
   background-color: #6D8990;
@@ -149,6 +146,7 @@ a.consult-button:hover {
   text-decoration: none;
   /* Remove text-decoration from hover to ensure consistency */
 }
+
 
 
 
