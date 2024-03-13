@@ -42,5 +42,42 @@ h4 {
 text-align: center;
 }
 
+/* Footer styles */
+.site-footer {
+    width: 100%;
+    background-color: #434F5B;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
 
+/* Tablet styles */
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+    body {
+        padding-top: 100px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    /* Add other tablet-specific styles as needed */
+}
+
+/* Mobile styles */
+@media screen and (max-width: 599px) {
+    body {
+        padding-top: 80px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    /* Add other mobile-specific styles as needed */
+}
 
