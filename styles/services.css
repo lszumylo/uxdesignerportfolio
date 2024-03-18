@@ -33,13 +33,9 @@ h4 {
     font-size: 24px;
 }
 
-.services-title {
-  text-align: center;
-}
-
-
+.services-title,
 .solution-title {
-text-align: center;
+    text-align: center;
 }
 
 .services-list li strong {
@@ -56,42 +52,103 @@ text-align: center;
     list-style-type: none; /* Remove the bullet points */
 }
 
-a.button-container {
-  display: flex;
-  justify-content: center; /* Center the button horizontally */
-  margin-top: 20px;
+.button-container {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 20px;
 }
 
-a.book-button {
-  display: inline-block;
-  padding: 6px 12px; /* Reduced padding */
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Added border-color transition */
-  cursor: pointer;
-  background-color: #FFFFFF; /* White background */
-  color: #00204A; /* Navy blue text color */
-  border: 1px solid #00204A; /* Navy blue border color */
+.book-button {
+    display: inline-block;
+    padding: 6px 12px; /* Reduced padding */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Added border-color transition */
+    cursor: pointer;
+    background-color: #FFFFFF; /* White background */
+    color: #00204A; /* Navy blue text color */
+    border: 1px solid #00204A; /* Navy blue border color */
 }
 
-
-a.book-button:hover {
-  background-color: #D3E9F8; /* Light blue background on hover */
-  color: #00204A; /* Navy blue text color on hover */
-  border-color: #D3E9F8; /* Light blue border color on hover */
-  text-decoration: none;
-  /* Remove text-decoration from hover to ensure consistency */
+.book-button:hover {
+    background-color: #D3E9F8; /* Light blue background on hover */
+    color: #00204A; /* Navy blue text color on hover */
+    border-color: #D3E9F8; /* Light blue border color on hover */
+    text-decoration: none;
+    /* Remove text-decoration from hover to ensure consistency */
 }
 
 @media screen and (max-width: 599px) {
-  a.book-button {
-    display: block; /* Change from inline-block to block to center it */
-    margin: 0 auto; /* Center the button horizontally */
-  }
+    .book-button {
+        display: block; /* Change from inline-block to block to center it */
+        margin: 0 auto; /* Center the button horizontally */
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex; /* Show the mobile navigation */
+    }
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
 
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
+}
 
 /* Footer styles */
 .site-footer {
@@ -101,34 +158,3 @@ a.book-button:hover {
     text-align: center;
     padding: 20px 0;
 }
-
-/* Tablet styles */
-@media screen and (min-width: 600px) and (max-width: 1023px) {
-    body {
-        padding-top: 100px;
-    }
-    h1 {
-        font-size: 30px;
-    }
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-    /* Add other tablet-specific styles as needed */
-}
-
-/* Mobile styles */
-@media screen and (max-width: 599px) {
-    body {
-        padding-top: 80px;
-    }
-    h1 {
-        font-size: 24px;
-    }
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-    /* Add other mobile-specific styles as needed */
-}
-
