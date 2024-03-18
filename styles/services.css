@@ -5,7 +5,14 @@ body {
     padding-top: 90px; /* Adjust the top padding accordingly */
 }
 
-/* Styles for headings */
+p {
+    font-family: 'Taviraj', serif;
+    color: #000000;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 24px 10px;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Work Sans', sans-serif;
 }
@@ -26,101 +33,102 @@ h4 {
     font-size: 24px;
 }
 
-/* Styles for paragraphs */
-p {
-    font-family: 'Taviraj', serif;
-    color: #000000;
-    font-weight: normal;
-    font-size: 16px;
-    margin: 24px 10px;
+.services-title {
+  text-align: center;
 }
 
-/* Styles for buttons */
-.button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+
+.solution-title {
+text-align: center;
 }
 
-.book-button {
-    display: inline-block;
-    padding: 6px 12px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-    cursor: pointer;
-    background-color: #FFFFFF;
-    color: #00204A;
-    border: 1px solid #00204A;
+.services-list li strong {
+    font-size: 20px;
 }
 
-.book-button:hover {
-    background-color: #D3E9F8;
-    color: #00204A;
-    border-color: #D3E9F8;
-    text-decoration: none;
+.services-list li {
+    margin-bottom: 15px;
+    list-style-type: none; /* Remove the bullet points */
 }
 
-/* Styles for the mobile navigation */
-.mobile-nav {
-    display: none;
-    flex-direction: column;
-    background-color: #333;
-    padding: 10px 20px;
+.services-list li ul {
+    margin-top: 5px;
+    list-style-type: none; /* Remove the bullet points */
 }
 
-.mobile-nav .nav-link {
+a.button-container {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  margin-top: 20px;
+}
+
+a.book-button {
+  display: inline-block;
+  padding: 6px 12px; /* Reduced padding */
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Added border-color transition */
+  cursor: pointer;
+  background-color: #FFFFFF; /* White background */
+  color: #00204A; /* Navy blue text color */
+  border: 1px solid #00204A; /* Navy blue border color */
+}
+
+
+a.book-button:hover {
+  background-color: #D3E9F8; /* Light blue background on hover */
+  color: #00204A; /* Navy blue text color on hover */
+  border-color: #D3E9F8; /* Light blue border color on hover */
+  text-decoration: none;
+  /* Remove text-decoration from hover to ensure consistency */
+}
+
+@media screen and (max-width: 599px) {
+  a.book-button {
+    display: block; /* Change from inline-block to block to center it */
+    margin: 0 auto; /* Center the button horizontally */
+  }
+}
+
+
+
+/* Footer styles */
+.site-footer {
+    width: 100%;
+    background-color: #434F5B;
     color: white;
-    text-decoration: none;
-    margin: 10px 0;
+    text-align: center;
+    padding: 20px 0;
 }
 
-/* Styles for the hamburger menu */
-.hamburger-menu {
-    display: none;
-    cursor: pointer;
-}
-
-.bar {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 3px 0;
-}
-
-/* Styles for the navbar */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-}
-
-.nav-link {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-}
-
-/* Media query for screens smaller than 768px */
-@media (max-width: 768px) {
-    .hamburger-menu {
-        display: flex; /* Show hamburger menu */
+/* Tablet styles */
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+    body {
+        padding-top: 100px;
     }
-
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+    h1 {
+        font-size: 30px;
     }
-
-    .nav-link {
-        display: none; /* Hide navbar links */
+    img {
+        max-width: 100%;
+        height: auto;
     }
-
-    .mobile-nav {
-        display: flex; /* Show mobile navigation */
-    }
+    /* Add other tablet-specific styles as needed */
 }
+
+/* Mobile styles */
+@media screen and (max-width: 599px) {
+    body {
+        padding-top: 80px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    /* Add other mobile-specific styles as needed */
+}
+
