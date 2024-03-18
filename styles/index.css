@@ -123,12 +123,13 @@ body {
   transition: translate var(--animation-timing);
   translate: -100%;
   padding: 0.5rem 1rem;
-  padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
+  padding-top: 0; /* Remove or adjust this line */
   background-color: var(--foreground);
   color: var(--background);
   max-width: 10rem;
   min-height: 100vh;
 }
+
 
 .hamburger-menu:has(input:checked) + .sidebar {
   translate: 0;
