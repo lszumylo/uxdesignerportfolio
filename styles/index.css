@@ -259,6 +259,20 @@ a.consult-button:hover {
   padding: 20px 0;
 }
 
+/* Hide hamburger menu on larger screens */
+@media (min-width: 769px) {
+    .hamburger-menu {
+        display: none;
+    }
+    
+    /* Adjust padding-top for the sidebar */
+    .sidebar {
+        padding-top: 1rem; /* Adjust the value as needed */
+    }
+}
+
+
+
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
