@@ -57,6 +57,30 @@ h4 {
   flex: 1;
 }
 
+/* Default styles for desktop */
+.navbar {
+  display: block; /* Show the top nav bar by default */
+}
+
+.sidebar {
+  display: none; /* Hide the side menu by default */
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    display: none; /* Hide the top nav bar on mobile */
+  }
+
+  .sidebar {
+    display: block; /* Show the side menu on mobile */
+  }
+}
+
+
+
+
+
 
 /* Add responsive styling as needed for smaller screens */
 @media only screen and (max-width: 480px) {
