@@ -176,6 +176,7 @@ a.consult-button:hover {
     /* Add other styles specific to tablets as needed */
 }
 
+
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     .navbar {
@@ -197,4 +198,15 @@ a.consult-button:hover {
     .about-container__image {
         max-width: 100%; /* Adjust for full width on smaller screens */
     }
+    
+    /* Adjust the font size of navigation links for mobile devices */
+    .navbar .nav-link {
+        font-size: 14px; /* Adjust the font size as per your preference */
+    }
 }
+
+
+
+
+
+
