@@ -201,9 +201,15 @@ a.consult-button:hover {
     
     /* Adjust the font size of navigation links for mobile devices */
     .navbar .nav-link {
-        font-size: 12px; /* Adjust the font size as per your preference */
+        font-size: 13px; /* Adjust the font size as per your preference */
+    }
+
+    /* Hide the logo on mobile devices */
+    .navbar .logo {
+        display: none;
     }
 }
+
 
 
 
