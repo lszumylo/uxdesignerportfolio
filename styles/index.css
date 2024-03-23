@@ -179,16 +179,10 @@ a.consult-button:hover {
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
-    .navbar {
-        margin: 0 10px; /* Adjusted margin for mobile screens */
-        /* Add specific styles for mobile devices here */
+    .navbar .logo {
+        display: none; /* Hide the logo on mobile devices */
     }
 
-    .value-prop {
-        margin: 0 10px; /* Adjust the margins for smaller screens */
-        /* Add specific styles for mobile devices here */
-    }
-    
     /* Add other styles specific to mobile devices as needed */
     
     .about-container {
@@ -204,6 +198,11 @@ a.consult-button:hover {
         font-size: 12px; /* Adjust the font size as per your preference */
     }
 }
+
+
+
+
+
 
 
 
