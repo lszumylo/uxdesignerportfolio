@@ -91,8 +91,6 @@ a.book-button:hover {
   }
 }
 
-
-
 /* Footer styles */
 .site-footer {
     width: 100%;
@@ -101,6 +99,8 @@ a.book-button:hover {
     text-align: center;
     padding: 20px 0;
 }
+
+
 
 /* Tablet styles */
 @media screen and (min-width: 600px) and (max-width: 1023px) {
