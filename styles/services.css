@@ -84,14 +84,15 @@ a.book-button:hover {
   /* Remove text-decoration from hover to ensure consistency */
 }
 
+
 .site-footer {
-  width: 100vw; /* Use viewport width for the footer to span the entire screen */
+  width: 100%; /* Ensure the footer spans the entire width of the screen */
   background-color: #434F5B;
   color: white;
   text-align: center;
   padding: 20px 0;
+  margin: 0; /* Remove any default margins */
 }
-
 
 
 
