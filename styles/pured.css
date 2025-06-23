@@ -91,9 +91,13 @@ a, .nav-link {
   color: #ABD060;
 }
 
+.page-name {
+font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
 /* Page and section headings with shared style */
 /* Removed font-size override so headings keep semantic sizes */
-.page-name,
 .theproject,
 .project-resolution,
 .audit-highlights__title,
