@@ -79,13 +79,14 @@ a {
   border: none;
 }
 
+
 .project-card .project-image {
-  max-width: 15%;
+  max-width: 90%;  /* bigger images */
   width: 100%;
   margin: 20px auto 0;
   height: auto;
+  display: block;
 }
-
 
 
 
