@@ -9,7 +9,7 @@ body, h1, h2, h3, h4, p {
 
 /* Base body styles */
 body {
-  font-family: 'Taviraj', serif;
+  font-family: 'Taviraj', serif, Georgia;
   font-size: 18px;
   margin: 0 80px;
 }
@@ -85,32 +85,21 @@ a, .nav-link {
   font-size: 16px;
 }
 
-/* Nav link hover effect */
-.navbar .nav-link:hover {
+/* Nav link hover and focus effect */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
   color: #ABD060;
 }
 
-/* Page title or section name */
-.page-name, .theproject {
-  font-size: 22px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.project-resolution {
-  font-size: 22px;
-  font-weight: bold;
-  text-align: center;
-}
-
+/* Page and section headings with shared style */
+.page-name,
+.theproject,
+.project-resolution,
 .audit-highlights__title {
   font-size: 22px;
   font-weight: bold;
   text-align: center;
 }
-
-  
-
 
 
 
