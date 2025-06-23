@@ -95,7 +95,18 @@ a, .nav-link {
 .page-name,
 .theproject,
 .project-resolution,
-.audit-highlights__title {
+.audit-highlights__title,
+.clarity,
+.optimizing,
+.enhanced,
+.diverse,
+.skill,
+.request,
+.actions,
+.alerts,
+.terminology,
+outcome
+{
   font-size: 22px;
   font-weight: bold;
   text-align: center;
