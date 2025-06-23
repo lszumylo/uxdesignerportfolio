@@ -85,30 +85,14 @@ a.book-button:hover {
 }
 
 
+/* Footer styles */
 .site-footer {
-    width: 100%; /* Ensure the footer spans the entire width of the screen */
+    width: 100%;
     background-color: #434F5B;
     color: white;
     text-align: center;
     padding: 20px 0;
-    margin: 0; /* Remove any default margins */
 }
-
-/* Ensure the footer links and copyright information are centered */
-.footer-content {
-    max-width: 1200px; /* Optional: Limit the content width to prevent it from stretching too wide on larger screens */
-    margin: 0 auto; /* Center the content horizontally within the viewport */
-}
-
-
-@media screen and (max-width: 599px) {
-  a.book-button {
-    display: block; /* Change from inline-block to block to center it */
-    margin: 0 auto; /* Center the button horizontally */
-  }
-}
-
-
 
 /* Tablet styles */
 @media screen and (min-width: 600px) and (max-width: 1023px) {
@@ -139,4 +123,3 @@ a.book-button:hover {
     }
     /* Add other mobile-specific styles as needed */
 }
-
