@@ -1,32 +1,40 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Taviraj&family=Work+Sans&display=swap');
+
 /* Reset default margin and padding */
 body, h1, h2, h3, h4, p {
   margin: 0;
   padding: 0;
 }
 
+/* Base body styles */
 body {
-  font-family: 'Taviraj', serif; /* Set body text font-family to Taviraj */
+  font-family: 'Taviraj', serif;
   font-size: 18px;
-  margin: 0 80px 0; /* Updated margin: 0 at the top, 80px on left and right sides */
+  margin: 0 80px;
 }
 
+/* Responsive margin for smaller screens */
+@media (max-width: 768px) {
+  body {
+    margin: 0 20px;
+  }
+}
 
-/* General styles for paragraphs */
+/* Paragraph styles */
 p {
-  font-family: 'Taviraj', serif; /* Set paragraphs font-family to Taviraj */
   color: #000000;
   font-weight: normal;
   font-size: 16px;
   margin: 24px 10px;
 }
 
-
-/* General styles for headings */
+/* Heading font family */
 h1, h2, h3, h4 {
-  font-family: 'Work Sans', sans-serif; /* Set headings font-family to Work Sans */
+  font-family: 'Work Sans', sans-serif;
 }
 
-/* Individual heading styles */
+/* Individual heading sizes */
 h1 {
   font-size: 36px;
 }
@@ -43,6 +51,7 @@ h4 {
   font-size: 24px;
 }
 
+/* Navbar styles */
 .navbar {
   background-color: #434F5B;
   position: fixed;
@@ -53,32 +62,41 @@ h4 {
   z-index: 2;
 }
 
-
+/* Navbar list styling */
 .navbar ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
+  align-items: center;
+  height: 100%;
 }
 
+/* Navbar list items */
 .navbar li {
   margin: 0 20px;
 }
 
-
-a {
+/* Nav link base styles */
+a, .nav-link {
   text-decoration: none;
-  color: inherit; /* Inherit color from parent */
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
 }
 
-
+/* Nav link hover effect */
 .navbar .nav-link:hover {
   color: #ABD060;
 }
 
-
-.page-name{
+/* Page title or section name */
+.page-name, .theproject {
   font-size: 22px;
   font-weight: bold;
   text-align: center;
-}
+
+
+
+
+
