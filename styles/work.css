@@ -61,15 +61,6 @@ a {
   border: none;
 }
 
-
-.project-card .project-image {
-  max-width: 15%; /* Set the maximum width to 15% of its container */
-  height: auto;
-  margin-top: 20px; /* Adjust spacing */
-}
-
-
-
 .project-card .description {
   margin-top: 10px;
   text-align: center; /* Center-align text under each title */
@@ -82,20 +73,20 @@ a {
 }
 
 .project-card img {
-  width: 100%; /* Set the image width to fill its container */
   height: auto;
   display: block;
   margin-top: -10px;
-  border: none; /* Remove border from the image */
+  border: none;
+}
+
+.project-card .project-image {
+  max-width: 15%;
+  width: 100%;
+  margin: 20px auto 0;
+  height: auto;
 }
 
 
-
-.project-card .be-ready-image {
-    max-width: 100%; /* Adjust the image width to fill its container */
-    height: auto; /* Maintain the aspect ratio */
-    /* Other styling properties */
-}
 
 
 .centered-container {
@@ -143,6 +134,17 @@ a {
   /* Other styling properties */
 }
 
+.blue-container {
+  background-color: #D7E9F7; /* Soft blue background, adjust if needed */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Optional shadow */
+}
+
+.no-underline-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
 
 .site-footer {
   width: 100%;
