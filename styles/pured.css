@@ -126,3 +126,18 @@ font-size: 22px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.clarity-issue,
+.clarity-recommendation,
+.clarity-response {
+ font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #434F5B;
+  margin: 16px 10px 6px;
+}
+  
+
+
+
+
