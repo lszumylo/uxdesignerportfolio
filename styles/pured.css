@@ -92,6 +92,7 @@ a, .nav-link {
 }
 
 /* Page and section headings with shared style */
+/* Removed font-size override so headings keep semantic sizes */
 .page-name,
 .theproject,
 .project-resolution,
@@ -105,13 +106,7 @@ a, .nav-link {
 .actions,
 .alerts,
 .terminology,
-outcome
-{
-  font-size: 22px;
+.outcome {
   font-weight: bold;
   text-align: center;
 }
-
-
-
-
