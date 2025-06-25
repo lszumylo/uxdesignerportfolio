@@ -96,6 +96,16 @@ font-size: 22px;
   font-weight: bold;
   text-align: center;
 }
+
+.page-intro {
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 24px 10px;
+  text-align: center;
+}
+
+
 /* Page and section headings with shared style */
 /* Removed font-size override so headings keep semantic sizes */
 .theproject,
