@@ -105,6 +105,18 @@ font-size: 22px;
   text-align: center;
 }
 
+.logo-banner {
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+}
+
+.logo-banner img {
+  max-width: 200px; /* Adjust to your preferred size */
+  height: auto;
+  display: inline-block;
+}
+
+
 
 /* Page and section headings with shared style */
 /* Removed font-size override so headings keep semantic sizes */
