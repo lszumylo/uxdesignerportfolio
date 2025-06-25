@@ -122,17 +122,8 @@ font-size: 22px;
 /* Removed font-size override so headings keep semantic sizes */
 .theproject,
 .project-resolution,
-.audit-highlights__title,
-.clarity,
-.optimizing,
-.enhanced,
-.diverse,
-.skill,
-.request,
-.actions,
-.alerts,
-.terminology,
-.outcome {
+.audit-highlights__title
+ {
     height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -149,6 +140,16 @@ font-size: 22px;
   margin-bottom: 30px;
 }
 
+.clarity,
+.optimizing,
+.enhanced,
+.diverse,
+.skill,
+.request,
+.actions,
+.alerts,
+.terminology,
+.outcome
 .clarity-issue,
 .clarity-recommendation,
 .clarity-response,
