@@ -122,7 +122,8 @@ font-size: 22px;
 /* Removed font-size override so headings keep semantic sizes */
 .theproject,
 .project-resolution,
-.audit-highlights__title
+.audit-highlights__title,
+.outcome
  {
     height: 21px;
   font-family: 'Work Sans', sans-serif;
