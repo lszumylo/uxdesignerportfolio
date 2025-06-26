@@ -237,8 +237,14 @@ font-size: 22px;
   font-style: italic;
   color: #434F5B;
 }
-  
 
+.audit-highlights__title,
+.outcome
+{
+text-align: center; /* Aligns text content within the element */
+  margin: 0 auto; /* Horizontal centering by setting left and right margins to auto */
+  /* Additional styles if needed */
+}
 
 
 
