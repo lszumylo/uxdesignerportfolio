@@ -166,7 +166,7 @@ font-size: 22px;
 .request,
 .actions,
 .alerts,
-.terminology,
+.terminology
 { 
     text-transform: uppercase;      /* ALL CAPS */
   color: #2E3A4A;                 /* Slightly darker, muted color */
