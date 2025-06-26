@@ -154,7 +154,7 @@ font-size: 22px;
 { 
     text-transform: uppercase;      /* ALL CAPS */
   color: #2E3A4A;                 /* Slightly darker, muted color */
-  font-weight: 600;               /* Semi-bold */
+  font-weight: 300;               /* Semi-bold */
   font-size: 18px;                /* Larger than body, smaller than main headings */
   letter-spacing: 1.2px;          /* Spacing for uppercase readability */
   margin: 24px 10px 12px;         /* Adequate spacing around each topic */
