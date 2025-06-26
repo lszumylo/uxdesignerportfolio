@@ -150,7 +150,7 @@ font-size: 22px;
 .actions,
 .alerts,
 .terminology,
-.outcome,
+.outcome
 { 
     text-transform: uppercase;      /* ALL CAPS */
   color: #2E3A4A;                 /* Slightly darker, muted color */
