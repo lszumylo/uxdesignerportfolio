@@ -122,9 +122,7 @@ font-size: 22px;
 /* Removed font-size override so headings keep semantic sizes */
 
 .theproject,
-.project-resolution
-
-{
+.project-resolution {
   height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -134,9 +132,9 @@ font-size: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #37A8C1;
+  color: #37A8C1; /* corrected */
   text-align: center;
-  margin: 0 auto; /* center the element horizontally */
+  margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 30px;
 }
