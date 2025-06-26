@@ -120,8 +120,27 @@ font-size: 22px;
 
 /* Page and section headings with shared style */
 /* Removed font-size override so headings keep semantic sizes */
+
 .theproject,
-.project-resolution,
+.project-resolution
+
+{
+  height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #37A8C1;
+  text-align: center;
+  margin: 0 auto; /* center the element horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .audit-highlights__title,
 .outcome
  {
@@ -150,7 +169,6 @@ font-size: 22px;
 .actions,
 .alerts,
 .terminology,
-.outcome
 { 
     text-transform: uppercase;      /* ALL CAPS */
   color: #2E3A4A;                 /* Slightly darker, muted color */
