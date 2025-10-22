@@ -135,6 +135,28 @@ font-size: 22px;
   margin-bottom: 30px;
 }
 
+.blog-competitive-analysis,
+.blog-takeaway,
+.blog-persona,
+.blog-site-platform,
+.blog-name-selection,
+.blog-ux-content,
+.blog-impact {
+ height: 21px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #222222; /* corrected */
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 p {
  font-family: 'Work Sans', sans-serif;
