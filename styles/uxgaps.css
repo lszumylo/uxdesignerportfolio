@@ -1,1 +1,93 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Taviraj&family=Work+Sans&display=swap');
+
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Base body styles */
+body {
+  font-family: 'Taviraj', serif, Georgia;
+  font-size: 18px;
+  margin: 0 80px;
+}
+
+/* Responsive margin for smaller screens */
+@media (max-width: 768px) {
+  body {
+    margin: 0 20px;
+  }
+}
+
+/* Paragraph styles */
+p {
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 24px 10px;
+}
+
+/* Heading font family */
+h1, h2, h3, h4 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* Individual heading sizes */
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #434F5B;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 2;
+}
+
+/* Navbar list styling */
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* Navbar list items */
+.navbar li {
+  margin: 0 20px;
+}
+
+/* Nav link base styles */
+a, .nav-link {
+  text-decoration: none;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+}
+
+/* Nav link hover and focus effect */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #ABD060;
+}
 
