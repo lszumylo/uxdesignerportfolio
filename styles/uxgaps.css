@@ -136,40 +136,10 @@ font-size: 22px;
 }
 
 
-
-{
+p {
  font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   font-weight: 200;
   color: #3A3F4A;
   margin: 16px 10px 6px;
 }
-
-.audit-topic {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #000000;
-  margin: 30px 0 16px;
-  text-align: left;
-}
-
-
-
-/* Paragraph body text for each part of the audit */
-.audit-text {
-  font-family: 'Taviraj', serif;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.6;
-  color: #000000;
-  margin-bottom: 12px;
-}
-
-
-
-
-
-
-
-
