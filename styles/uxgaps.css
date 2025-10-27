@@ -182,19 +182,26 @@ p {
   object-fit: cover;        /* keep images cropped nicely */
 }
 
+/* Container that stacks and centers images */
 .blog-persona_images_container {
-    display: flex;
+  display: flex;
   flex-direction: column;   /* stack images vertically */
   align-items: center;      /* center images horizontally */
   gap: 20px;                /* space between images */
   margin-top: 20px;         /* space above first image */
 }
- 
-.blog-persona_images_container {
-  width: 75%;               /* 75% of the container/screen width */
+
+/* Style for the images inside the container */
+.blog-persona_images_container img {
+  width: 75%;               /* image takes up 75% of container/screen width */
   height: auto;             /* maintain aspect ratio */
   border-radius: 8px;       /* optional rounded corners */
-  object-fit: cover;        /* keep images cropped nicely */
+  object-fit: cover;        /* keeps image cropped nicely */
+  display: block;           /* ensures margin/padding behaves correctly */
 }
+
+
+
+
 
 
