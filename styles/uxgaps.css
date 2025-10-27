@@ -220,15 +220,13 @@ p {
 
 .bloglogo-banner {
   display: flex;
-  justify-content: center;   /* centers the image horizontally */
-  margin: 20px 0;            /* optional spacing above and below */
+  justify-content: center;
+  margin: 20px 0;
 }
 
 .bloglogo-banner img {
-  width: 50%;                /* makes the image smaller (adjust as needed) */
-  max-width: 300px;          /* optional: limit maximum size */
-  height: auto;              /* maintain aspect ratio */
+  width: 50%;       /* 50% of container width */
+  max-width: 500px; /* adjust max size */
+  height: auto;
   display: block;
 }
-
-
