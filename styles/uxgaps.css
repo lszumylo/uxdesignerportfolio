@@ -201,10 +201,22 @@ p {
 }
 
 
+.blog-impact_images_container {
+  display: flex;
+  flex-direction: column;   /* stack images vertically */
+  align-items: center;      /* center images horizontally */
+  gap: 20px;                /* space between images */
+  margin: 20px 0;           /* space above and below image group */
+}
 
-<img src="images/report%20page.jpg" alt="Top page views">
-<img src="images/report engagement .jpg" alt="Engagement views">
-<img src="images/report page overview.jpg" alt="overall views"> 
-<img src="images/report%20overview.jpg" alt="Results overview">
-<img src="images/report%20country.jpg" alt="Top countries">
+.blog-impact_images_container img {
+  width: 75%;               /* images take 75% of screen width */
+  height: auto;             /* maintain aspect ratio */
+  border-radius: 8px;       /* optional rounded corners */
+  object-fit: cover;        /* keeps image looking good when resized */
+  display: block;
+}
+
+
+
 
