@@ -170,12 +170,12 @@ p {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columns */
   gap: 20px; /* space between images */
-  max-width: 900px; /* optional: limit how wide the grid gets */
+  max-width: 800px; /* optional: limit how wide the grid gets */
   margin: 0 auto; /* center the grid on the page */
 }
 
 .blog-competitive-analysis_images {
-  width: 100%;
+  width: 90%;
   height: auto;
   border-radius: 8px; /* optional: rounded corners */
   object-fit: cover;
