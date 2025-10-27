@@ -219,23 +219,17 @@ p {
 
 
 .bloglogo-banner {
-  width: 150%; /* Make the image fill the entire width of the parent container */
-  height: auto; /* Keep the aspect ratio of the image */
-  object-fit: cover; /* Fill the entire container while keeping the aspect ratio */
-  margin-top: 30px;
-  margin-bottom: 30px;
+  display: flex;              /* make the container flex */
+  justify-content: center;    /* center the image horizontally */
+  margin: 30px 0;             /* spacing above and below */
 }
-
 
 .bloglogo-banner img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* This will make the container fill the entire viewport height */
-    max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
+  width: 50%;                 /* image width is 50% of container */
+  max-width: 500px;           /* optional: limit max size */
+  height: auto;               /* maintain aspect ratio */
+  display: block;             /* ensures proper layout */
 }
-
-
 
 
 
