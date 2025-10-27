@@ -226,7 +226,7 @@ p {
 
 .bloglogo-banner img {
   width: 50%;                /* makes the image smaller (adjust as needed) */
-  max-width: 200px;          /* optional: limit maximum size */
+  max-width: 270px;          /* optional: limit maximum size */
   height: auto;              /* maintain aspect ratio */
   display: block;
 }
