@@ -218,5 +218,17 @@ p {
 }
 
 
+.bloglogo-banner {
+  display: flex;
+  justify-content: center;   /* centers the image horizontally */
+  margin: 20px 0;            /* optional spacing above and below */
+}
+
+.bloglogo-banner img {
+  width: 50%;                /* makes the image smaller (adjust as needed) */
+  max-width: 300px;          /* optional: limit maximum size */
+  height: auto;              /* maintain aspect ratio */
+  display: block;
+}
 
 
