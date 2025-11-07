@@ -37,9 +37,8 @@ h4 {
   text-align: center;
 }
 
-
 .solution-title {
-text-align: center;
+  text-align: center;
 }
 
 .services-list li strong {
@@ -75,16 +74,14 @@ a.book-button {
   border: 1px solid #00204A; /* Navy blue border color */
 }
 
-
 a.book-button:hover {
   background-color: #D3E9F8; /* Light blue background on hover */
   color: #00204A; /* Navy blue text color on hover */
   border-color: #D3E9F8; /* Light blue border color on hover */
   text-decoration: none;
-  /* Remove text-decoration from hover to ensure consistency */
 }
 
-
+/* CTA Group Layout */
 .cta-group {
   display: flex;
   justify-content: center;
@@ -102,43 +99,53 @@ a.book-button:hover {
   transition: background 0.2s ease;
 }
 
+/* Primary Button (Navy) */
 .btn.primary {
   background-color: #1e3a8a;
   color: #fff;
 }
-
 .btn.primary:hover {
   background-color: #172554;
 }
 
+/* Secondary Button (Outline) */
 .btn.secondary {
   border: 1px solid #cbd5e1;
   color: #0f172a;
   background-color: #fff;
 }
-
 .btn.secondary:hover {
   background-color: #f1f5f9;
 }
 
+/* Secondary Fill (Teal) */
 .btn.secondary-fill {
   background-color: #0f766e;
   color: #fff;
 }
-
 .btn.secondary-fill:hover {
   background-color: #0d5e57;
 }
 
+/* Accent Button (Dusty Blue for “Schedule Your Full Strategy Session”) */
 .btn.accent {
-  background-color: #f97316;
+  background-color: #6C8BA4;
   color: #fff;
 }
-
 .btn.accent:hover {
-  background-color: #ea580c;
+  background-color: #54748C;
 }
 
+/* Accent 2 (Clay Rose for “Start Coaching Today”) */
+.btn.accent2 {
+  background-color: #B47B77;
+  color: #fff;
+}
+.btn.accent2:hover {
+  background-color: #8E5E5A;
+}
+
+/* Service Card Styles */
 .service {
   background: #fff;
   border: 1px solid #e2e8f0;
@@ -180,7 +187,6 @@ blockquote {
   margin: 1rem 0;
 }
 
-
 /* Footer styles */
 .site-footer {
     width: 100%;
@@ -202,7 +208,6 @@ blockquote {
         max-width: 100%;
         height: auto;
     }
-    /* Add other tablet-specific styles as needed */
 }
 
 /* Mobile styles */
@@ -217,5 +222,18 @@ blockquote {
         max-width: 100%;
         height: auto;
     }
-    /* Add other mobile-specific styles as needed */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
