@@ -129,20 +129,19 @@ a.book-button:hover {
 
 /* Accent Button (Dusty Blue for “Schedule Your Full Strategy Session”) */
 .btn.accent {
-  background-color: #6C8BA4;
+  background-color: #57789E;
   color: #fff;
 }
 .btn.accent:hover {
-  background-color: #54748C;
+  background-color: #466482;
 }
 
-/* Accent 2 (Clay Rose for “Start Coaching Today”) */
 .btn.accent2 {
-  background-color: #B47B77;
+  background-color: #A96A5A;
   color: #fff;
 }
 .btn.accent2:hover {
-  background-color: #8E5E5A;
+  background-color: #8E5547;
 }
 
 /* Service Card Styles */
@@ -223,7 +222,6 @@ blockquote {
         height: auto;
     }
 }
-
 
 
 
