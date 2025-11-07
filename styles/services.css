@@ -85,6 +85,102 @@ a.book-button:hover {
 }
 
 
+.cta-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.btn.primary {
+  background-color: #1e3a8a;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background-color: #172554;
+}
+
+.btn.secondary {
+  border: 1px solid #cbd5e1;
+  color: #0f172a;
+  background-color: #fff;
+}
+
+.btn.secondary:hover {
+  background-color: #f1f5f9;
+}
+
+.btn.secondary-fill {
+  background-color: #0f766e;
+  color: #fff;
+}
+
+.btn.secondary-fill:hover {
+  background-color: #0d5e57;
+}
+
+.btn.accent {
+  background-color: #f97316;
+  color: #fff;
+}
+
+.btn.accent:hover {
+  background-color: #ea580c;
+}
+
+.service {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 700px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 3rem auto;
+}
+
+.service h2 {
+  margin-top: 0;
+  color: #0f172a;
+}
+
+.price {
+  font-weight: 700;
+  margin: 0.25rem 0;
+}
+
+.note {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-top: 0;
+}
+
+blockquote {
+  font-style: italic;
+  color: #475569;
+  border-left: 4px solid #e2e8f0;
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+
+
 /* Footer styles */
 .site-footer {
     width: 100%;
