@@ -100,7 +100,9 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 40px; /* Add this line for space below the button */
 }
+
 
 /* Hero button / services button */
 a.services-button {
@@ -112,7 +114,6 @@ a.services-button {
   text-decoration: none;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-  
   background-color: #E5D4B8; /* cream color */
   color: #232323; /* dark text */
   border: 1px solid #434F5B; /* dark border */
