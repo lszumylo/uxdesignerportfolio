@@ -102,40 +102,27 @@ body {
   margin-top: 20px;
 }
 
-/* Make the buttons inline-block to display them side by side */
-.button-container a.services-button {
-  display: inline-block;
-}
-
-
-/* Add this rule to make buttons inline */
-.button-container a {
-  display: inline-block;
-}
-
-
+/* Hero button / services button */
 a.services-button {
-  display: inline-block;
-  padding: 10px 20px;
+  display: inline-block; /* inline-block for layout */
+  padding: 0.75rem 1.5rem; /* same size as other buttons */
+  margin: 0 10px; /* spacing between buttons */
+  border-radius: 6px; /* match other buttons */
+  font-weight: 600; 
   text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.3s, color 0.3s;
   cursor: pointer;
-  margin: 0 10px; /* Add margin to create space between buttons */
-}
-
-a.services-button {
-  background-color: #E5D4B8;
-  color: #232323;
-  border: 1px solid #434F5B;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  
+  background-color: #E5D4B8; /* cream color */
+  color: #232323; /* dark text */
+  border: 1px solid #434F5B; /* dark border */
 }
 
 a.services-button:hover {
-  background-color: #CCBA9E;
+  background-color: #CCBA9E; /* slightly darker cream */
   color: #232323;
+  border-color: #434F5B; /* keep border consistent */
 }
-
 
 .site-footer {
   width: 100%;
