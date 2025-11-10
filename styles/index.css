@@ -103,8 +103,7 @@ body {
 }
 
 /* Make the buttons inline-block to display them side by side */
-.button-container a.works-button,
-.button-container a.consult-button {
+.button-container a.services-button {
   display: inline-block;
 }
 
@@ -115,7 +114,7 @@ body {
 }
 
 
-a.service-button {
+a.services-button {
   display: inline-block;
   padding: 10px 20px;
   text-decoration: none;
@@ -126,13 +125,13 @@ a.service-button {
   margin: 0 10px; /* Add margin to create space between buttons */
 }
 
-a.service-button {
+a.services-button {
   background-color: #E5D4B8;
   color: #232323;
   border: 1px solid #434F5B;
 }
 
-a.service-button:hover {
+a.services-button:hover {
   background-color: #CCBA9E;
   color: #232323;
 }
