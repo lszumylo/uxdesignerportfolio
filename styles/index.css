@@ -96,6 +96,7 @@ body {
     height: auto;
 }
 
+
 .button-container {
   display: flex;
   justify-content: center;
@@ -103,26 +104,27 @@ body {
   margin-bottom: 40px; /* Add this line for space below the button */
 }
 
-
-/* Hero button / services button */
-a.services-button {
-  display: inline-block; /* inline-block for layout */
-  padding: 0.75rem 1.5rem; /* same size as other buttons */
-  margin: 0 10px; /* spacing between buttons */
-  border-radius: 6px; /* match other buttons */
-  font-weight: 600; 
-  text-decoration: none;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-  background-color: #E5D4B8; /* cream color */
-  color: #232323; /* dark text */
-  border: 1px solid #434F5B; /* dark border */
+/* Hero / Services button */
+.button-container a.services-button {
+    display: inline-block;        /* allow padding and margin */
+    padding: 0.75rem 1.5rem;      /* space inside button */
+    margin: 0 10px;               /* spacing between buttons */
+    border-radius: 6px;           /* rounded corners */
+    font-weight: 600;             /* bold text */
+    text-decoration: none !important; /* remove underline absolutely */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    background-color: #E5D4B8;   /* cream color */
+    color: #232323;               /* dark text */
+    border: 1px solid #434F5B;   /* dark border */
 }
 
-a.services-button:hover {
-  background-color: #CCBA9E; /* slightly darker cream */
-  color: #232323;
-  border-color: #434F5B; /* keep border consistent */
+/* Hover effect */
+.button-container a.services-button:hover {
+    background-color: #CCBA9E;    /* slightly darker cream */
+    color: #232323;                /* keep text dark */
+    border-color: #434F5B;        /* border stays same */
+    text-decoration: none !important; /* ensure no underline on hover */
 }
 
 .site-footer {
