@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    padding-top: 90px; /* Adjust the top padding accordingly */
+    padding-top: 90px;
 }
 
 p {
@@ -12,16 +12,6 @@ p {
     font-size: 16px;
     margin: 24px 10px;
 }
-
-.mentoring-content {
-    text-align: center;
-    margin: 0 auto;
-}
-
-.mentoring-list {
-    text-align:center;
-}
-
 
 h1, h2, h3, h4 {
     font-family: 'Work Sans', sans-serif;
@@ -48,7 +38,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #434F5B; /* Adjust background color as needed */
+    background-color: #434F5B;
     padding: 10px;
 }
 
@@ -59,7 +49,7 @@ h4 {
 .nav-link {
     margin: 0 15px;
     text-decoration: none;
-    color: #333; /* Adjust link color as needed */
+    color: #333;
 }
 
 .burger-btn {
@@ -67,17 +57,18 @@ h4 {
     cursor: pointer;
     border: none;
     background: none;
-    color: #333; /* Adjust the color to match the nav link color */
-    display: none; /* Hide the hamburger button by default on desktop */
+    color: #333;
+    display: none;
 }
 
-/* Mobile styles for Navbar */
+/* Mobile navbar */
 @media screen and (max-width: 767px) {
+
     .nav-links {
         display: none;
     }
 
- .nav-links.show {
+    .nav-links.show {
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -90,22 +81,20 @@ h4 {
     .nav-link {
         margin: 10px;
         text-align: center;
-        color: #006DB6; /* Adjust the color to match the nav link color */
+        color: #006DB6;
     }
 
-   /* Dropdown text color */
     .nav-links.show .nav-link {
-        color: #006DB6; /* Adjust the color to match the nav link color */
+        color: #006DB6;
     }
 
-    /* Show hamburger button on mobile */
     .burger-btn {
         display: block;
     }
 }
 
-  
 /* Mentoring section styles */
+
 .mentoring-title {
     text-align: center;
 }
@@ -114,14 +103,20 @@ h4 {
     text-align: center;
 }
 
+.mentoring-content {
+    text-align: center;
+    margin: 0 auto;
+}
+
 .mentoring-list {
     list-style: none;
-    padding-left: 0;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
 }
 
 .mentoring-list li {
-    display: flex;
-    align-items: center;
     margin-bottom: 10px;
     padding: 8px;
 }
@@ -136,6 +131,7 @@ h4 {
 }
 
 /* Footer styles */
+
 .site-footer {
     width: 100%;
     background-color: #434F5B;
@@ -145,40 +141,40 @@ h4 {
 }
 
 /* Tablet styles */
+
 @media screen and (min-width: 600px) and (max-width: 1023px) {
+
     body {
         padding-top: 100px;
     }
+
     h1 {
         font-size: 30px;
     }
+
     img {
         max-width: 100%;
         height: auto;
     }
-    /* Add other tablet-specific styles as needed */
 }
 
 /* Mobile styles */
+
 @media screen and (max-width: 599px) {
+
     body {
         padding-top: 80px;
     }
+
     h1 {
         font-size: 24px;
     }
+
     img {
         max-width: 100%;
         height: auto;
     }
-    /* Add other mobile-specific styles as needed */
 }
-
-
-
-
-
-
 
 
 
