@@ -1,7 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-  padding-top: 90px; /* Adjust the top padding accordingly */
+  padding-top: 90px;
+  min-height: 100vh;      
+  display: flex;           
+  flex-direction: column;  
 }
 
 .navbar {
@@ -133,6 +136,7 @@ body {
   color: white;
   text-align: center;
   padding: 20px 0;
+  margin-top: auto;        
 }
 
 
