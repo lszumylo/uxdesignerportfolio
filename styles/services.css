@@ -99,58 +99,79 @@ a.book-button:hover {
   transition: background 0.2s ease;
 }
 
-/* Primary Button (Navy) */
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+/* Primary Button - Navy */
 .btn.primary {
-  background-color: #1e3a8a;
+  background-color: #1E3A8A;
   color: #fff;
 }
+
 .btn.primary:hover {
   background-color: #172554;
 }
 
-/* Secondary Button (Outline) */
+/* Secondary Button - Outline */
 .btn.secondary {
   border: 1px solid #cbd5e1;
   color: #0f172a;
   background-color: #fff;
 }
+
 .btn.secondary:hover {
   background-color: #f1f5f9;
 }
 
-/* Secondary Fill (Blue) */
+/* Secondary Fill - Mid Blue */
 .btn.secondary-fill {
-  background-color: #315F82;
+  background-color: #427FB2;
   color: #fff;
-}
-.btn.secondary-fill:hover {
-  background-color: #274D6A;
-}
-/* Accent Button (Dusty Blue for “Schedule Your Full Strategy Session”) */
-.btn.accent {
-  background-color: #57789E;
-  color: #fff;
-}
-.btn.accent:hover {
-  background-color: #466482;
 }
 
+.btn.secondary-fill:hover {
+  background-color: #35668F;
+}
+
+/* Accent Button - Light Slate Blue */
+.btn.accent {
+  background-color: #91A8C2;
+  color: #fff;
+}
+
+.btn.accent:hover {
+  background-color: #74899F;
+}
+
+/* Consultation Button - Bright Blue */
+.btn.consultation {
+  background-color: #207DC7;
+  color: #fff;
+}
+
+.btn.consultation:hover {
+  background-color: #19639F;
+}
+
+/* Accent 2 Button */
 .btn.accent2 {
   background-color: #A96A5A;
   color: #fff;
 }
+
 .btn.accent2:hover {
   background-color: #8E5547;
 }
 
-/* Consultation Button - Medium Blue */
-.btn.consultation {
-  background-color: #3F668C;
-  color: #fff;
-}
-.btn.consultation:hover {
-  background-color: #345472;
-}
+
+
 /* Service Card Styles */
 .service {
   background: #fff;
