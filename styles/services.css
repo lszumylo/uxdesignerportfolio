@@ -145,13 +145,14 @@ a.book-button:hover {
 }
 
 /* Consultation Button (Muted Blue) */
+/* Consultation Button (Muted Mid-Blue) */
 .btn.consultation {
-  background-color: #3F6791;
+  background-color: #4A6694;
   color: #fff;
 }
 
 .btn.consultation:hover {
-  background-color: #345474;
+  background-color: #3C5378;
 }
 /* Service Card Styles */
 .service {
