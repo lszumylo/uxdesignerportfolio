@@ -140,14 +140,14 @@ a.book-button:hover {
   background-color: #35668F;
 }
 
-/* Accent Button - Light Slate Blue */
+/* Accent Button - Slate Blue */
 .btn.accent {
-  background-color: #91A8C2;
+  background-color: #7893AF;
   color: #fff;
 }
 
 .btn.accent:hover {
-  background-color: #74899F;
+  background-color: #617A94;
 }
 
 /* Consultation Button - Bright Blue */
