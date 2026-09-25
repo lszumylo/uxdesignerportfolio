@@ -227,6 +227,10 @@ blockquote {
     .services-content p {
         margin: 0 10px 24px;
     }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 
