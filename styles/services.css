@@ -99,16 +99,6 @@ a.book-button:hover {
   transition: background 0.2s ease;
 }
 
-/* Buttons */
-.btn {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  border-radius: 6px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: background 0.2s ease;
-}
-
 /* Primary Button - Navy */
 .btn.primary {
   background-color: #1E3A8A;
@@ -170,7 +160,10 @@ a.book-button:hover {
   background-color: #8E5547;
 }
 
-
+.services-content p {
+  max-width: 800px;
+  margin: 0 auto 24px;
+}
 
 /* Service Card Styles */
 .service {
