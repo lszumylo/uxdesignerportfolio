@@ -1,12 +1,14 @@
+/* Base styles */
 body {
   margin: 0;
   padding: 0;
   padding-top: 90px;
-  min-height: 100vh;      
-  display: flex;           
-  flex-direction: column;  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
+/* Navigation */
 .navbar {
   background-color: #434F5B;
   position: fixed;
@@ -17,7 +19,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px; /* Add some padding for logo and links */
+  padding: 0 20px;
+  box-sizing: border-box;
   z-index: 2;
 }
 
@@ -29,18 +32,19 @@ body {
 .navbar .nav-link {
   text-decoration: none;
   color: white;
-  margin-left: 20px; /* Adjust the spacing between links */
+  margin-left: 20px;
 }
 
 .navbar .nav-link:hover {
   color: #ABD060;
 }
 
+/* Container */
 .container {
-  margin-top: 80px; /* Add margin to push the content down below the navbar */
+  margin-top: 80px;
 }
 
-/* Define your CSS classes here */
+/* Main text */
 .job {
   color: #232323;
   background-color: white;
@@ -48,8 +52,8 @@ body {
   font-size: 20px;
   font-weight: normal;
   text-align: center;
-  padding: 0; /* Remove any padding */
-  margin: 5px 0; /* Adjust the margin to control spacing between sections */
+  padding: 0;
+  margin: 5px 0;
 }
 
 .me {
@@ -59,8 +63,8 @@ body {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  padding: 0; /* Remove any padding */
-  margin: 5px 0; /* Adjust the margin to control spacing between sections */
+  padding: 0;
+  margin: 5px 0;
 }
 
 .town {
@@ -70,127 +74,116 @@ body {
   font-size: 20px;
   font-weight: normal;
   text-align: center;
-  padding: 0; /* Remove any padding */
-  margin: 5px 0; /* Adjust the margin to control spacing between sections */
+  padding: 0;
+  margin: 5px 0;
 }
 
 .value-prop {
-    font-size: 18px;
-    font-weight: normal;
-    text-align: left;
-    padding: 0; /* Add padding to the top and bottom if needed */
-    margin: 0 200px; /* Add margin to the left and right sides */
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding: 0;
+  margin: 0 200px;
 }
 
-
+/* Image */
 .image-container {
-    display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
-    max-width: 100%;
-    overflow: hidden;
-    height: auto; /* Set the height to auto to allow it to adjust to the image's natural size */
-    margin: 0;
-    padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  overflow: hidden;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
+
 .image-container img {
-    width: 100%; /* Set the width of the image to 100% to match the container's width */
-    max-height: 40vh; /* Adjust the height as needed */
-    height: auto;
+  width: 100%;
+  max-height: 40vh;
+  height: auto;
 }
 
-
+/* Button container */
 .button-container {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  margin-bottom: 40px; /* Add this line for space below the button */
+  margin-bottom: 40px;
 }
 
 /* Hero / Services button */
 .button-container a.services-button {
-    display: inline-block;        /* allow padding and margin */
-    padding: 0.75rem 1.5rem;      /* space inside button */
-    margin: 0 10px;               /* spacing between buttons */
-    border-radius: 6px;           /* rounded corners */
-    font-weight: 600;             /* bold text */
-    text-decoration: none !important; /* remove underline absolutely */
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-    background-color: #E5D4B8;   /* cream color */
-    color: #232323;               /* dark text */
-    border: 1px solid #434F5B;   /* dark border */
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin: 0 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  background-color: #E5D4B8;
+  color: #232323;
+  border: 1px solid #434F5B;
 }
 
 /* Hover effect */
 .button-container a.services-button:hover {
-    background-color: #CCBA9E;    /* slightly darker cream */
-    color: #232323;                /* keep text dark */
-    border-color: #434F5B;        /* border stays same */
-    text-decoration: none !important; /* ensure no underline on hover */
+  background-color: #CCBA9E;
+  color: #232323;
+  border-color: #434F5B;
+  text-decoration: none !important;
 }
 
+/* Footer */
 .site-footer {
   width: 100%;
   background-color: #434F5B;
   color: white;
   text-align: center;
   padding: 20px 0;
-  margin-top: auto;        
+  margin-top: auto;
 }
 
-
-/* Your existing CSS code (for large screens) */
-
-/* Media query for tablets (e.g., iPads) */
+/* Tablet */
 @media (max-width: 1024px) {
-    .navbar {
-        margin: 0 15px; /* Adjusted margin for tablet screens */
-        /* Add specific styles for tablets here */
-    }
+  .navbar {
+    margin: 0;
+    padding: 0 15px;
+  }
 
-    .value-prop {
-        margin: 0 15px; /* Adjust the margins for smaller screens */
-        /* Add specific styles for tablets here */
-    }
-    
-    /* Add other styles specific to tablets as needed */
+  .value-prop {
+    margin: 0 15px;
+  }
 }
 
-
-/* Media query for mobile devices */
+/* Mobile */
 @media (max-width: 768px) {
-    .navbar {
-        margin: 0 10px; /* Adjusted margin for mobile screens */
-        /* Add specific styles for mobile devices here */
-    }
+  .navbar {
+    margin: 0;
+    padding: 0 10px;
+  }
 
-    .value-prop {
-        margin: 0 10px; /* Adjust the margins for smaller screens */
-        /* Add specific styles for mobile devices here */
-    }
-    
-    /* Add other styles specific to mobile devices as needed */
-    
-    .about-container {
-        flex-direction: column; /* Stack image and text on smaller screens */
-    }
+  .value-prop {
+    margin: 0 10px;
+  }
 
-    .about-container__image {
-        max-width: 100%; /* Adjust for full width on smaller screens */
-    }
-    
-    /* Adjust the font size of navigation links for mobile devices */
-    .navbar .nav-link {
-        font-size: 13px; /* Adjust the font size as per your preference */
-    }
+  .about-container {
+    flex-direction: column;
+  }
 
-    /* Hide the logo on mobile devices */
-    .navbar .logo {
-        display: none;
-    }
+  .about-container__image {
+    max-width: 100%;
+  }
+
+  .navbar .nav-link {
+    font-size: 13px;
+  }
+
+  .navbar .logo {
+    display: none;
+  }
 }
-
 
 
 
