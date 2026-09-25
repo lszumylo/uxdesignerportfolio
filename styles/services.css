@@ -161,10 +161,9 @@ a.book-button:hover {
 }
 
 .services-content p {
-  max-width: 800px;
-  margin: 0 auto 24px;
+  max-width: none;
+  margin: 0 200px 24px;
 }
-
 /* Service Card Styles */
 .service {
   background: #fff;
@@ -217,43 +216,16 @@ blockquote {
     padding: 20px 0;
 }
 
-/* Tablet styles */
-@media screen and (min-width: 600px) and (max-width: 1023px) {
-    body {
-        padding-top: 100px;
-    }
-    h1 {
-        font-size: 30px;
-    }
-    img {
-        max-width: 100%;
-        height: auto;
+@media screen and (max-width: 1024px) {
+    .services-content p {
+        margin: 0 15px 24px;
     }
 }
 
-/* Mobile styles */
-@media screen and (max-width: 599px) {
-    body {
-        padding-top: 80px;
-    }
-    h1 {
-        font-size: 24px;
-    }
-    img {
-        max-width: 100%;
-        height: auto;
+@media screen and (max-width: 768px) {
+    .services-content p {
+        margin: 0 10px 24px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
